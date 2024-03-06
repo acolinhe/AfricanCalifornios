@@ -25,10 +25,10 @@ class PersonMatcher:
         self.matched_records = pd.DataFrame(matched_records_list, columns=[self.ecpp_id_col, self.records_id_col])
     
     def direct_name_matcher(self):
-        ecpp_first_name_values = self.ecpp.set_index(self.ecpp_id_col)['First'].to_dict()
-        records_first_name_values = self.records.set_index(self.records_id_col)['SpanishName'].to_dict()
-        ecpp_last_name_values = self.ecpp.set_index(self.ecpp_id_col)['Last'].to_dict()
-        records_last_name_values = self.records.set_index(self.records_id_col)['Surname'].to_dict()
+        ecpp_first_name_values = self.ecpp.set_index(self.ecpp_id_col)['Ego_First Name'].fillna('').to_dict()
+        records_first_name_values = self.records.set_index(self.records_id_col)['SpanishName'].fillna('').to_dict()
+        ecpp_last_name_values = self.ecpp.set_index(self.ecpp_id_col)['Ego_Last Name'].fillna('').to_dict()
+        records_last_name_values = self.records.set_index(self.records_id_col)['Surname'].fillna('').to_dict()
 
         self.matched_records['Census First Name'] = self.matched_records[self.ecpp_id_col].map(ecpp_first_name_values)
         self.matched_records['Baptisms First Name'] = self.matched_records[self.records_id_col].map(records_first_name_values)
@@ -75,7 +75,7 @@ class PersonMatcher:
         self.matched_records.apply(lambda row: match_names_score(row['Census Last Name'], row['Father Baptisms Last Name']), axis=1)
     
     def match_other_features(self):
-        ecpp_gender_values = self.ecpp.set_index(self.ecpp_id_col)['Gender'].to_dict()
+        ecpp_gender_values = self.ecpp.set_index(self.ecpp_id_col)['Sex'].to_dict()
         records_gender_values = self.records.set_index(self.records_id_col)['Sex'].to_dict()
 
         ecpp_age_values = self.ecpp.set_index(self.ecpp_id_col)['Age'].to_dict()
