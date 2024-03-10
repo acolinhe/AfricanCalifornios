@@ -132,5 +132,5 @@ class PersonMatcher:
             return 0.0 
     
     def save_matched_records(self, filename):
-        self.matched_records.to_csv(filename, index=False)
+        self.matched_records.to_pickle(filename)
 
