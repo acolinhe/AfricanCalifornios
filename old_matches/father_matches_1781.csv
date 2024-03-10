@@ -1,0 +1,2323 @@
+ecpp_id,#ID,Census First Name,Father Baptisms First Name,Census Last Name,Father Baptisms Last Name,Census Age,Baptisms Age,Is Parent Match
+1,36,José ,Joseph,,Villa,50.0,1.0,True
+1,66,José ,Joseph,,Ayala,50.0,4.0,True
+1,84,José ,Joseph,,Ayala,50.0,5.0,True
+1,110,José ,Jose,,Ayala,50.0,1.0,True
+1,145,José ,Jose,,Ayala,50.0,1.0,True
+1,174,José ,Jose,,Bermudes,50.0,1.0,True
+1,181,José ,Josef,,Aiala,50.0,1.0,True
+1,195,José ,Jose,,Bermudes,50.0,1.0,True
+1,222,José ,Josef,,Ruiz,50.0,,True
+1,244,José ,Cosme,,Vanegas,50.0,1.0,True
+1,264,José ,Joseph,,Ayala,50.0,1.0,True
+1,295,José ,Josef,,Zurita,50.0,1.0,True
+1,329,José ,Jose,,Ayala,50.0,,True
+1,335,José ,Jose,,Bermudez,50.0,,True
+1,349,José ,Cosme,,Vanegas,50.0,0.0,True
+1,396,José ,Jose,,Ruiz,50.0,0.0,True
+1,428,José ,Jose,,Dominguez,50.0,,True
+1,442,José ,Jose,,Ortega,50.0,1.0,True
+1,458,José ,Jose,,Ayala,50.0,1.0,True
+1,496,José ,Joseph,,Arellanes,50.0,1.0,True
+1,501,José ,Jose,,Zurita,50.0,0.0,True
+1,540,José ,Jose,,Ruiz,50.0,0.0,True
+1,544,José ,Jose,,Zurita,50.0,,True
+1,552,José ,Jose,,de la Guerra y Noriega,50.0,0.0,True
+1,615,José ,Jose,,Arellanes,50.0,,True
+1,617,José ,Jose,,Ruiz,50.0,,True
+1,656,José ,José,,Arellanes,50.0,,True
+1,660,José ,Jose,,de la Guerra y Noriega,50.0,1.0,True
+1,675,José ,Jose,,Ruiz,50.0,1.0,True
+1,687,José ,Jose,,de la Guerra y Noriega,50.0,1.0,True
+1,719,José ,Job,,Hill,50.0,26.0,True
+1,733,José ,Jose,,Ruiz,50.0,,True
+1,740,José ,Jose,,de la Guerra y Noriega,50.0,1.0,True
+1,752,José ,Jose,,Ortega,50.0,1.0,True
+1,824,José ,Jose,,Rodriguez,50.0,1.0,True
+1,834,José ,Jose,,Rodriguez,50.0,1.0,True
+1,876,José ,Jose,,Moraga,50.0,2.0,True
+1,891,José ,Jose,,Arellanes,50.0,1.0,True
+1,904,José ,Jose,,Dominguez,50.0,1.0,True
+1,971,José ,Jose,,Rodriguez,50.0,0.0,True
+1,1016,José ,Jose,,Arellanes,50.0,2.0,True
+1,1053,José ,Jose,,Ruis,50.0,1.0,True
+1,1055,José ,Jose,,Baldez,50.0,1.0,True
+1,1121,José ,Jose,,Arellanes,50.0,,True
+1,1139,José ,Jose,,Ortega,50.0,,True
+1,1152,José ,Jose,,Carrillo,50.0,,True
+1,1180,José ,Jorge,,Raid,50.0,,True
+1,1221,José ,Jose,,Romero,50.0,,True
+1,1274,José ,Jose,,Carlon,50.0,,True
+1,1300,José ,Jose,,Romero,50.0,1.0,True
+1,1318,José ,Jose,,Carrillo,50.0,,True
+1,1347,José ,Jose,,Valdes,50.0,,True
+1,1348,José ,[Jose],,[Valdes],50.0,,True
+1,1370,José ,Jose,,Carlon,50.0,3.0,True
+1,1439,José ,Jose,,Carlon,50.0,,True
+1,1443,José ,Jose,,Carrillo,50.0,,True
+1,1466,José ,Jose,,Olivera,50.0,,True
+1,1504,José ,Jorge,,Nideavor [Nidever],50.0,,True
+1,1526,José ,Jose,,Romero,50.0,,True
+1,1564,José ,Jose,,Carlon,50.0,,True
+1,1680,José ,Jose,,Moraga,50.0,,True
+1,1682,José ,Jose,,Charman [Chapman],50.0,2.0,True
+1,1686,José ,Jose,,Ruiz,50.0,2.0,True
+1,1692,José ,Jose,,Rodriguez,50.0,1.0,True
+1,1741,José ,Jose,,Bermudes,50.0,1.0,True
+1,1773,José ,Jose,,Sotelo,50.0,0.0,True
+1,1780,José ,Jose,,Sepulveda,50.0,1.0,True
+1,1786,José ,Jose,,Lugo,50.0,2.0,True
+1,1811,José ,Jose,,Dominguez,50.0,1.0,True
+1,1909,José ,Jose,,Olivera,50.0,1.0,True
+1,1921,José ,Jose,,Lugo,50.0,3.0,True
+1,1932,José ,Jose,,Romero,50.0,4.0,True
+1,2021,José ,Jose,,Ruiz,50.0,2.0,True
+1,2068,José ,Jose,,Dominguez,50.0,1.0,True
+1,2241,José ,Jorge,,Morillo,50.0,,True
+1,2267,José ,Jose,,Sepulveda,50.0,7.0,True
+1,2268,José ,Jose,,Perez,50.0,14.0,True
+1,2302,José ,Jose,,Sepulveda,50.0,2.0,True
+1,2364,José ,Jose,,Sepulveda,50.0,2.0,True
+1,2368,José ,Jose,,Sotelo,50.0,3.0,True
+1,2391,José ,Jorge,,Rice,50.0,1.0,True
+1,2479,José ,Jorge,,Rice,50.0,2.0,True
+1,2511,José ,Jose,,Serrano,50.0,1.0,True
+1,2540,José ,Jose,,Sotelo,50.0,0.0,True
+1,2563,José ,Jorge,,Rice,50.0,1.0,True
+1,2568,José ,Jose,,Morales,50.0,0.0,True
+1,2584,José ,Jose,,Perez,50.0,,True
+1,2593,José ,Jose,,Olivarez,50.0,4.0,True
+1,2649,José ,Jose,,Vermudez,50.0,2.0,True
+1,2733,José ,Jose,,Sepulveda,50.0,1.0,True
+1,2792,José ,Jose,,Vermudez,50.0,,True
+1,2805,José ,Jose,,Sepulveda,50.0,,True
+1,2852,José ,Jose,,Lopes,50.0,,True
+1,2947,José ,Jose,,Serrano,50.0,,True
+1,2977,José ,Jose,,Peres,50.0,,True
+1,2986,José ,Jose,,Sepulveda,50.0,,True
+1,3047,José ,Jose,,Sepulveda,50.0,,True
+1,3104,José ,Jose,,Ruiz,50.0,,True
+1,3165,José ,Jose,,Sepulveda,50.0,,True
+1,3227,José ,Jose,,Sotelo,50.0,2.0,True
+1,3284,José ,Jose,,Avila,50.0,3.0,True
+1,3349,José ,Jose,,Lopes,50.0,22.0,True
+1,3407,José ,Jose,,Ruvio,50.0,14.0,True
+1,3479,José ,Jose,,Lopes,50.0,,True
+1,3521,José ,Jose,,Ruis,50.0,3.0,True
+1,3537,José ,Jose,,Valdez,50.0,6.0,True
+1,3599,José ,Jose,,Mascarel,50.0,4.0,True
+1,3670,José ,Jose,,Ruvio,50.0,11.0,True
+1,3792,José ,Jose,,Lopes,50.0,15.0,True
+1,3828,José ,Jose,,Valdes,50.0,8.0,True
+1,3834,José ,Jose,,Alvitre,50.0,10.0,True
+1,8614,José ,Joseph,,Arguello,50.0,0.0,True
+1,9344,José ,Joseph,,Moreno,50.0,,True
+1,9443,José ,Joseph,,Villa,50.0,1.0,True
+1,9957,José ,Joseph,,Rosalio [Villavicencio],50.0,1.0,True
+1,10375,José ,Joseph,,Felix,50.0,0.0,True
+1,10378,José ,Joseph,,Villa,50.0,1.0,True
+1,10742,José ,Josef,,Feliz,50.0,1.0,True
+1,11385,José ,Josef,,Moreno,50.0,0.0,True
+1,11959,José ,Jose,,Garcia,50.0,,True
+1,12900,José ,Jose,,Romero,50.0,,True
+1,13418,José ,Jose,,Cañedo,50.0,1.0,True
+1,13576,José ,Cosme,,Olivas,50.0,,True
+1,14349,José ,Jose,,Bermudez,50.0,1.0,True
+1,14639,José ,Cosme,,Olivas,50.0,1.0,True
+1,14913,José ,Jose,,Bermudes de la Cruz,50.0,3.0,True
+1,14928,José ,Josef,,Lorans,50.0,23.0,True
+1,14958,José ,Jose,,Charman [Chapman],50.0,1.0,True
+1,15148,José ,Jose,,Chapman,50.0,1.0,True
+1,15636,José ,Jose,,Avila,50.0,2.0,True
+1,15645,José ,Jose,,Bermudez,50.0,0.0,True
+1,15828,José ,Jose,,Sepulveda,50.0,,True
+1,15926,José ,Jose,,Valenzuela,50.0,,True
+1,15932,José ,Jose,,Sepulveda,50.0,,True
+1,15941,José ,Jorge,,Morillo,50.0,,True
+1,15972,José ,Jose,,Sotelo,50.0,1.0,True
+1,16191,José ,Jorge,,Morillo,50.0,,True
+1,16193,José ,Jose,,Orosco,50.0,,True
+1,16230,José ,Jose,,Contreras,50.0,,True
+1,16232,José ,Jose,,Ruiz,50.0,,True
+1,16234,José ,Jose,,Ruiz,50.0,8.0,True
+1,16319,José ,Jose,,Sepulveda,50.0,,True
+1,16393,José ,Jose,,Sepulveda,50.0,,True
+1,16430,José ,Jose,,Salazar,50.0,,True
+1,16504,José ,Jose,,Altamirano,50.0,,True
+1,16650,José ,Jose,,Serrano,50.0,,True
+1,16740,José ,Jose,,Serrade,50.0,,True
+1,16778,José ,Jose,,Silbas,50.0,,True
+1,16785,José ,Jose,,Salazar,50.0,4.0,True
+1,21368,José ,Jose,,Rosas,50.0,2.0,True
+1,21476,José ,Joseph,,Parra,50.0,4.0,True
+1,25687,José ,Joseph,,Soveranes,50.0,1.0,True
+1,26077,José ,Joseph,,Arguello,50.0,2.0,True
+1,26263,José ,Josef,,Cavallero,50.0,,True
+1,26651,José ,Josef,,Villavicencio,50.0,,True
+1,26808,José ,Josef,,Aguila,50.0,,True
+1,27002,José ,Jose,,Castillo,50.0,,True
+1,27060,José ,Jose,,Castillo,50.0,0.0,True
+1,27113,José ,Jose,,Armenta,50.0,0.0,True
+1,27177,José ,Jose,,Peña,50.0,1.0,True
+1,27354,José ,Jose,,Malcolomon,50.0,,True
+1,27367,José ,Jose,,Castro,50.0,1.0,True
+1,27442,José ,Jose,,Farias,50.0,1.0,True
+1,27443,José ,Jose,,Farias,50.0,1.0,True
+1,27454,José ,Jose,,Castillo,50.0,5.0,True
+1,27478,José ,Jose,,Armenta,50.0,9.0,True
+1,27575,José ,Jose,,Castillo,50.0,5.0,True
+1,27608,José ,Jose,,Farias,50.0,1.0,True
+1,27645,José ,Jose,,Farias,50.0,1.0,True
+1,27740,José ,José,,Castillo,50.0,1.0,True
+1,27742,José ,José,,Armenta,50.0,1.0,True
+1,27757,José ,Jorge,,Allen,50.0,,True
+1,27821,José ,Josef,,Armenta,50.0,2.0,True
+1,27907,José ,Josef,,Armenta,50.0,1.0,True
+1,28063,José ,Josef,,Manjares,50.0,5.0,True
+1,28083,José ,Josef,,Castillo,50.0,2.0,True
+1,28216,José ,Josef,,Manjares,50.0,2.0,True
+1,28345,José ,José,,Castro,50.0,2.0,True
+1,28448,José ,Jose,,Lugo,50.0,3.0,True
+1,28599,José ,Jose,,Avrego,50.0,2.0,True
+1,28654,José ,Jose,,Buwles [Bowls],50.0,21.0,True
+1,28686,José ,Jose,,Abrego,50.0,11.0,True
+1,28784,José ,Jose,,Abrego,50.0,12.0,True
+1,28789,José ,José,,Abrego,50.0,1.0,True
+1,28838,José ,Jose,,Albiso,50.0,6.0,True
+1,28875,José ,Jose,,Abrego,50.0,35.0,True
+1,28961,José ,Jorge,,Kinlok [Kenlock],50.0,12.0,True
+1,29054,José ,Jose,,Abrego,50.0,4.0,True
+1,29059,José ,Jose,,Castiyo,50.0,5.0,True
+1,29088,José ,José,,Castro,50.0,2.0,True
+1,29093,José ,José,,Mateus [Mathus],50.0,1.0,True
+1,29167,José ,José,,Castro,50.0,15.0,True
+1,29247,José ,José,,Lugo,50.0,1.0,True
+1,29264,José ,Jose,,Abrego,50.0,3.0,True
+1,29282,José ,Jose,,Madariaga,50.0,1.0,True
+1,29338,José ,Jose,,Rodriguez,50.0,6.0,True
+1,29376,José ,José,,Abrego,50.0,10.0,True
+1,29381,José ,Gorge,,Hobson,50.0,2.0,True
+1,29391,José ,Jose,,Arriaga,50.0,27.0,True
+1,30875,José ,Joseph,,Olivares,50.0,2.0,True
+1,31073,José ,Jose,,Felix,50.0,1.0,True
+1,32576,José ,Josef,,Servin,50.0,2.0,True
+1,32585,José ,Josef,,Monrroy,50.0,1.0,True
+1,32625,José ,Josef,,Velis,50.0,0.0,True
+1,32628,José ,Josef,,Caballera,50.0,3.0,True
+1,32948,José ,Jose,,Gorgora,50.0,,True
+1,33437,José ,Jose,,Lopez,50.0,,True
+1,33456,José ,Jose,,Cañedo,50.0,2.0,True
+1,33497,José ,Jose,,Noriega,50.0,0.0,True
+1,33588,José ,Jose,,Lopez,50.0,,True
+1,33908,José ,Jose,,Lopez,50.0,2.0,True
+1,34638,José ,Jose,,Olibas,50.0,0.0,True
+1,34700,José ,Jose,,Albarez,50.0,0.0,True
+1,34741,José ,Jose,,Albarez,50.0,0.0,True
+1,34949,José ,Jose,,Lopez,50.0,1.0,True
+1,35406,José ,Jorje,,Blecle,50.0,8.0,True
+1,35417,José ,Cosme,,Oliva,50.0,1.0,True
+1,35488,José ,Jose,,Lopez,50.0,,True
+1,35856,José ,Josef,,Lopez,50.0,1.0,True
+1,35948,José ,Josef,,Morales,50.0,1.0,True
+1,35950,José ,Josef,,Alipa[s],50.0,0.0,True
+1,35986,José ,Josef,,Lopez,50.0,3.0,True
+1,35987,José ,Jose,,Lopez,50.0,,True
+1,36015,José ,Jose,,Alipaz,50.0,2.0,True
+1,36063,José ,Josef,,Lopez,50.0,,True
+1,36081,José ,Jose,,Alipaz,50.0,1.0,True
+1,36438,José ,Jose,,Lisalde,50.0,0.0,True
+1,36461,José ,Jose,,Alipaz,50.0,1.0,True
+1,37080,José ,Joseph,,de Zuñiga,50.0,,True
+1,40873,José ,Jose,,Cañedo,50.0,,True
+1,41201,José ,Jose,,Simeano [Jurado],50.0,0.0,True
+1,41339,José ,Jose,,Lisalde,50.0,3.0,True
+1,44957,José ,Jose,,Rodriguez,50.0,8.0,True
+1,45011,José ,Jose,,Rodriguez,50.0,,True
+1,45041,José ,Jose,,Romero,50.0,,True
+1,45066,José ,Jose,,Rodriguez,50.0,,True
+1,45069,José ,Jose,,Carlon,50.0,1.0,True
+1,45092,José ,Jose,,Carlon,50.0,,True
+1,45162,José ,Jose,,Rodrigues,50.0,,True
+1,45228,José ,Jose,,Carranza,50.0,,True
+1,45230,José ,Jose,,Olivera,50.0,,True
+1,45279,José ,Jose,,German,50.0,,True
+1,45360,José ,Jose,,Guilnaco,50.0,,True
+1,46447,José ,Jose,,Arellano,50.0,1.0,True
+1,46857,José ,Jose,,Olivera,50.0,,True
+1,46885,José ,Jose,,Olivera,50.0,8.0,True
+1,46963,José ,José,,Ortega,50.0,,True
+1,50996,José ,José,,Ruiz,50.0,,True
+1,52443,José ,Jose,,Romero,50.0,2.0,True
+1,53603,José ,Josef,,Castro,50.0,,True
+1,54954,José ,Jose,,Castro,50.0,1.0,True
+1,55662,José ,Joseph,,Davila,50.0,3.0,True
+1,59477,José ,Jose,,Castro,50.0,,True
+1,59551,José ,Jose,,Castro,50.0,1.0,True
+1,59669,José ,Jose,,Rosas,50.0,,True
+1,59860,José ,Jose,,Castro,50.0,2.0,True
+1,60253,José ,Jose,,Cruz,50.0,,True
+1,60340,José ,Jose,,Castro,50.0,,True
+1,61206,José ,Jose,,Castro,50.0,6.0,True
+1,61700,José ,Jose,,Rodriguez,50.0,2.0,True
+1,61704,José ,Jose,,Arellanes,50.0,7.0,True
+1,61716,José ,[Jose],,de la Rosa,50.0,,True
+1,62448,José ,Jose,,Rodriguez,50.0,21.0,True
+1,62536,José ,Jose,,Alvares,50.0,1.0,True
+1,62575,José ,Jose,,Basques,50.0,,True
+1,62606,José ,Jose,,Rodriguez,50.0,2.0,True
+1,62872,José ,Jose,,Sanches,50.0,,True
+1,62970,José ,Jose,,Basques,50.0,22.0,True
+1,62973,José ,Jose,,Yguera,50.0,27.0,True
+1,62988,José ,Jose,,Zurita,50.0,2.0,True
+1,63574,José ,Jose,,Basques,50.0,24.0,True
+1,63580,José ,Jose,,Yguera,50.0,1.0,True
+1,63608,José ,Jose,,German,50.0,,True
+1,63832,José ,Jose,,Aguila,50.0,8.0,True
+1,64221,José ,Jose,,Larios,50.0,1.0,True
+1,65282,José ,Jose,,Higuera,50.0,1.0,True
+1,71438,José ,Jose,,Arellanes,50.0,,True
+1,72651,José ,Jose,,Higuera,50.0,3.0,True
+1,74403,José ,Jose,,Bolcof[f],50.0,3.0,True
+1,74437,José ,Jose,,Ar[a]na,50.0,7.0,True
+1,74483,José ,Jose,,Romero,50.0,,True
+1,74524,José ,Jose,,Bolcoff,50.0,,True
+1,74605,José ,Jose,,Melicis [Mellish],50.0,0.0,True
+1,74901,José ,Jose,,Farias,50.0,2.0,True
+1,75999,José ,Jose,,Lorensano,50.0,5.0,True
+1,76538,José ,Jose,,Bolcoff,50.0,1.0,True
+1,77961,José ,Jorge,,Cha[p]il,50.0,1.0,True
+1,77968,José ,José,,Melis [Mellish],50.0,,True
+1,77998,José ,Jose,,Lorenzana,50.0,,True
+1,78000,José ,José,,Melis [Mellish],50.0,1.0,True
+1,78012,José ,Jorge,,Yoche,50.0,2.0,True
+1,78031,José ,Jose,,Melis [Mellish],50.0,1.0,True
+1,78063,José ,Jose,,Mechas [Mellish],50.0,1.0,True
+1,78068,José ,Jose,,Rodrigues,50.0,,True
+1,78070,José ,Jose,,Soria,50.0,,True
+1,78111,José ,José,,Rodriguez,50.0,1.0,True
+1,78894,José ,Jose,,Yguera,50.0,1.0,True
+1,79744,José ,Jose,,Bernal,50.0,1.0,True
+1,80176,José ,Jose,,Ciprian,50.0,1.0,True
+1,80215,José ,Jose,,Archuleta,50.0,1.0,True
+1,80764,José ,Jose,,Romero,50.0,3.0,True
+1,80842,José ,Jose,,Ciprian,50.0,2.0,True
+1,81164,José ,Jose,,Archuleta,50.0,2.0,True
+1,81240,José ,Jose,,Garcia,50.0,,True
+1,81429,José ,J[o]se,,Ciprian,50.0,2.0,True
+1,81618,José ,Jose,,Ciprian,50.0,2.0,True
+1,82134,José ,Jose,,Ciprian,50.0,2.0,True
+1,82166,José ,Jose,,Romero,50.0,1.0,True
+1,82230,José ,Jorge,,Smith,50.0,0.0,True
+1,82458,José ,Jose,,Higuera,50.0,2.0,True
+1,82632,José ,Jose,,Archuleta,50.0,2.0,True
+1,82860,José ,Jose,,Archuleta,50.0,1.0,True
+1,82866,José ,José,,Smith,50.0,4.0,True
+1,82956,José ,José,,Garcia,50.0,,True
+1,82958,José ,Jose,,Snook,50.0,37.0,True
+1,83197,José ,Jose,,Romero,50.0,2.0,True
+1,83268,José ,Jose,,Higuera,50.0,1.0,True
+1,83366,José ,Josè,,Bernal,50.0,5.0,True
+1,83414,José ,José,,Hernandes,50.0,11.0,True
+1,83702,José ,Jose,,Martines,50.0,,True
+1,83796,José ,Jose,,Duarte,50.0,0.0,True
+1,84700,José ,José,,Hernandez,50.0,3.0,True
+1,84763,José ,José,,Duarte,50.0,,True
+1,84789,José ,Jose,,Romero,50.0,,True
+1,84867,José ,Jose,,Noriega,50.0,,True
+1,84971,José ,Jose,,Hernandez,50.0,,True
+1,85002,José ,Jose,,Rodriguez,50.0,,True
+1,85014,José ,Jose,,Galindo,50.0,0.0,True
+1,85031,José ,Jose,,Soto,50.0,0.0,True
+1,85147,José ,Jose,,Noriega,50.0,6.0,True
+1,85207,José ,Jose,,Sepulveda,50.0,,True
+1,85282,José ,Jose,,Duarte,50.0,0.0,True
+1,85310,José ,Jose,,Romero,50.0,1.0,True
+1,85378,José ,J[ose],,Bernal,50.0,,True
+1,85441,José ,Jose,,S[uñol],50.0,,True
+1,85530,José ,Jose,,Galindo,50.0,0.0,True
+1,85554,José ,Jose,,Romero,50.0,,True
+1,85599,José ,Jose,,Soto,50.0,,True
+1,85609,José ,Jose,,Hernandes,50.0,2.0,True
+1,85630,José ,Jose,,Moraga,50.0,,True
+1,85731,José ,Jose,,Galindo,50.0,3.0,True
+1,85771,José ,Jose,,Martinez,50.0,,True
+1,85852,José ,Jose,,Sepulveda,50.0,2.0,True
+1,85904,José ,Jose,,Cordero,50.0,,True
+1,85932,José ,Jose,,Martines,50.0,,True
+1,86011,José ,Jose,,Soto,50.0,1.0,True
+1,86026,José ,Jose,,Hernandez,50.0,40.0,True
+1,86155,José ,Jose,,Romero,50.0,26.0,True
+1,86266,José ,Jose,,de la Rosa,50.0,0.0,True
+1,89245,José ,Joseph,,Arguello,50.0,1.0,True
+1,89420,José ,Jose,,Ramos,50.0,5.0,True
+1,89534,José ,Jorge,,Roverts,50.0,0.0,True
+1,90937,José ,Jose,,Aguila,50.0,3.0,True
+1,91944,José ,Jose,,Palomares,50.0,4.0,True
+1,92150,José ,José,,Roca,50.0,1.0,True
+1,92292,José ,Jose,,Arguello,50.0,1.0,True
+1,92506,José ,Cosme,,Vanegas,50.0,,True
+1,93771,José ,Jose,,Duarte,50.0,2.0,True
+1,96156,José ,Jose,,Dominguez,50.0,,True
+1,96778,José ,Jose,,Sanchez,50.0,,True
+1,99386,José ,Josef,,Cibrian,50.0,1.0,True
+1,101834,José ,Jose,,Duarte,50.0,2.0,True
+1,104270,José ,José,,Cristiano,50.0,0.0,True
+6,74,José Antonio,Jose Antonio,,Vazquez,42.0,1.0,True
+6,139,José Antonio,Jose Antonio,,Lugo,42.0,,True
+6,210,José Antonio,Jose Antonio,,Lugo,42.0,0.0,True
+6,254,José Antonio,Jose Antonio,,Romero,42.0,3.0,True
+6,318,José Antonio,Jose Antonio,,Lopez,42.0,,True
+6,336,José Antonio,Jose Antonio,,Romero,42.0,,True
+6,375,José Antonio,Joseph Antonio,,Romero,42.0,0.0,True
+6,404,José Antonio,Joseph Antonio,,Lopez,42.0,0.0,True
+6,441,José Antonio,Jose Antonio,,Romero,42.0,,True
+6,482,José Antonio,José Antonio,,Lopez,42.0,2.0,True
+6,524,José Antonio,Jose Antonio,,Romero,42.0,0.0,True
+6,566,José Antonio,Jose Antonio,,Briones,42.0,0.0,True
+6,584,José Antonio,Jose Antonio,,Botiller,42.0,1.0,True
+6,593,José Antonio,Jose Antonio,,de la Guerra Noriega,42.0,1.0,True
+6,616,José Antonio,Jose Antonio,,Romero,42.0,,True
+6,631,José Antonio,Jose Antonio,,Romero,42.0,1.0,True
+6,633,José Antonio,Jose Antonio,,Lopez,42.0,2.0,True
+6,636,José Antonio,Jose Antonio,,Dominguez,42.0,,True
+6,680,José Antonio,Jose Antonio,,Botiller,42.0,,True
+6,683,José Antonio,Jose Antonio,,Sanchez,42.0,,True
+6,721,José Antonio,Jose Antonio,,Valenzuela,42.0,,True
+6,723,José Antonio,Jose Antonio,,Ortega,42.0,,True
+6,730,José Antonio,Jose Antonio,,Sanchez,42.0,,True
+6,739,José Antonio,Jose Antonio,,de la Guerra y Carrillo,42.0,,True
+6,741,José Antonio,Jose Antonio,,Larios,42.0,,True
+6,822,José Antonio,Jose Antonio,,Guerra,42.0,,True
+6,836,José Antonio,Jose Antonio,,Areyanes,42.0,,True
+6,946,José Antonio,Jose Antonio,,Ortega,42.0,1.0,True
+6,1010,José Antonio,Gorge Antonio,,Allen,42.0,,True
+6,1075,José Antonio,Jose Antonio,,Romero,42.0,1.0,True
+6,1101,José Antonio,Jose Antonio,,Dominguez,42.0,,True
+6,1209,José Antonio,Jose Antonio,,de la Guerra,42.0,1.0,True
+6,1257,José Antonio,Jose Antonio,,Areyanes,42.0,,True
+6,1262,José Antonio,Jose Antonio,,de la Guerra,42.0,,True
+6,1394,José Antonio,Jose Antonio,,Cordero,42.0,,True
+6,1421,José Antonio,Jose Antonio,,Arellanes,42.0,,True
+6,1474,José Antonio,Jose Antonio,,de la Guerra,42.0,,True
+6,1556,José Antonio,Jose Antonio,,de la Guerra,42.0,0.0,True
+6,1620,José Antonio,Jose Antonio,,de la Guerra,42.0,56.0,True
+6,1669,José Antonio,Jose Antonio,,Arellanes,42.0,5.0,True
+6,1753,José Antonio,Jose Antonio,,Sanchez,42.0,1.0,True
+6,1755,José Antonio,Jose Antonio,,Tapia,42.0,1.0,True
+6,1827,José Antonio,Jose Antonio,,de la Guerra,42.0,2.0,True
+6,1908,José Antonio,Jose Antonio,,Cordero,42.0,2.0,True
+6,2028,José Antonio,Jose Antonio,,Carrillo,42.0,20.0,True
+6,2029,José Antonio,[Jose Antonio],,[Carrillo],42.0,0.0,True
+6,2054,José Antonio,Jose Antonio,,Arellanes,42.0,2.0,True
+6,2095,José Antonio,Jose Antonio,,Cordero,42.0,8.0,True
+6,2245,José Antonio,Jose Antonio,,Tapia,42.0,2.0,True
+6,2316,José Antonio,Jose Antonio,,Sanchez,42.0,0.0,True
+6,2422,José Antonio,Jose Antonio,,Serrano,42.0,1.0,True
+6,2477,José Antonio,Jose Antonio,,Sanchez,42.0,1.0,True
+6,2545,José Antonio,Jose Antonio,,Tapia,42.0,1.0,True
+6,2651,José Antonio,Jose Antonio,,Valenzuela,42.0,,True
+6,2757,José Antonio,Jose Antonio,,Serrano,42.0,1.0,True
+6,2880,José Antonio,Jose Antonio,,Tapia,42.0,,True
+6,3286,José Antonio,Jose Antonio,,Manrriques,42.0,6.0,True
+6,3697,José Antonio,Jose Antonio,,Rios,42.0,22.0,True
+6,3768,José Antonio,Jose Antonio,,Martines,42.0,6.0,True
+6,3825,José Antonio,Jose Antonio,,Lugo,42.0,5.0,True
+6,11890,José Antonio,Jose Antonio,,Romero,42.0,,True
+6,14578,José Antonio,Jose Antonio,,Botiller,42.0,,True
+6,14615,José Antonio,Jose Antonio,,Ortega,42.0,4.0,True
+6,14925,José Antonio,Jose Antonio,,Carrillo,42.0,0.0,True
+6,14994,José Antonio,Jose Antonio,,Tapia,42.0,1.0,True
+6,15128,José Antonio,Jose Antonio,,Tapia,42.0,0.0,True
+6,15278,José Antonio,Jose Antonio,,Sanchez,42.0,1.0,True
+6,15614,José Antonio,Jose Antonio,,Balenzuela,42.0,,True
+6,16018,José Antonio,Jose Antonio,,Vermudez,42.0,,True
+6,16359,José Antonio,Jose Antonio,,Manrriquez,42.0,,True
+6,16462,José Antonio,Jose Antonio,,Bermudez,42.0,,True
+6,16727,José Antonio,Jose Antonio,,Lugo,42.0,,True
+6,20344,José Antonio,Jose Antonio,,Botiller,42.0,,True
+6,21440,José Antonio,Joseph Antonio,,Parra,42.0,2.0,True
+6,24932,José Antonio,Jose Antonio,,Buelna,42.0,,True
+6,25627,José Antonio,Josef Antonio,,Rodriguez,42.0,2.0,True
+6,25870,José Antonio,José Antonio,,Buelna,42.0,1.0,True
+6,26464,José Antonio,Jose Antonio,,Rodriguez,42.0,1.0,True
+6,26601,José Antonio,Jose Antonio,,de la Guerra y Noriega,42.0,0.0,True
+6,26612,José Antonio,Jose Antonio,,Villa-Vicencio,42.0,,True
+6,26738,José Antonio,José Antonio,,Villavicencio,42.0,,True
+6,26788,José Antonio,José Antonio,,Mesa,42.0,3.0,True
+6,26795,José Antonio,Jose Antonio,,Villavicencio,42.0,2.0,True
+6,26848,José Antonio,Jose Antonio,,Villavicencio,42.0,,True
+6,26948,José Antonio,Jose Antonio,,Villavicencio,42.0,1.0,True
+6,26973,José Antonio,Jose Antonio,,Mesa,42.0,,True
+6,27213,José Antonio,Jose Antonio,,Higuera,42.0,3.0,True
+6,27390,José Antonio,Jose Antonio,,Villavicencio,42.0,1.0,True
+6,27420,José Antonio,Jose Antonio,,Higuera,42.0,2.0,True
+6,27483,José Antonio,Jose Antonio,,Castro,42.0,2.0,True
+6,27485,José Antonio,Jose Antonio,,Higuera,42.0,,True
+6,27615,José Antonio,Jose Antonio,,Gragiola,42.0,2.0,True
+6,27664,José Antonio,Jose Antonio,,Gragiola,42.0,0.0,True
+6,27669,José Antonio,Jose Antonio,,Romero,42.0,0.0,True
+6,27767,José Antonio,Jose Antonio,,Romero,42.0,2.0,True
+6,27768,José Antonio,Jose Antonio,,Gaxiola,42.0,0.0,True
+6,27779,José Antonio,Josef Antonio,,Castro,42.0,0.0,True
+6,27954,José Antonio,Josef Antonio,,Maia,42.0,5.0,True
+6,28032,José Antonio,Josef Antonio,,Castro,42.0,3.0,True
+6,28106,José Antonio,Josef Antonio,,Castro,42.0,1.0,True
+6,28119,José Antonio,Josef Antonio,,Gragiola,42.0,1.0,True
+6,28136,José Antonio,Jose Antonio,,Botiller,42.0,0.0,True
+6,28208,José Antonio,Jose Antonio,,Castro,42.0,4.0,True
+6,28228,José Antonio,Jose Antonio,,Gaxiola,42.0,8.0,True
+6,28296,José Antonio,Jose Antonio,,Castro,42.0,2.0,True
+6,28335,José Antonio,Jose Antonio,,Gaxiola,42.0,3.0,True
+6,28416,José Antonio,Jose Antonio,,Huerta,42.0,4.0,True
+6,28430,José Antonio,Jose Antonio,,Romero,42.0,1.0,True
+6,28461,José Antonio,Jose Antonio,,Gaxiola,42.0,7.0,True
+6,28527,José Antonio,Jose Antonio,,Romero,42.0,5.0,True
+6,28529,José Antonio,Jose Antonio,,Romero,42.0,5.0,True
+6,28582,José Antonio,Jose Antonio,,Romero,42.0,0.0,True
+6,28680,José Antonio,Jose Antonio,,Gaxiola,42.0,7.0,True
+6,28693,José Antonio,Jose Antonio,,Basquez,42.0,4.0,True
+6,29314,José Antonio,Jose Antonio,,Albitre,42.0,2.0,True
+6,30324,José Antonio,Joseph Antonio,,Leyba,42.0,2.0,True
+6,32594,José Antonio,Josef Antonio,,Gomez,42.0,1.0,True
+6,33231,José Antonio,Jose Antonio,,Yorva,42.0,,True
+6,33299,José Antonio,Josef Antonio,,Silvas,42.0,1.0,True
+6,33613,José Antonio,Jose Antonio,,Yorva,42.0,,True
+6,33818,José Antonio,Jose Antonio,,Yorva,42.0,1.0,True
+6,34522,José Antonio,Jose Antonio,,Garcia Romero,42.0,1.0,True
+6,35009,José Antonio,Jose Antonio,,Garcia Romero,42.0,1.0,True
+6,35095,José Antonio,Jose Antonio,,Silvas,42.0,3.0,True
+6,35573,José Antonio,Josef Antonio,,Ybarra,42.0,1.0,True
+6,35859,José Antonio,Josef Antonio,,Garcia,42.0,1.0,True
+6,35994,José Antonio,Jose Antonio,,Estudillo,42.0,10.0,True
+6,36257,José Antonio,Josef Antonio,,Estudillo,42.0,8.0,True
+6,36394,José Antonio,Jose Antonio,,Serrano,42.0,8.0,True
+6,36410,José Antonio,Jose Antonio,,Estudillo,42.0,15.0,True
+6,36468,José Antonio,Jose Antonio,,Estudillo,42.0,8.0,True
+6,36492,José Antonio,Jose Antonio,,Yvarra,42.0,0.0,True
+6,36495,José Antonio,Jose Antonio,,Yorva,42.0,4.0,True
+6,36544,José Antonio,Jose Antonio,,Elizaldi,42.0,1.0,True
+6,36567,José Antonio,Jose Antonio,,Estudillo,42.0,7.0,True
+6,36580,José Antonio,Jose Antonio,,Yvarra,42.0,2.0,True
+6,36600,José Antonio,Jose Antonio,,Lisalde,42.0,1.0,True
+6,39256,José Antonio,Jose Antonio,,Romero,42.0,,True
+6,40388,José Antonio,Jose Antonio,,Yorva,42.0,3.0,True
+6,41207,José Antonio,Jose Antonio,,Yorba,42.0,13.0,True
+6,42665,José Antonio,Jose Antonio,,Rodrigues,42.0,0.0,True
+6,43056,José Antonio,Jose Antonio,,Rodriguez,42.0,0.0,True
+6,44984,José Antonio,Jose Antonio,,Basquez,42.0,2.0,True
+6,45070,José Antonio,Jose Antonio,,Basques,42.0,,True
+6,45214,José Antonio,Jose Antonio,,Basques,42.0,,True
+6,45853,José Antonio,Joseph Antonio,,Bermudes,42.0,,True
+6,46456,José Antonio,Jose Antonio,,Valenzuela,42.0,,True
+6,46483,José Antonio,Jose Antonio,,Lopez,42.0,,True
+6,48403,José Antonio,Jose Antonio,,Higuera,42.0,,True
+6,48404,José Antonio,Jose Antonio,,Higuera,42.0,,True
+6,49092,José Antonio,Jose Antonio,,Higuera,42.0,,True
+6,51669,José Antonio,Jose Antonio,,Lopez,42.0,1.0,True
+6,52611,José Antonio,José Antonio,,Ruiz,42.0,10.0,True
+6,54822,José Antonio,Joseph Antonio,,Gonzalez,42.0,,True
+6,56162,José Antonio,Josef Antonio,,Castro,42.0,1.0,True
+6,57306,José Antonio,Jose Antonio,,Castro,42.0,3.0,True
+6,59787,José Antonio,Jose Antonio,,Amaya,42.0,2.0,True
+6,59974,José Antonio,Jose A[ntonio],,Albitre,42.0,,True
+6,60113,José Antonio,Jose Antonio,,Albitre,42.0,,True
+6,60184,José Antonio,Jose Antonio,,Albitre,42.0,2.0,True
+6,61240,José Antonio,Jose Antonio,,Rodriguez,42.0,,True
+6,61699,José Antonio,Jose Antonio,,Galindo,42.0,2.0,True
+6,61703,José Antonio,Jose Antonio,,Rodriguez,42.0,4.0,True
+6,62502,José Antonio,Jose Antonio,,Castro,42.0,1.0,True
+6,62517,José Antonio,Jose Antonio,,Alviso,42.0,2.0,True
+6,62560,José Antonio,Jose Antonio,,Rodriguez,42.0,20.0,True
+6,62591,José Antonio,Jose Antonio,,German,42.0,1.0,True
+6,62594,José Antonio,Jose Antonio,,Alviso,42.0,,True
+6,62991,José Antonio,Jose Antonio,,German,42.0,9.0,True
+6,63554,José Antonio,Jose Antonio,,Alviso,42.0,,True
+6,63869,José Antonio,Jose Antonio,,Soto,42.0,4.0,True
+6,64530,José Antonio,Jose Antonio,,Alegre,42.0,,True
+6,64730,José Antonio,Jose Antonio,,Meza,42.0,1.0,True
+6,64925,José Antonio,Jose Antonio,,Rodriguez,42.0,2.0,True
+6,65569,José Antonio,Jose Antonio,,Sanchez,42.0,2.0,True
+6,66514,José Antonio,Jose Antonio,,Sanchez,42.0,2.0,True
+6,66740,José Antonio,Joseph Antonio,,Sanchez,42.0,1.0,True
+6,66741,José Antonio,Joseph Antonio,,Sanchez,42.0,1.0,True
+6,69264,José Antonio,Jose Antonio,,Robles,42.0,1.0,True
+6,71381,José Antonio,Jose Antonio,,Dominguez,42.0,1.0,True
+6,71386,José Antonio,Jose Antonio,,Lopes,42.0,1.0,True
+6,72308,José Antonio,Jose Antonio,,Higuera,42.0,2.0,True
+6,74422,José Antonio,Jose Antonio,,Amaya,42.0,3.0,True
+6,75127,José Antonio,Jose Antonio,,Messa,42.0,1.0,True
+6,76208,José Antonio,Jose Antonio,,Higuera,42.0,3.0,True
+6,76541,José Antonio,Jose Antonio,,Amaya,42.0,,True
+6,76582,José Antonio,Jose Antonio,,Amaya,42.0,0.0,True
+6,77194,José Antonio,Jose Antonio,,Messa,42.0,1.0,True
+6,77515,José Antonio,Jose Antonio,,Yguera,42.0,1.0,True
+6,80360,José Antonio,Jose Antonio,,Albiso,42.0,3.0,True
+6,81146,José Antonio,Jose Antonio,,Albissu,42.0,1.0,True
+6,81478,José Antonio,Jose Antonio,,Higuera,42.0,2.0,True
+6,81734,José Antonio,Jose Antonio,,Rodrigues,42.0,2.0,True
+6,82184,José Antonio,Jose Antonio,,Higuera,42.0,2.0,True
+6,82214,José Antonio,Jose Antonio,,Albisu,42.0,2.0,True
+6,82263,José Antonio,Jose Antonio,,Albissu,42.0,2.0,True
+6,82286,José Antonio,Jose Antonio,,Higuera,42.0,0.0,True
+6,82654,José Antonio,Jose Antonio,,Mesa,42.0,2.0,True
+6,82655,José Antonio,José Antonio,,Valencia,42.0,1.0,True
+6,82974,José Antonio,José Antonio,,Moreno,42.0,1.0,True
+6,84730,José Antonio,Jose Antonio,,Castro,42.0,,True
+6,84833,José Antonio,Jose Antonio,,Galindo,42.0,5.0,True
+6,84979,José Antonio,José Antonio,,Bernal,42.0,3.0,True
+6,85344,José Antonio,Jose Antonio,,Galindo,42.0,,True
+6,85469,José Antonio,Jose Antonio,,Bernal,42.0,41.0,True
+6,85560,José Antonio,Jose Antonio,,Soto,42.0,2.0,True
+6,86132,José Antonio,Jose Antonio,,Soto,42.0,1.0,True
+6,87967,José Antonio,Joseph Antonio,,Garzia,42.0,1.0,True
+6,98969,José Antonio,Josef Antonio,,Sanchez,42.0,2.0,True
+6,98970,José Antonio,Josef Antonio,,Sanchez,42.0,2.0,True
+6,99152,José Antonio,Joseph Antonio,,Sanchez,42.0,,True
+6,101610,José Antonio,Jose Antonio,,Alvisu,42.0,0.0,True
+6,102160,José Antonio,Jose Antonio,,Castro,42.0,,True
+11,2516,Basilio,Basilio,,Valdez,67.0,3.0,True
+11,2801,Basilio,Casildo,,Aguilar,67.0,,True
+11,16064,Basilio,Casildo,,Aguilar,67.0,2.0,True
+11,33788,Basilio,Cecilio,,Lobo,67.0,4.0,True
+11,34249,Basilio,Cecilio,,Lovo,67.0,1.0,True
+11,34424,Basilio,Cecilio,,Villalobos,67.0,1.0,True
+11,35015,Basilio,Cecilio,,Villalobos,67.0,0.0,True
+11,35404,Basilio,Cecilio,,Villalobos,67.0,0.0,True
+11,35542,Basilio,Cecilio,,Lobo,67.0,0.0,True
+11,35606,Basilio,Basilio,,Baldes,67.0,3.0,True
+11,35694,Basilio,Cecilio,,Villalobos,67.0,0.0,True
+11,35883,Basilio,Cecilio,,Lobo,67.0,4.0,True
+11,41224,Basilio,Basilio,,Jurado,67.0,4.0,True
+19,98,Antonio,Antonio,,Vacquez,38.0,,True
+19,227,Antonio,Antonio,,Bazquez,38.0,1.0,True
+19,389,Antonio,Antonio,,Vazquez,38.0,1.0,True
+19,551,Antonio,Antonio,,German,38.0,1.0,True
+19,561,Antonio,Antonio,,Valenzuela,38.0,1.0,True
+19,634,Antonio,Antonio,,German,38.0,,True
+19,682,Antonio,Antonio,,German,38.0,0.0,True
+19,710,Antonio,Antonio,,Solorzano,38.0,,True
+19,796,Antonio,Antonio,,Larios,38.0,,True
+19,838,Antonio,Antonio,,Palacios,38.0,,True
+19,863,Antonio,Antonio,,Leiva,38.0,,True
+19,877,Antonio,Antonio,,Leyba,38.0,0.0,True
+19,949,Antonio,Antonio,,Leivas,38.0,,True
+19,988,Antonio,Antonio,,Leiva,38.0,,True
+19,1032,Antonio,Antonio,,Rodriguez,38.0,,True
+19,1294,Antonio,Antonio,,Garcia,38.0,3.0,True
+19,1309,Antonio,Antonio,,del Valle,38.0,1.0,True
+19,1395,Antonio,Antonio,,Olivera,38.0,2.0,True
+19,1437,Antonio,Antonio,,Leiva,38.0,,True
+19,1464,Antonio,Antonio,,Garcia,38.0,,True
+19,1538,Antonio,Antonio,,Arellanez,38.0,8.0,True
+19,1900,Antonio,Antonio,,Arellanes,38.0,1.0,True
+19,1931,Antonio,Antonio,,Palacios,38.0,2.0,True
+19,1957,Antonio,Antonio,,Rodriguez,38.0,4.0,True
+19,1983,Antonio,Antonio,,de la Torre,38.0,1.0,True
+19,2013,Antonio,Antonio,,Arellanes,38.0,1.0,True
+19,2083,Antonio,Antonio,,Ruiz,38.0,1.0,True
+19,2133,Antonio,Antonio,,Orchaga [Machado],38.0,5.0,True
+19,2213,Antonio,Antonio,,Briones,38.0,,True
+19,2373,Antonio,Antonio,,Lisaldi,38.0,1.0,True
+19,2408,Antonio,Antonio,,Briones,38.0,2.0,True
+19,2433,Antonio,Antonio,,Valdez,38.0,2.0,True
+19,2513,Antonio,Antonio,,Lopez,38.0,0.0,True
+19,2574,Antonio,Antonio,,Vermudes,38.0,1.0,True
+19,2645,Antonio,Antonio,,Lopez,38.0,,True
+19,2695,Antonio,Antonio,,Albitre,38.0,3.0,True
+19,2717,Antonio,Antonio,,Valle,38.0,,True
+19,2854,Antonio,Antonio,,[Unstated],38.0,,True
+19,3010,Antonio,Antonio,,Valle,38.0,,True
+19,3138,Antonio,Antonio,,Albitre,38.0,,True
+19,3203,Antonio,Antonio,,Valdes,38.0,9.0,True
+19,3258,Antonio,Antonio,,Murillo,38.0,1.0,True
+19,3480,Antonio,Antonio,,Vuelna,38.0,,True
+19,3531,Antonio,Antonio,,Bermudes,38.0,,True
+19,3632,Antonio,Antonio,,Melendres,38.0,15.0,True
+19,3642,Antonio,Antonio,,Labori,38.0,2.0,True
+19,11296,Antonio,Antonio,,Rosas,38.0,1.0,True
+19,11718,Antonio,Antonio,,Rosas,38.0,,True
+19,11870,Antonio,Antonio,,Figueroa,38.0,,True
+19,12423,Antonio,Antonio,,Valenzuela,38.0,,True
+19,14400,Antonio,Antonio,,Valenzuela,38.0,,True
+19,14480,Antonio,Antonio,,Baldes,38.0,2.0,True
+19,14627,Antonio,Antonio,,Nieto,38.0,1.0,True
+19,14655,Antonio,Antonio,,Lisalde,38.0,2.0,True
+19,15058,Antonio,Antonio,,Baldez,38.0,1.0,True
+19,15164,Antonio,Antonio,,Machado,38.0,3.0,True
+19,15427,Antonio,Antonio,,Machado,38.0,,True
+19,15993,Antonio,Antonio,,Quijada,38.0,,True
+19,16156,Antonio,Antonio,,Albitre,38.0,,True
+19,16541,Antonio,Antonio,,Rodriguez,38.0,,True
+19,16612,Antonio,Antonio,,Vermudez,38.0,,True
+19,17444,Antonio,Antonio,,Cota,38.0,0.0,True
+19,24519,Antonio,[Antonio],,[Yorba],38.0,,True
+19,24801,Antonio,Antonio,,Jorba,38.0,2.0,True
+19,25019,Antonio,Antonio,,Yorba,38.0,1.0,True
+19,25419,Antonio,Antonio,,Yorba,38.0,0.0,True
+19,25664,Antonio,Antonio,,Llorva,38.0,2.0,True
+19,27440,Antonio,Antonino,,Buelna,38.0,1.0,True
+19,27743,Antonio,Antonio,,Fernandez,38.0,0.0,True
+19,27777,Antonio,Antonio,,Rodriguez,38.0,1.0,True
+19,27790,Antonio,Antonio,,Fernandez,38.0,1.0,True
+19,27928,Antonio,Antonino,,Yguera,38.0,2.0,True
+19,28043,Antonio,Antonio,,Fernandez,38.0,0.0,True
+19,28178,Antonio,Antonio,,Moreno,38.0,1.0,True
+19,28182,Antonio,Antonio,,Albitre,38.0,1.0,True
+19,28328,Antonio,Antonio,,Mendez,38.0,6.0,True
+19,28438,Antonio,Antonio,,Hernandes,38.0,,True
+19,28679,Antonio,Antonio,,Ocio,38.0,,True
+19,28813,Antonio,Antonio,,Tapia,38.0,1.0,True
+19,28852,Antonio,Antonio,,Mendes,38.0,0.0,True
+19,28879,Antonio,Antonio,,Romero,38.0,9.0,True
+19,28899,Antonio,Antonio,,Osio,38.0,0.0,True
+19,28951,Antonio,Antonio,,Mendez,38.0,0.0,True
+19,29007,Antonio,Antonio,,Romero,38.0,9.0,True
+19,29146,Antonio,Antonio,,Osio,38.0,0.0,True
+19,29331,Antonio,Antonio,,Rodriges,38.0,4.0,True
+19,30443,Antonio,Antonio,,Ybarra,38.0,5.0,True
+19,30735,Antonio,Antonio,,Cota,38.0,4.0,True
+19,31224,Antonio,Antonio,,Yorba,38.0,3.0,True
+19,31318,Antonio,Antonio,,Ybarra,38.0,6.0,True
+19,32608,Antonio,Antonio,,Yorba,38.0,4.0,True
+19,32627,Antonio,Antonio,,Yorba,38.0,5.0,True
+19,32707,Antonio,Antonio,,Guillen,38.0,1.0,True
+19,32740,Antonio,Antonio,,Yorva,38.0,3.0,True
+19,33094,Antonio,Antonio,,Balenzuela,38.0,,True
+19,33292,Antonio,Antonio,,Yorva,38.0,3.0,True
+19,33616,Antonio,Antonio,,Silvas,38.0,,True
+19,36448,Antonio,Antonio,,Serrano,38.0,0.0,True
+19,38915,Antonio,Antonio,,Romero,38.0,1.0,True
+19,44607,Antonio,Antonino,,Higuera,38.0,,True
+19,45090,Antonio,A[ntonio],,Basques,38.0,,True
+19,45320,Antonio,Antonio,,Paredes,38.0,,True
+19,50937,Antonio,Antonio,,Olibera,38.0,,True
+19,54825,Antonio,Antonio,,Asebes,38.0,7.0,True
+19,62410,Antonio,Antonio,,Alviso,38.0,2.0,True
+19,62562,Antonio,Antonio,,Fernandes,38.0,1.0,True
+19,62824,Antonio,Antonio,,Castro,38.0,10.0,True
+19,62832,Antonio,Antonio,,Lima,38.0,16.0,True
+19,62840,Antonio,Antonio,,German,38.0,1.0,True
+19,63018,Antonio,[Antonio],,Estrada,38.0,6.0,True
+19,65556,Antonio,Antonio,,Soto,38.0,1.0,True
+19,67828,Antonio,Antonio,,Buelna,38.0,1.0,True
+19,67830,Antonio,Antonio,,Soto,38.0,0.0,True
+19,70466,Antonio,Antonio,,German,38.0,1.0,True
+19,71569,Antonio,Antonio,,Romero,38.0,3.0,True
+19,72452,Antonio,Antonio,,Dominguez,38.0,,True
+19,72677,Antonio,Antonio,,Soto,38.0,3.0,True
+19,73423,Antonio,Antonio,,Soto,38.0,1.0,True
+19,74559,Antonio,Antonio,,Amaya,38.0,0.0,True
+19,75881,Antonio,Antonio,,Basquez,38.0,1.0,True
+19,75882,Antonio,Antonio,,Basquez,38.0,1.0,True
+19,76112,Antonio,Antonio,,Soto,38.0,1.0,True
+19,76312,Antonio,Antonio,,Valencia,38.0,2.0,True
+19,76596,Antonio,Antonio,,Rodrigues,38.0,3.0,True
+19,77235,Antonio,Antonio,,Valencia,38.0,0.0,True
+19,77328,Antonio,Antonino,,Higuera,38.0,2.0,True
+19,79450,Antonio,Antonio,,Chaboya,38.0,1.0,True
+19,80189,Antonio,Antonio,,Soto,38.0,1.0,True
+19,80345,Antonio,Antonio,,Valencia,38.0,1.0,True
+19,80354,Antonio,Antonio,,Suñol,38.0,1.0,True
+19,80499,Antonio,Antonio,,Ortega,38.0,1.0,True
+19,81579,Antonio,Antonio,,Soto,38.0,3.0,True
+19,81760,Antonio,Antonio,,Chavoÿa,38.0,2.0,True
+19,82206,Antonio,Antonio,,Armijo,38.0,4.0,True
+19,82219,Antonio,Antonio,,Rodrigues,38.0,2.0,True
+19,82231,Antonio,Antonio,,Valencia,38.0,2.0,True
+19,82279,Antonio,Antonio,,Armijo,38.0,4.0,True
+19,82615,Antonio,Antonio,,Mesa,38.0,1.0,True
+19,82690,Antonio,Antonio,,Moreno,38.0,2.0,True
+19,82805,Antonio,Antonio,,Armijo,38.0,30.0,True
+19,82857,Antonio,Antonio,,Armijo,38.0,2.0,True
+19,82901,Antonio,Antonio,,Souñol,38.0,20.0,True
+19,83189,Antonio,Antonio,,Mesa,38.0,5.0,True
+19,83280,Antonio,Antonio,,Pacheco,38.0,,True
+19,83353,Antonio,Antonio,,Chabolla,38.0,1.0,True
+19,83412,Antonio,Antonio,,Bernal,38.0,,True
+19,83722,Antonio,Antonio,,Castro,38.0,,True
+19,84619,Antonio,Antonio,,Chaboya,38.0,9.0,True
+19,84872,Antonio,Antonio,,Bernal,38.0,0.0,True
+19,84961,Antonio,Antonio,,Chavolla,38.0,7.0,True
+19,85036,Antonio,Antonio,,Hernandes,38.0,2.0,True
+19,85057,Antonio,Antonio,,Mesa,38.0,2.0,True
+19,85268,Antonio,Antonio,,Bernal,38.0,1.0,True
+19,85295,Antonio,Antonio,,Pacheco,38.0,3.0,True
+19,85350,Antonio,Antonio,,Suñol,38.0,,True
+19,85451,Antonio,Antonio,,Chabolla,38.0,,True
+19,85655,Antonio,Antonio,,Amador,38.0,,True
+19,85747,Antonio,Antonio,,[Mesa],38.0,,True
+19,85761,Antonio,Antonio,,Higuera,38.0,,True
+19,85819,Antonio,Antonio,,Amador,38.0,1.0,True
+19,85903,Antonio,Antonio,,Pico,38.0,,True
+19,85963,Antonio,Antonio,,Bernal,38.0,1.0,True
+19,85970,Antonio,Antonio,,Chabolla,38.0,3.0,True
+19,86037,Antonio,Antonio,,Figueroa,38.0,1.0,True
+19,86647,Antonio,Antonio,,Pico,38.0,0.0,True
+19,93492,Antonio,Antonio,,Olivera,38.0,,True
+19,94736,Antonio,Antonio,,Sanchez,38.0,0.0,True
+19,95590,Antonio,Antonio,,Ocio,38.0,8.0,True
+19,99327,Antonio,Antonino,,Higuera,38.0,2.0,True
+19,100792,Antonio,Antonio,,Soto,38.0,1.0,True
+19,100843,Antonio,Antonio,,Soto,38.0,1.0,True
+19,101628,Antonio,Antonio,,Castro,38.0,,True
+19,101652,Antonio,Antonio,,Ortega,38.0,0.0,True
+19,101671,Antonio,Antonio,,Castro,38.0,,True
+19,101705,Antonio,Antonio,,Soto,38.0,0.0,True
+19,101733,Antonio,Antonio,,Soto,38.0,3.0,True
+19,102086,Antonio,Antonio,,Castro,38.0,,True
+19,102147,Antonio,Antonio,,Pacheco,38.0,,True
+19,102190,Antonio,Antonio,,Pacheco,38.0,,True
+19,102508,Antonio,Antonio,,Soto,38.0,2.0,True
+19,102533,Antonio,Antonio,,Castro,38.0,,True
+19,102534,Antonio,Antonio,,Pacheco,38.0,,True
+19,104289,Antonio,Antonio,,Albitre,38.0,3.0,True
+23,98,Antonio,Antonio,,Vacquez,30.0,,True
+23,227,Antonio,Antonio,,Bazquez,30.0,1.0,True
+23,389,Antonio,Antonio,,Vazquez,30.0,1.0,True
+23,551,Antonio,Antonio,,German,30.0,1.0,True
+23,561,Antonio,Antonio,,Valenzuela,30.0,1.0,True
+23,634,Antonio,Antonio,,German,30.0,,True
+23,682,Antonio,Antonio,,German,30.0,0.0,True
+23,710,Antonio,Antonio,,Solorzano,30.0,,True
+23,796,Antonio,Antonio,,Larios,30.0,,True
+23,838,Antonio,Antonio,,Palacios,30.0,,True
+23,863,Antonio,Antonio,,Leiva,30.0,,True
+23,877,Antonio,Antonio,,Leyba,30.0,0.0,True
+23,949,Antonio,Antonio,,Leivas,30.0,,True
+23,988,Antonio,Antonio,,Leiva,30.0,,True
+23,1032,Antonio,Antonio,,Rodriguez,30.0,,True
+23,1294,Antonio,Antonio,,Garcia,30.0,3.0,True
+23,1309,Antonio,Antonio,,del Valle,30.0,1.0,True
+23,1395,Antonio,Antonio,,Olivera,30.0,2.0,True
+23,1437,Antonio,Antonio,,Leiva,30.0,,True
+23,1464,Antonio,Antonio,,Garcia,30.0,,True
+23,1538,Antonio,Antonio,,Arellanez,30.0,8.0,True
+23,1900,Antonio,Antonio,,Arellanes,30.0,1.0,True
+23,1931,Antonio,Antonio,,Palacios,30.0,2.0,True
+23,1957,Antonio,Antonio,,Rodriguez,30.0,4.0,True
+23,1983,Antonio,Antonio,,de la Torre,30.0,1.0,True
+23,2013,Antonio,Antonio,,Arellanes,30.0,1.0,True
+23,2083,Antonio,Antonio,,Ruiz,30.0,1.0,True
+23,2133,Antonio,Antonio,,Orchaga [Machado],30.0,5.0,True
+23,2213,Antonio,Antonio,,Briones,30.0,,True
+23,2373,Antonio,Antonio,,Lisaldi,30.0,1.0,True
+23,2408,Antonio,Antonio,,Briones,30.0,2.0,True
+23,2433,Antonio,Antonio,,Valdez,30.0,2.0,True
+23,2513,Antonio,Antonio,,Lopez,30.0,0.0,True
+23,2574,Antonio,Antonio,,Vermudes,30.0,1.0,True
+23,2645,Antonio,Antonio,,Lopez,30.0,,True
+23,2695,Antonio,Antonio,,Albitre,30.0,3.0,True
+23,2717,Antonio,Antonio,,Valle,30.0,,True
+23,2854,Antonio,Antonio,,[Unstated],30.0,,True
+23,3010,Antonio,Antonio,,Valle,30.0,,True
+23,3138,Antonio,Antonio,,Albitre,30.0,,True
+23,3203,Antonio,Antonio,,Valdes,30.0,9.0,True
+23,3258,Antonio,Antonio,,Murillo,30.0,1.0,True
+23,3480,Antonio,Antonio,,Vuelna,30.0,,True
+23,3531,Antonio,Antonio,,Bermudes,30.0,,True
+23,3632,Antonio,Antonio,,Melendres,30.0,15.0,True
+23,3642,Antonio,Antonio,,Labori,30.0,2.0,True
+23,11296,Antonio,Antonio,,Rosas,30.0,1.0,True
+23,11718,Antonio,Antonio,,Rosas,30.0,,True
+23,11870,Antonio,Antonio,,Figueroa,30.0,,True
+23,12423,Antonio,Antonio,,Valenzuela,30.0,,True
+23,14400,Antonio,Antonio,,Valenzuela,30.0,,True
+23,14480,Antonio,Antonio,,Baldes,30.0,2.0,True
+23,14627,Antonio,Antonio,,Nieto,30.0,1.0,True
+23,14655,Antonio,Antonio,,Lisalde,30.0,2.0,True
+23,15058,Antonio,Antonio,,Baldez,30.0,1.0,True
+23,15164,Antonio,Antonio,,Machado,30.0,3.0,True
+23,15427,Antonio,Antonio,,Machado,30.0,,True
+23,15993,Antonio,Antonio,,Quijada,30.0,,True
+23,16156,Antonio,Antonio,,Albitre,30.0,,True
+23,16541,Antonio,Antonio,,Rodriguez,30.0,,True
+23,16612,Antonio,Antonio,,Vermudez,30.0,,True
+23,17444,Antonio,Antonio,,Cota,30.0,0.0,True
+23,24519,Antonio,[Antonio],,[Yorba],30.0,,True
+23,24801,Antonio,Antonio,,Jorba,30.0,2.0,True
+23,25019,Antonio,Antonio,,Yorba,30.0,1.0,True
+23,25419,Antonio,Antonio,,Yorba,30.0,0.0,True
+23,25664,Antonio,Antonio,,Llorva,30.0,2.0,True
+23,27440,Antonio,Antonino,,Buelna,30.0,1.0,True
+23,27743,Antonio,Antonio,,Fernandez,30.0,0.0,True
+23,27777,Antonio,Antonio,,Rodriguez,30.0,1.0,True
+23,27790,Antonio,Antonio,,Fernandez,30.0,1.0,True
+23,27928,Antonio,Antonino,,Yguera,30.0,2.0,True
+23,28043,Antonio,Antonio,,Fernandez,30.0,0.0,True
+23,28178,Antonio,Antonio,,Moreno,30.0,1.0,True
+23,28182,Antonio,Antonio,,Albitre,30.0,1.0,True
+23,28328,Antonio,Antonio,,Mendez,30.0,6.0,True
+23,28438,Antonio,Antonio,,Hernandes,30.0,,True
+23,28679,Antonio,Antonio,,Ocio,30.0,,True
+23,28813,Antonio,Antonio,,Tapia,30.0,1.0,True
+23,28852,Antonio,Antonio,,Mendes,30.0,0.0,True
+23,28879,Antonio,Antonio,,Romero,30.0,9.0,True
+23,28899,Antonio,Antonio,,Osio,30.0,0.0,True
+23,28951,Antonio,Antonio,,Mendez,30.0,0.0,True
+23,29007,Antonio,Antonio,,Romero,30.0,9.0,True
+23,29146,Antonio,Antonio,,Osio,30.0,0.0,True
+23,29331,Antonio,Antonio,,Rodriges,30.0,4.0,True
+23,30443,Antonio,Antonio,,Ybarra,30.0,5.0,True
+23,30735,Antonio,Antonio,,Cota,30.0,4.0,True
+23,31224,Antonio,Antonio,,Yorba,30.0,3.0,True
+23,31318,Antonio,Antonio,,Ybarra,30.0,6.0,True
+23,32608,Antonio,Antonio,,Yorba,30.0,4.0,True
+23,32627,Antonio,Antonio,,Yorba,30.0,5.0,True
+23,32707,Antonio,Antonio,,Guillen,30.0,1.0,True
+23,32740,Antonio,Antonio,,Yorva,30.0,3.0,True
+23,33094,Antonio,Antonio,,Balenzuela,30.0,,True
+23,33292,Antonio,Antonio,,Yorva,30.0,3.0,True
+23,33616,Antonio,Antonio,,Silvas,30.0,,True
+23,36448,Antonio,Antonio,,Serrano,30.0,0.0,True
+23,38915,Antonio,Antonio,,Romero,30.0,1.0,True
+23,44607,Antonio,Antonino,,Higuera,30.0,,True
+23,45090,Antonio,A[ntonio],,Basques,30.0,,True
+23,45320,Antonio,Antonio,,Paredes,30.0,,True
+23,50937,Antonio,Antonio,,Olibera,30.0,,True
+23,54825,Antonio,Antonio,,Asebes,30.0,7.0,True
+23,62410,Antonio,Antonio,,Alviso,30.0,2.0,True
+23,62562,Antonio,Antonio,,Fernandes,30.0,1.0,True
+23,62824,Antonio,Antonio,,Castro,30.0,10.0,True
+23,62832,Antonio,Antonio,,Lima,30.0,16.0,True
+23,62840,Antonio,Antonio,,German,30.0,1.0,True
+23,63018,Antonio,[Antonio],,Estrada,30.0,6.0,True
+23,65556,Antonio,Antonio,,Soto,30.0,1.0,True
+23,67828,Antonio,Antonio,,Buelna,30.0,1.0,True
+23,67830,Antonio,Antonio,,Soto,30.0,0.0,True
+23,70466,Antonio,Antonio,,German,30.0,1.0,True
+23,71569,Antonio,Antonio,,Romero,30.0,3.0,True
+23,72452,Antonio,Antonio,,Dominguez,30.0,,True
+23,72677,Antonio,Antonio,,Soto,30.0,3.0,True
+23,73423,Antonio,Antonio,,Soto,30.0,1.0,True
+23,74559,Antonio,Antonio,,Amaya,30.0,0.0,True
+23,75881,Antonio,Antonio,,Basquez,30.0,1.0,True
+23,75882,Antonio,Antonio,,Basquez,30.0,1.0,True
+23,76112,Antonio,Antonio,,Soto,30.0,1.0,True
+23,76312,Antonio,Antonio,,Valencia,30.0,2.0,True
+23,76596,Antonio,Antonio,,Rodrigues,30.0,3.0,True
+23,77235,Antonio,Antonio,,Valencia,30.0,0.0,True
+23,77328,Antonio,Antonino,,Higuera,30.0,2.0,True
+23,79450,Antonio,Antonio,,Chaboya,30.0,1.0,True
+23,80189,Antonio,Antonio,,Soto,30.0,1.0,True
+23,80345,Antonio,Antonio,,Valencia,30.0,1.0,True
+23,80354,Antonio,Antonio,,Suñol,30.0,1.0,True
+23,80499,Antonio,Antonio,,Ortega,30.0,1.0,True
+23,81579,Antonio,Antonio,,Soto,30.0,3.0,True
+23,81760,Antonio,Antonio,,Chavoÿa,30.0,2.0,True
+23,82206,Antonio,Antonio,,Armijo,30.0,4.0,True
+23,82219,Antonio,Antonio,,Rodrigues,30.0,2.0,True
+23,82231,Antonio,Antonio,,Valencia,30.0,2.0,True
+23,82279,Antonio,Antonio,,Armijo,30.0,4.0,True
+23,82615,Antonio,Antonio,,Mesa,30.0,1.0,True
+23,82690,Antonio,Antonio,,Moreno,30.0,2.0,True
+23,82805,Antonio,Antonio,,Armijo,30.0,30.0,True
+23,82857,Antonio,Antonio,,Armijo,30.0,2.0,True
+23,82901,Antonio,Antonio,,Souñol,30.0,20.0,True
+23,83189,Antonio,Antonio,,Mesa,30.0,5.0,True
+23,83280,Antonio,Antonio,,Pacheco,30.0,,True
+23,83353,Antonio,Antonio,,Chabolla,30.0,1.0,True
+23,83412,Antonio,Antonio,,Bernal,30.0,,True
+23,83722,Antonio,Antonio,,Castro,30.0,,True
+23,84619,Antonio,Antonio,,Chaboya,30.0,9.0,True
+23,84872,Antonio,Antonio,,Bernal,30.0,0.0,True
+23,84961,Antonio,Antonio,,Chavolla,30.0,7.0,True
+23,85036,Antonio,Antonio,,Hernandes,30.0,2.0,True
+23,85057,Antonio,Antonio,,Mesa,30.0,2.0,True
+23,85268,Antonio,Antonio,,Bernal,30.0,1.0,True
+23,85295,Antonio,Antonio,,Pacheco,30.0,3.0,True
+23,85350,Antonio,Antonio,,Suñol,30.0,,True
+23,85451,Antonio,Antonio,,Chabolla,30.0,,True
+23,85655,Antonio,Antonio,,Amador,30.0,,True
+23,85747,Antonio,Antonio,,[Mesa],30.0,,True
+23,85761,Antonio,Antonio,,Higuera,30.0,,True
+23,85819,Antonio,Antonio,,Amador,30.0,1.0,True
+23,85903,Antonio,Antonio,,Pico,30.0,,True
+23,85963,Antonio,Antonio,,Bernal,30.0,1.0,True
+23,85970,Antonio,Antonio,,Chabolla,30.0,3.0,True
+23,86037,Antonio,Antonio,,Figueroa,30.0,1.0,True
+23,86647,Antonio,Antonio,,Pico,30.0,0.0,True
+23,93492,Antonio,Antonio,,Olivera,30.0,,True
+23,94736,Antonio,Antonio,,Sanchez,30.0,0.0,True
+23,95590,Antonio,Antonio,,Ocio,30.0,8.0,True
+23,99327,Antonio,Antonino,,Higuera,30.0,2.0,True
+23,100792,Antonio,Antonio,,Soto,30.0,1.0,True
+23,100843,Antonio,Antonio,,Soto,30.0,1.0,True
+23,101628,Antonio,Antonio,,Castro,30.0,,True
+23,101652,Antonio,Antonio,,Ortega,30.0,0.0,True
+23,101671,Antonio,Antonio,,Castro,30.0,,True
+23,101705,Antonio,Antonio,,Soto,30.0,0.0,True
+23,101733,Antonio,Antonio,,Soto,30.0,3.0,True
+23,102086,Antonio,Antonio,,Castro,30.0,,True
+23,102147,Antonio,Antonio,,Pacheco,30.0,,True
+23,102190,Antonio,Antonio,,Pacheco,30.0,,True
+23,102508,Antonio,Antonio,,Soto,30.0,2.0,True
+23,102533,Antonio,Antonio,,Castro,30.0,,True
+23,102534,Antonio,Antonio,,Pacheco,30.0,,True
+23,104289,Antonio,Antonio,,Albitre,30.0,3.0,True
+26,36,José,Joseph,,Villa,28.0,1.0,True
+26,66,José,Joseph,,Ayala,28.0,4.0,True
+26,84,José,Joseph,,Ayala,28.0,5.0,True
+26,110,José,Jose,,Ayala,28.0,1.0,True
+26,145,José,Jose,,Ayala,28.0,1.0,True
+26,174,José,Jose,,Bermudes,28.0,1.0,True
+26,181,José,Josef,,Aiala,28.0,1.0,True
+26,195,José,Jose,,Bermudes,28.0,1.0,True
+26,222,José,Josef,,Ruiz,28.0,,True
+26,244,José,Cosme,,Vanegas,28.0,1.0,True
+26,264,José,Joseph,,Ayala,28.0,1.0,True
+26,295,José,Josef,,Zurita,28.0,1.0,True
+26,329,José,Jose,,Ayala,28.0,,True
+26,335,José,Jose,,Bermudez,28.0,,True
+26,349,José,Cosme,,Vanegas,28.0,0.0,True
+26,396,José,Jose,,Ruiz,28.0,0.0,True
+26,428,José,Jose,,Dominguez,28.0,,True
+26,442,José,Jose,,Ortega,28.0,1.0,True
+26,458,José,Jose,,Ayala,28.0,1.0,True
+26,496,José,Joseph,,Arellanes,28.0,1.0,True
+26,501,José,Jose,,Zurita,28.0,0.0,True
+26,540,José,Jose,,Ruiz,28.0,0.0,True
+26,544,José,Jose,,Zurita,28.0,,True
+26,552,José,Jose,,de la Guerra y Noriega,28.0,0.0,True
+26,615,José,Jose,,Arellanes,28.0,,True
+26,617,José,Jose,,Ruiz,28.0,,True
+26,656,José,José,,Arellanes,28.0,,True
+26,660,José,Jose,,de la Guerra y Noriega,28.0,1.0,True
+26,675,José,Jose,,Ruiz,28.0,1.0,True
+26,687,José,Jose,,de la Guerra y Noriega,28.0,1.0,True
+26,719,José,Job,,Hill,28.0,26.0,True
+26,733,José,Jose,,Ruiz,28.0,,True
+26,740,José,Jose,,de la Guerra y Noriega,28.0,1.0,True
+26,752,José,Jose,,Ortega,28.0,1.0,True
+26,824,José,Jose,,Rodriguez,28.0,1.0,True
+26,834,José,Jose,,Rodriguez,28.0,1.0,True
+26,876,José,Jose,,Moraga,28.0,2.0,True
+26,891,José,Jose,,Arellanes,28.0,1.0,True
+26,904,José,Jose,,Dominguez,28.0,1.0,True
+26,971,José,Jose,,Rodriguez,28.0,0.0,True
+26,1016,José,Jose,,Arellanes,28.0,2.0,True
+26,1053,José,Jose,,Ruis,28.0,1.0,True
+26,1055,José,Jose,,Baldez,28.0,1.0,True
+26,1121,José,Jose,,Arellanes,28.0,,True
+26,1139,José,Jose,,Ortega,28.0,,True
+26,1152,José,Jose,,Carrillo,28.0,,True
+26,1180,José,Jorge,,Raid,28.0,,True
+26,1221,José,Jose,,Romero,28.0,,True
+26,1274,José,Jose,,Carlon,28.0,,True
+26,1300,José,Jose,,Romero,28.0,1.0,True
+26,1318,José,Jose,,Carrillo,28.0,,True
+26,1347,José,Jose,,Valdes,28.0,,True
+26,1348,José,[Jose],,[Valdes],28.0,,True
+26,1370,José,Jose,,Carlon,28.0,3.0,True
+26,1439,José,Jose,,Carlon,28.0,,True
+26,1443,José,Jose,,Carrillo,28.0,,True
+26,1466,José,Jose,,Olivera,28.0,,True
+26,1504,José,Jorge,,Nideavor [Nidever],28.0,,True
+26,1526,José,Jose,,Romero,28.0,,True
+26,1564,José,Jose,,Carlon,28.0,,True
+26,1680,José,Jose,,Moraga,28.0,,True
+26,1682,José,Jose,,Charman [Chapman],28.0,2.0,True
+26,1686,José,Jose,,Ruiz,28.0,2.0,True
+26,1692,José,Jose,,Rodriguez,28.0,1.0,True
+26,1741,José,Jose,,Bermudes,28.0,1.0,True
+26,1773,José,Jose,,Sotelo,28.0,0.0,True
+26,1780,José,Jose,,Sepulveda,28.0,1.0,True
+26,1786,José,Jose,,Lugo,28.0,2.0,True
+26,1811,José,Jose,,Dominguez,28.0,1.0,True
+26,1909,José,Jose,,Olivera,28.0,1.0,True
+26,1921,José,Jose,,Lugo,28.0,3.0,True
+26,1932,José,Jose,,Romero,28.0,4.0,True
+26,2021,José,Jose,,Ruiz,28.0,2.0,True
+26,2068,José,Jose,,Dominguez,28.0,1.0,True
+26,2241,José,Jorge,,Morillo,28.0,,True
+26,2267,José,Jose,,Sepulveda,28.0,7.0,True
+26,2268,José,Jose,,Perez,28.0,14.0,True
+26,2302,José,Jose,,Sepulveda,28.0,2.0,True
+26,2364,José,Jose,,Sepulveda,28.0,2.0,True
+26,2368,José,Jose,,Sotelo,28.0,3.0,True
+26,2391,José,Jorge,,Rice,28.0,1.0,True
+26,2479,José,Jorge,,Rice,28.0,2.0,True
+26,2511,José,Jose,,Serrano,28.0,1.0,True
+26,2540,José,Jose,,Sotelo,28.0,0.0,True
+26,2563,José,Jorge,,Rice,28.0,1.0,True
+26,2568,José,Jose,,Morales,28.0,0.0,True
+26,2584,José,Jose,,Perez,28.0,,True
+26,2593,José,Jose,,Olivarez,28.0,4.0,True
+26,2649,José,Jose,,Vermudez,28.0,2.0,True
+26,2733,José,Jose,,Sepulveda,28.0,1.0,True
+26,2792,José,Jose,,Vermudez,28.0,,True
+26,2805,José,Jose,,Sepulveda,28.0,,True
+26,2852,José,Jose,,Lopes,28.0,,True
+26,2947,José,Jose,,Serrano,28.0,,True
+26,2977,José,Jose,,Peres,28.0,,True
+26,2986,José,Jose,,Sepulveda,28.0,,True
+26,3047,José,Jose,,Sepulveda,28.0,,True
+26,3104,José,Jose,,Ruiz,28.0,,True
+26,3165,José,Jose,,Sepulveda,28.0,,True
+26,3227,José,Jose,,Sotelo,28.0,2.0,True
+26,3284,José,Jose,,Avila,28.0,3.0,True
+26,3349,José,Jose,,Lopes,28.0,22.0,True
+26,3407,José,Jose,,Ruvio,28.0,14.0,True
+26,3479,José,Jose,,Lopes,28.0,,True
+26,3521,José,Jose,,Ruis,28.0,3.0,True
+26,3537,José,Jose,,Valdez,28.0,6.0,True
+26,3599,José,Jose,,Mascarel,28.0,4.0,True
+26,3670,José,Jose,,Ruvio,28.0,11.0,True
+26,3792,José,Jose,,Lopes,28.0,15.0,True
+26,3828,José,Jose,,Valdes,28.0,8.0,True
+26,3834,José,Jose,,Alvitre,28.0,10.0,True
+26,8614,José,Joseph,,Arguello,28.0,0.0,True
+26,9344,José,Joseph,,Moreno,28.0,,True
+26,9443,José,Joseph,,Villa,28.0,1.0,True
+26,9957,José,Joseph,,Rosalio [Villavicencio],28.0,1.0,True
+26,10375,José,Joseph,,Felix,28.0,0.0,True
+26,10378,José,Joseph,,Villa,28.0,1.0,True
+26,10742,José,Josef,,Feliz,28.0,1.0,True
+26,11385,José,Josef,,Moreno,28.0,0.0,True
+26,11959,José,Jose,,Garcia,28.0,,True
+26,12900,José,Jose,,Romero,28.0,,True
+26,13418,José,Jose,,Cañedo,28.0,1.0,True
+26,13576,José,Cosme,,Olivas,28.0,,True
+26,14349,José,Jose,,Bermudez,28.0,1.0,True
+26,14639,José,Cosme,,Olivas,28.0,1.0,True
+26,14913,José,Jose,,Bermudes de la Cruz,28.0,3.0,True
+26,14928,José,Josef,,Lorans,28.0,23.0,True
+26,14958,José,Jose,,Charman [Chapman],28.0,1.0,True
+26,15148,José,Jose,,Chapman,28.0,1.0,True
+26,15636,José,Jose,,Avila,28.0,2.0,True
+26,15645,José,Jose,,Bermudez,28.0,0.0,True
+26,15828,José,Jose,,Sepulveda,28.0,,True
+26,15926,José,Jose,,Valenzuela,28.0,,True
+26,15932,José,Jose,,Sepulveda,28.0,,True
+26,15941,José,Jorge,,Morillo,28.0,,True
+26,15972,José,Jose,,Sotelo,28.0,1.0,True
+26,16191,José,Jorge,,Morillo,28.0,,True
+26,16193,José,Jose,,Orosco,28.0,,True
+26,16230,José,Jose,,Contreras,28.0,,True
+26,16232,José,Jose,,Ruiz,28.0,,True
+26,16234,José,Jose,,Ruiz,28.0,8.0,True
+26,16319,José,Jose,,Sepulveda,28.0,,True
+26,16393,José,Jose,,Sepulveda,28.0,,True
+26,16430,José,Jose,,Salazar,28.0,,True
+26,16504,José,Jose,,Altamirano,28.0,,True
+26,16650,José,Jose,,Serrano,28.0,,True
+26,16740,José,Jose,,Serrade,28.0,,True
+26,16778,José,Jose,,Silbas,28.0,,True
+26,16785,José,Jose,,Salazar,28.0,4.0,True
+26,21368,José,Jose,,Rosas,28.0,2.0,True
+26,21476,José,Joseph,,Parra,28.0,4.0,True
+26,25687,José,Joseph,,Soveranes,28.0,1.0,True
+26,26077,José,Joseph,,Arguello,28.0,2.0,True
+26,26263,José,Josef,,Cavallero,28.0,,True
+26,26651,José,Josef,,Villavicencio,28.0,,True
+26,26808,José,Josef,,Aguila,28.0,,True
+26,27002,José,Jose,,Castillo,28.0,,True
+26,27060,José,Jose,,Castillo,28.0,0.0,True
+26,27113,José,Jose,,Armenta,28.0,0.0,True
+26,27177,José,Jose,,Peña,28.0,1.0,True
+26,27354,José,Jose,,Malcolomon,28.0,,True
+26,27367,José,Jose,,Castro,28.0,1.0,True
+26,27442,José,Jose,,Farias,28.0,1.0,True
+26,27443,José,Jose,,Farias,28.0,1.0,True
+26,27454,José,Jose,,Castillo,28.0,5.0,True
+26,27478,José,Jose,,Armenta,28.0,9.0,True
+26,27575,José,Jose,,Castillo,28.0,5.0,True
+26,27608,José,Jose,,Farias,28.0,1.0,True
+26,27645,José,Jose,,Farias,28.0,1.0,True
+26,27740,José,José,,Castillo,28.0,1.0,True
+26,27742,José,José,,Armenta,28.0,1.0,True
+26,27757,José,Jorge,,Allen,28.0,,True
+26,27821,José,Josef,,Armenta,28.0,2.0,True
+26,27907,José,Josef,,Armenta,28.0,1.0,True
+26,28063,José,Josef,,Manjares,28.0,5.0,True
+26,28083,José,Josef,,Castillo,28.0,2.0,True
+26,28216,José,Josef,,Manjares,28.0,2.0,True
+26,28345,José,José,,Castro,28.0,2.0,True
+26,28448,José,Jose,,Lugo,28.0,3.0,True
+26,28599,José,Jose,,Avrego,28.0,2.0,True
+26,28654,José,Jose,,Buwles [Bowls],28.0,21.0,True
+26,28686,José,Jose,,Abrego,28.0,11.0,True
+26,28784,José,Jose,,Abrego,28.0,12.0,True
+26,28789,José,José,,Abrego,28.0,1.0,True
+26,28838,José,Jose,,Albiso,28.0,6.0,True
+26,28875,José,Jose,,Abrego,28.0,35.0,True
+26,28961,José,Jorge,,Kinlok [Kenlock],28.0,12.0,True
+26,29054,José,Jose,,Abrego,28.0,4.0,True
+26,29059,José,Jose,,Castiyo,28.0,5.0,True
+26,29088,José,José,,Castro,28.0,2.0,True
+26,29093,José,José,,Mateus [Mathus],28.0,1.0,True
+26,29167,José,José,,Castro,28.0,15.0,True
+26,29247,José,José,,Lugo,28.0,1.0,True
+26,29264,José,Jose,,Abrego,28.0,3.0,True
+26,29282,José,Jose,,Madariaga,28.0,1.0,True
+26,29338,José,Jose,,Rodriguez,28.0,6.0,True
+26,29376,José,José,,Abrego,28.0,10.0,True
+26,29381,José,Gorge,,Hobson,28.0,2.0,True
+26,29391,José,Jose,,Arriaga,28.0,27.0,True
+26,30875,José,Joseph,,Olivares,28.0,2.0,True
+26,31073,José,Jose,,Felix,28.0,1.0,True
+26,32576,José,Josef,,Servin,28.0,2.0,True
+26,32585,José,Josef,,Monrroy,28.0,1.0,True
+26,32625,José,Josef,,Velis,28.0,0.0,True
+26,32628,José,Josef,,Caballera,28.0,3.0,True
+26,32948,José,Jose,,Gorgora,28.0,,True
+26,33437,José,Jose,,Lopez,28.0,,True
+26,33456,José,Jose,,Cañedo,28.0,2.0,True
+26,33497,José,Jose,,Noriega,28.0,0.0,True
+26,33588,José,Jose,,Lopez,28.0,,True
+26,33908,José,Jose,,Lopez,28.0,2.0,True
+26,34638,José,Jose,,Olibas,28.0,0.0,True
+26,34700,José,Jose,,Albarez,28.0,0.0,True
+26,34741,José,Jose,,Albarez,28.0,0.0,True
+26,34949,José,Jose,,Lopez,28.0,1.0,True
+26,35406,José,Jorje,,Blecle,28.0,8.0,True
+26,35417,José,Cosme,,Oliva,28.0,1.0,True
+26,35488,José,Jose,,Lopez,28.0,,True
+26,35856,José,Josef,,Lopez,28.0,1.0,True
+26,35948,José,Josef,,Morales,28.0,1.0,True
+26,35950,José,Josef,,Alipa[s],28.0,0.0,True
+26,35986,José,Josef,,Lopez,28.0,3.0,True
+26,35987,José,Jose,,Lopez,28.0,,True
+26,36015,José,Jose,,Alipaz,28.0,2.0,True
+26,36063,José,Josef,,Lopez,28.0,,True
+26,36081,José,Jose,,Alipaz,28.0,1.0,True
+26,36438,José,Jose,,Lisalde,28.0,0.0,True
+26,36461,José,Jose,,Alipaz,28.0,1.0,True
+26,37080,José,Joseph,,de Zuñiga,28.0,,True
+26,40873,José,Jose,,Cañedo,28.0,,True
+26,41201,José,Jose,,Simeano [Jurado],28.0,0.0,True
+26,41339,José,Jose,,Lisalde,28.0,3.0,True
+26,44957,José,Jose,,Rodriguez,28.0,8.0,True
+26,45011,José,Jose,,Rodriguez,28.0,,True
+26,45041,José,Jose,,Romero,28.0,,True
+26,45066,José,Jose,,Rodriguez,28.0,,True
+26,45069,José,Jose,,Carlon,28.0,1.0,True
+26,45092,José,Jose,,Carlon,28.0,,True
+26,45162,José,Jose,,Rodrigues,28.0,,True
+26,45228,José,Jose,,Carranza,28.0,,True
+26,45230,José,Jose,,Olivera,28.0,,True
+26,45279,José,Jose,,German,28.0,,True
+26,45360,José,Jose,,Guilnaco,28.0,,True
+26,46447,José,Jose,,Arellano,28.0,1.0,True
+26,46857,José,Jose,,Olivera,28.0,,True
+26,46885,José,Jose,,Olivera,28.0,8.0,True
+26,46963,José,José,,Ortega,28.0,,True
+26,50996,José,José,,Ruiz,28.0,,True
+26,52443,José,Jose,,Romero,28.0,2.0,True
+26,53603,José,Josef,,Castro,28.0,,True
+26,54954,José,Jose,,Castro,28.0,1.0,True
+26,55662,José,Joseph,,Davila,28.0,3.0,True
+26,59477,José,Jose,,Castro,28.0,,True
+26,59551,José,Jose,,Castro,28.0,1.0,True
+26,59669,José,Jose,,Rosas,28.0,,True
+26,59860,José,Jose,,Castro,28.0,2.0,True
+26,60253,José,Jose,,Cruz,28.0,,True
+26,60340,José,Jose,,Castro,28.0,,True
+26,61206,José,Jose,,Castro,28.0,6.0,True
+26,61700,José,Jose,,Rodriguez,28.0,2.0,True
+26,61704,José,Jose,,Arellanes,28.0,7.0,True
+26,61716,José,[Jose],,de la Rosa,28.0,,True
+26,62448,José,Jose,,Rodriguez,28.0,21.0,True
+26,62536,José,Jose,,Alvares,28.0,1.0,True
+26,62575,José,Jose,,Basques,28.0,,True
+26,62606,José,Jose,,Rodriguez,28.0,2.0,True
+26,62872,José,Jose,,Sanches,28.0,,True
+26,62970,José,Jose,,Basques,28.0,22.0,True
+26,62973,José,Jose,,Yguera,28.0,27.0,True
+26,62988,José,Jose,,Zurita,28.0,2.0,True
+26,63574,José,Jose,,Basques,28.0,24.0,True
+26,63580,José,Jose,,Yguera,28.0,1.0,True
+26,63608,José,Jose,,German,28.0,,True
+26,63832,José,Jose,,Aguila,28.0,8.0,True
+26,64221,José,Jose,,Larios,28.0,1.0,True
+26,65282,José,Jose,,Higuera,28.0,1.0,True
+26,71438,José,Jose,,Arellanes,28.0,,True
+26,72651,José,Jose,,Higuera,28.0,3.0,True
+26,74403,José,Jose,,Bolcof[f],28.0,3.0,True
+26,74437,José,Jose,,Ar[a]na,28.0,7.0,True
+26,74483,José,Jose,,Romero,28.0,,True
+26,74524,José,Jose,,Bolcoff,28.0,,True
+26,74605,José,Jose,,Melicis [Mellish],28.0,0.0,True
+26,74901,José,Jose,,Farias,28.0,2.0,True
+26,75999,José,Jose,,Lorensano,28.0,5.0,True
+26,76538,José,Jose,,Bolcoff,28.0,1.0,True
+26,77961,José,Jorge,,Cha[p]il,28.0,1.0,True
+26,77968,José,José,,Melis [Mellish],28.0,,True
+26,77998,José,Jose,,Lorenzana,28.0,,True
+26,78000,José,José,,Melis [Mellish],28.0,1.0,True
+26,78012,José,Jorge,,Yoche,28.0,2.0,True
+26,78031,José,Jose,,Melis [Mellish],28.0,1.0,True
+26,78063,José,Jose,,Mechas [Mellish],28.0,1.0,True
+26,78068,José,Jose,,Rodrigues,28.0,,True
+26,78070,José,Jose,,Soria,28.0,,True
+26,78111,José,José,,Rodriguez,28.0,1.0,True
+26,78894,José,Jose,,Yguera,28.0,1.0,True
+26,79744,José,Jose,,Bernal,28.0,1.0,True
+26,80176,José,Jose,,Ciprian,28.0,1.0,True
+26,80215,José,Jose,,Archuleta,28.0,1.0,True
+26,80764,José,Jose,,Romero,28.0,3.0,True
+26,80842,José,Jose,,Ciprian,28.0,2.0,True
+26,81164,José,Jose,,Archuleta,28.0,2.0,True
+26,81240,José,Jose,,Garcia,28.0,,True
+26,81429,José,J[o]se,,Ciprian,28.0,2.0,True
+26,81618,José,Jose,,Ciprian,28.0,2.0,True
+26,82134,José,Jose,,Ciprian,28.0,2.0,True
+26,82166,José,Jose,,Romero,28.0,1.0,True
+26,82230,José,Jorge,,Smith,28.0,0.0,True
+26,82458,José,Jose,,Higuera,28.0,2.0,True
+26,82632,José,Jose,,Archuleta,28.0,2.0,True
+26,82860,José,Jose,,Archuleta,28.0,1.0,True
+26,82866,José,José,,Smith,28.0,4.0,True
+26,82956,José,José,,Garcia,28.0,,True
+26,82958,José,Jose,,Snook,28.0,37.0,True
+26,83197,José,Jose,,Romero,28.0,2.0,True
+26,83268,José,Jose,,Higuera,28.0,1.0,True
+26,83366,José,Josè,,Bernal,28.0,5.0,True
+26,83414,José,José,,Hernandes,28.0,11.0,True
+26,83702,José,Jose,,Martines,28.0,,True
+26,83796,José,Jose,,Duarte,28.0,0.0,True
+26,84700,José,José,,Hernandez,28.0,3.0,True
+26,84763,José,José,,Duarte,28.0,,True
+26,84789,José,Jose,,Romero,28.0,,True
+26,84867,José,Jose,,Noriega,28.0,,True
+26,84971,José,Jose,,Hernandez,28.0,,True
+26,85002,José,Jose,,Rodriguez,28.0,,True
+26,85014,José,Jose,,Galindo,28.0,0.0,True
+26,85031,José,Jose,,Soto,28.0,0.0,True
+26,85147,José,Jose,,Noriega,28.0,6.0,True
+26,85207,José,Jose,,Sepulveda,28.0,,True
+26,85282,José,Jose,,Duarte,28.0,0.0,True
+26,85310,José,Jose,,Romero,28.0,1.0,True
+26,85378,José,J[ose],,Bernal,28.0,,True
+26,85441,José,Jose,,S[uñol],28.0,,True
+26,85530,José,Jose,,Galindo,28.0,0.0,True
+26,85554,José,Jose,,Romero,28.0,,True
+26,85599,José,Jose,,Soto,28.0,,True
+26,85609,José,Jose,,Hernandes,28.0,2.0,True
+26,85630,José,Jose,,Moraga,28.0,,True
+26,85731,José,Jose,,Galindo,28.0,3.0,True
+26,85771,José,Jose,,Martinez,28.0,,True
+26,85852,José,Jose,,Sepulveda,28.0,2.0,True
+26,85904,José,Jose,,Cordero,28.0,,True
+26,85932,José,Jose,,Martines,28.0,,True
+26,86011,José,Jose,,Soto,28.0,1.0,True
+26,86026,José,Jose,,Hernandez,28.0,40.0,True
+26,86155,José,Jose,,Romero,28.0,26.0,True
+26,86266,José,Jose,,de la Rosa,28.0,0.0,True
+26,89245,José,Joseph,,Arguello,28.0,1.0,True
+26,89420,José,Jose,,Ramos,28.0,5.0,True
+26,89534,José,Jorge,,Roverts,28.0,0.0,True
+26,90937,José,Jose,,Aguila,28.0,3.0,True
+26,91944,José,Jose,,Palomares,28.0,4.0,True
+26,92150,José,José,,Roca,28.0,1.0,True
+26,92292,José,Jose,,Arguello,28.0,1.0,True
+26,92506,José,Cosme,,Vanegas,28.0,,True
+26,93771,José,Jose,,Duarte,28.0,2.0,True
+26,96156,José,Jose,,Dominguez,28.0,,True
+26,96778,José,Jose,,Sanchez,28.0,,True
+26,99386,José,Josef,,Cibrian,28.0,1.0,True
+26,101834,José,Jose,,Duarte,28.0,2.0,True
+26,104270,José,José,,Cristiano,28.0,0.0,True
+29,18,Alejandro,Alexandro,,de Sotomayor,19.0,9.0,True
+29,791,Alejandro,Leandro,,Gonzales,19.0,,True
+29,808,Alejandro,Leandro,,Gonzalez,19.0,0.0,True
+29,870,Alejandro,Leandro,,Gonzalez,19.0,0.0,True
+29,1077,Alejandro,Leandro,,Gonzalez,19.0,,True
+29,1108,Alejandro,Alejandro,,Tonson [Thompson],19.0,32.0,True
+29,1150,Alejandro,Leandro,,Serrano,19.0,1.0,True
+29,1172,Alejandro,Leandro,,Gonsalez,19.0,,True
+29,1267,Alejandro,Leandro,,Gonzales,19.0,,True
+29,2384,Alejandro,Alejandro,,Lequens,19.0,25.0,True
+29,8555,Alejandro,Alexandro,,Rosas,19.0,2.0,True
+29,13416,Alejandro,Leandro,,Duarte,19.0,2.0,True
+29,21595,Alejandro,Alexandro,,de Soto Mayor,19.0,1.0,True
+29,27406,Alejandro,Alexandro,,Rodriguez,19.0,3.0,True
+29,27494,Alejandro,Alexandro,,Rodriguez,19.0,1.0,True
+29,27637,Alejandro,Alejandro,,Rodriguez,19.0,2.0,True
+29,27808,Alejandro,Alejan[d]ro,,Litelion [Littlejohn],19.0,29.0,True
+29,27947,Alejandro,Alejandro,,Rodriguez,19.0,,True
+29,28072,Alejandro,Alexandro,,Rodriguez,19.0,1.0,True
+29,28129,Alejandro,Alejandro,,Rodrigez,19.0,0.0,True
+29,28130,Alejandro,Alejandro,,Rodrigez,19.0,0.0,True
+29,28908,Alejandro,Alexandro,,Anderzon,19.0,,True
+29,31084,Alejandro,Leandro,,Duarte,19.0,0.0,True
+29,32273,Alejandro,Leandro,,Duarte,19.0,1.0,True
+29,33143,Alejandro,Leandro,,Serrano,19.0,3.0,True
+29,33446,Alejandro,Leandro,,Serrano,19.0,,True
+29,33614,Alejandro,Leandro,,Serrano,19.0,2.0,True
+29,35634,Alejandro,Alexandro,,Farias,19.0,,True
+29,39258,Alejandro,Leandro,,Duarte,19.0,,True
+29,67413,Alejandro,Leandro,,Galindo,19.0,,True
+29,74900,Alejandro,Leandro,,Galindo,19.0,3.0,True
+29,81619,Alejandro,Leandro,,Rochin,19.0,2.0,True
+29,82188,Alejandro,Leandro,,Galindo,19.0,1.0,True
+29,82258,Alejandro,Leandro,,Rochin,19.0,2.0,True
+29,82556,Alejandro,Leandro,,Flores,19.0,1.0,True
+29,82980,Alejandro,Leandro,,Rochin,19.0,2.0,True
+29,83126,Alejandro,Leandro,,Rochin,19.0,3.0,True
+29,84813,Alejandro,Leandro,,Rochin,19.0,1.0,True
+29,85179,Alejandro,Leandro,,Rochin,19.0,,True
+29,85399,Alejandro,Alexandro,,Cruz,19.0,,True
+29,85645,Alejandro,Leandro,,Rochin,19.0,13.0,True
+29,101655,Alejandro,Leandro,,Galindo,19.0,0.0,True
+29,101714,Alejandro,Leandro,,Galindo,19.0,15.0,True
+29,101770,Alejandro,Leandro,,Galindo,19.0,,True
+31,344,Pablo,Pablo,,Olivas,25.0,0.0,True
+31,391,Pablo,Pablo,,Olivas,25.0,1.0,True
+31,868,Pablo,Pablo,,Vazquez,25.0,0.0,True
+31,931,Pablo,Pablo,,Vanegas,25.0,1.0,True
+31,1378,Pablo,Pablo,,Basquez,25.0,,True
+31,1423,Pablo,Pablo,,Banegas,25.0,,True
+31,1451,Pablo,Pablo,,Valencia,25.0,,True
+31,1473,Pablo,Pablo,,Vasquez,25.0,,True
+31,1706,Pablo,Pablo,,Vasques,25.0,4.0,True
+31,2595,Pablo,Pablo,,Vejar,25.0,0.0,True
+31,9520,Pablo,Pablo,,Rodriguez,25.0,,True
+31,9987,Pablo,Pablo,,Rodriguez,25.0,,True
+31,10136,Pablo,Pablo,,Rodriguez,25.0,,True
+31,10430,Pablo,Pablo,,Rodriguez,25.0,,True
+31,13400,Pablo,Pablo,,Franco,25.0,1.0,True
+31,14347,Pablo,Pablo,,Franco,25.0,1.0,True
+31,28007,Pablo,Pablo,,Bejar,25.0,0.0,True
+31,28075,Pablo,Pablo,,Bejar,25.0,0.0,True
+31,29058,Pablo,Pablo,,Salazar,25.0,,True
+31,32894,Pablo,Pablo,,de la Osa Creo,25.0,,True
+31,35778,Pablo,Pablo,,Rodriguez,25.0,,True
+31,52357,Pablo,Pablo,,Benegas,25.0,1.0,True
+31,52382,Pablo,Pablo,,Veneges,25.0,7.0,True
+31,52451,Pablo,Pablo,,Banegas,25.0,20.0,True
+31,52601,Pablo,Pablo,,Venegas,25.0,,True
+31,63588,Pablo,Pablo,,Zurita,25.0,12.0,True
+31,85504,Pablo,Paulo,,Salazar,25.0,,True
+31,95604,Pablo,Pablo,,Talamantes,25.0,2.0,True
+31,98824,Pablo,Pablo,,Pacheco,25.0,1.0,True
+31,101582,Pablo,Pablo,,Pacheco,25.0,0.0,True
+34,17,Manuel,Manuel,,Horchaga [Machado],30.0,6.0,True
+34,38,Manuel,Miguel,,Flores,30.0,9.0,True
+34,96,Manuel,Miguel,,Flores,30.0,,True
+34,155,Manuel,Miguel,,Pico,30.0,,True
+34,188,Manuel,Manuel,,Valenzuela,30.0,0.0,True
+34,229,Manuel,Manuel,,Cota,30.0,0.0,True
+34,250,Manuel,Miguel,,Lugo,30.0,1.0,True
+34,269,Manuel,Manuel,,Cota,30.0,1.0,True
+34,308,Manuel,Miguel,,Pico,30.0,0.0,True
+34,339,Manuel,Miguel,,Pico,30.0,2.0,True
+34,435,Manuel,Manuel,,Cota,30.0,,True
+34,439,Manuel,Miguel,,Cordero,30.0,,True
+34,464,Manuel,Manuel,,German,30.0,1.0,True
+34,498,Manuel,Miguel,,Lugo,30.0,1.0,True
+34,519,Manuel,Manuel,,German,30.0,,True
+34,520,Manuel,Miguel,,Pico,30.0,2.0,True
+34,592,Manuel,Miguel,,Lugo,30.0,,True
+34,655,Manuel,Miguel,,Lugo,30.0,,True
+34,661,Manuel,Miguel,,Cordero,30.0,,True
+34,746,Manuel,Manuel,,Cota,30.0,,True
+34,762,Manuel,Miguel,,Cordero,30.0,,True
+34,765,Manuel,Miguel,,Lugo,30.0,,True
+34,923,Manuel,Miguel,,Cordero,30.0,1.0,True
+34,938,Manuel,Manuel,,Cota,30.0,2.0,True
+34,998,Manuel,Miguel,,Cordero,30.0,,True
+34,1003,Manuel,Manuel,,Cota,30.0,,True
+34,1026,Manuel,Daniel,,Hill,30.0,,True
+34,1094,Manuel,Miguel,,Cordero,30.0,1.0,True
+34,1123,Manuel,Daniel,,Hil [Hill],30.0,,True
+34,1131,Manuel,Daniel,,Col [Call],30.0,1.0,True
+34,1133,Manuel,Miguel,,Valencia,30.0,,True
+34,1151,Manuel,Manuel,,Cota,30.0,,True
+34,1202,Manuel,Manuel,,Ortega,30.0,,True
+34,1223,Manuel,Manuel,,Cota,30.0,2.0,True
+34,1238,Manuel,Manuel,,Ponce de Leon,30.0,2.0,True
+34,1246,Manuel,Daniel,,Gil [Hill],30.0,,True
+34,1292,Manuel,Miguel,,Cordero,30.0,3.0,True
+34,1326,Manuel,Manuel,,Cantua,30.0,4.0,True
+34,1365,Manuel,Manuel,,Jimeno,30.0,1.0,True
+34,1373,Manuel,Daniel,,Hill,30.0,,True
+34,1388,Manuel,Manuel,,Ortega,30.0,1.0,True
+34,1447,Manuel,Manuel,,Cota,30.0,,True
+34,1499,Manuel,Manuel,,Cota,30.0,,True
+34,1522,Manuel,Miguel,,Cota,30.0,2.0,True
+34,1599,Manuel,Manuel,,Marques,30.0,1.0,True
+34,1665,Manuel,Manuel,,Anguisola,30.0,6.0,True
+34,1672,Manuel,Manuel,,Ponce de Leon,30.0,1.0,True
+34,1784,Manuel,Daniel,,Hill,30.0,,True
+34,1842,Manuel,Manuel,,Ponce,30.0,1.0,True
+34,1849,Manuel,Manuel,,Ortega,30.0,6.0,True
+34,1880,Manuel,Miguel,,Cota,30.0,4.0,True
+34,1950,Manuel,Manuel,,Ponce de Leon,30.0,2.0,True
+34,2017,Manuel,Miguel,,Cota,30.0,,True
+34,2236,Manuel,Miguel,,Blanco,30.0,2.0,True
+34,2250,Manuel,Manuel,,Valenzuela,30.0,2.0,True
+34,2285,Manuel,Manuel,,Arzaga,30.0,,True
+34,2357,Manuel,Manuel,,German,30.0,1.0,True
+34,2365,Manuel,Manuel,,Duarte,30.0,1.0,True
+34,2460,Manuel,Manuel,,[D]olivera,30.0,1.0,True
+34,2623,Manuel,Samuel,,Huittle,30.0,40.0,True
+34,2653,Manuel,Manuel,,Olivera,30.0,,True
+34,2728,Manuel,Manuel,,German,30.0,,True
+34,2729,Manuel,Miguel,,Pryor,30.0,,True
+34,2738,Manuel,Manuel,,Ranguel,30.0,1.0,True
+34,2865,Manuel,Manuel,,Romero,30.0,5.0,True
+34,2913,Manuel,Manuel,,German,30.0,,True
+34,2931,Manuel,Manuel,,Duarte,30.0,,True
+34,3003,Manuel,Manuel,,Dominguez,30.0,,True
+34,3190,Manuel,Miguel,,Blanco,30.0,,True
+34,3377,Manuel,Miguel,,Balencia,30.0,,True
+34,3528,Manuel,Manuel,,Felis,30.0,,True
+34,3654,Manuel,Manuel,,Sepulveda,30.0,6.0,True
+34,3692,Manuel,Manuel,,Valencia,30.0,24.0,True
+34,3756,Manuel,Samuel,,Carpinter [Carpenter],30.0,0.0,True
+34,3856,Manuel,Miguel,,Praya [Pryor],30.0,15.0,True
+34,8560,Manuel,Manuel,,Orchaga [Machado],30.0,2.0,True
+34,9138,Manuel,Manuel,,Perez Nieto,30.0,0.0,True
+34,10066,Manuel,Manuel,,Arellano,30.0,2.0,True
+34,10535,Manuel,Manuel,,Perez,30.0,1.0,True
+34,10968,Manuel,Manuel,,Balenzuela,30.0,2.0,True
+34,11394,Manuel,Manuel,,Valenzuela,30.0,,True
+34,11478,Manuel,Manuel,,Figueroa,30.0,2.0,True
+34,11916,Manuel,Manuel,,Balenzuela,30.0,,True
+34,12086,Manuel,Miguel,,Sainz,30.0,,True
+34,12335,Manuel,Manuel,,Bustamante,30.0,1.0,True
+34,12792,Manuel,Manuel,,Valenzuela,30.0,1.0,True
+34,12970,Manuel,Manuel,,Machado,30.0,,True
+34,13457,Manuel,Manuel,,Bustamante,30.0,2.0,True
+34,14060,Manuel,Miguel,,Saiz,30.0,0.0,True
+34,14618,Manuel,Manuel,,Duarte,30.0,1.0,True
+34,14898,Manuel,Miguel,,Cordero,30.0,1.0,True
+34,14922,Manuel,Daniel,,[Call],30.0,0.0,True
+34,15576,Manuel,Manuel,,German,30.0,,True
+34,15633,Manuel,Manuel,,Duarte,30.0,1.0,True
+34,15818,Manuel,Angel,,Poyorena,30.0,,True
+34,15820,Manuel,Miguel,,Valenzuela,30.0,,True
+34,15835,Manuel,Manuel,,Romero,30.0,,True
+34,16044,Manuel,Angel,,Poyorena,30.0,,True
+34,16144,Manuel,Manuel,,Arraga,30.0,12.0,True
+34,16175,Manuel,Manuel,,Eduarte,30.0,8.0,True
+34,16189,Manuel,Manuel,,Eduarte,30.0,,True
+34,16269,Manuel,Manuel,,Ranguel,30.0,,True
+34,16332,Manuel,Miguel,,Valenzuela,30.0,,True
+34,16378,Manuel,Manuel,,Romero,30.0,,True
+34,16454,Manuel,Manuel,,Romero,30.0,,True
+34,16571,Manuel,Manuel,,Castillo,30.0,,True
+34,16615,Manuel,Manuel,,Leyba,30.0,,True
+34,16643,Manuel,Miguel,,Blanco,30.0,7.0,True
+34,16744,Manuel,Manuel,,Gradias,30.0,,True
+34,16810,Manuel,Manuel,,Eduarte,30.0,0.0,True
+34,21310,Manuel,Manuel,,Lopez,30.0,,True
+34,24779,Manuel,Manuel,,Butron,30.0,1.0,True
+34,24925,Manuel,Manuel,,Butron,30.0,1.0,True
+34,25736,Manuel,Manuel,,Rodriguez,30.0,1.0,True
+34,25808,Manuel,Manuel,,Mendoza,30.0,0.0,True
+34,26096,Manuel,Manuel,,Bargas,30.0,,True
+34,26194,Manuel,Manuel,,Mendoza,30.0,,True
+34,26693,Manuel,Miguel,,Archuleta,30.0,2.0,True
+34,26712,Manuel,Manuel,,Mallén,30.0,1.0,True
+34,26810,Manuel,Manuel,,Mallen,30.0,,True
+34,26901,Manuel,Miguel,,Rochin,30.0,,True
+34,26950,Manuel,Miguel,,Espinosa,30.0,3.0,True
+34,27030,Manuel,Manuel,,Mendoza,30.0,3.0,True
+34,27147,Manuel,Miguel,,Espinosa,30.0,7.0,True
+34,27156,Manuel,Manuel,,Buytron,30.0,2.0,True
+34,27176,Manuel,Miguel,,Rochin,30.0,3.0,True
+34,27359,Manuel,Miguel,,Espinosa,30.0,2.0,True
+34,27412,Manuel,Angel,,Castro,30.0,1.0,True
+34,27941,Manuel,Manuel,,Larios,30.0,3.0,True
+34,28021,Manuel,Miguel,,Rochin,30.0,1.0,True
+34,28147,Manuel,Miguel,,Rochin,30.0,1.0,True
+34,28256,Manuel,Manuel,,Olibas,30.0,7.0,True
+34,28276,Manuel,Manuel,,Boronda,30.0,13.0,True
+34,28310,Manuel,Manuel,,Crespo,30.0,6.0,True
+34,28466,Manuel,Manuel,,Boronda,30.0,10.0,True
+34,28495,Manuel,Manuel,,de Alba,30.0,12.0,True
+34,28511,Manuel,Manuel,,Balenzuela,30.0,3.0,True
+34,28517,Manuel,Miguel,,Castro,30.0,0.0,True
+34,28590,Manuel,Manuel,,Boronda,30.0,2.0,True
+34,28745,Manuel,Manuel,,Dutra,30.0,1.0,True
+34,28797,Manuel,Manuel,,Jimeno Casarin,30.0,8.0,True
+34,28853,Manuel,Miguel,,Castro,30.0,0.0,True
+34,28891,Manuel,Manuel,,Espinoza,30.0,4.0,True
+34,29018,Manuel,Manuel,,Jimeno,30.0,31.0,True
+34,29045,Manuel,Manuel,,Dias,30.0,2.0,True
+34,29234,Manuel,Manuel,,Dutra,30.0,1.0,True
+34,29278,Manuel,Manuel,,Boronda,30.0,1.0,True
+34,31355,Manuel,Manuel,,Figueroa,30.0,,True
+34,32584,Manuel,Manuel,,Perez,30.0,3.0,True
+34,33665,Manuel,Miguel,,Balenzuela,30.0,,True
+34,34072,Manuel,Manuel,,Machado,30.0,1.0,True
+34,35358,Manuel,Manuel,,Machado,30.0,13.0,True
+34,35614,Manuel,Manuel,,Machado,30.0,2.0,True
+34,35791,Manuel,Manuel,,Machado,30.0,1.0,True
+34,35852,Manuel,Manuel,,Machado,30.0,3.0,True
+34,36420,Manuel,Samuel,,Ames,30.0,31.0,True
+34,36579,Manuel,Miguel,,Pedrorena,30.0,7.0,True
+34,40549,Manuel,Miguel,,Alvarez,30.0,6.0,True
+34,41188,Manuel,Miguel,,Verdugo,30.0,2.0,True
+34,41348,Manuel,Manuel,,Manriquez,30.0,,True
+34,41693,Manuel,Miguel,,Espinosa,30.0,3.0,True
+34,41770,Manuel,Manuel,,Rodrigues,30.0,1.0,True
+34,41976,Manuel,Manuel,,Briones,30.0,4.0,True
+34,42945,Manuel,Manuel,,Montero,30.0,1.0,True
+34,43439,Manuel,Manuel,,Mendoza,30.0,1.0,True
+34,44906,Manuel,Miguel,,Abila,30.0,,True
+34,44934,Manuel,Miguel,,Abila,30.0,,True
+34,44973,Manuel,Miguel,,Abila,30.0,8.0,True
+34,45040,Manuel,Miguel,,Abila,30.0,,True
+34,45065,Manuel,Miguel,,Serrano,30.0,,True
+34,45083,Manuel,Samuel,,Moor,30.0,,True
+34,45084,Manuel,Samuel,,Moor,30.0,,True
+34,45085,Manuel,Samuel,,Moor,30.0,,True
+34,45164,Manuel,Miguel,,Trujillo,30.0,,True
+34,45196,Manuel,Miguel,,Serrano,30.0,,True
+34,45198,Manuel,Miguel,,Avila,30.0,,True
+34,46665,Manuel,Daniel,,Goydadm [Goddard],30.0,,True
+34,46817,Manuel,Miguel,,Cordero,30.0,,True
+34,46862,Manuel,Miguel,,Cota,30.0,,True
+34,46919,Manuel,Miguel,,Valencia,30.0,,True
+34,46925,Manuel,Manuel,,Ortega,30.0,,True
+34,48367,Manuel,Miguel,,Rochin,30.0,0.0,True
+34,50472,Manuel,Miguel,,Espinosa,30.0,,True
+34,50958,Manuel,Miguel,,Pico,30.0,,True
+34,51031,Manuel,Miguel,,Pico,30.0,,True
+34,51117,Manuel,Miguel,,Pico,30.0,0.0,True
+34,51142,Manuel,Daniel,,Chapman,30.0,0.0,True
+34,51219,Manuel,Manuel,,Duarte,30.0,,True
+34,52403,Manuel,Manuel,,Cota,30.0,4.0,True
+34,54839,Manuel,Manuel,,Gonzalez,30.0,4.0,True
+34,55452,Manuel,Manuel,,"Amesquita, de",30.0,0.0,True
+34,55771,Manuel,Manuel,,"Arellano, Ramirez de",30.0,8.0,True
+34,56783,Manuel,Manuel,,Higuera,30.0,8.0,True
+34,56825,Manuel,Manuel,,Machado,30.0,0.0,True
+34,56832,Manuel,Manuel,,Amesquita,30.0,3.0,True
+34,56857,Manuel,Manuel,,Vargas,30.0,1.0,True
+34,57698,Manuel,Manuel,,Gonzalez,30.0,0.0,True
+34,58173,Manuel,Manuel,,Higuera,30.0,1.0,True
+34,58350,Manuel,Miguel,,Rochin,30.0,1.0,True
+34,58360,Manuel,Manuel,,Butron,30.0,1.0,True
+34,58418,Manuel,Angel,,Castro,30.0,1.0,True
+34,58721,Manuel,Manuel,,Larios,30.0,2.0,True
+34,59060,Manuel,Manuel,,Amesquita,30.0,1.0,True
+34,59501,Manuel,Manuel,,Larios,30.0,2.0,True
+34,60208,Manuel,Angel,,Castro,30.0,,True
+34,60350,Manuel,Manuel,,Larios,30.0,6.0,True
+34,61231,Manuel,Manuel,,Larios,30.0,2.0,True
+34,61588,Manuel,Manuel,,[B]oronda,30.0,,True
+34,61646,Manuel,Miguel,,Castro,30.0,1.0,True
+34,62491,Manuel,Miguel,,Castro,30.0,9.0,True
+34,62583,Manuel,Manuel,,Espinosa,30.0,16.0,True
+34,62793,Manuel,Manuel,,Larios,30.0,7.0,True
+34,62801,Manuel,Manuel,,Bargas,30.0,15.0,True
+34,62879,Manuel,Manuel,,Larios,30.0,,True
+34,63545,Manuel,Manuel,,Larios,30.0,0.0,True
+34,63950,Manuel,Manuel,,Amezquita,30.0,2.0,True
+34,64534,Manuel,Manuel,,Amesquita,30.0,0.0,True
+34,65254,Manuel,Manuel,,Buytron,30.0,2.0,True
+34,65550,Manuel,Manuel,,Amesquita,30.0,1.0,True
+34,67621,Manuel,Manuel,,Boronda,30.0,2.0,True
+34,68426,Manuel,Miguel,,Pacheco,30.0,4.0,True
+34,68473,Manuel,Manuel,,Buytron,30.0,5.0,True
+34,71593,Manuel,Manuel,,Boronda,30.0,5.0,True
+34,73619,Manuel,Manuel,,Boronda,30.0,2.0,True
+34,74434,Manuel,Miguel,,Villarreal,30.0,1.0,True
+34,74467,Manuel,Miguel,,Locheg,30.0,27.0,True
+34,74545,Manuel,Miguel,,Villagrama,30.0,,True
+34,74882,Manuel,Miguel,,Pacheco,30.0,3.0,True
+34,74891,Manuel,Manuel,,Briones,30.0,2.0,True
+34,75875,Manuel,Miguel,,Pacheco,30.0,2.0,True
+34,76053,Manuel,Manuel,,Briones,30.0,1.0,True
+34,76357,Manuel,Miguel,,Zalazar,30.0,1.0,True
+34,76411,Manuel,Miguel,,Rochin,30.0,2.0,True
+34,76558,Manuel,Miguel,,Villagrana,30.0,4.0,True
+34,76572,Manuel,Manuel,,Rodrigues,30.0,4.0,True
+34,76585,Manuel,Miguel,,Locheg,30.0,11.0,True
+34,77394,Manuel,Miguel,,Salazar,30.0,2.0,True
+34,77959,Manuel,Miguel,,Villagrana,30.0,1.0,True
+34,77994,Manuel,Miguel,,Villagrana,30.0,,True
+34,78003,Manuel,Manuel,,Rodriguez,30.0,1.0,True
+34,78036,Manuel,Miguel,,Villagran[a],30.0,,True
+34,78046,Manuel,Manuel,,Rodrigues,30.0,1.0,True
+34,80346,Manuel,Miguel,,Zalazar,30.0,1.0,True
+34,80731,Manuel,Manuel,,Pinto,30.0,1.0,True
+34,81148,Manuel,Miguel,,Zalazar,30.0,2.0,True
+34,81357,Manuel,Manuel,,Pinto,30.0,2.0,True
+34,81584,Manuel,Miguel,,Zalazar,30.0,2.0,True
+34,81697,Manuel,Manuel,,Albisu,30.0,2.0,True
+34,81745,Manuel,Miguel,,Zalazar,30.0,2.0,True
+34,82144,Manuel,Angel,,Bojorges,30.0,2.0,True
+34,82191,Manuel,Manuel,,Higuera,30.0,2.0,True
+34,82236,Manuel,Miguel,,Messa,30.0,2.0,True
+34,82250,Manuel,Angel,,Bojorges,30.0,2.0,True
+34,82267,Manuel,Miguel,,Salazar,30.0,2.0,True
+34,82276,Manuel,Manuel,,Higuera,30.0,2.0,True
+34,82845,Manuel,Angel,,Bojorgues,30.0,,True
+34,83029,Manuel,Manuel,,Pinto,30.0,3.0,True
+34,83090,Manuel,Miguel,,Venavides,30.0,,True
+34,83288,Manuel,Miguel,,Garcia,30.0,2.0,True
+34,83342,Manuel,Manuel,,Peña,30.0,1.0,True
+34,83409,Manuel,Angel,,Bogorges,30.0,9.0,True
+34,83829,Manuel,Manuel,,Miranda,30.0,35.0,True
+34,84629,Manuel,Manuel,,Pinto,30.0,1.0,True
+34,84653,Manuel,Manuel,,Higuera,30.0,1.0,True
+34,84703,Manuel,Angel,,Gojorques [Bojorges],30.0,2.0,True
+34,84708,Manuel,Manuel,,Pinto,30.0,3.0,True
+34,84760,Manuel,Manuel,,Peña,30.0,,True
+34,84804,Manuel,Manuel,,Higuera,30.0,,True
+34,84814,Manuel,Miguel,,Benavides,30.0,3.0,True
+34,84916,Manuel,Manuel,,Pinto,30.0,1.0,True
+34,84928,Manuel,Miguel,,Mesa,30.0,0.0,True
+34,84935,Manuel,Miguel,,Narvais,30.0,0.0,True
+34,84953,Manuel,Manuel,,Peña,30.0,12.0,True
+34,84980,Manuel,Manuel,,Higuera,30.0,2.0,True
+34,85205,Manuel,Manuel,,Juares,30.0,,True
+34,85288,Manuel,Manuel,,Higuera,30.0,8.0,True
+34,85377,Manuel,Manuel,,Altamirano,30.0,,True
+34,85409,Manuel,Angel,,Alviso,30.0,,True
+34,85446,Manuel,Manuel,,Marante,30.0,1.0,True
+34,85460,Manuel,Manuel,,Higuera,30.0,,True
+34,85484,Manuel,Manuel,,Pinto,30.0,1.0,True
+34,85593,Manuel,Manuel,,Altamirano,30.0,0.0,True
+34,85640,Manuel,Manuel,,Diaz Marante,30.0,12.0,True
+34,85704,Manuel,Manuel,,Miranda,30.0,4.0,True
+34,85797,Manuel,Manuel,,[Marante],30.0,1.0,True
+34,85798,Manuel,Miguel,,Meza,30.0,1.0,True
+34,85800,Manuel,Manuel,,Cantua,30.0,,True
+34,85822,Manuel,Miguel,,Mesa,30.0,1.0,True
+34,85923,Manuel,Manuel,,Valencia,30.0,,True
+34,86016,Manuel,Miguel,,Narvaez,30.0,15.0,True
+34,86083,Manuel,Manuel,,N. [Marante],30.0,3.0,True
+34,90955,Manuel,Manuel,,Boronda,30.0,4.0,True
+34,91538,Manuel,Miguel,,Ortega,30.0,,True
+34,91811,Manuel,Miguel,,Lugo,30.0,,True
+34,93615,Manuel,Manuel,,Cantua,30.0,1.0,True
+34,101587,Manuel,Miguel,,Benavides,30.0,0.0,True
+34,101724,Manuel,Manuel,,Sanches,30.0,,True
+34,101741,Manuel,Miguel,,Mesa,30.0,,True
+34,101810,Manuel,Daniel,,Cyhy,30.0,0.0,True
+36,72,Luís,Luis,,Lugo,55.0,1.0,True
+36,80,Luís,Luis,,Peña,55.0,0.0,True
+36,106,Luís,Luis,,Peña,55.0,,True
+36,258,Luís,Luis,,Peña,55.0,2.0,True
+36,356,Luís,Lucas,,Olivera,55.0,0.0,True
+36,434,Luís,Lucas,,Olivera,55.0,,True
+36,547,Luís,Lucas,,Olivera,55.0,1.0,True
+36,734,Luís,Lucas,,Olivera,55.0,,True
+36,830,Luís,Luis,,Valensuela,55.0,1.0,True
+36,897,Luís,Luis,,Olibas,55.0,1.0,True
+36,1090,Luís,Luis,,Rodriguez,55.0,,True
+36,1092,Luís,Luis,,Olivas,55.0,,True
+36,1187,Luís,Luis,,Rodriguez,55.0,1.0,True
+36,1226,Luís,Luis,,Felis,55.0,,True
+36,1249,Luís,Luis,,Rodriguez,55.0,,True
+36,1251,Luís,Luis,,Oliva,55.0,1.0,True
+36,1354,Luís,Luis,,Arellanes,55.0,,True
+36,1384,Luís,Luis,,Olibas,55.0,,True
+36,1427,Luís,Luis,,Arellanes,55.0,,True
+36,1509,Luís,Luiz,,Oliba,55.0,,True
+36,1622,Luís,Luis,,Olivas,55.0,0.0,True
+36,1688,Luís,Luis,,Olivas,55.0,1.0,True
+36,1823,Luís,Luis,,Arellanes,55.0,2.0,True
+36,1824,Luís,Luis,,Arellanes,55.0,2.0,True
+36,1839,Luís,Luis,,Olivas,55.0,3.0,True
+36,1910,Luís,Luis,,Carrillo,55.0,2.0,True
+36,1982,Luís,Luis,,Olivo,55.0,2.0,True
+36,2026,Luís,Luis,,Burton,55.0,2.0,True
+36,2170,Luís,Luis,,Rosas,55.0,1.0,True
+36,2210,Luís,Luis,,Rosas,55.0,1.0,True
+36,2256,Luís,Luis,,Altamirano,55.0,,True
+36,2284,Luís,Luis,,Valenzuela,55.0,,True
+36,2447,Luís,Luis,,Olivas,55.0,3.0,True
+36,2480,Luís,Luis,,Bauchet,55.0,0.0,True
+36,2687,Luís,Luis,,Bauchet,55.0,1.0,True
+36,2744,Luís,Luis,,Arenas,55.0,,True
+36,2858,Luís,Luis,,Altamirano,55.0,14.0,True
+36,2917,Luís,Luiz,,Altamirano,55.0,,True
+36,3233,Luís,Luis,,Valenzuela,55.0,2.0,True
+36,3723,Luís,Luis,,Villavicencio,55.0,3.0,True
+36,10623,Luís,Luis,,Lugo,55.0,1.0,True
+36,11625,Luís,Lucas,,Oliveras,55.0,,True
+36,13386,Luís,Luis,,Manrriquez,55.0,,True
+36,13450,Luís,Lucas,,Olivera,55.0,,True
+36,16129,Luís,Luis,,Valenzuela,55.0,,True
+36,16539,Luís,Luis,,Villa,55.0,,True
+36,16619,Luís,Luis,,Espinosa,55.0,,True
+36,16699,Luís,Luis,,Villa,55.0,,True
+36,26739,Luís,Lucas,,Altamirano,55.0,0.0,True
+36,26997,Luís,Lucas,,Altamirano,55.0,,True
+36,27155,Luís,Lucas,,Altamirano,55.0,1.0,True
+36,27585,Luís,Luis,,Meza,55.0,1.0,True
+36,28203,Luís,Luis,,Pomber [Plummer],55.0,2.0,True
+36,28927,Luís,Luiz,,Pumber [Plummer],55.0,1.0,True
+36,29055,Luís,Luiz,,Ponber [Plummer],55.0,,True
+36,32512,Luís,Luis,,Manrrique,55.0,3.0,True
+36,41271,Luís,Luis,,Espinosa,55.0,,True
+36,44608,Luís,Lucas,,Palomares,55.0,,True
+36,45188,Luís,Luis,,Baggio,55.0,,True
+36,45218,Luís,Luis,,Piallo,55.0,,True
+36,45335,Luís,Luis,,Lipdon,55.0,,True
+36,53492,Luís,Lucas,,Altamirano,55.0,1.0,True
+36,54936,Luís,Lucas,,Altamirano,55.0,0.0,True
+36,54990,Luís,Lucas,,Altamirano,55.0,,True
+36,61658,Luís,Luis,,Arellanes,55.0,,True
+36,62464,Luís,Luis,,Arellanes,55.0,5.0,True
+36,62554,Luís,Luis,,Arellanes,55.0,12.0,True
+36,63570,Luís,Luis,,Morales,55.0,1.0,True
+36,63601,Luís,Luis,,Arellanes,55.0,10.0,True
+36,72646,Luís,Luis,,Peralta,55.0,1.0,True
+36,73821,Luís,Luis,,Peralta,55.0,1.0,True
+36,74244,Luís,Luis,,Peralta,55.0,1.0,True
+36,75393,Luís,Luz,,Garcia,55.0,1.0,True
+36,76352,Luís,Lucas,,Altamirano,55.0,1.0,True
+36,79953,Luís,Luis,,Rondo,55.0,4.0,True
+36,81451,Luís,Luis,,Altamirano,55.0,3.0,True
+36,81758,Luís,Luis,,Altamirano,55.0,2.0,True
+36,82294,Luís,Luiz,,Altamirano,55.0,3.0,True
+36,86139,Luís,Luis,,Felis,55.0,5.0,True
+36,90668,Luís,Luis,,Peralta,55.0,1.0,True
+36,93201,Luís,Luis,,Peralta,55.0,1.0,True
+36,94675,Luís,Luis,,Peralta,55.0,2.0,True
+36,94728,Luís,Luis,,Arguello,55.0,0.0,True
+36,95545,Luís,Luis,,Arguello,55.0,0.0,True
+36,95864,Luís,Luz,,Acosta,55.0,,True
+43,36,José,Joseph,,Villa,22.0,1.0,True
+43,66,José,Joseph,,Ayala,22.0,4.0,True
+43,84,José,Joseph,,Ayala,22.0,5.0,True
+43,110,José,Jose,,Ayala,22.0,1.0,True
+43,145,José,Jose,,Ayala,22.0,1.0,True
+43,174,José,Jose,,Bermudes,22.0,1.0,True
+43,181,José,Josef,,Aiala,22.0,1.0,True
+43,195,José,Jose,,Bermudes,22.0,1.0,True
+43,222,José,Josef,,Ruiz,22.0,,True
+43,244,José,Cosme,,Vanegas,22.0,1.0,True
+43,264,José,Joseph,,Ayala,22.0,1.0,True
+43,295,José,Josef,,Zurita,22.0,1.0,True
+43,329,José,Jose,,Ayala,22.0,,True
+43,335,José,Jose,,Bermudez,22.0,,True
+43,349,José,Cosme,,Vanegas,22.0,0.0,True
+43,396,José,Jose,,Ruiz,22.0,0.0,True
+43,428,José,Jose,,Dominguez,22.0,,True
+43,442,José,Jose,,Ortega,22.0,1.0,True
+43,458,José,Jose,,Ayala,22.0,1.0,True
+43,496,José,Joseph,,Arellanes,22.0,1.0,True
+43,501,José,Jose,,Zurita,22.0,0.0,True
+43,540,José,Jose,,Ruiz,22.0,0.0,True
+43,544,José,Jose,,Zurita,22.0,,True
+43,552,José,Jose,,de la Guerra y Noriega,22.0,0.0,True
+43,615,José,Jose,,Arellanes,22.0,,True
+43,617,José,Jose,,Ruiz,22.0,,True
+43,656,José,José,,Arellanes,22.0,,True
+43,660,José,Jose,,de la Guerra y Noriega,22.0,1.0,True
+43,675,José,Jose,,Ruiz,22.0,1.0,True
+43,687,José,Jose,,de la Guerra y Noriega,22.0,1.0,True
+43,719,José,Job,,Hill,22.0,26.0,True
+43,733,José,Jose,,Ruiz,22.0,,True
+43,740,José,Jose,,de la Guerra y Noriega,22.0,1.0,True
+43,752,José,Jose,,Ortega,22.0,1.0,True
+43,824,José,Jose,,Rodriguez,22.0,1.0,True
+43,834,José,Jose,,Rodriguez,22.0,1.0,True
+43,876,José,Jose,,Moraga,22.0,2.0,True
+43,891,José,Jose,,Arellanes,22.0,1.0,True
+43,904,José,Jose,,Dominguez,22.0,1.0,True
+43,971,José,Jose,,Rodriguez,22.0,0.0,True
+43,1016,José,Jose,,Arellanes,22.0,2.0,True
+43,1053,José,Jose,,Ruis,22.0,1.0,True
+43,1055,José,Jose,,Baldez,22.0,1.0,True
+43,1121,José,Jose,,Arellanes,22.0,,True
+43,1139,José,Jose,,Ortega,22.0,,True
+43,1152,José,Jose,,Carrillo,22.0,,True
+43,1180,José,Jorge,,Raid,22.0,,True
+43,1221,José,Jose,,Romero,22.0,,True
+43,1274,José,Jose,,Carlon,22.0,,True
+43,1300,José,Jose,,Romero,22.0,1.0,True
+43,1318,José,Jose,,Carrillo,22.0,,True
+43,1347,José,Jose,,Valdes,22.0,,True
+43,1348,José,[Jose],,[Valdes],22.0,,True
+43,1370,José,Jose,,Carlon,22.0,3.0,True
+43,1439,José,Jose,,Carlon,22.0,,True
+43,1443,José,Jose,,Carrillo,22.0,,True
+43,1466,José,Jose,,Olivera,22.0,,True
+43,1504,José,Jorge,,Nideavor [Nidever],22.0,,True
+43,1526,José,Jose,,Romero,22.0,,True
+43,1564,José,Jose,,Carlon,22.0,,True
+43,1680,José,Jose,,Moraga,22.0,,True
+43,1682,José,Jose,,Charman [Chapman],22.0,2.0,True
+43,1686,José,Jose,,Ruiz,22.0,2.0,True
+43,1692,José,Jose,,Rodriguez,22.0,1.0,True
+43,1741,José,Jose,,Bermudes,22.0,1.0,True
+43,1773,José,Jose,,Sotelo,22.0,0.0,True
+43,1780,José,Jose,,Sepulveda,22.0,1.0,True
+43,1786,José,Jose,,Lugo,22.0,2.0,True
+43,1811,José,Jose,,Dominguez,22.0,1.0,True
+43,1909,José,Jose,,Olivera,22.0,1.0,True
+43,1921,José,Jose,,Lugo,22.0,3.0,True
+43,1932,José,Jose,,Romero,22.0,4.0,True
+43,2021,José,Jose,,Ruiz,22.0,2.0,True
+43,2068,José,Jose,,Dominguez,22.0,1.0,True
+43,2241,José,Jorge,,Morillo,22.0,,True
+43,2267,José,Jose,,Sepulveda,22.0,7.0,True
+43,2268,José,Jose,,Perez,22.0,14.0,True
+43,2302,José,Jose,,Sepulveda,22.0,2.0,True
+43,2364,José,Jose,,Sepulveda,22.0,2.0,True
+43,2368,José,Jose,,Sotelo,22.0,3.0,True
+43,2391,José,Jorge,,Rice,22.0,1.0,True
+43,2479,José,Jorge,,Rice,22.0,2.0,True
+43,2511,José,Jose,,Serrano,22.0,1.0,True
+43,2540,José,Jose,,Sotelo,22.0,0.0,True
+43,2563,José,Jorge,,Rice,22.0,1.0,True
+43,2568,José,Jose,,Morales,22.0,0.0,True
+43,2584,José,Jose,,Perez,22.0,,True
+43,2593,José,Jose,,Olivarez,22.0,4.0,True
+43,2649,José,Jose,,Vermudez,22.0,2.0,True
+43,2733,José,Jose,,Sepulveda,22.0,1.0,True
+43,2792,José,Jose,,Vermudez,22.0,,True
+43,2805,José,Jose,,Sepulveda,22.0,,True
+43,2852,José,Jose,,Lopes,22.0,,True
+43,2947,José,Jose,,Serrano,22.0,,True
+43,2977,José,Jose,,Peres,22.0,,True
+43,2986,José,Jose,,Sepulveda,22.0,,True
+43,3047,José,Jose,,Sepulveda,22.0,,True
+43,3104,José,Jose,,Ruiz,22.0,,True
+43,3165,José,Jose,,Sepulveda,22.0,,True
+43,3227,José,Jose,,Sotelo,22.0,2.0,True
+43,3284,José,Jose,,Avila,22.0,3.0,True
+43,3349,José,Jose,,Lopes,22.0,22.0,True
+43,3407,José,Jose,,Ruvio,22.0,14.0,True
+43,3479,José,Jose,,Lopes,22.0,,True
+43,3521,José,Jose,,Ruis,22.0,3.0,True
+43,3537,José,Jose,,Valdez,22.0,6.0,True
+43,3599,José,Jose,,Mascarel,22.0,4.0,True
+43,3670,José,Jose,,Ruvio,22.0,11.0,True
+43,3792,José,Jose,,Lopes,22.0,15.0,True
+43,3828,José,Jose,,Valdes,22.0,8.0,True
+43,3834,José,Jose,,Alvitre,22.0,10.0,True
+43,8614,José,Joseph,,Arguello,22.0,0.0,True
+43,9344,José,Joseph,,Moreno,22.0,,True
+43,9443,José,Joseph,,Villa,22.0,1.0,True
+43,9957,José,Joseph,,Rosalio [Villavicencio],22.0,1.0,True
+43,10375,José,Joseph,,Felix,22.0,0.0,True
+43,10378,José,Joseph,,Villa,22.0,1.0,True
+43,10742,José,Josef,,Feliz,22.0,1.0,True
+43,11385,José,Josef,,Moreno,22.0,0.0,True
+43,11959,José,Jose,,Garcia,22.0,,True
+43,12900,José,Jose,,Romero,22.0,,True
+43,13418,José,Jose,,Cañedo,22.0,1.0,True
+43,13576,José,Cosme,,Olivas,22.0,,True
+43,14349,José,Jose,,Bermudez,22.0,1.0,True
+43,14639,José,Cosme,,Olivas,22.0,1.0,True
+43,14913,José,Jose,,Bermudes de la Cruz,22.0,3.0,True
+43,14928,José,Josef,,Lorans,22.0,23.0,True
+43,14958,José,Jose,,Charman [Chapman],22.0,1.0,True
+43,15148,José,Jose,,Chapman,22.0,1.0,True
+43,15636,José,Jose,,Avila,22.0,2.0,True
+43,15645,José,Jose,,Bermudez,22.0,0.0,True
+43,15828,José,Jose,,Sepulveda,22.0,,True
+43,15926,José,Jose,,Valenzuela,22.0,,True
+43,15932,José,Jose,,Sepulveda,22.0,,True
+43,15941,José,Jorge,,Morillo,22.0,,True
+43,15972,José,Jose,,Sotelo,22.0,1.0,True
+43,16191,José,Jorge,,Morillo,22.0,,True
+43,16193,José,Jose,,Orosco,22.0,,True
+43,16230,José,Jose,,Contreras,22.0,,True
+43,16232,José,Jose,,Ruiz,22.0,,True
+43,16234,José,Jose,,Ruiz,22.0,8.0,True
+43,16319,José,Jose,,Sepulveda,22.0,,True
+43,16393,José,Jose,,Sepulveda,22.0,,True
+43,16430,José,Jose,,Salazar,22.0,,True
+43,16504,José,Jose,,Altamirano,22.0,,True
+43,16650,José,Jose,,Serrano,22.0,,True
+43,16740,José,Jose,,Serrade,22.0,,True
+43,16778,José,Jose,,Silbas,22.0,,True
+43,16785,José,Jose,,Salazar,22.0,4.0,True
+43,21368,José,Jose,,Rosas,22.0,2.0,True
+43,21476,José,Joseph,,Parra,22.0,4.0,True
+43,25687,José,Joseph,,Soveranes,22.0,1.0,True
+43,26077,José,Joseph,,Arguello,22.0,2.0,True
+43,26263,José,Josef,,Cavallero,22.0,,True
+43,26651,José,Josef,,Villavicencio,22.0,,True
+43,26808,José,Josef,,Aguila,22.0,,True
+43,27002,José,Jose,,Castillo,22.0,,True
+43,27060,José,Jose,,Castillo,22.0,0.0,True
+43,27113,José,Jose,,Armenta,22.0,0.0,True
+43,27177,José,Jose,,Peña,22.0,1.0,True
+43,27354,José,Jose,,Malcolomon,22.0,,True
+43,27367,José,Jose,,Castro,22.0,1.0,True
+43,27442,José,Jose,,Farias,22.0,1.0,True
+43,27443,José,Jose,,Farias,22.0,1.0,True
+43,27454,José,Jose,,Castillo,22.0,5.0,True
+43,27478,José,Jose,,Armenta,22.0,9.0,True
+43,27575,José,Jose,,Castillo,22.0,5.0,True
+43,27608,José,Jose,,Farias,22.0,1.0,True
+43,27645,José,Jose,,Farias,22.0,1.0,True
+43,27740,José,José,,Castillo,22.0,1.0,True
+43,27742,José,José,,Armenta,22.0,1.0,True
+43,27757,José,Jorge,,Allen,22.0,,True
+43,27821,José,Josef,,Armenta,22.0,2.0,True
+43,27907,José,Josef,,Armenta,22.0,1.0,True
+43,28063,José,Josef,,Manjares,22.0,5.0,True
+43,28083,José,Josef,,Castillo,22.0,2.0,True
+43,28216,José,Josef,,Manjares,22.0,2.0,True
+43,28345,José,José,,Castro,22.0,2.0,True
+43,28448,José,Jose,,Lugo,22.0,3.0,True
+43,28599,José,Jose,,Avrego,22.0,2.0,True
+43,28654,José,Jose,,Buwles [Bowls],22.0,21.0,True
+43,28686,José,Jose,,Abrego,22.0,11.0,True
+43,28784,José,Jose,,Abrego,22.0,12.0,True
+43,28789,José,José,,Abrego,22.0,1.0,True
+43,28838,José,Jose,,Albiso,22.0,6.0,True
+43,28875,José,Jose,,Abrego,22.0,35.0,True
+43,28961,José,Jorge,,Kinlok [Kenlock],22.0,12.0,True
+43,29054,José,Jose,,Abrego,22.0,4.0,True
+43,29059,José,Jose,,Castiyo,22.0,5.0,True
+43,29088,José,José,,Castro,22.0,2.0,True
+43,29093,José,José,,Mateus [Mathus],22.0,1.0,True
+43,29167,José,José,,Castro,22.0,15.0,True
+43,29247,José,José,,Lugo,22.0,1.0,True
+43,29264,José,Jose,,Abrego,22.0,3.0,True
+43,29282,José,Jose,,Madariaga,22.0,1.0,True
+43,29338,José,Jose,,Rodriguez,22.0,6.0,True
+43,29376,José,José,,Abrego,22.0,10.0,True
+43,29381,José,Gorge,,Hobson,22.0,2.0,True
+43,29391,José,Jose,,Arriaga,22.0,27.0,True
+43,30875,José,Joseph,,Olivares,22.0,2.0,True
+43,31073,José,Jose,,Felix,22.0,1.0,True
+43,32576,José,Josef,,Servin,22.0,2.0,True
+43,32585,José,Josef,,Monrroy,22.0,1.0,True
+43,32625,José,Josef,,Velis,22.0,0.0,True
+43,32628,José,Josef,,Caballera,22.0,3.0,True
+43,32948,José,Jose,,Gorgora,22.0,,True
+43,33437,José,Jose,,Lopez,22.0,,True
+43,33456,José,Jose,,Cañedo,22.0,2.0,True
+43,33497,José,Jose,,Noriega,22.0,0.0,True
+43,33588,José,Jose,,Lopez,22.0,,True
+43,33908,José,Jose,,Lopez,22.0,2.0,True
+43,34638,José,Jose,,Olibas,22.0,0.0,True
+43,34700,José,Jose,,Albarez,22.0,0.0,True
+43,34741,José,Jose,,Albarez,22.0,0.0,True
+43,34949,José,Jose,,Lopez,22.0,1.0,True
+43,35406,José,Jorje,,Blecle,22.0,8.0,True
+43,35417,José,Cosme,,Oliva,22.0,1.0,True
+43,35488,José,Jose,,Lopez,22.0,,True
+43,35856,José,Josef,,Lopez,22.0,1.0,True
+43,35948,José,Josef,,Morales,22.0,1.0,True
+43,35950,José,Josef,,Alipa[s],22.0,0.0,True
+43,35986,José,Josef,,Lopez,22.0,3.0,True
+43,35987,José,Jose,,Lopez,22.0,,True
+43,36015,José,Jose,,Alipaz,22.0,2.0,True
+43,36063,José,Josef,,Lopez,22.0,,True
+43,36081,José,Jose,,Alipaz,22.0,1.0,True
+43,36438,José,Jose,,Lisalde,22.0,0.0,True
+43,36461,José,Jose,,Alipaz,22.0,1.0,True
+43,37080,José,Joseph,,de Zuñiga,22.0,,True
+43,40873,José,Jose,,Cañedo,22.0,,True
+43,41201,José,Jose,,Simeano [Jurado],22.0,0.0,True
+43,41339,José,Jose,,Lisalde,22.0,3.0,True
+43,44957,José,Jose,,Rodriguez,22.0,8.0,True
+43,45011,José,Jose,,Rodriguez,22.0,,True
+43,45041,José,Jose,,Romero,22.0,,True
+43,45066,José,Jose,,Rodriguez,22.0,,True
+43,45069,José,Jose,,Carlon,22.0,1.0,True
+43,45092,José,Jose,,Carlon,22.0,,True
+43,45162,José,Jose,,Rodrigues,22.0,,True
+43,45228,José,Jose,,Carranza,22.0,,True
+43,45230,José,Jose,,Olivera,22.0,,True
+43,45279,José,Jose,,German,22.0,,True
+43,45360,José,Jose,,Guilnaco,22.0,,True
+43,46447,José,Jose,,Arellano,22.0,1.0,True
+43,46857,José,Jose,,Olivera,22.0,,True
+43,46885,José,Jose,,Olivera,22.0,8.0,True
+43,46963,José,José,,Ortega,22.0,,True
+43,50996,José,José,,Ruiz,22.0,,True
+43,52443,José,Jose,,Romero,22.0,2.0,True
+43,53603,José,Josef,,Castro,22.0,,True
+43,54954,José,Jose,,Castro,22.0,1.0,True
+43,55662,José,Joseph,,Davila,22.0,3.0,True
+43,59477,José,Jose,,Castro,22.0,,True
+43,59551,José,Jose,,Castro,22.0,1.0,True
+43,59669,José,Jose,,Rosas,22.0,,True
+43,59860,José,Jose,,Castro,22.0,2.0,True
+43,60253,José,Jose,,Cruz,22.0,,True
+43,60340,José,Jose,,Castro,22.0,,True
+43,61206,José,Jose,,Castro,22.0,6.0,True
+43,61700,José,Jose,,Rodriguez,22.0,2.0,True
+43,61704,José,Jose,,Arellanes,22.0,7.0,True
+43,61716,José,[Jose],,de la Rosa,22.0,,True
+43,62448,José,Jose,,Rodriguez,22.0,21.0,True
+43,62536,José,Jose,,Alvares,22.0,1.0,True
+43,62575,José,Jose,,Basques,22.0,,True
+43,62606,José,Jose,,Rodriguez,22.0,2.0,True
+43,62872,José,Jose,,Sanches,22.0,,True
+43,62970,José,Jose,,Basques,22.0,22.0,True
+43,62973,José,Jose,,Yguera,22.0,27.0,True
+43,62988,José,Jose,,Zurita,22.0,2.0,True
+43,63574,José,Jose,,Basques,22.0,24.0,True
+43,63580,José,Jose,,Yguera,22.0,1.0,True
+43,63608,José,Jose,,German,22.0,,True
+43,63832,José,Jose,,Aguila,22.0,8.0,True
+43,64221,José,Jose,,Larios,22.0,1.0,True
+43,65282,José,Jose,,Higuera,22.0,1.0,True
+43,71438,José,Jose,,Arellanes,22.0,,True
+43,72651,José,Jose,,Higuera,22.0,3.0,True
+43,74403,José,Jose,,Bolcof[f],22.0,3.0,True
+43,74437,José,Jose,,Ar[a]na,22.0,7.0,True
+43,74483,José,Jose,,Romero,22.0,,True
+43,74524,José,Jose,,Bolcoff,22.0,,True
+43,74605,José,Jose,,Melicis [Mellish],22.0,0.0,True
+43,74901,José,Jose,,Farias,22.0,2.0,True
+43,75999,José,Jose,,Lorensano,22.0,5.0,True
+43,76538,José,Jose,,Bolcoff,22.0,1.0,True
+43,77961,José,Jorge,,Cha[p]il,22.0,1.0,True
+43,77968,José,José,,Melis [Mellish],22.0,,True
+43,77998,José,Jose,,Lorenzana,22.0,,True
+43,78000,José,José,,Melis [Mellish],22.0,1.0,True
+43,78012,José,Jorge,,Yoche,22.0,2.0,True
+43,78031,José,Jose,,Melis [Mellish],22.0,1.0,True
+43,78063,José,Jose,,Mechas [Mellish],22.0,1.0,True
+43,78068,José,Jose,,Rodrigues,22.0,,True
+43,78070,José,Jose,,Soria,22.0,,True
+43,78111,José,José,,Rodriguez,22.0,1.0,True
+43,78894,José,Jose,,Yguera,22.0,1.0,True
+43,79744,José,Jose,,Bernal,22.0,1.0,True
+43,80176,José,Jose,,Ciprian,22.0,1.0,True
+43,80215,José,Jose,,Archuleta,22.0,1.0,True
+43,80764,José,Jose,,Romero,22.0,3.0,True
+43,80842,José,Jose,,Ciprian,22.0,2.0,True
+43,81164,José,Jose,,Archuleta,22.0,2.0,True
+43,81240,José,Jose,,Garcia,22.0,,True
+43,81429,José,J[o]se,,Ciprian,22.0,2.0,True
+43,81618,José,Jose,,Ciprian,22.0,2.0,True
+43,82134,José,Jose,,Ciprian,22.0,2.0,True
+43,82166,José,Jose,,Romero,22.0,1.0,True
+43,82230,José,Jorge,,Smith,22.0,0.0,True
+43,82458,José,Jose,,Higuera,22.0,2.0,True
+43,82632,José,Jose,,Archuleta,22.0,2.0,True
+43,82860,José,Jose,,Archuleta,22.0,1.0,True
+43,82866,José,José,,Smith,22.0,4.0,True
+43,82956,José,José,,Garcia,22.0,,True
+43,82958,José,Jose,,Snook,22.0,37.0,True
+43,83197,José,Jose,,Romero,22.0,2.0,True
+43,83268,José,Jose,,Higuera,22.0,1.0,True
+43,83366,José,Josè,,Bernal,22.0,5.0,True
+43,83414,José,José,,Hernandes,22.0,11.0,True
+43,83702,José,Jose,,Martines,22.0,,True
+43,83796,José,Jose,,Duarte,22.0,0.0,True
+43,84700,José,José,,Hernandez,22.0,3.0,True
+43,84763,José,José,,Duarte,22.0,,True
+43,84789,José,Jose,,Romero,22.0,,True
+43,84867,José,Jose,,Noriega,22.0,,True
+43,84971,José,Jose,,Hernandez,22.0,,True
+43,85002,José,Jose,,Rodriguez,22.0,,True
+43,85014,José,Jose,,Galindo,22.0,0.0,True
+43,85031,José,Jose,,Soto,22.0,0.0,True
+43,85147,José,Jose,,Noriega,22.0,6.0,True
+43,85207,José,Jose,,Sepulveda,22.0,,True
+43,85282,José,Jose,,Duarte,22.0,0.0,True
+43,85310,José,Jose,,Romero,22.0,1.0,True
+43,85378,José,J[ose],,Bernal,22.0,,True
+43,85441,José,Jose,,S[uñol],22.0,,True
+43,85530,José,Jose,,Galindo,22.0,0.0,True
+43,85554,José,Jose,,Romero,22.0,,True
+43,85599,José,Jose,,Soto,22.0,,True
+43,85609,José,Jose,,Hernandes,22.0,2.0,True
+43,85630,José,Jose,,Moraga,22.0,,True
+43,85731,José,Jose,,Galindo,22.0,3.0,True
+43,85771,José,Jose,,Martinez,22.0,,True
+43,85852,José,Jose,,Sepulveda,22.0,2.0,True
+43,85904,José,Jose,,Cordero,22.0,,True
+43,85932,José,Jose,,Martines,22.0,,True
+43,86011,José,Jose,,Soto,22.0,1.0,True
+43,86026,José,Jose,,Hernandez,22.0,40.0,True
+43,86155,José,Jose,,Romero,22.0,26.0,True
+43,86266,José,Jose,,de la Rosa,22.0,0.0,True
+43,89245,José,Joseph,,Arguello,22.0,1.0,True
+43,89420,José,Jose,,Ramos,22.0,5.0,True
+43,89534,José,Jorge,,Roverts,22.0,0.0,True
+43,90937,José,Jose,,Aguila,22.0,3.0,True
+43,91944,José,Jose,,Palomares,22.0,4.0,True
+43,92150,José,José,,Roca,22.0,1.0,True
+43,92292,José,Jose,,Arguello,22.0,1.0,True
+43,92506,José,Cosme,,Vanegas,22.0,,True
+43,93771,José,Jose,,Duarte,22.0,2.0,True
+43,96156,José,Jose,,Dominguez,22.0,,True
+43,96778,José,Jose,,Sanchez,22.0,,True
+43,99386,José,Josef,,Cibrian,22.0,1.0,True
+43,101834,José,Jose,,Duarte,22.0,2.0,True
+43,104270,José,José,,Cristiano,22.0,0.0,True
+45,98,Antonio,Antonio,,Vacquez,50.0,,True
+45,227,Antonio,Antonio,,Bazquez,50.0,1.0,True
+45,389,Antonio,Antonio,,Vazquez,50.0,1.0,True
+45,551,Antonio,Antonio,,German,50.0,1.0,True
+45,561,Antonio,Antonio,,Valenzuela,50.0,1.0,True
+45,634,Antonio,Antonio,,German,50.0,,True
+45,682,Antonio,Antonio,,German,50.0,0.0,True
+45,710,Antonio,Antonio,,Solorzano,50.0,,True
+45,796,Antonio,Antonio,,Larios,50.0,,True
+45,838,Antonio,Antonio,,Palacios,50.0,,True
+45,863,Antonio,Antonio,,Leiva,50.0,,True
+45,877,Antonio,Antonio,,Leyba,50.0,0.0,True
+45,949,Antonio,Antonio,,Leivas,50.0,,True
+45,988,Antonio,Antonio,,Leiva,50.0,,True
+45,1032,Antonio,Antonio,,Rodriguez,50.0,,True
+45,1294,Antonio,Antonio,,Garcia,50.0,3.0,True
+45,1309,Antonio,Antonio,,del Valle,50.0,1.0,True
+45,1395,Antonio,Antonio,,Olivera,50.0,2.0,True
+45,1437,Antonio,Antonio,,Leiva,50.0,,True
+45,1464,Antonio,Antonio,,Garcia,50.0,,True
+45,1538,Antonio,Antonio,,Arellanez,50.0,8.0,True
+45,1900,Antonio,Antonio,,Arellanes,50.0,1.0,True
+45,1931,Antonio,Antonio,,Palacios,50.0,2.0,True
+45,1957,Antonio,Antonio,,Rodriguez,50.0,4.0,True
+45,1983,Antonio,Antonio,,de la Torre,50.0,1.0,True
+45,2013,Antonio,Antonio,,Arellanes,50.0,1.0,True
+45,2083,Antonio,Antonio,,Ruiz,50.0,1.0,True
+45,2133,Antonio,Antonio,,Orchaga [Machado],50.0,5.0,True
+45,2213,Antonio,Antonio,,Briones,50.0,,True
+45,2373,Antonio,Antonio,,Lisaldi,50.0,1.0,True
+45,2408,Antonio,Antonio,,Briones,50.0,2.0,True
+45,2433,Antonio,Antonio,,Valdez,50.0,2.0,True
+45,2513,Antonio,Antonio,,Lopez,50.0,0.0,True
+45,2574,Antonio,Antonio,,Vermudes,50.0,1.0,True
+45,2645,Antonio,Antonio,,Lopez,50.0,,True
+45,2695,Antonio,Antonio,,Albitre,50.0,3.0,True
+45,2717,Antonio,Antonio,,Valle,50.0,,True
+45,2854,Antonio,Antonio,,[Unstated],50.0,,True
+45,3010,Antonio,Antonio,,Valle,50.0,,True
+45,3138,Antonio,Antonio,,Albitre,50.0,,True
+45,3203,Antonio,Antonio,,Valdes,50.0,9.0,True
+45,3258,Antonio,Antonio,,Murillo,50.0,1.0,True
+45,3480,Antonio,Antonio,,Vuelna,50.0,,True
+45,3531,Antonio,Antonio,,Bermudes,50.0,,True
+45,3632,Antonio,Antonio,,Melendres,50.0,15.0,True
+45,3642,Antonio,Antonio,,Labori,50.0,2.0,True
+45,11296,Antonio,Antonio,,Rosas,50.0,1.0,True
+45,11718,Antonio,Antonio,,Rosas,50.0,,True
+45,11870,Antonio,Antonio,,Figueroa,50.0,,True
+45,12423,Antonio,Antonio,,Valenzuela,50.0,,True
+45,14400,Antonio,Antonio,,Valenzuela,50.0,,True
+45,14480,Antonio,Antonio,,Baldes,50.0,2.0,True
+45,14627,Antonio,Antonio,,Nieto,50.0,1.0,True
+45,14655,Antonio,Antonio,,Lisalde,50.0,2.0,True
+45,15058,Antonio,Antonio,,Baldez,50.0,1.0,True
+45,15164,Antonio,Antonio,,Machado,50.0,3.0,True
+45,15427,Antonio,Antonio,,Machado,50.0,,True
+45,15993,Antonio,Antonio,,Quijada,50.0,,True
+45,16156,Antonio,Antonio,,Albitre,50.0,,True
+45,16541,Antonio,Antonio,,Rodriguez,50.0,,True
+45,16612,Antonio,Antonio,,Vermudez,50.0,,True
+45,17444,Antonio,Antonio,,Cota,50.0,0.0,True
+45,24519,Antonio,[Antonio],,[Yorba],50.0,,True
+45,24801,Antonio,Antonio,,Jorba,50.0,2.0,True
+45,25019,Antonio,Antonio,,Yorba,50.0,1.0,True
+45,25419,Antonio,Antonio,,Yorba,50.0,0.0,True
+45,25664,Antonio,Antonio,,Llorva,50.0,2.0,True
+45,27440,Antonio,Antonino,,Buelna,50.0,1.0,True
+45,27743,Antonio,Antonio,,Fernandez,50.0,0.0,True
+45,27777,Antonio,Antonio,,Rodriguez,50.0,1.0,True
+45,27790,Antonio,Antonio,,Fernandez,50.0,1.0,True
+45,27928,Antonio,Antonino,,Yguera,50.0,2.0,True
+45,28043,Antonio,Antonio,,Fernandez,50.0,0.0,True
+45,28178,Antonio,Antonio,,Moreno,50.0,1.0,True
+45,28182,Antonio,Antonio,,Albitre,50.0,1.0,True
+45,28328,Antonio,Antonio,,Mendez,50.0,6.0,True
+45,28438,Antonio,Antonio,,Hernandes,50.0,,True
+45,28679,Antonio,Antonio,,Ocio,50.0,,True
+45,28813,Antonio,Antonio,,Tapia,50.0,1.0,True
+45,28852,Antonio,Antonio,,Mendes,50.0,0.0,True
+45,28879,Antonio,Antonio,,Romero,50.0,9.0,True
+45,28899,Antonio,Antonio,,Osio,50.0,0.0,True
+45,28951,Antonio,Antonio,,Mendez,50.0,0.0,True
+45,29007,Antonio,Antonio,,Romero,50.0,9.0,True
+45,29146,Antonio,Antonio,,Osio,50.0,0.0,True
+45,29331,Antonio,Antonio,,Rodriges,50.0,4.0,True
+45,30443,Antonio,Antonio,,Ybarra,50.0,5.0,True
+45,30735,Antonio,Antonio,,Cota,50.0,4.0,True
+45,31224,Antonio,Antonio,,Yorba,50.0,3.0,True
+45,31318,Antonio,Antonio,,Ybarra,50.0,6.0,True
+45,32608,Antonio,Antonio,,Yorba,50.0,4.0,True
+45,32627,Antonio,Antonio,,Yorba,50.0,5.0,True
+45,32707,Antonio,Antonio,,Guillen,50.0,1.0,True
+45,32740,Antonio,Antonio,,Yorva,50.0,3.0,True
+45,33094,Antonio,Antonio,,Balenzuela,50.0,,True
+45,33292,Antonio,Antonio,,Yorva,50.0,3.0,True
+45,33616,Antonio,Antonio,,Silvas,50.0,,True
+45,36448,Antonio,Antonio,,Serrano,50.0,0.0,True
+45,38915,Antonio,Antonio,,Romero,50.0,1.0,True
+45,44607,Antonio,Antonino,,Higuera,50.0,,True
+45,45090,Antonio,A[ntonio],,Basques,50.0,,True
+45,45320,Antonio,Antonio,,Paredes,50.0,,True
+45,50937,Antonio,Antonio,,Olibera,50.0,,True
+45,54825,Antonio,Antonio,,Asebes,50.0,7.0,True
+45,62410,Antonio,Antonio,,Alviso,50.0,2.0,True
+45,62562,Antonio,Antonio,,Fernandes,50.0,1.0,True
+45,62824,Antonio,Antonio,,Castro,50.0,10.0,True
+45,62832,Antonio,Antonio,,Lima,50.0,16.0,True
+45,62840,Antonio,Antonio,,German,50.0,1.0,True
+45,63018,Antonio,[Antonio],,Estrada,50.0,6.0,True
+45,65556,Antonio,Antonio,,Soto,50.0,1.0,True
+45,67828,Antonio,Antonio,,Buelna,50.0,1.0,True
+45,67830,Antonio,Antonio,,Soto,50.0,0.0,True
+45,70466,Antonio,Antonio,,German,50.0,1.0,True
+45,71569,Antonio,Antonio,,Romero,50.0,3.0,True
+45,72452,Antonio,Antonio,,Dominguez,50.0,,True
+45,72677,Antonio,Antonio,,Soto,50.0,3.0,True
+45,73423,Antonio,Antonio,,Soto,50.0,1.0,True
+45,74559,Antonio,Antonio,,Amaya,50.0,0.0,True
+45,75881,Antonio,Antonio,,Basquez,50.0,1.0,True
+45,75882,Antonio,Antonio,,Basquez,50.0,1.0,True
+45,76112,Antonio,Antonio,,Soto,50.0,1.0,True
+45,76312,Antonio,Antonio,,Valencia,50.0,2.0,True
+45,76596,Antonio,Antonio,,Rodrigues,50.0,3.0,True
+45,77235,Antonio,Antonio,,Valencia,50.0,0.0,True
+45,77328,Antonio,Antonino,,Higuera,50.0,2.0,True
+45,79450,Antonio,Antonio,,Chaboya,50.0,1.0,True
+45,80189,Antonio,Antonio,,Soto,50.0,1.0,True
+45,80345,Antonio,Antonio,,Valencia,50.0,1.0,True
+45,80354,Antonio,Antonio,,Suñol,50.0,1.0,True
+45,80499,Antonio,Antonio,,Ortega,50.0,1.0,True
+45,81579,Antonio,Antonio,,Soto,50.0,3.0,True
+45,81760,Antonio,Antonio,,Chavoÿa,50.0,2.0,True
+45,82206,Antonio,Antonio,,Armijo,50.0,4.0,True
+45,82219,Antonio,Antonio,,Rodrigues,50.0,2.0,True
+45,82231,Antonio,Antonio,,Valencia,50.0,2.0,True
+45,82279,Antonio,Antonio,,Armijo,50.0,4.0,True
+45,82615,Antonio,Antonio,,Mesa,50.0,1.0,True
+45,82690,Antonio,Antonio,,Moreno,50.0,2.0,True
+45,82805,Antonio,Antonio,,Armijo,50.0,30.0,True
+45,82857,Antonio,Antonio,,Armijo,50.0,2.0,True
+45,82901,Antonio,Antonio,,Souñol,50.0,20.0,True
+45,83189,Antonio,Antonio,,Mesa,50.0,5.0,True
+45,83280,Antonio,Antonio,,Pacheco,50.0,,True
+45,83353,Antonio,Antonio,,Chabolla,50.0,1.0,True
+45,83412,Antonio,Antonio,,Bernal,50.0,,True
+45,83722,Antonio,Antonio,,Castro,50.0,,True
+45,84619,Antonio,Antonio,,Chaboya,50.0,9.0,True
+45,84872,Antonio,Antonio,,Bernal,50.0,0.0,True
+45,84961,Antonio,Antonio,,Chavolla,50.0,7.0,True
+45,85036,Antonio,Antonio,,Hernandes,50.0,2.0,True
+45,85057,Antonio,Antonio,,Mesa,50.0,2.0,True
+45,85268,Antonio,Antonio,,Bernal,50.0,1.0,True
+45,85295,Antonio,Antonio,,Pacheco,50.0,3.0,True
+45,85350,Antonio,Antonio,,Suñol,50.0,,True
+45,85451,Antonio,Antonio,,Chabolla,50.0,,True
+45,85655,Antonio,Antonio,,Amador,50.0,,True
+45,85747,Antonio,Antonio,,[Mesa],50.0,,True
+45,85761,Antonio,Antonio,,Higuera,50.0,,True
+45,85819,Antonio,Antonio,,Amador,50.0,1.0,True
+45,85903,Antonio,Antonio,,Pico,50.0,,True
+45,85963,Antonio,Antonio,,Bernal,50.0,1.0,True
+45,85970,Antonio,Antonio,,Chabolla,50.0,3.0,True
+45,86037,Antonio,Antonio,,Figueroa,50.0,1.0,True
+45,86647,Antonio,Antonio,,Pico,50.0,0.0,True
+45,93492,Antonio,Antonio,,Olivera,50.0,,True
+45,94736,Antonio,Antonio,,Sanchez,50.0,0.0,True
+45,95590,Antonio,Antonio,,Ocio,50.0,8.0,True
+45,99327,Antonio,Antonino,,Higuera,50.0,2.0,True
+45,100792,Antonio,Antonio,,Soto,50.0,1.0,True
+45,100843,Antonio,Antonio,,Soto,50.0,1.0,True
+45,101628,Antonio,Antonio,,Castro,50.0,,True
+45,101652,Antonio,Antonio,,Ortega,50.0,0.0,True
+45,101671,Antonio,Antonio,,Castro,50.0,,True
+45,101705,Antonio,Antonio,,Soto,50.0,0.0,True
+45,101733,Antonio,Antonio,,Soto,50.0,3.0,True
+45,102086,Antonio,Antonio,,Castro,50.0,,True
+45,102147,Antonio,Antonio,,Pacheco,50.0,,True
+45,102190,Antonio,Antonio,,Pacheco,50.0,,True
+45,102508,Antonio,Antonio,,Soto,50.0,2.0,True
+45,102533,Antonio,Antonio,,Castro,50.0,,True
+45,102534,Antonio,Antonio,,Pacheco,50.0,,True
+45,104289,Antonio,Antonio,,Albitre,50.0,3.0,True

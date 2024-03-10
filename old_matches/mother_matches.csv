@@ -1,0 +1,381 @@
+ecpp_id,#ID,Census First Name,Mother Baptisms First Name,Census Last Name,Mother Baptisms Last Name,Is Parent Match
+8,30817,María Josefa,Maria Josepha,Grijalva,Grijalva,True
+15,693,María,Maria,López,Lopez,True
+15,11182,María,Maria,López,Lopez,True
+15,11909,María,Maria,López,Lopez,True
+21,102870,Guadalup,Guadalupe,Briones,Briones,True
+21,103362,Guadalup,Guadalupe,Briones,[Briones],True
+21,103368,Guadalup,Guadalupe,Briones,Briones,True
+28,9311,María,Maria,Silvas,Silva,True
+35,2178,Manuela,Manuela,Pérez,Perez,True
+35,13526,Manuela,Manuela,Pérez,Perez,True
+38,36980,Feliciana,Feliciana,Arballo,Arballa,True
+50,11122,Ursula,Ursula,Domínguez,Dominguez,True
+50,30226,Ursula,Ursula,Domínguez,Dominguez,True
+50,30841,Ursula,Ursula,Domínguez,Dominguez,True
+58,11163,Juana,Juana,Ontiveros,Ontiberos,True
+63,26544,María,Maria,Rufina,Ruisa,True
+69,11810,María Encarnación,Maria Encarnacion,Pérez,Perez,True
+69,11920,María Encarnación,Maria Encarnacion,Pérez,[Perez],True
+69,11954,María Encarnación,Maria Encarnacion,Pérez,Perez,True
+69,30795,María Encarnación,Maria Encarnacion,Pérez,[Perez],True
+69,31225,María Encarnación,Maria Encarnacion,Pérez,Perez,True
+69,36992,María Encarnación,Maria Encarnazion,Pérez,Perez,True
+81,9268,Agustina,Agustina,Alcántara,Alcantara,True
+88,794,María,Daria,Ortega,Ortega,True
+88,1014,María,Maria,Ortega,Ortega,True
+88,1079,María,Daria,Ortega,Ortega,True
+88,1235,María,Maria,Ortega,Ortega,True
+88,1337,María,Maria,Ortega,Ortega,True
+88,1440,María,Maria,Ortega,Ortega,True
+88,2433,María,Daria,Ortega,Ortega,True
+88,35922,María,Maria,Ortega,Ortega,True
+88,52455,María,Maria,Ortega,Ortega,True
+88,52494,María,Maria,Ortega,Ortega,True
+97,11111,Petra,Petra,Mejías,Mexias,True
+97,11744,Petra,Petra,Mejías,Mexia,True
+97,30553,Petra,Petra,Mejías,Megia,True
+97,30810,Petra,Petra,Mejías,Megia,True
+103,30282,Juana Maria,Juana Maria,Miranda,Miranda,True
+103,30770,Juana Maria,Juana Maria,Miranda,Miranda,True
+103,37265,Juana Maria,Juana Maria,Miranda,Miranda,True
+111,32559,María Josefa,Maria Josefa,Leyva,Leyva,True
+118,31099,Juana,Juana,Villalobo,Villalobos,True
+121,30791,Gabriela,Gabriela,Silvas,Silva,True
+131,14024,María Eustaquia,Maria Eustaquia,Gutiérrez,Gutierres,True
+133,32812,Gertrudis,Getrudis,Camacho,Camacho,True
+138,10066,Matilde,Matilde,Amézquita,Amezquita,True
+138,38399,Matilde,Matilde,Amézquita,Amezquita,True
+138,38620,Matilde,Matilde,Amézquita,Amezquita,True
+146,12048,Serafina,Serafina,Rosas,Rosas,True
+146,12876,Serafina,Serafina,Rosas,Rosas,True
+146,13085,Serafina,Serafina,Rosas,Rosas,True
+146,13479,Serafina,Serafina,Rosas,Rosas,True
+146,14350,Serafina,Serafina,Rosas,Rosa,True
+146,15230,Serafina,Serafina,Rosas,Rosas,True
+146,38636,Serafina,Serafina,Rosas,Rosas,True
+147,12200,Seferina,Zeferina,Rosas,Rosas,True
+160,31245,María Teresa,Maria Teresa,Graciana,Gracian,True
+171,30866,María Gorgona,Maria Borbona,Valenzuela,[Valenzuela],True
+178,9649,María Celia,Maria Celia,Cota,Cota,True
+178,11047,María Celia,Maria Celia,Cota,Cota,True
+182,27409,María Luisa,Maria Luisa,Botiller,Botiller,True
+182,67957,María Luisa,Maria Luisa,Botiller,Botiller,True
+182,71347,María Luisa,Maria Luisa,Botiller,Botiller,True
+182,95423,María Luisa,Maria Luisa,Botiller,Boteller,True
+186,14928,Juana,Juana,Alvarado,Alvarado,True
+186,27917,Juana,Juana,Alvarado,Albarado,True
+186,28124,Juana,Juana,Alvarado,Albarado,True
+191,10144,Gregoria,Gregoria,Espinosa,Espinosa,True
+191,10700,Gregoria,Gregoria,Espinosa,Espinosa,True
+191,21535,Gregoria,Gregoria,Espinosa,Espinosa,True
+191,89646,Gregoria,Gregoria,Espinosa,Espinosa,True
+192,11407,María Concepción,Maria Concepcion,Verdugo,Berdugo,True
+194,365,María Marta,Maria Marta,Salazar,Salazar,True
+200,55879,María Gertrudis,Maria Gertrudis,Bojórquez,Bojorques,True
+218,9332,María Nicolasa,Maria Nicolasa,Beltrán,Beltran,True
+218,31008,María Nicolasa,Maria Nicolasa,Beltrán,Beltran,True
+227,8650,María Rosalía,Maria Rosalia,Noriega,Noriega,True
+227,9016,María Rosalía,Maria Rosalia,Noriega,Noriega,True
+227,9211,María Rosalía,Maria Rosalina,Noriega,Noriega,True
+227,9374,María Rosalía,Maria Rosalia,Noriega,Noriega,True
+234,10701,María Manuela,Maria Manuela,Lisalde,Lisalda,True
+236,11,María Rosa,Maria Rosa,López,Lopez,True
+236,9976,María Rosa,Maria Rosa,López,Lopez,True
+236,21554,María Rosa,Maria Rosa,López,Lopez,True
+249,64451,María,Maria,García,Garcia,True
+249,82396,María,Maria,García,Garcia,True
+249,82683,María,Maria,García,Garcia,True
+249,83366,María,Maria,García,Garcia,True
+249,84034,María,Maria,García,Garcia,True
+249,84898,María,Maria,García,Garcia,True
+251,8322,Juana María,Juana Maria,Verdugo,Berdugo,True
+251,8575,Juana María,Juana Maria,Verdugo,[Verdugo],True
+251,8839,Juana María,Juana Maria,Verdugo,[Verdugo],True
+257,33127,Bernarda,Bernarda,Silvas,Silvas,True
+258,602,Gertrudis,Gertrudis,Alvarez,Alvarez,True
+260,88,María Simona,Maria Simona,Rodríguez,Rodriguez,True
+261,122,Francisca,Francisca,López,Lopez,True
+261,160,Francisca,Francisca,López,Lopez,True
+261,337,Francisca,Francisca,López,Lopez,True
+261,36385,Francisca,Francisca,López,Lopez,True
+261,45811,Francisca,Francisca,López,Lopez,True
+267,9128,María Guadalupe,Maria Guadalupe,Pérez,[Perez],True
+267,10060,María Guadalupe,Maria Guadalupe,Pérez,[Perez],True
+267,10382,María Guadalupe,Maria Guadalupe,Pérez,[Perez],True
+273,8662,María Manuela,Maria Manuela,Hernández,Hernandez,True
+283,3,María Paula,Maria Paula,Martínez,Martines,True
+283,9760,María Paula,Maria Paula,Martínez,Martinez,True
+283,10122,María Paula,Maria Paulina,Martínez,Martinez,True
+283,21542,María Paula,Maria Paula,Martínez,Martinez,True
+294,14660,María Ignacia,Maria Gracia,Alvarado,Alvarado,True
+294,15157,María Ignacia,Maria Gracia,Alvarado,Alvarado,True
+316,10080,María Teresa,Maria Thereza,Cota,Cota,True
+320,12157,Gertrudis,Gertrudis,Silvas,Silbas,True
+320,59321,Gertrudis,Getrudis,Silvas,Rivas,True
+324,590,María del Carmen,Maria del Carmen,Domínguez,Dominguez,True
+324,630,María del Carmen,Maria del Carmen,Domínguez,Dominguez,True
+324,991,María del Carmen,Maria del Carmen,Domínguez,Dominguez,True
+324,9899,María del Carmen,Maria del Carmen,Domínguez,Dominguez,True
+324,10653,María del Carmen,Maria del Carmen,Domínguez,Dominguez,True
+324,11046,María del Carmen,Maria del Carmen,Domínguez,Dominguez,True
+324,11333,María del Carmen,Maria del Carmen,Domínguez,Dominguez,True
+352,122,Francisca,Francisca,López,Lopez,True
+352,160,Francisca,Francisca,López,Lopez,True
+352,337,Francisca,Francisca,López,Lopez,True
+352,36385,Francisca,Francisca,López,Lopez,True
+352,45811,Francisca,Francisca,López,Lopez,True
+358,141,Marcela,Marcelina,Féliz,Feliz,True
+358,247,Marcela,Marcelina,Féliz,Feliz,True
+358,284,Marcela,Marcelina,Féliz,Felix,True
+358,303,Marcela,Marcelina,Féliz,Felix,True
+358,342,Marcela,Marcelina,Féliz,Felix,True
+358,15348,Marcela,Marcelina,Féliz,Feliz,True
+358,86387,Marcela,Marcelina,Féliz,Felix,True
+358,102893,Marcela,Marcelina,Féliz,Felix,True
+362,143,Paula,Paula,Cortés,Cortes,True
+367,164,María Rosa,Maria Rosa,Quijada,Quijada,True
+367,236,María Rosa,Maria Rosa,Quijada,Quijada,True
+370,120,Tomasa,Thomasa,Quintero,Quintero,True
+379,14,Juana,Juana,Quintero,Quintero,True
+379,35,Juana,Juana,Quintero,Quintero,True
+379,21932,Juana,Juana,Quintero,Quintero,True
+389,26780,María Isabel,Maria Ysabel,Acosta,Cota,True
+389,27334,María Isabel,Maria Ysabel,Acosta,Cota,True
+389,27370,María Isabel,Maria Ysabel,Acosta,Cota,True
+392,87081,María,Maria,Martínez,Martines,True
+394,54,Sebastiana,Sebastiana,Quintero,Quintero,True
+394,77,Sebastiana,Sebastiana,Quintero,Quintero,True
+394,59213,Sebastiana,Sebastiana,Quintero,Quintero,True
+400,11892,María Rosalía,Maria Rosalia,Ochoa,[Ochoa],True
+400,31151,María Rosalía,Maria Rosalia,Ochoa,Ochoa,True
+402,73,María Antonia,Maria Antonia,Campos,Campos,True
+402,56558,María Antonia,Maria Antonia,Campos,Campos,True
+402,56559,María Antonia,Maria Antonia,Campos,Campos,True
+404,233,María Faustina,Maria Faustina,Lara,Lara,True
+404,23090,María Faustina,Maria Faustina,Lara,Lara,True
+404,92654,María Faustina,Maria Faustina,Lara,Lara,True
+405,54788,María Petra,Maria Petra,Lugo,Lugo,True
+405,54835,María Petra,Maria Petra,Lugo,Lugo,True
+419,1103,Gertrudis,Gertrudis,Valenzuela,Valenzuela,True
+419,1377,Gertrudis,Gertrudis,Valenzuela,Balensuela,True
+419,3351,Gertrudis,Gertrudis,Valenzuela,Balenzuela,True
+419,15859,Gertrudis,Gertrudis,Valenzuela,Valenzuela,True
+419,44812,Gertrudis,Gertrudis,Valenzuela,Valenzuela,True
+419,44832,Gertrudis,Gertrudis,Valenzuela,Valenzuela,True
+429,90,María,Maria,Valenzuela,Valensuela,True
+429,2007,María,Mariana,Valenzuela,Valenzuela,True
+429,10865,María,Maria,Valenzuela,Valenzuela,True
+429,16341,María,Maria,Valenzuela,Valenzuela,True
+429,16775,María,Maria,Valenzuela,Valenzuela,True
+429,21586,María,Maria,Valenzuela,Valenzuela,True
+447,55577,Josefa,Josepha,Osuna,Acuña,True
+447,89519,Josefa,Josefa,Osuna,Acuna,True
+449,63,María Concepción,Maria Concepcion,Quintero,Quinteros,True
+449,21534,María Concepción,Maria Concepcion,Quintero,Quintero,True
+454,345,María Ignacia,Maria Ygnacia,Velarde Rivera,Velarde Rivera,True
+454,89338,María Ignacia,Maria Ygnacia,Velarde Rivera,[Velarde Rivera],True
+462,101,Perseverancia,Perseverancia,Cortés,Cortes,True
+464,26376,María Josefa,Maria Josefa,Villavicencio,Villavicencio,True
+464,65078,María Josefa,Maria Josefa,Villavicencio,Villavicencio,True
+464,73740,María Josefa,Maria Josefa,Villavicencio,Villavicencio,True
+466,58,María Ignacia,Maria Ygnacia,Amador,Amador,True
+466,10514,María Ignacia,Maria Ygnacia,Amador,Amador,True
+466,10821,María Ignacia,Maria Ygnacia,Amador,Amador,True
+466,11000,María Ignacia,Maria Ygnacia,Amador,Amador,True
+466,11952,María Ignacia,Maria Ygnacia,Amador,Amador,True
+466,75046,María Ignacia,Maria Ygnacia,Amador,Amador,True
+466,95470,María Ignacia,Maria Ygnacia,Amador,Amador,True
+466,96279,María Ignacia,Maria Ygnacia,Amador,Amador,True
+474,31,Juana,Juana,Parra,Parra,True
+474,148,Juana,Juana,Parra,Parra,True
+474,180,Juana,Juana,Parra,Parra,True
+474,920,Juana,Juana,Parra,Parra,True
+474,2882,Juana,Juana,Parra,Ybarra,True
+474,3381,Juana,Juana,Parra,Ybarra,True
+474,21507,Juana,Juana,Parra,Parra,True
+481,99,María Rita,Maria Rita,Zamora,Zamora,True
+481,21438,María Rita,Maria Rita,Zamora,Samoras,True
+489,102,María Dolores,Maria Dolores,Parra,Parra,True
+489,16319,María Dolores,Maria Dolores,Parra,Palma,True
+494,215,María Petra,Maria Petra,Montiel,Montiel,True
+494,17274,María Petra,Maria Petra,Montiel,Montiel,True
+504,141,Marcelina,Marcelina,Féliz,Feliz,True
+504,247,Marcelina,Marcelina,Féliz,Feliz,True
+504,284,Marcelina,Marcelina,Féliz,Felix,True
+504,303,Marcelina,Marcelina,Féliz,Felix,True
+504,342,Marcelina,Marcelina,Féliz,Felix,True
+504,15348,Marcelina,Marcelina,Féliz,Feliz,True
+504,86387,Marcelina,Marcelina,Féliz,Felix,True
+504,102893,Marcelina,Marcelina,Féliz,Felix,True
+507,58504,María Nicolasa,Maria Nicolasa,Olivas,Olivas,True
+510,35301,María de los Santos,Maria de los Santos,Olivas,Olivas,True
+539,992,Petra,Petra,Rubio,Ruiz,True
+539,1193,Petra,Petra,Rubio,Ruiz,True
+549,548,María Antonia,Maria Antonia,Lugo,Lugo,True
+549,627,María Antonia,Maria Antonia,Lugo,Lugo,True
+549,696,María Antonia,Maria Antonia,Lugo,Lugo,True
+549,766,María Antonia,Maria Antonia,Lugo,Lugo,True
+549,1770,María Antonia,Maria Antonia,Lugo,Lugo,True
+549,27116,María Antonia,Maria Antonia,Lugo,Lugo,True
+549,27188,María Antonia,Maria Antonia,Lugo,Lugo,True
+549,27361,María Antonia,Maria Antonia,Lugo,Lugo,True
+549,45528,María Antonia,Maria Antonia,Lugo,Lugo,True
+549,61376,María Antonia,Maria Antonia,Lugo,Lugo,True
+549,69710,María Antonia,Maria Antonia,Lugo,Lugo,True
+550,246,María Ignacia,Maria Ygnacia,Lugo,Lugo,True
+550,283,María Ignacia,Maria Ygnacia,Lugo,Lugo,True
+550,358,María Ignacia,Maria Ygnacia,Lugo,Lugo,True
+550,503,María Ignacia,Maria Ygnacia,Lugo,Lugo,True
+550,23984,María Ignacia,Maria Ygnacia,Lugo,Lugo,True
+566,28932,Josefa,Josefa,Amézquita,Amesquita,True
+566,29119,Josefa,Josefa,Amézquita,Amesquita,True
+566,44839,Josefa,Josefa,Amézquita,Amesquita,True
+566,59815,Josefa,Josefa,Amézquita,Amezquita,True
+566,89463,Josefa,Josefa,Amézquita,Amezquita,True
+573,30963,Gertrudis,Gertrudis,Linares,Linares,True
+573,64168,Gertrudis,Gertrudis,Linares,Linares,True
+576,26058,Potenciana,Potenciana,Ramírez,Ramirez,True
+576,26469,Potenciana,Potenciana,Ramírez,Ramirez,True
+584,25998,Ana María,Anna Maria,Bernal,Bernal,True
+584,26782,Ana María,Anna Maria,Bernal,Bernal,True
+584,58311,Ana María,Ana Maria,Bernal,Bernal,True
+584,69961,Ana María,Ana Maria,Bernal,Bernal,True
+596,11713,Teresa,Teresa,Sepúlveda,Sepulbeda,True
+596,12382,Teresa,Teresa,Sepúlveda,Sepulveda,True
+596,25909,Teresa,Teresa,Sepúlveda,Sepulveda,True
+596,43137,Teresa,Teresa,Sepúlveda,Zebulpeda,True
+596,49861,Teresa,Teresa,Sepúlveda,Sepulveda,True
+616,3041,María,Marta,Ruiz,Reyes,True
+616,3042,María,Marta,Ruiz,Reyes,True
+616,3347,María,Maria,Ruiz,Ruis,True
+616,3372,María,Marta,Ruiz,Reyes,True
+616,26544,María,Maria,Ruiz,Ruisa,True
+619,55863,Antonia,Antonia,Redondo,Redondo,True
+627,3173,Antonia,Antonia,Tapia,Tapia,True
+627,66597,Antonia,Antonia,Tapia,Tapia,True
+634,3041,María,Marta,Ruiz,Reyes,True
+634,3042,María,Marta,Ruiz,Reyes,True
+634,3347,María,Maria,Ruiz,Ruis,True
+634,3372,María,Marta,Ruiz,Reyes,True
+634,26544,María,Maria,Ruiz,Ruisa,True
+638,24982,Rosa,Rosa,Tapia,Tapia,True
+642,18748,Isabel,Ysabel,Talamantes,Talamantes,True
+642,26419,Isabel,Ysabel,Talamantes,Talamantes,True
+642,42793,Isabel,Ysabel,Talamantes,Talamantes,True
+642,43408,Isabel,Ysabel,Talamantes,Talamantes,True
+650,25784,Margarita,Margarita,Ríos,Ruiz,True
+650,72477,Margarita,Margarita,Ríos,Rios,True
+650,96225,Margarita,Margarita,Ríos,Ryos,True
+650,97062,Margarita,Margarita,Ríos,Rios,True
+650,100270,Margarita,Margarita,Ríos,Rios,True
+650,100605,Margarita,Margarita,Ríos,Rios,True
+652,54998,Gertrudis,Gertrudis,Castelo,Castello,True
+658,25875,Manuela,Manuela,Tapia,Tapia,True
+667,3774,María de Jesús,Maria de Jesus,Villela,Villa,True
+667,15641,María de Jesús,Maria de Jesus,Villela,Villa,True
+667,44844,María de Jesús,Maria de Jesus,Villela,Billa,True
+667,98112,María de Jesús,Maria de Jesus,Villela,Villela,True
+667,100354,María de Jesús,Maria de J[esus],Villela,Villela,True
+667,103354,María de Jesús,Maria de Jesus,Villela,Villela,True
+667,103413,María de Jesús,Maria de Jesus,Villela,Villela,True
+669,18847,Isadora,Isidora,Tapia,Tapia,True
+677,27251,Luz,Luisa,García,Garcia,True
+683,18360,Gregoria,Gregoria,Gonzales,Gonzalez,True
+683,26599,Gregoria,Gregoria,Gonzales,Gonsales,True
+683,41427,Gregoria,Gregoria,Gonzales,Gonzales,True
+683,42818,Gregoria,Gregoria,Gonzales,[Gonzalez],True
+683,53056,Gregoria,Gregoria,Gonzales,Gonzalez,True
+694,65071,Agustina,Agustina,Bojórquez,Bojorques,True
+722,25896,María Valvanera,Maria Balvanera,Antuna,Antuna,True
+722,26098,María Valvanera,Maria Balvaneda,Antuna,Antuna,True
+722,26377,María Valvanera,Maria Balbanera,Antuna,Antuna,True
+722,54577,María Valvanera,Maria Balbanera,Antuna,[Antuna],True
+722,65075,María Valvanera,Maria Balbanera,Antuna,Antuna,True
+722,66904,María Valvanera,Maria Balbanera,Antuna,Antuna,True
+758,55677,Gertrudis,Getrudis,Pacheco,Pacheco,True
+765,57050,Ana María,Ana Maria,Gonzales,Gonzalez,True
+765,57886,Ana María,Ana Maria,Gonzales,Gonzalez,True
+765,60804,Ana María,Ana Maria,Gonzales,Gonzalez,True
+765,66082,Ana María,Ana Maria,Gonzales,Gonzales,True
+765,69866,Ana María,Ana Maria,Gonzales,Gonzalez,True
+771,32564,Gertrudis,Getrudis,Aceves,Basquez,True
+771,61501,Gertrudis,Getrudis,Aceves,Azebes,True
+776,2105,Josefa,Josefa,Rosales,Gonzales,True
+776,28432,Josefa,Josefa,Rosales,Morales,True
+776,29133,Josefa,Josefa,Rosales,Gonzales,True
+776,62842,Josefa,Josefa,Rosales,Gonzales,True
+779,16755,María Antonia,Maria Antonia,Rosales,Gonzalez,True
+781,61070,Graciana,Graciana,Arroyo,Arroyo,True
+781,62255,Graciana,Graciana,Arroyo,Arroyo,True
+781,67961,Graciana,Graciana,Arroyo,Arroyo,True
+788,27230,María,Maria,Bojórquez,Bojorges,True
+788,57939,María,Maria,Bojórquez,Bojorques,True
+788,66486,María,Maria,Bojórquez,Bojorges,True
+799,55458,Leonor,Leonor,Borboa,Borvoa,True
+804,55677,Gertrudis,Getrudis,Pacheco,Pacheco,True
+806,54980,Martina,Martina,Botiller,Botiller,True
+806,55919,Martina,Maria,Botiller,Botiller,True
+820,27857,Feliciana,Feliciana,Cortés,Torres,True
+820,28019,Feliciana,Feliciana,Cortés,Torres,True
+834,25792,Ignacia,Ygnacia,Moraga,Moraga,True
+834,26228,Ignacia,Ygnacia,Moraga,Moraga,True
+834,26375,Ignacia,Ygnacia,Moraga,Moraga,True
+834,94142,Ignacia,Ygnacia,Moraga,Moraga,True
+842,46784,Ramona,Ramona,Noriega,Ortega,True
+842,93276,Ramona,Ramona,Noriega,Noriega,True
+851,64791,María Teresa,Maria Teresa,Pinto,Pinto,True
+859,66133,María Teresa,Maria Theresa,Bernal,Bernal,True
+864,60203,María Loreta,Maria Loreta,Alviso,Alviso,True
+864,61964,María Loreta,Maria Loreta,Alviso,Albisu,True
+864,65328,María Loreta,Maria Loreto,Alviso,Albiso,True
+864,66471,María Loreta,Maria Loreto,Alviso,Albiso,True
+864,74593,María Loreta,Maria Loreto,Alviso,Alvissu,True
+864,90741,María Loreta,Maria Loreta,Alviso,Albisa,True
+870,57085,María Gertrudis,Maria Getrudis,Rivas,Ribas,True
+870,58016,María Gertrudis,Maria Getrudis,Rivas,Ribas,True
+870,89138,María Gertrudis,Maria Gertrudis,Rivas,Rivas,True
+880,89516,María Bárbara,Maria Barbara,Espinosa,Espinosa,True
+880,90244,María Bárbara,Maria Barbara,Espinosa,Espinosa,True
+899,64451,María,Maria,García,Garcia,True
+899,82396,María,Maria,García,Garcia,True
+899,82683,María,Maria,García,Garcia,True
+899,83366,María,Maria,García,Garcia,True
+899,84034,María,Maria,García,Garcia,True
+899,84898,María,Maria,García,Garcia,True
+912,64734,María Gertrudis,Maria Gertrudis,Peralta,Peralta,True
+912,65076,María Gertrudis,Maria Gertrudis,Peralta,Peralta,True
+919,60835,María del Carmen,Maria del Carmen,Grijalva,Grijalba,True
+919,69696,María del Carmen,Maria del Carmen,Grijalva,Grigalba,True
+919,97436,María del Carmen,Maria del Carmen,Grijalva,Grijalba,True
+924,26858,María Dolores,Maria Dolores,Cantúa,Cantua,True
+930,59375,María Francisca,Maria Francisca,Soto,Soto,True
+930,60350,María Francisca,Maria Francisca,Soto,Soto,True
+930,65875,María Francisca,Maria Francisca,Soto,Soto,True
+930,66586,María Francisca,Maria Francisca,Soto,Soto,True
+930,74962,María Francisca,Maria Francisca,Soto,Soto,True
+930,93138,María Francisca,Maria Francisca,Soto,Soto,True
+935,433,María Josefa,Maria Josefa,Sánchez,Sanchez,True
+935,457,María Josefa,Maria Josefa,Sánchez,Sanchez,True
+935,541,María Josefa,Maria Josefa,Sánchez,Sanchez,True
+935,714,María Josefa,Maria Josefa,Sánchez,Sanchez,True
+935,74963,María Josefa,Maria Josefa,Sánchez,Sanchez,True
+935,95387,María Josefa,Maria Josepha,Sánchez,Sanchez,True
+940,65130,Gertrudis,Gertrudis,Higuera,Higuera,True
+940,74981,Gertrudis,Gertrudis,Higuera,Higuera,True
+940,93232,Gertrudis,Getrudis,Higuera,Yguera,True
+940,94133,Gertrudis,Getrudis,Higuera,Yguera,True
+942,2141,María Victoria,Maria Victoria,Higuera,Higuera,True
+942,64443,María Victoria,Maria Victoria,Higuera,Higuera,True
+942,65350,María Victoria,Maria Victoria,Higuera,Higuera,True
+942,73564,María Victoria,Maria Victoria,Higuera,Higuera,True
+942,74613,María Victoria,Maria Victoria,Higuera,Higuera,True
+942,75709,María Victoria,Maria Victoria,Higuera,Higuera,True
+944,89062,María Dolores,Maria Dolores,Morales,Morales,True
+944,89154,María Dolores,Maria Dolores,Morales,Morales,True
+944,89533,María Dolores,Maria Dolores,Morales,[Morales],True
+951,54370,María Remigia,Maria Remigia,Vásquez,Vazquez,True
+951,65340,María Remigia,Maria Remigia,Vásquez,Basquez,True
+973,82796,Francisca,Francisca,Romero,Romero,True
+976,12377,María Dolores,Maria Dolores,Salgado,Salgado,True
+995,9615,Ana María,Anna Maria,Bojórquez,Bojorques,True

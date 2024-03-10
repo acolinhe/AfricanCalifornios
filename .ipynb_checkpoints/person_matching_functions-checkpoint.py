@@ -11,6 +11,16 @@ custom_costs = {
     ('u', 'v'): 0, ('v', 'u'): 0 
 }
 
+def name_match_score(distance):
+    return 0 if distance <= 2 else 1
+
+def age_match_score(age_difference):
+    return 0 if age_difference <= 3 else 1
+
+def gender_match_score(gender1, gender2):
+    return 0 if gender1 == gender2 else 1
+
+
 def normalize_spanish_names(name: str):
     """
     Normalizes Spanish names by removing diacritics and accents, and replacing 
@@ -100,41 +110,13 @@ def convert_age(x):
         return x
 
 
-def calculate_match_probability(levenshtein_distance, max_distance):
-    """
-    Calculates a match probability score based on the Levenshtein distance.
-
-    Args:
-        levenshtein_distance (int): The Levenshtein distance between two names.
-        max_distance (int): The maximum Levenshtein distance considered for matching.
-
-    Returns:
-        float: A probability score between 0 and 1, with 1 being a perfect match
-               and 0 being no match.
-    """
-    
-    if levenshtein_distance is None:
-        return 0
-    
-    if levenshtein_distance > max_distance:
-        return 0
-
-    # Invert the distance within the maximum distance to get a probability score
-    # This ensures that a distance of 0 gets a perfect score of 1,
-    # and the score decreases as the distance increases.
-    return (max_distance - levenshtein_distance) / max_distance
-
-
-
-def match_names_score(name1, name2, max_distance=5):
+def match_names_score(name1, name2):
     name1 = str(name1) if not pd.isna(name1) else ""
     name2 = str(name2) if not pd.isna(name2) else ""
 
     name1 = normalize_spanish_names(name1)
     name2 = normalize_spanish_names(name2)
 
-    levenshtein_distance = modified_levenshtein_distance(name1, name2)
+    levenshtein_score = modified_levenshtein_distance(name1, name2)
 
-    # Call the new function to get a probability score
-    return calculate_match_probability(levenshtein_distance, max_distance)
-
+    return levenshtein_score

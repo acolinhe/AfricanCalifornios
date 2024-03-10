@@ -1,0 +1,808 @@
+ecpp_id,#ID,Census First Name,Mother Baptisms First Name,Census Last Name,Mother Baptisms Last Name,Census Age,Baptisms Age,Is Parent Match
+2,34,María Antonia,Maria Antonia,,[Unstated],23.0,3.0,True
+2,73,María Antonia,Maria Antonia,,Campos,23.0,1.0,True
+2,194,María Antonia,Maria Antonia,,Sanchez,23.0,1.0,True
+2,261,María Antonia,Maria Antonia,,Villa,23.0,1.0,True
+2,301,María Antonia,Maria Antonia,,Sanchez,23.0,,True
+2,328,María Antonia,Maria Antonia,,Sanchez,23.0,,True
+2,347,María Antonia,Maria Antonia,,Cota,23.0,1.0,True
+2,385,María Antonia,Maria Antonia,,Ortega,23.0,,True
+2,423,María Antonia,Maria Antonia,,Carrillo,23.0,,True
+2,436,María Antonia,Maria Antonia,,Valenzuela,23.0,,True
+2,451,María Antonia,Maria Antonia,,Cota,23.0,0.0,True
+2,452,María Antonia,Maria Antonia,,Cota,23.0,0.0,True
+2,477,María Antonia,Maria Antonia,,Villa,23.0,1.0,True
+2,508,María Antonia,Maria Antonia,,Feliz,23.0,0.0,True
+2,526,María Antonia,Maria Antonia,,Higuera,23.0,0.0,True
+2,548,María Antonia,Maria Antonia,,Lugo,23.0,1.0,True
+2,559,María Antonia,Maria Antonia,,Verdugo,23.0,,True
+2,578,María Antonia,Maria Antonia,,Stuard,23.0,1.0,True
+2,597,María Antonia,Maria Antonia,,Felix,23.0,,True
+2,612,María Antonia,Maria Antonia,,Ayala,23.0,1.0,True
+2,627,María Antonia,Maria Antonia,,Lugo,23.0,1.0,True
+2,629,María Antonia,Maria Antonia,,Verdugo,23.0,0.0,True
+2,635,María Antonia,Maria Antonia,,Carrillo,23.0,,True
+2,644,María Antonia,Maria Antonia,,Feliz,23.0,,True
+2,648,María Antonia,Maria Antonia,,Stuard,23.0,,True
+2,669,María Antonia,Maria Antonia,,Felis,23.0,,True
+2,684,María Antonia,Maria Antonia,,Ayala,23.0,1.0,True
+2,685,María Antonia,[Maria Antonia],,[Ayala],23.0,1.0,True
+2,686,María Antonia,Maria Antonia,,Valenzuela,23.0,,True
+2,690,María Antonia,Maria Antonia,,Valenzuela,23.0,,True
+2,696,María Antonia,Maria Antonia,,Lugo,23.0,1.0,True
+2,720,María Antonia,Maria Antonia,,Valenzuela,23.0,3.0,True
+2,756,María Antonia,Maria Antonia,,Ortega,23.0,,True
+2,766,María Antonia,Maria Antonia,,Lugo,23.0,,True
+2,778,María Antonia,Maria Antonia,,Stuard,23.0,,True
+2,789,María Antonia,Maria Antonia,,Valenzuela,23.0,,True
+2,798,María Antonia,Maria Antonia,,Verdugo,23.0,0.0,True
+2,825,María Antonia,Maria Antonia,,Astuar [Stuard],23.0,1.0,True
+2,901,María Antonia,Maria Antonia,,Valensuela,23.0,1.0,True
+2,909,María Antonia,Maria Antonia,,Guevara,23.0,1.0,True
+2,936,María Antonia,Maria Antonia,,Verdugo,23.0,3.0,True
+2,1028,María Antonia,Maria Antonia,,Ayala,23.0,1.0,True
+2,1060,María Antonia,Maria Antonia,,Balenzuela,23.0,4.0,True
+2,1065,María Antonia,Maria Antonia,,Verdugo,23.0,,True
+2,1072,María Antonia,Maria Antonia,,Guebara,23.0,,True
+2,1161,María Antonia,Maria Antonia,,Guevara,23.0,5.0,True
+2,1184,María Antonia,Maria Antonia,,Jimenez,23.0,,True
+2,1285,María Antonia,Maria Antonia,,Berdugo,23.0,,True
+2,1333,María Antonia,Maria Antonia,,Balensuela,23.0,0.0,True
+2,1339,María Antonia,Maria Antonia,,Cordero,23.0,,True
+2,1414,María Antonia,Maria Antonia,,Valensuela,23.0,,True
+2,1419,María Antonia,Maria Antonia,,Guebara,23.0,,True
+2,1450,María Antonia,Maria Antonia,,Cordero,23.0,,True
+2,1533,María Antonia,Maria Antonia,,Dominguez,23.0,,True
+2,1544,María Antonia,Maria Antonia,,Olivera,23.0,,True
+2,1623,María Antonia,Maria Antonia,,Valenzuela,23.0,1.0,True
+2,1656,María Antonia,Maria Antonia,,Dominguez,23.0,1.0,True
+2,1675,María Antonia,Maria Antonia,,Cordero,23.0,8.0,True
+2,1716,María Antonia,Maria Antonia,,Dominguez,23.0,,True
+2,1722,María Antonia,Maria Antonia,,Cañedo,23.0,,True
+2,1734,María Antonia,Maria Antonia,,Moreno,23.0,,True
+2,1735,María Antonia,Maria Antonia,,Moreno,23.0,,True
+2,1744,María Antonia,Maria Antonia,,Feliz,23.0,4.0,True
+2,1770,María Antonia,Maria Antonia,,Lugo,23.0,1.0,True
+2,1806,María Antonia,Maria Antonia,,Valenzuela,23.0,1.0,True
+2,1813,María Antonia,Maria Antonia,,de la Guerra,23.0,1.0,True
+2,1819,María Antonia,Maria Antonia,,Olivera,23.0,10.0,True
+2,1885,María Antonia,Maria Antonia,,Leiva,23.0,0.0,True
+2,1886,María Antonia,Maria Antonia,,Ortega,23.0,3.0,True
+2,1893,María Antonia,Maria Antonia,,Valencia,23.0,3.0,True
+2,1903,María Antonia,Maria Antonia,,Dominguez,23.0,1.0,True
+2,1913,María Antonia,Maria Antonia,,Valenzuela,23.0,2.0,True
+2,1926,María Antonia,Maria Antonia,,Cordero,23.0,7.0,True
+2,1956,María Antonia,Maria Antonia,,Olivera,23.0,,True
+2,1995,María Antonia,Maria Antonia,,Dominguez,23.0,1.0,True
+2,2090,María Antonia,Maria Antonia,,Olivas,23.0,2.0,True
+2,2152,María Antonia,Maria Antonia,,Feliz,23.0,1.0,True
+2,2181,María Antonia,Maria Antonia,,Valenzuela,23.0,1.0,True
+2,2443,María Antonia,Maria Antonia,,Cota,23.0,3.0,True
+2,2494,María Antonia,Maria Antonia,,Cañedo,23.0,1.0,True
+2,2503,María Antonia,Maria Antonia,,Cañedo,23.0,4.0,True
+2,2597,María Antonia,Maria Antonia,,Rendon,23.0,1.0,True
+2,2823,María Antonia,Maria Antonia,,Castelo,23.0,40.0,True
+2,3182,María Antonia,Maria Antonia,,Villa,23.0,,True
+2,3279,María Antonia,Maria Antonia,,Villa,23.0,1.5,True
+2,3288,María Antonia,Maria Antonia,,Alvares,23.0,2.0,True
+2,3423,María Antonia,Maria Antonia,,Sanchez,23.0,20.0,True
+2,3463,María Antonia,Maria Antonia,,Dominguez,23.0,20.0,True
+2,3740,María Antonia,Maria Antonia,,Castelo,23.0,4.0,True
+2,3744,María Antonia,Maria Antonia,,Castelo,23.0,4.0,True
+2,3832,María Antonia,Maria Antonia,,Leyva,23.0,20.0,True
+2,3836,María Antonia,Maria Antonia,,Sanchez,23.0,,True
+2,10957,María Antonia,Maria Antonia,,Rodriguez,23.0,1.0,True
+2,10997,María Antonia,Maria Antonia,,Valenzuela,23.0,0.0,True
+2,11084,María Antonia,Maria Antonia,,Segundo [Valenzuela],23.0,1.0,True
+2,11217,María Antonia,Maria Antonia,,German,23.0,,True
+2,11614,María Antonia,Maria Antonia,,Ochoa,23.0,,True
+2,11901,María Antonia,Maria Antonia,,Salobarda [Sandoval],23.0,,True
+2,12320,María Antonia,Maria Antonia,,Machado,23.0,,True
+2,13040,María Antonia,Maria Antonia,,Sandobal,23.0,1.0,True
+2,13224,María Antonia,Maria Antonia,,Feliz,23.0,1.0,True
+2,14048,María Antonia,Maria Antonia,,Cañedo,23.0,2.0,True
+2,14338,María Antonia,Maria Antonia,,Rendon,23.0,1.0,True
+2,14446,María Antonia,Maria Antonia,,Abila,23.0,3.0,True
+2,14487,María Antonia,Maria Antonia,,Machado,23.0,2.0,True
+2,14600,María Antonia,Maria Antonia,,Cañedo,23.0,2.0,True
+2,14719,María Antonia,Maria Antonia,,Machado,23.0,1.0,True
+2,14823,María Antonia,Maria Antonia,,Cota,23.0,2.0,True
+2,14850,María Antonia,Maria Antonia,,Feliz,23.0,1.0,True
+2,14897,María Antonia,Maria Antonia,,Rendon,23.0,0.0,True
+2,14899,María Antonia,Maria Antonia,,Moreno,23.0,1.0,True
+2,15001,María Antonia,Maria Antonia,,Cota,23.0,1.0,True
+2,15396,María Antonia,Maria Antonia,,Machado,23.0,,True
+2,15845,María Antonia,Maria Antonia,,Guillen,23.0,,True
+2,15915,María Antonia,Maria Antonia,,Ruiz,23.0,,True
+2,16019,María Antonia,Maria Antonia,,Verdugo,23.0,,True
+2,16187,María Antonia,Maria Antonia,,Mariner,23.0,,True
+2,16293,María Antonia,Maria Antonia,,Villa,23.0,,True
+2,16322,María Antonia,Maria Antonia,,Rendon,23.0,,True
+2,16344,María Antonia,Maria Antonia,,Sanchez,23.0,,True
+2,16355,María Antonia,Maria Antonia,,Guillen,23.0,,True
+2,16674,María Antonia,Maria Antonia,,Vermudez,23.0,,True
+2,16694,María Antonia,Maria Antonia,,Velarde,23.0,,True
+2,16756,María Antonia,Maria Antonia,,Gonzalez,23.0,,True
+2,16809,María Antonia,Maria Antonia,,Guillen,23.0,2.0,True
+2,16811,María Antonia,Maria Antonia,,Martinez,23.0,,True
+2,20583,María Antonia,Maria Antonia,,Albisu,23.0,1.0,True
+2,24684,María Antonia,Maria Antonia,,Redondo,23.0,1.0,True
+2,24785,María Antonia,Maria Antonia,,Limon,23.0,2.0,True
+2,24824,María Antonia,Maria Antonia,,[Tapia],23.0,1.0,True
+2,26292,María Antonia,Maria Antonia,,de Lugo,23.0,1.0,True
+2,26390,María Antonia,Maria Antonia,,Amador,23.0,,True
+2,26527,María Antonia,Maria Antonia,,Amador,23.0,,True
+2,26641,María Antonia,Maria Antonia,,[Garcia],23.0,,True
+2,26704,María Antonia,Maria Antonia,,de Lugo,23.0,1.0,True
+2,26774,María Antonia,Maria Antonia,,de Ortega,23.0,13.0,True
+2,26933,María Antonia,Maria Antonia,,Amesquita,23.0,,True
+2,26941,María Antonia,Maria Antonia,,Rodriguez,23.0,3.0,True
+2,27116,María Antonia,Maria Antonia,,Lugo,23.0,1.0,True
+2,27164,María Antonia,Maria Antonia,,Linares,23.0,7.0,True
+2,27188,María Antonia,Maria Antonia,,Lugo,23.0,23.0,True
+2,27194,María Antonia,Maria Antonia,,Albisu,23.0,1.0,True
+2,27196,María Antonia,Maria Antonia,,Linares,23.0,1.0,True
+2,27233,María Antonia,Maria Antonia,,Amesquita,23.0,1.0,True
+2,27366,María Antonia,Maria Antonia,,Lugo,23.0,7.0,True
+2,27376,María Antonia,Maria Antonia,,Amesquita,23.0,2.0,True
+2,27548,María Antonia,Maria Antonia,,Pico,23.0,2.0,True
+2,27588,María Antonia,Maria Antonia,,Pacheco,23.0,2.0,True
+2,27655,María Antonia,Maria Antonia,,Pacheco,23.0,2.0,True
+2,27685,María Antonia,Maria Antonia,,Amezquita,23.0,2.0,True
+2,27706,María Antonia,Maria Antonia,,Rodriguez,23.0,1.0,True
+2,27741,María Antonia,Maria Antonia,,Linares,23.0,2.0,True
+2,27828,María Antonia,Maria Antonia,,Larios,23.0,2.0,True
+2,27852,María Antonia,Maria Antonia,,Buelna,23.0,,True
+2,27885,María Antonia,Maria Antonia,,Amesquita,23.0,14.0,True
+2,28179,María Antonia,Maria Antonia,,Albisu,23.0,1.0,True
+2,28222,María Antonia,Maria Antoni[a],,Rodriguez,23.0,0.0,True
+2,28289,María Antonia,Maria Antonia,,Albiso,23.0,0.0,True
+2,28311,María Antonia,Maria Antonia,,Suñiga,23.0,1.0,True
+2,28341,María Antonia,Maria Antonia,,Mesquita,23.0,2.0,True
+2,28532,María Antonia,Maria Antonia,,Armenta,23.0,4.0,True
+2,28572,María Antonia,Maria Antonia,,Rodrigues,23.0,15.0,True
+2,28611,María Antonia,Maria Antonia,,Arment[a],23.0,,True
+2,28848,María Antonia,Maria Antonia,,Buelna,23.0,0.0,True
+2,28865,María Antonia,Maria Antonia,,Quinto de Suñiga,23.0,1.0,True
+2,29009,María Antonia,Maria Antonia,,Buelna,23.0,4.0,True
+2,29038,María Antonia,Maria Antonia,,Olibas,23.0,2.0,True
+2,29140,María Antonia,Maria Antonia,,Castro,23.0,37.0,True
+2,29249,María Antonia,Maria Antoni[a],,Castro,23.0,1.0,True
+2,29256,María Antonia,Maria Antonia,,Garcia,23.0,6.0,True
+2,29413,María Antonia,Maria Antonia,,Castro,23.0,2.0,True
+2,29420,María Antonia,Maria Antonia,,Buelna,23.0,,True
+2,32244,María Antonia,Maria Antonia,,Sepulveda,23.0,2.0,True
+2,32357,María Antonia,Maria Antonia,,Berdugo,23.0,,True
+2,32442,María Antonia,Maria Antonia,,Sepulveda,23.0,7.0,True
+2,32579,María Antonia,Maria Antonia,,Sandobal,23.0,,True
+2,32591,María Antonia,Maria Antonia,,Sandoval,23.0,1.0,True
+2,32601,María Antonia,Maria Antonia,,Sandobal,23.0,5.0,True
+2,32607,María Antonia,Maria Antonia,,Sandobal,23.0,2.0,True
+2,32808,María Antonia,Maria Antonia,,Arriola,23.0,,True
+2,32823,María Antonia,Maria Antonia,,Carrillo,23.0,5.0,True
+2,32824,María Antonia,Maria Antonia,,Sepulveda,23.0,3.0,True
+2,33028,María Antonia,Maria Antonia,,Berdugo,23.0,,True
+2,33046,María Antonia,Maria Antonia,,Rodrigues,23.0,,True
+2,33129,María Antonia,Maria Antonia,,Carrillo,23.0,,True
+2,33157,María Antonia,Maria Antonia,,Rodriguez,23.0,,True
+2,33447,María Antonia,Maria Antonia,,Berdugo,23.0,,True
+2,33647,María Antonia,Maria Antonia,,Duarte,23.0,,True
+2,33690,María Antonia,Maria Antonia,,Carrillo,23.0,2.0,True
+2,34147,María Antonia,Maria Antonia,,Duarte,23.0,2.0,True
+2,35616,María Antonia,Maria Antonia,,Berdugo,23.0,1.0,True
+2,35795,María Antonia,Maria Antonia,,Berdugo,23.0,1.0,True
+2,35853,María Antonia,Maria Antonia,,Garcia,23.0,2.0,True
+2,36142,María Antonia,Maria Antonia,,Machado,23.0,0.0,True
+2,36234,María Antonia,Maria Antonia,,Aguilar,23.0,1.0,True
+2,36437,María Antonia,Maria Antonia,,Machado,23.0,14.0,True
+2,36489,María Antonia,Maria Antonia,,Machado,23.0,1.0,True
+2,36570,María Antonia,Maria Antonia,,Machado,23.0,1.0,True
+2,36586,María Antonia,Maria Antonia,,Aguilar,23.0,3.0,True
+2,39711,María Antonia,Maria Antonia,,Aguilar,23.0,5.0,True
+2,39724,María Antonia,Maria Antonia,,Gutierres,23.0,,True
+2,41307,María Antonia,Maria Antonia,,Albarez,23.0,,True
+2,41333,María Antonia,Maria Antonia,,Alvarez,23.0,20.0,True
+2,41335,María Antonia,Maria Antonia,,Gutierrez,23.0,15.0,True
+2,41342,María Antonia,Maria Antonia,,Aguilar,23.0,1.0,True
+2,41347,María Antonia,Maria Antonia,,Cañedo,23.0,0.0,True
+2,45000,María Antonia,Maria Antonia,,Bermudes,23.0,,True
+2,45034,María Antonia,Maria Antonia,,Percuros,23.0,,True
+2,45233,María Antonia,Maria Antonia,,Quintana,23.0,,True
+2,45277,María Antonia,Maria Antonia,,[Bermudez],23.0,,True
+2,45597,María Antonia,Maria Antonia,,Lugo,23.0,,True
+2,46443,María Antonia,Maria Antonia,,Verdugo,23.0,,True
+2,46934,María Antonia,Maria Antonia,,Pico,23.0,,True
+2,50949,María Antonia,Maria Antonia,,Higuera,23.0,,True
+2,51756,María Antonia,Maria Antonia,,Gavara,23.0,0.0,True
+2,52332,María Antonia,Maria Antonia,,Gevara,23.0,,True
+2,52591,María Antonia,Maria Antonia,,Guevara,23.0,1.0,True
+2,52621,María Antonia,Maria Antonia,,Olivera,23.0,3.0,True
+2,54840,María Antonia,Maria Antonia,,Redondo,23.0,3.0,True
+2,54965,María Antonia,Maria Antonia,,Rodriguez,23.0,1.0,True
+2,55020,María Antonia,Maria Antonia,,Garcia [Amesquita],23.0,0.0,True
+2,55441,María Antonia,Maria Antonia,,Redondo,23.0,2.0,True
+2,56338,María Antonia,Maria Antonia,,Campos,23.0,,True
+2,56339,María Antonia,Maria Antonia,,Campos,23.0,,True
+2,57577,María Antonia,Maria Antonia,,Martinez,23.0,1.0,True
+2,58694,María Antonia,Maria Antonia,,Sanchez,23.0,2.0,True
+2,58806,María Antonia,Maria Antonia,,Pico,23.0,1.0,True
+2,59514,María Antonia,Maria Antonia,,Butron,23.0,1.0,True
+2,59543,María Antonia,Maria Antonia,,Amezquita,23.0,1.0,True
+2,59782,María Antonia,Maria Antonia,,Pacheco,23.0,,True
+2,59802,María Antonia,Maria Antonia,,Castro,23.0,1.0,True
+2,60169,María Antonia,Maria Antonia,,Butron,23.0,6.0,True
+2,60198,María Antonia,Maria Antonia,,Pacheco,23.0,2.0,True
+2,60235,María Antonia,Maria Antonia,,Rodriguez,23.0,,True
+2,60420,María Antonia,Maria Antonia,,Castro,23.0,,True
+2,61008,María Antonia,Maria Antonia,,Lugo,23.0,2.0,True
+2,61256,María Antonia,Maria Antonia,,Cantua,23.0,2.0,True
+2,61287,María Antonia,Maria Antonia,,Castro,23.0,2.0,True
+2,61494,María Antonia,Maria Antonia,,Arrieta,23.0,11.0,True
+2,61642,María Antonia,Maria Antonia,,Pacheco,23.0,,True
+2,61708,María Antonia,Maria Antonia,,German,23.0,10.0,True
+2,61717,María Antonia,Maria Antonia,,Pacheco,23.0,3.0,True
+2,62446,María Antonia,Maria Antonia,,Cantua,23.0,4.0,True
+2,62508,María Antonia,Maria Antonia,,Pacheco,23.0,1.0,True
+2,62521,María Antonia,Maria Antonia,,Cantua,23.0,8.0,True
+2,62566,María Antonia,Maria Antonia,,Arrieta,23.0,1.0,True
+2,62798,María Antonia,Maria Antonia,,Castro,23.0,16.0,True
+2,62816,María Antonia,Maria Antonia,,German Arrieta,23.0,1.0,True
+2,62861,María Antonia,Maria Antonia,,Cantua,23.0,3.0,True
+2,62941,María Antonia,Maria Antonia,,Castro,23.0,13.0,True
+2,62947,María Antonia,Maria Antonia,,Castro,23.0,4.0,True
+2,62975,María Antonia,Maria Antonia,,Buelna,23.0,1.0,True
+2,66817,María Antonia,Maria Antonia,,Villa,23.0,,True
+2,67332,María Antonia,Maria Antonia,,de Ortega,23.0,1.0,True
+2,67501,María Antonia,Maria Antonia,,Higuera,23.0,1.0,True
+2,69029,María Antonia,Maria Antonia,,Lugo,23.0,1.0,True
+2,73819,María Antonia,Maria Antonia,,Higuera,23.0,2.0,True
+2,74405,María Antonia,Maria Antonia,,Garcia,23.0,2.0,True
+2,74409,María Antonia,Maria Antonia,,Rodriges,23.0,4.0,True
+2,74439,María Antonia,Maria Antonia,,Rodrigues,23.0,4.0,True
+2,74448,María Antonia,Maria Antonia,,Zoto [Garcia],23.0,3.0,True
+2,74456,María Antonia,Maria Antonia,,Zoto [Garcia],23.0,2.0,True
+2,74459,María Antonia,Maria Antonia,,Larios,23.0,3.0,True
+2,74542,María Antonia,Maria Antonia,,Castro,23.0,1.0,True
+2,74572,María Antonia,Maria Antonia,,Garcia,23.0,3.0,True
+2,74890,María Antonia,Maria Antonia,,Higuera,23.0,2.0,True
+2,76118,María Antonia,Maria Antonia,,Higuera,23.0,2.0,True
+2,76205,María Antonia,Maria Antonia,,Sanchez,23.0,4.0,True
+2,76543,María Antonia,Maria Antonia,,Castro,23.0,,True
+2,76560,María Antonia,Maria Antonia,,Garcia,23.0,,True
+2,76569,María Antonia,Maria Antonia,,Armas,23.0,3.0,True
+2,76595,María Antonia,Maria Antonia,,Castro,23.0,,True
+2,77024,María Antonia,Maria Antonia,,Higuera,23.0,3.0,True
+2,77202,María Antonia,Maria Antonia,,Basques,23.0,2.0,True
+2,77975,María Antonia,Maria Antonia,,Armas,23.0,,True
+2,78062,María Antonia,Maria Antonia,,Montero,23.0,,True
+2,80172,María Antonia,Maria Antonia,,Villela,23.0,1.0,True
+2,80767,María Antonia,Maria Antonia,,Messa,23.0,0.0,True
+2,80841,María Antonia,Maria Antonia,,Higuera,23.0,2.0,True
+2,81351,María Antonia,Maria Antonia,,Galindo,23.0,2.0,True
+2,81587,María Antonia,Maria Antonia,,Sepulveda,23.0,2.0,True
+2,81622,María Antonia,Maria Antonia,,Billela,23.0,2.0,True
+2,81695,María Antonia,Maria Antonia,,Sepulbeda,23.0,2.0,True
+2,82124,María Antonia,Maria Antonia,,Saens,23.0,0.0,True
+2,82174,María Antonia,Maria Antonia,,Galindo,23.0,2.0,True
+2,82175,María Antonia,Maria Antonia,,Pacheco,23.0,1.0,True
+2,82186,María Antonia,Maria Antonia,,Sepulbeda,23.0,3.0,True
+2,82297,María Antonia,Maria Antonia,,Pacheco,23.0,1.0,True
+2,82552,María Antonia,Maria Antonia,,Albizu,23.0,2.0,True
+2,82680,María Antonia,Maria Antonia,,Altamirano,23.0,2.0,True
+2,82692,María Antonia,Maria Antonia,,Higuera,23.0,,True
+2,82867,María Antonia,Maria Antonia,,Bojorgues,23.0,1.0,True
+2,83017,María Antonia,Maria Antonia,,Galindo,23.0,28.0,True
+2,83021,María Antonia,Maria Antonia,,Altamirano,23.0,8.0,True
+2,83198,María Antonia,Maria Antonia,,Galindo,23.0,4.0,True
+2,83206,María Antonia,Maria Antonia,,Higuera,23.0,3.0,True
+2,83761,María Antonia,Maria Antonia,,Galindo,23.0,4.0,True
+2,84755,María Antonia,Maria Antonia,,Sepulveda,23.0,,True
+2,84808,María Antonia,Maria Antonia,,Higuera,23.0,15.0,True
+2,84946,María Antonia,Maria Antonia,,Higuera,23.0,20.0,True
+2,84948,María Antonia,Maria Antonia,,Sepulveda,23.0,1.0,True
+2,84960,María Antonia,Maria Antonia,,Galindo,23.0,,True
+2,85033,María Antonia,Maria Antonia,,Ortega,23.0,4.0,True
+2,85149,María Antonia,Maria Antonia,,Higuera,23.0,22.0,True
+2,85150,María Antonia,Maria Antonia,,Higuera,23.0,22.0,True
+2,85151,María Antonia,Maria Antonia,,Bernal,23.0,15.0,True
+2,85214,María Antonia,Maria Antonia,,Galindo,23.0,,True
+2,85235,María Antonia,Maria Antonia,,Sepulveda,23.0,5.0,True
+2,85239,María Antonia,Maria Antonia,,Galindo,23.0,,True
+2,85251,María Antonia,Maria Antonia,,Garcia,23.0,1.0,True
+2,85264,María Antonia,Maria Antonia,,Ortega,23.0,,True
+2,85311,María Antonia,Maria Antonia,,Bojorques,23.0,,True
+2,85355,María Antonia,Maria Antonia,,Galindo,23.0,,True
+2,85394,María Antonia,Maria Antonia,,Perez,23.0,,True
+2,85565,María Antonia,Maria Antonia,,Higuera,23.0,0.0,True
+2,85567,María Antonia,Maria [Anto]nia,,Perez,23.0,,True
+2,85602,María Antonia,Maria Antonia,,Moreno,23.0,,True
+2,85659,María Antonia,Maria Antonia,,Valencia,23.0,,True
+2,85766,María Antonia,Maria Antonia,,Pacheco,23.0,0.0,True
+2,85847,María Antonia,Maria Antonia,,[Higuera],23.0,,True
+2,85929,María Antonia,Maria Antonia,,Ortega,23.0,,True
+2,86047,María Antonia,Maria Antonia,,Higuera,23.0,,True
+2,86048,María Antonia,Maria Antonia,,Garcia,23.0,,True
+2,86583,María Antonia,Maria Antonia,,Arroyo,23.0,4.0,True
+2,86660,María Antonia,Maria Antonia,,Arroyo,23.0,0.0,True
+2,87965,María Antonia,Maria Antonia,,Bojorges,23.0,,True
+2,91760,María Antonia,Maria Antonia,,Ortega y Carrillo,23.0,,True
+2,93607,María Antonia,Maria Antonia,,Romero,23.0,0.0,True
+2,93779,María Antonia,Maria Antonia,,Romero,23.0,4.0,True
+2,100370,María Antonia,Maria Antonia,,Sanchez,23.0,1.0,True
+2,101766,María Antonia,Martina Antonia,,Mendoza,23.0,1.0,True
+7,3700,María Rufina,Maria Rufina,,Martines,,4.0,True
+7,11743,María Rufina,Maria Rufina,,[Hernandez],,,True
+7,13330,María Rufina,Maria Rufina,,Ernandez,,,True
+7,27140,María Rufina,Maria Rufina,,Alvarez,,2.0,True
+7,27191,María Rufina,Maria Rufina,,Alvarez,,1.0,True
+7,30387,María Rufina,Maria Lucina,,Rodriguez,,8.0,True
+7,30727,María Rufina,Maria Lucina,,[Rodriguez],,3.0,True
+7,76148,María Rufina,Maria Rufina,,Galindo,,2.0,True
+20,16,Ana Gertrudis,Juana Gertrudis,,Mendoza,27.0,0.0,True
+20,10805,Ana Gertrudis,Anna Getrudis,,Silva,27.0,0.0,True
+20,12984,Ana Gertrudis,Ana Getrudis,,Silbas,27.0,,True
+24,35386,María de los Santos,Maria de los Santos,,Olivas,26.0,1.0,True
+24,89975,María de los Santos,Maria de los Santos,,Gutierrez,26.0,2.0,True
+24,90260,María de los Santos,Maria de los Santos,,Gutierrez,26.0,5.0,True
+27,84966,María Máxima,Maria Marina,,Martines,20.0,1.0,True
+27,85167,María Máxima,Maria Marina,,Martinez,20.0,3.0,True
+30,14,Juana,Juana,,Quintero,20.0,0.0,True
+30,30,Juana,Juana,,de Soto Mayor,20.0,18.0,True
+30,31,Juana,Juana,,Parra,20.0,11.0,True
+30,35,Juana,Juana,,Quintero,20.0,1.0,True
+30,148,Juana,Juana,,Parra,20.0,0.0,True
+30,180,Juana,Juana,,Parra,20.0,2.0,True
+30,219,Juana,Juana,,Felix,20.0,2.0,True
+30,330,Juana,Juana,,Valenzuela,20.0,,True
+30,371,Juana,Juana,,Feliz,20.0,,True
+30,405,Juana,Julia,,Sinova,20.0,0.0,True
+30,840,Juana,Juana,,Romero,20.0,,True
+30,844,Juana,Ana,,Medina,20.0,,True
+30,878,Juana,Juliana,,Urquides,20.0,1.0,True
+30,920,Juana,Juana,,Parra,20.0,,True
+30,948,Juana,Julia,,Lopez,20.0,1.0,True
+30,979,Juana,Juana,,Romero,20.0,0.0,True
+30,1049,Juana,Ana,,[Medina],20.0,,True
+30,1056,Juana,Juana,,Ortega,20.0,,True
+30,1084,Juana,Juliana,,Urquidis,20.0,,True
+30,1097,Juana,Juliana,,Urquidez,20.0,,True
+30,1188,Juana,Juliana,,Urquides,20.0,,True
+30,1236,Juana,Juana,,Romero,20.0,,True
+30,1279,Juana,Juana,,Valensuela,20.0,,True
+30,1331,Juana,Ana,,Medina,20.0,2.0,True
+30,1424,Juana,Juliana,,Urquides,20.0,2.0,True
+30,1576,Juana,Juana,,Romero,20.0,1.0,True
+30,1613,Juana,Juana,,Valensuela,20.0,10.0,True
+30,1670,Juana,Julia,,Lopez,20.0,4.0,True
+30,1749,Juana,Juana,,Ballesteros,20.0,1.0,True
+30,1801,Juana,Juana,,Ortega,20.0,1.0,True
+30,1937,Juana,Julia,,Lopez,20.0,1.0,True
+30,1938,Juana,Juana,,Gilvert,20.0,1.0,True
+30,1965,Juana,Juana,,Valenzuela,20.0,,True
+30,2027,Juana,Juana,,Ortega,20.0,1.0,True
+30,2037,Juana,Juana,,Gilbert,20.0,1.0,True
+30,2051,Juana,Juana,,Ruiz,20.0,1.0,True
+30,2057,Juana,Juana,,Olivas,20.0,1.0,True
+30,2327,Juana,Juana,,Ballesteros,20.0,1.0,True
+30,2352,Juana,Juliana,,Rubio,20.0,1.0,True
+30,2445,Juana,Juana,,Rendon,20.0,,True
+30,2556,Juana,Juana,,Mesquita,20.0,1.0,True
+30,2814,Juana,Juana,,Reyes,20.0,,True
+30,2883,Juana,Juana,,Ybarra,20.0,,True
+30,3000,Juana,Juana,,Arriola,20.0,,True
+30,3143,Juana,Juana,,Arriola,20.0,,True
+30,3313,Juana,Juana,,Zuñiga,20.0,4.0,True
+30,3382,Juana,Juana,,Ybarra,20.0,,True
+30,3511,Juana,Juliana,,Olivera,20.0,,True
+30,3711,Juana,Juliana,,Lisalda,20.0,2.0,True
+30,3735,Juana,Juliana,,Higuera,20.0,9.0,True
+30,3822,Juana,Juana,,Arriola,20.0,8.0,True
+30,9463,Juana,Juana,,de Lobo,20.0,1.0,True
+30,10831,Juana,Juana,,Perez,20.0,0.0,True
+30,10909,Juana,Juana,,Lobo,20.0,1.0,True
+30,11164,Juana,Juana,,Ontiberos,20.0,0.0,True
+30,11548,Juana,Juana,,Lovo,20.0,,True
+30,11976,Juana,Juana,,Perez,20.0,,True
+30,12240,Juana,Juana,,Ballesteros,20.0,,True
+30,12493,Juana,Juana,,Ontiveros [Ballesteros],20.0,,True
+30,13004,Juana,Juana,,Ballesteros,20.0,,True
+30,13039,Juana,Juana,,Moreno,20.0,2.0,True
+30,13054,Juana,Juana,,Ontiveros,20.0,,True
+30,13234,Juana,Juana,,Lobo,20.0,3.0,True
+30,13249,Juana,Juana,,Perez,20.0,1.0,True
+30,13335,Juana,Juana,,Bayesteros,20.0,,True
+30,13401,Juana,Juana,,Rubio,20.0,1.0,True
+30,13587,Juana,Juana,,Rubio,20.0,2.0,True
+30,13597,Juana,Juliana,,Alanis,20.0,2.0,True
+30,14095,Juana,Juana,,Uribes,20.0,2.0,True
+30,14096,Juana,Juana,,Reyes,20.0,1.0,True
+30,14689,Juana,Juana,,Ballesteros,20.0,1.0,True
+30,14929,Juana,Juana,,Alvarado,20.0,0.0,True
+30,14930,Juana,Juana,,Ballesteros,20.0,1.0,True
+30,15089,Juana,Julia,,Sinova,20.0,1.0,True
+30,15429,Juana,Juana,,Oliva [Uribe],20.0,,True
+30,16101,Juana,Juana,,[Unstated],20.0,,True
+30,16131,Juana,Juliana,,Salazar,20.0,,True
+30,16786,Juana,Juana,,Lucero,20.0,12.0,True
+30,21510,Juana,Juana,,Parra,20.0,,True
+30,21935,Juana,Juana,,Quintero,20.0,,True
+30,27960,Juana,Juana,,Albarado,20.0,1.0,True
+30,27994,Juana,Juana,,Cota,20.0,2.0,True
+30,28055,Juana,Juana,,Briones,20.0,1.0,True
+30,28066,Juana,Juana,,[A]mezq[ui]ta,20.0,7.0,True
+30,28090,Juana,Juana,,Cota,20.0,3.0,True
+30,28118,Juana,Juana,,Villavicencio,20.0,1.0,True
+30,28167,Juana,Juana,,Albarado,20.0,1.0,True
+30,28294,Juana,Juana,,Vasquez,20.0,3.0,True
+30,28385,Juana,Juana,,Vasquez,20.0,,True
+30,28437,Juana,Juana,,Felis,20.0,3.0,True
+30,28446,Juana,Juana,,Romero,20.0,6.0,True
+30,28554,Juana,Juana,,Felis,20.0,4.0,True
+30,28603,Juana,Juana,,Briones,20.0,14.0,True
+30,28635,Juana,Juana,,Soto,20.0,1.0,True
+30,28687,Juana,Juana,,[Unstated],20.0,,True
+30,28692,Juana,Juana,,Romero y Azedo,20.0,,True
+30,28780,Juana,Juana,,Soto,20.0,2.0,True
+30,28810,Juana,Juana,,Vazquez,20.0,0.0,True
+30,28842,Juana,Juana,,Cota,20.0,3.0,True
+30,28862,Juana,Juana,,Vazquez,20.0,2.0,True
+30,28888,Juana,Juana,,Soto,20.0,11.0,True
+30,28918,Juana,Juana,,Briones,20.0,0.0,True
+30,28966,Juana,Vasa,,Hernandes,20.0,12.0,True
+30,28967,Juana,Vasa,,Hernandes,20.0,12.0,True
+30,28984,Juana,Juana,,[Unstated],20.0,,True
+30,29010,Juana,Juana,,Basquez,20.0,3.0,True
+30,29024,Juana,Juana,,Cota,20.0,4.0,True
+30,29229,Juana,Juana,,Basques,20.0,3.0,True
+30,29232,Juana,Juana,,Espinosa,20.0,20.0,True
+30,29310,Juana,Juana,,Soto,20.0,5.0,True
+30,29423,Juana,Juliana,,Vauglion,20.0,2.0,True
+30,30954,Juana,Juana,,Felix ÿ Villalobos,20.0,1.0,True
+30,31143,Juana,Juana,,Villalobos,20.0,2.0,True
+30,31299,Juana,Juliana,,Analis [Alanis],20.0,1.0,True
+30,32611,Juana,Juana,,Ortiz,20.0,1.0,True
+30,33122,Juana,Juliana,,Lopez,20.0,,True
+30,33180,Juana,Juana,,Moreno,20.0,,True
+30,33531,Juana,Juliana,,Lopez,20.0,2.0,True
+30,33871,Juana,Juana,,Rubio,20.0,2.0,True
+30,33999,Juana,Juana,,Moreno,20.0,2.0,True
+30,34158,Juana,Juana,,Alvarez,20.0,1.0,True
+30,34279,Juana,Juana,,Berdugo,20.0,0.0,True
+30,34286,Juana,Juana,,Albarez,20.0,,True
+30,34319,Juana,Juana,,Lopez,20.0,0.0,True
+30,35017,Juana,Juana,,Berdugo,20.0,0.0,True
+30,35510,Juana,Juana,,Barreras,20.0,1.0,True
+30,35695,Juana,Juana,,Arriola,20.0,0.0,True
+30,35775,Juana,Juana,,Moreno,20.0,1.0,True
+30,35793,Juana,Juana,,Martinez,20.0,2.0,True
+30,35955,Juana,Juliana,,Lopez,20.0,2.0,True
+30,35961,Juana,Juana,,Machado,20.0,1.0,True
+30,36050,Juana,Juana,,Lopez,20.0,12.0,True
+30,36306,Juana,Juana,,Machado,20.0,15.0,True
+30,36538,Juana,Juana,,Machado,20.0,2.0,True
+30,38563,Juana,Juliana,,Alanis,20.0,,True
+30,39584,Juana,Juliana,,Alanis,20.0,1.0,True
+30,40463,Juana,Juliana,,Lopez,20.0,0.0,True
+30,40922,Juana,Juana,,Barreras,20.0,,True
+30,41137,Juana,Juana,,Barreras,20.0,5.0,True
+30,43239,Juana,Juliana,,Linarez,20.0,,True
+30,45190,Juana,Juana,,Arriola,20.0,,True
+30,45221,Juana,Juana,,Carillo,20.0,,True
+30,45242,Juana,Juana,,Carrillo,20.0,,True
+30,46623,Juana,Julia,,Lopez,20.0,,True
+30,46873,Juana,Juana,,Olivera,20.0,,True
+30,46884,Juana,Juana,,Romero,20.0,,True
+30,52326,Juana,Julia,,Lopez,20.0,,True
+30,55650,Juana,Juana,,Cardenas,20.0,11.0,True
+30,55676,Juana,Juana,,[Bojorques],20.0,2.0,True
+30,58344,Juana,Juana,,Rubio,20.0,2.0,True
+30,59135,Juana,Juana,,Amezquita,20.0,1.0,True
+30,59525,Juana,Juana,,Butron,20.0,0.0,True
+30,59550,Juana,Juana,,Soto,20.0,,True
+30,59803,Juana,Juana,,Butron,20.0,1.0,True
+30,59810,Juana,Juana,,Butron,20.0,1.0,True
+30,59849,Juana,Juana,,Hernandez,20.0,1.0,True
+30,59864,Juana,Juana,,Soto,20.0,4.0,True
+30,60176,Juana,Juana,,Butron,20.0,1.0,True
+30,60234,Juana,Juana,,Soto,20.0,,True
+30,60346,Juana,Juana,,Butron,20.0,7.0,True
+30,60398,Juana,Juana,,Soto,20.0,3.0,True
+30,61222,Juana,Juana,,Butron,20.0,2.0,True
+30,61723,Juana,Juana,,Butron,20.0,8.0,True
+30,61925,Juana,Juana,,Vazquez,20.0,,True
+30,62855,Juana,Juana,,Garcia,20.0,1.0,True
+30,62864,Juana,Juana,,Butron,20.0,,True
+30,63013,Juana,Juana,,Butron,20.0,,True
+30,63555,Juana,Juana,,Soto,20.0,2.0,True
+30,63581,Juana,Juana,,Yguera,20.0,2.0,True
+30,65643,Juana,Juana,,Sanches,20.0,1.0,True
+30,65941,Juana,Juliana,,Linares,20.0,1.0,True
+30,70416,Juana,Juana,,Amesquita,20.0,1.0,True
+30,70597,Juana,Juana,,Sanches,20.0,1.0,True
+30,72664,Juana,Juana,,Sanches,20.0,2.0,True
+30,72841,Juana,Juliana,,Linares,20.0,2.0,True
+30,73617,Juana,Juana,,Sanches,20.0,1.0,True
+30,73633,Juana,Juliana,,Linares,20.0,2.0,True
+30,74927,Juana,Juana,,Amesquita,20.0,0.0,True
+30,76361,Juana,Juana,,Sanches,20.0,0.0,True
+30,77316,Juana,Juana,,Florez,20.0,2.0,True
+30,77960,Juana,Juana,,Lorensana,20.0,10.0,True
+30,77976,Juana,Juana,,M[oj]ica,20.0,,True
+30,78006,Juana,Juana,,Lorenzana,20.0,,True
+30,78479,Juana,Juana,,Rubio,20.0,2.0,True
+30,80364,Juana,Juana,,Ciprian,20.0,3.0,True
+30,80986,Juana,Juana,,Cibrian,20.0,1.0,True
+30,81055,Juana,Juana,,Miranda,20.0,4.0,True
+30,81156,Juana,Juana,,Briones,20.0,1.0,True
+30,81209,Juana,Juana,,Galindo,20.0,1.0,True
+30,81469,Juana,Juana,,Montero,20.0,2.0,True
+30,81481,Juana,Juana,,Bojorges,20.0,2.0,True
+30,81612,Juana,Juana,,Galindo,20.0,2.0,True
+30,81690,Juana,Juana,,Florez,20.0,2.0,True
+30,81746,Juana,Juana,,Bojorges,20.0,2.0,True
+30,82123,Juana,Juana,,Galindo,20.0,2.0,True
+30,82132,Juana,Juana,,Montero,20.0,2.0,True
+30,82145,Juana,Juana,,Rubio,20.0,1.0,True
+30,82213,Juana,Juana,,Mesa,20.0,1.0,True
+30,82255,Juana,Joana,,Galindo,20.0,1.0,True
+30,82257,Juana,Juliana,,Buÿtron,20.0,5.0,True
+30,82691,Juana,Juana,,Galindo,20.0,2.0,True
+30,82717,Juana,Juana,,Galindo,20.0,,True
+30,82831,Juana,Juliana,,Huitron,20.0,2.0,True
+30,83281,Juana,Juana,,Cibrian,20.0,3.0,True
+30,83479,Juana,Juana,,Martinez,20.0,62.0,True
+30,83753,Juana,Juana,,Galindo,20.0,,True
+30,83813,Juana,Juana,,Martinez,20.0,8.0,True
+30,84796,Juana,Juliana,,Buitron,20.0,,True
+30,85248,Juana,Juana,,Miranda,20.0,3.0,True
+30,85291,Juana,Juana,,Higuera,20.0,,True
+30,85483,Juana,Juana,,Higuera,20.0,3.0,True
+30,85545,Juana,Juana,,Higuera,20.0,19.0,True
+30,85686,Juana,Juana,,Pacheco,20.0,,True
+30,85902,Juana,Juana,,Bojorques,20.0,,True
+30,86140,Juana,Joanna,,Bogorke,20.0,,True
+30,89540,Juana,Julia,,[Sanchez],20.0,22.0,True
+30,92135,Juana,Juana,,Galindo,20.0,6.0,True
+30,92141,Juana,Juana,,Ortiz,20.0,1.0,True
+30,92143,Juana,Juana,,Carrera,20.0,3.0,True
+30,92275,Juana,Juana,,Galindo,20.0,2.0,True
+30,92349,Juana,Juana,,Carrera,20.0,1.0,True
+30,93304,Juana,Juliana,,Baez,20.0,2.0,True
+30,93469,Juana,Juana,,Zaez,20.0,5.0,True
+30,93617,Juana,Juana,,Saiz,20.0,0.0,True
+30,93880,Juana,Juana,,Mirna,20.0,6.0,True
+30,93886,Juana,Ana,,Martinez,20.0,6.0,True
+30,96333,Juana,Juana,,Cibrian,20.0,1.0,True
+30,99069,Juana,Juana,,Cibrian,20.0,1.0,True
+30,99403,Juana,Juana,,Briones,20.0,1.0,True
+30,100925,Juana,Juana,,Briones,20.0,1.0,True
+30,100926,Juana,Juana,,Sibrian,20.0,8.0,True
+30,101606,Juana,Juana,,Briones,20.0,0.0,True
+30,101627,Juana,Julia,,Sanchez,20.0,0.0,True
+30,101680,Juana,Juana,,Martinez,20.0,0.0,True
+30,101699,Juana,Juana,,Briones,20.0,0.0,True
+30,101701,Juana,Juana,,Bojorquez,20.0,0.0,True
+30,101757,Juana,Julia,,Sanchez,20.0,,True
+30,101765,Juana,Julia,,Sanchez,20.0,,True
+30,102083,Juana,Juana,,Martines,20.0,,True
+30,102100,Juana,Juana,,Briones,20.0,,True
+30,102504,Juana,Juana,,Briones,20.0,,True
+30,102538,Juana,Juana,,Bojorges,20.0,,True
+32,81,María Rosalía,Maria Rosalia,,[Lugo],26.0,,True
+32,185,María Rosalía,Maria Rosalia,,[Unstated],26.0,0.0,True
+32,1481,María Rosalía,Maria Rosario,,Dominguez,26.0,,True
+32,1712,María Rosalía,Maria Rosario,,Domingues,26.0,7.0,True
+32,8651,María Rosalía,Maria Rosalia,,Noriega,26.0,2.0,True
+32,9017,María Rosalía,Maria Rosalia,,Noriega,26.0,,True
+32,9212,María Rosalía,Maria Rosalina,,Noriega,26.0,2.0,True
+32,9375,María Rosalía,Maria Rosalia,,Noriega,26.0,1.0,True
+32,11893,María Rosalía,Maria Rosalia,,[Ochoa],26.0,,True
+32,13548,María Rosalía,Maria Rosalia,,Valenzuela,26.0,1.0,True
+32,14634,María Rosalía,Maria Rosalia,,Balenzuela,26.0,1.0,True
+32,15226,María Rosalía,Maria Rosario,,Urquidez,26.0,,True
+32,16304,María Rosalía,Maria Rosario,,Guillen,26.0,,True
+32,27565,María Rosalía,Maria Rosario,,Higuera,26.0,0.0,True
+32,27955,María Rosalía,Maria Rosalia,,Abila,26.0,1.0,True
+32,30752,María Rosalía,Maria Rosalia,,[Marquez],26.0,3.0,True
+32,31195,María Rosalía,Maria Rosalia,,Ochoa,26.0,0.0,True
+32,44383,María Rosalía,Maria Rosario,,Higuera,26.0,1.0,True
+32,56374,María Rosalía,Maria Rosalia,,Merlope,26.0,2.0,True
+32,74048,María Rosalía,Maria Rosario,,Almas,26.0,,True
+32,76586,María Rosalía,Maria Rosario,,Pinto,26.0,2.0,True
+32,77990,María Rosalía,Maria Rosaria,,Pinto,26.0,,True
+32,84801,María Rosalía,Maria Rosario,,Bernal,26.0,,True
+35,189,María Tomasa,Maria Thomasa,,Quinteros,24.0,2.0,True
+35,225,María Tomasa,Maria Tomasa,,Quintero,24.0,0.0,True
+35,402,María Tomasa,Maria Tomasa,,Rodriguez,24.0,2.0,True
+35,468,María Tomasa,Maria Tomasa,,Rodriguez,24.0,0.0,True
+35,8126,María Tomasa,Maria Thomasa,,Lopez,24.0,1.0,True
+35,9211,María Tomasa,Maria Thomasa,,Lugo,24.0,2.0,True
+35,15230,María Tomasa,Maria Tomasa,,Acebedo,24.0,1.0,True
+35,15508,María Tomasa,Maria Thomasa,,Alvarado,24.0,,True
+35,15702,María Tomasa,Maria Tomasa,,Albarado,24.0,,True
+35,15946,María Tomasa,Maria Tomasa,,Albarado,24.0,,True
+35,16613,María Tomasa,Maria Tomasa,,Tenorio,24.0,,True
+35,52598,María Tomasa,Maria Tomasa,,Vanegas,24.0,1.0,True
+35,64522,María Tomasa,Maria Romana,,Moranda [Sanchez],24.0,0.0,True
+35,67357,María Tomasa,Maria Thomasa,,Quinteros,24.0,0.0,True
+35,75141,María Tomasa,Maria Romana,,Martinez,24.0,2.0,True
+35,77230,María Tomasa,Maria Tomasa,,Alegre,24.0,3.0,True
+35,80333,María Tomasa,Maria Romana,,Martines,24.0,1.0,True
+35,82308,María Tomasa,Maria Romana,,Martines,24.0,1.0,True
+35,82870,María Tomasa,Maria Tomasa,,Hernandez,24.0,1.0,True
+35,92601,María Tomasa,Maria Romana,,Sanches,24.0,11.0,True
+35,93801,María Tomasa,Maria Tomasa,,Cantua,24.0,2.0,True
+37,215,María Petra,Maria Petra,,Montiel,40.0,0.0,True
+37,839,María Petra,Maria Petra,,Pico,40.0,,True
+37,2001,María Petra,Maria Petra,,Pico,40.0,1.0,True
+37,2319,María Petra,Maria Petra,,Avila,40.0,1.0,True
+37,12031,María Petra,Maria Petra,,Mejias,40.0,,True
+37,17275,María Petra,Maria Petra,,Montiel,40.0,,True
+37,17715,María Petra,Maria Petra,,Domingues [Lugo],40.0,1.0,True
+37,28381,María Petra,Maria Petra,,Boronda,40.0,2.0,True
+37,32840,María Petra,Maria Petra,,Felís,40.0,2.0,True
+37,34356,María Petra,Maria Petra,,Felíz,40.0,1.0,True
+37,34849,María Petra,Maria Petra,,Felix,40.0,3.0,True
+37,41352,María Petra,Maria Petra,,Avila,40.0,44.0,True
+37,54644,María Petra,Maria Petra,,Lugo,40.0,1.0,True
+37,54691,María Petra,Maria Petra,,Lugo,40.0,2.0,True
+37,55267,María Petra,Maria Petra,,Asebes,40.0,5.0,True
+37,56893,María Petra,Maria Petra,,"Azeves, de",40.0,0.0,True
+37,65875,María Petra,Maria Petra,,Amesquita,40.0,0.0,True
+37,71743,María Petra,Maria Petra,,Pachecho,40.0,1.0,True
+37,73450,María Petra,Maria Petra,,Amezquita,40.0,1.0,True
+37,76127,María Petra,Maria Petra,,Amezquita,40.0,3.0,True
+37,76156,María Petra,Maria Petra,,Pacheco,40.0,2.0,True
+37,77178,María Petra,Maria Petra,,Pacheco,40.0,2.0,True
+37,77229,María Petra,Maria Petra,,Basques,40.0,3.0,True
+37,77386,María Petra,Maria Petra,,Higuera,40.0,1.0,True
+37,80191,María Petra,Maria Petra,,Pacheco,40.0,2.0,True
+37,80370,María Petra,Maria Petra,,Higuera,40.0,3.0,True
+37,80388,María Petra,Maria Petra,,Basques,40.0,1.0,True
+37,81026,María Petra,Maria Petra,,Bernal,40.0,1.0,True
+37,81448,María Petra,Maria Petra,,Bernal,40.0,2.0,True
+37,81452,María Petra,Maria Petra,,Pacheco,40.0,3.0,True
+37,82242,María Petra,Maria Petra,,Pacheco,40.0,1.0,True
+37,82853,María Petra,Maria Petra,,Higuera,40.0,3.0,True
+37,83631,María Petra,Maria Petra,,Higuera,40.0,5.0,True
+37,85633,María Petra,Maria [Pe]tra,,Rochin,40.0,,True
+37,88491,María Petra,Maria Petra,,[Ochoa],40.0,4.0,True
+37,89437,María Petra,Maria Petra,,Ochoa,40.0,5.0,True
+37,97279,María Petra,Maria Petra,,Pacheco,40.0,2.0,True
+37,99029,María Petra,Maria Petra,,Pacheco,40.0,2.0,True
+44,1518,María Guadalupe ,Maria Guadalupe,,Ortega,19.0,,True
+44,2114,María Guadalupe ,Maria Guadalupe,,Ortega,19.0,1.0,True
+44,2193,María Guadalupe ,Maria Guadalupe,,Talamantes,19.0,1.0,True
+44,3841,María Guadalupe ,Maria Guadalupe,,Garcia,19.0,6.0,True
+44,8668,María Guadalupe ,Maria Guadalupe,,Gaspar [Perez],19.0,1.0,True
+44,9129,María Guadalupe ,Maria Guadalupe,,[Perez],19.0,1.0,True
+44,9661,María Guadalupe ,Maria Guadalupe,,Cariada [Perez],19.0,1.0,True
+44,10061,María Guadalupe ,Maria Guadalupe,,[Perez],19.0,4.0,True
+44,10383,María Guadalupe ,Maria Guadalupe,,[Perez],19.0,,True
+44,10660,María Guadalupe ,Maria Guadalupe,,Briones,19.0,1.0,True
+44,10908,María Guadalupe ,Maria Guadalupe,,[Briones],19.0,,True
+44,13408,María Guadalupe ,Maria Guadalupe,,Uribe,19.0,2.0,True
+44,15182,María Guadalupe ,Maria Guadalupe,,Talamantes,19.0,,True
+44,15552,María Guadalupe ,Maria Guadalupe,,Ortega,19.0,,True
+44,15826,María Guadalupe ,Maria Guadalupe,,Uribe,19.0,,True
+44,26820,María Guadalupe ,Maria Guadalupe,,Garcia,19.0,,True
+44,26945,María Guadalupe ,Maria Guadalupe,,Miranda,19.0,1.0,True
+44,27260,María Guadalupe ,Maria Guadalupe,,Miranda,19.0,1.0,True
+44,27401,María Guadalupe ,Maria Guadalupe,,Miranda,19.0,1.0,True
+44,27444,María Guadalupe ,Maria Guadalupe,,Boronda,19.0,0.0,True
+44,27461,María Guadalupe ,Maria Guadalupe,,Rodriguez,19.0,0.0,True
+44,27472,María Guadalupe ,Maria Guadalupe,,Juares,19.0,1.0,True
+44,27631,María Guadalupe ,Maria Guadalupe,,Cantua,19.0,2.0,True
+44,27647,María Guadalupe ,Maria Guadalupe,,Guarez,19.0,2.0,True
+44,27694,María Guadalupe ,Maria Guadalupe,,Boronda,19.0,1.0,True
+44,27819,María Guadalupe ,Maria Guadalupe,,Boronda,19.0,3.0,True
+44,27965,María Guadalupe ,Maria Guadalupe,,Boronda,19.0,2.0,True
+44,28321,María Guadalupe ,Maria Guadalupe,,Vasquez,19.0,1.0,True
+44,28456,María Guadalupe ,Maria Guadalupe,,Garcia,19.0,2.0,True
+44,28483,María Guadalupe ,Maria Guadalupe,,Basques,19.0,3.0,True
+44,28491,María Guadalupe ,Maria Guadalupe,,Garcia,19.0,28.0,True
+44,28526,María Guadalupe ,Maria Guadalupe,,Robles,19.0,4.0,True
+44,28615,María Guadalupe ,Maria Guadalupe,,Castillo,19.0,0.0,True
+44,28846,María Guadalupe ,Maria Guadalupe,,Castillo,19.0,1.0,True
+44,29128,María Guadalupe ,Maria Guadalupe,,Castiyo,19.0,13.0,True
+44,30091,María Guadalupe ,Maria Guadalupe,,Lugo,19.0,1.0,True
+44,30911,María Guadalupe ,Maria Guadalupe,,Briones,19.0,2.0,True
+44,31210,María Guadalupe ,Maria Guadalupe,,Briones,19.0,3.0,True
+44,32589,María Guadalupe ,Maria Guadalupe,,Valenzuela,19.0,3.0,True
+44,32600,María Guadalupe ,Maria Guadalupe,,Valenzuela,19.0,6.0,True
+44,32613,María Guadalupe ,Maria Guadalupe,,Va[lenzue]la,19.0,2.0,True
+44,36109,María Guadalupe ,Maria Guadalupe,,Machado,19.0,0.0,True
+44,36223,María Guadalupe ,Maria Guadalupe,,Estudillo,19.0,10.0,True
+44,36397,María Guadalupe ,Maria Guadalupe,,Machado,19.0,12.0,True
+44,36571,María Guadalupe ,Maria Guadalupe,,Alvarado,19.0,15.0,True
+44,44332,María Guadalupe ,Maria Guadalupe,,Romero,19.0,,True
+44,48817,María Guadalupe ,Maria Guadalupe,,Romero,19.0,,True
+44,53458,María Guadalupe ,Maria Guadalupe,,Rodriguez,19.0,5.0,True
+44,53626,María Guadalupe ,Maria Guadalupe,,Romero,19.0,3.0,True
+44,54548,María Guadalupe ,Maria Guadalupe,,Romero,19.0,0.0,True
+44,60945,María Guadalupe ,Maria Guadalupe,,Garcia,19.0,2.0,True
+44,61471,María Guadalupe ,Maria Guadalupe,,Cantua,19.0,13.0,True
+44,70463,María Guadalupe ,Maria Guadalupe,,Miranda,19.0,2.0,True
+44,73827,María Guadalupe ,Maria Guadalupe,,Rodriguez,19.0,2.0,True
+44,74410,María Guadalupe ,Maria Guadalupe,,Juarez,19.0,3.0,True
+44,74585,María Guadalupe ,Maria Guadalupe,,Juares,19.0,3.0,True
+44,74606,María Guadalupe ,Maria Guadalupe,,Robles,19.0,3.0,True
+44,75912,María Guadalupe ,Maria Guadalupe,,Romero,19.0,1.0,True
+44,76575,María Guadalupe ,Maria Guadalupe,,Juares,19.0,2.0,True
+44,77011,María Guadalupe ,Maria Guadalupe,,Rodrigues,19.0,1.0,True
+44,77483,María Guadalupe ,Maria Guadalupe,,Romero,19.0,2.0,True
+44,77513,María Guadalupe ,Maria Guadalupe,,Patron,19.0,0.0,True
+44,81445,María Guadalupe ,Maria Guadalupe,,Cantua,19.0,2.0,True
+44,81447,María Guadalupe ,Maria Guadalupe,,Messa,19.0,2.0,True
+44,82192,María Guadalupe ,Maria Guadalupe,,Mesa,19.0,2.0,True
+44,83704,María Guadalupe ,Maria Guadalupe,,Duarte,19.0,,True
+44,83708,María Guadalupe ,Maria Guadalupe,,Moraga,19.0,,True
+44,84794,María Guadalupe ,Maria Guadalupe,,Garduño,19.0,,True
+44,85346,María Guadalupe ,Maria Guadalupe,,Villagrana,19.0,4.0,True
+44,85566,María Guadalupe ,Maria Guadalupe,,Narvaez,19.0,0.0,True
+44,86657,María Guadalupe ,Maria Guadalupe,,Basquez,19.0,0.0,True
+46,4,Juana María,Ju[a]na Maria,,Armenta,11.0,19.0,True
+46,7,Juana María,Juana Maria,,de Zotomayor,11.0,15.0,True
+46,257,Juana María,Ana Maria,,Lugo,11.0,1.0,True
+46,1043,Juana María,Ana Maria,,Ortega,11.0,1.0,True
+46,1137,Juana María,Ana Maria,,Medina,11.0,,True
+46,1286,Juana María,Ana Maria,,Ortega,11.0,,True
+46,1344,Juana María,Juana Maria,,Olivera,11.0,,True
+46,1568,Juana María,Ana Maria,,Medina,11.0,1.0,True
+46,1650,Juana María,Ana Maria,,Medina,11.0,1.0,True
+46,2752,Juana María,Juana Maria,,Avila,11.0,,True
+46,2794,Juana María,Juana Maria,,Reyes,11.0,,True
+46,3088,Juana María,Juana Maria,,Abila,11.0,,True
+46,3334,Juana María,Juana Maria,,Abila,11.0,,True
+46,3365,Juana María,Juana Maria,,Reyes,11.0,,True
+46,3813,Juana María,Juana Maria,,Reyes,11.0,4.0,True
+46,8323,Juana María,Juana Maria,,Berdugo,11.0,1.0,True
+46,8576,Juana María,Juana Maria,,[Verdugo],11.0,1.0,True
+46,8669,Juana María,Juana Maria,,[Rodriguez],11.0,1.0,True
+46,8840,Juana María,Juana Maria,,[Verdugo],11.0,1.0,True
+46,10213,Juana María,Juana Maria,,Perez,11.0,,True
+46,11830,Juana María,Ana Maria,,[Lugo],11.0,,True
+46,14920,Juana María,Ana Maria,,Lugo,11.0,2.0,True
+46,16217,Juana María,Juana Maria,,Arroyo,11.0,,True
+46,16367,Juana María,Juana Maria,,Arroyo,11.0,,True
+46,21462,Juana María,Ana Maria,,Bibriesca,11.0,,True
+46,28094,Juana María,Ana Maria,,Villavicencio,11.0,1.0,True
+46,28168,Juana María,Ana Maria,,Avila,11.0,3.0,True
+46,28223,Juana María,Ana Maria,,Medina,11.0,0.0,True
+46,28229,Juana María,Ana Maria,,Martinez,11.0,0.0,True
+46,28260,Juana María,Juana Maria,,Alvarado,11.0,1.0,True
+46,29345,Juana María,Juana Maria,,[K]inzie,11.0,,True
+46,29347,Juana María,Juana Maria*,,[K]inzie,11.0,,True
+46,30326,Juana María,Juana Maria,,Miranda,11.0,6.0,True
+46,30814,Juana María,Juana Maria,,Miranda,11.0,1.0,True
+46,33536,Juana María,Ana Maria,,Lugo,11.0,3.0,True
+46,35557,Juana María,Ana Maria,,Amezquita,11.0,2.0,True
+46,37355,Juana María,Juana Maria,,Miranda,11.0,,True
+46,54860,Juana María,Juana Maria,,[Cardenas],11.0,6.0,True
+46,56816,Juana María,Ana Maria,,Gonzalez,11.0,4.0,True
+46,56850,Juana María,Juana Maria,,Cardenas,11.0,8.0,True
+46,57624,Juana María,Ana Maria,,Gonzalez,11.0,2.0,True
+46,58031,Juana María,Ana Maria,,Bernal,11.0,1.0,True
+46,58804,Juana María,Juana Maria,,Alvarado,11.0,0.0,True
+46,59540,Juana María,Juana Maria,,Vazquez,11.0,1.0,True
+46,60379,Juana María,Ana Maria,,Villabicencio,11.0,,True
+46,60463,Juana María,Ana Maria,,Gonzalez,11.0,2.0,True
+46,61267,Juana María,Ana Maria,,Villa,11.0,3.0,True
+46,61647,Juana María,Ana Maria,,Villa,11.0,3.0,True
+46,61749,Juana María,Ana Maria,,Villa,11.0,2.0,True
+46,62499,Juana María,Ana Maria,,Villa,11.0,2.0,True
+46,62799,Juana María,Ana Maria,,Villa,11.0,1.0,True
+46,62948,Juana María,Ana Maria,,Villa,11.0,,True
+46,63010,Juana María,Ana Maria,,Villa,11.0,0.0,True
+46,65512,Juana María,Ana Maria,,Gonzales,11.0,3.0,True
+46,67471,Juana María,Ana Maria,,Higuera,11.0,2.0,True
+46,67533,Juana María,Ana Maria,,Higuera,11.0,1.0,True
+46,68534,Juana María,Ana Maria,,Higuera,11.0,3.0,True
+46,69182,Juana María,Ana Maria,,Gonzalez,11.0,,True
+46,69277,Juana María,Ana Maria,,Bernal,11.0,,True
+46,72855,Juana María,Juana Maria,,Olivera,11.0,6.0,True
+46,76514,Juana María,Juana Maria,,Flores,11.0,2.0,True
+46,85596,Juana María,Ana Maria,,Galindo,11.0,,True
+46,88046,Juana María,Ana Maria,,de Ozuna,11.0,,True
+46,93204,Juana María,Ana Maria,,Nuñez,11.0,,True
+46,100769,Juana María,Ana Maria,,Higuera,11.0,1.0,True

@@ -1,0 +1,123 @@
+ecpp_id,#ID,Census First Name,Mother Baptisms First Name,Census Last Name,Mother Baptisms Last Name,Is Parent Match
+2,26999,Maria Concepción,Loreta,,Sal,True
+2,27057,Maria Concepción,Josefa,,Sal,True
+2,45128,Maria Concepción,Jesus,,Col,True
+2,45158,Maria Concepción,Francisca,,Col,True
+2,45249,Maria Concepción,Francisca,,Col,True
+2,103066,Maria Concepción,Maria Vicenta,,Soé,True
+2,103106,Maria Concepción,Rosalia,,Aro,True
+10,26999,María Ursula,Loreta,,Sal,True
+10,27057,María Ursula,Josefa,,Sal,True
+10,45128,María Ursula,Jesus,,Col,True
+10,45158,María Ursula,Francisca,,Col,True
+10,45249,María Ursula,Francisca,,Col,True
+10,103066,María Ursula,Maria Vicenta,,Soé,True
+10,103106,María Ursula,Rosalia,,Aro,True
+60,26999,María Norberta,Loreta,,Sal,True
+60,27057,María Norberta,Josefa,,Sal,True
+60,45128,María Norberta,Jesus,,Col,True
+60,45158,María Norberta,Francisca,,Col,True
+60,45249,María Norberta,Francisca,,Col,True
+60,103066,María Norberta,Maria Vicenta,,Soé,True
+60,103106,María Norberta,Rosalia,,Aro,True
+83,26999,Maria Marcela ,Loreta,,Sal,True
+83,27057,Maria Marcela ,Josefa,,Sal,True
+83,45128,Maria Marcela ,Jesus,,Col,True
+83,45158,Maria Marcela ,Francisca,,Col,True
+83,45249,Maria Marcela ,Francisca,,Col,True
+83,103066,Maria Marcela ,Maria Vicenta,,Soé,True
+83,103106,Maria Marcela ,Rosalia,,Aro,True
+86,26999,Maria de Jesus Valeriana,Loreta,,Sal,True
+86,27057,Maria de Jesus Valeriana,Josefa,,Sal,True
+86,45128,Maria de Jesus Valeriana,Jesus,,Col,True
+86,45158,Maria de Jesus Valeriana,Francisca,,Col,True
+86,45249,Maria de Jesus Valeriana,Francisca,,Col,True
+86,103066,Maria de Jesus Valeriana,Maria Vicenta,,Soé,True
+86,103106,Maria de Jesus Valeriana,Rosalia,,Aro,True
+100,26999,Maria Clara,Loreta,,Sal,True
+100,27057,Maria Clara,Josefa,,Sal,True
+100,45128,Maria Clara,Jesus,,Col,True
+100,45158,Maria Clara,Francisca,,Col,True
+100,45249,Maria Clara,Francisca,,Col,True
+100,103066,Maria Clara,Maria Vicenta,,Soé,True
+100,103106,Maria Clara,Rosalia,,Aro,True
+101,26999,,Loreta,,Sal,True
+101,27057,,Josefa,,Sal,True
+101,45128,,Jesus,,Col,True
+101,45158,,Francisca,,Col,True
+101,45249,,Francisca,,Col,True
+101,103066,,Maria Vicenta,,Soé,True
+101,103106,,Rosalia,,Aro,True
+102,26999,,Loreta,,Sal,True
+102,27057,,Josefa,,Sal,True
+102,45128,,Jesus,,Col,True
+102,45158,,Francisca,,Col,True
+102,45249,,Francisca,,Col,True
+102,103066,,Maria Vicenta,,Soé,True
+102,103106,,Rosalia,,Aro,True
+121,26999,,Loreta,,Sal,True
+121,27057,,Josefa,,Sal,True
+121,45128,,Jesus,,Col,True
+121,45158,,Francisca,,Col,True
+121,45249,,Francisca,,Col,True
+121,103066,,Maria Vicenta,,Soé,True
+121,103106,,Rosalia,,Aro,True
+153,26999,Maria Prudencia,Loreta,,Sal,True
+153,27057,Maria Prudencia,Josefa,,Sal,True
+153,45128,Maria Prudencia,Jesus,,Col,True
+153,45158,Maria Prudencia,Francisca,,Col,True
+153,45249,Maria Prudencia,Francisca,,Col,True
+153,103066,Maria Prudencia,Maria Vicenta,,Soé,True
+153,103106,Maria Prudencia,Rosalia,,Aro,True
+175,26999,,Loreta,,Sal,True
+175,27057,,Josefa,,Sal,True
+175,45128,,Jesus,,Col,True
+175,45158,,Francisca,,Col,True
+175,45249,,Francisca,,Col,True
+175,103066,,Maria Vicenta,,Soé,True
+175,103106,,Rosalia,,Aro,True
+198,26999,Manuela Lorezana Justiniana ,Loreta,,Sal,True
+198,27057,Manuela Lorezana Justiniana ,Josefa,,Sal,True
+198,45128,Manuela Lorezana Justiniana ,Jesus,,Col,True
+198,45158,Manuela Lorezana Justiniana ,Francisca,,Col,True
+198,45249,Manuela Lorezana Justiniana ,Francisca,,Col,True
+198,103066,Manuela Lorezana Justiniana ,Maria Vicenta,,Soé,True
+198,103106,Manuela Lorezana Justiniana ,Rosalia,,Aro,True
+236,26999,,Loreta,,Sal,True
+236,27057,,Josefa,,Sal,True
+236,45128,,Jesus,,Col,True
+236,45158,,Francisca,,Col,True
+236,45249,,Francisca,,Col,True
+236,103066,,Maria Vicenta,,Soé,True
+236,103106,,Rosalia,,Aro,True
+240,3228,Maria Vicenta ,Felipa,Lugo Ruiz,Lugo [Ruiz],True
+242,3228,Maria Antonia,Felipa,Lugo Ruiz,Lugo [Ruiz],True
+244,3228,Maria de la Merced,Felipa,Lugo Ruiz,Lugo [Ruiz],True
+275,26999,Ana ,Loreta,,Sal,True
+275,27057,Ana ,Josefa,,Sal,True
+275,45128,Ana ,Jesus,,Col,True
+275,45158,Ana ,Francisca,,Col,True
+275,45249,Ana ,Francisca,,Col,True
+275,103066,Ana ,Maria Vicenta,,Soé,True
+275,103106,Ana ,Rosalia,,Aro,True
+278,26999,Maria Rufina,Loreta,,Sal,True
+278,27057,Maria Rufina,Josefa,,Sal,True
+278,45128,Maria Rufina,Jesus,,Col,True
+278,45158,Maria Rufina,Francisca,,Col,True
+278,45249,Maria Rufina,Francisca,,Col,True
+278,103066,Maria Rufina,Maria Vicenta,,Soé,True
+278,103106,Maria Rufina,Rosalia,,Aro,True
+281,26999,Maria Anastacia Michaela ,Loreta,,Sal,True
+281,27057,Maria Anastacia Michaela ,Josefa,,Sal,True
+281,45128,Maria Anastacia Michaela ,Jesus,,Col,True
+281,45158,Maria Anastacia Michaela ,Francisca,,Col,True
+281,45249,Maria Anastacia Michaela ,Francisca,,Col,True
+281,103066,Maria Anastacia Michaela ,Maria Vicenta,,Soé,True
+281,103106,Maria Anastacia Michaela ,Rosalia,,Aro,True
+321,26999,Orphan Girl ,Loreta,,Sal,True
+321,27057,Orphan Girl ,Josefa,,Sal,True
+321,45128,Orphan Girl ,Jesus,,Col,True
+321,45158,Orphan Girl ,Francisca,,Col,True
+321,45249,Orphan Girl ,Francisca,,Col,True
+321,103066,Orphan Girl ,Maria Vicenta,,Soé,True
+321,103106,Orphan Girl ,Rosalia,,Aro,True

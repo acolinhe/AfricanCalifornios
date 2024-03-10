@@ -4,97 +4,133 @@ from itertools import product
 import numpy as np
 
 
-# This will probably take a while to run
-# Trying to make generic class for baptisms, marriages, and deaths
-# Might have to make a separate class for each
 class PersonMatcher:
-    def __init__(self, ecpp: pd.DataFrame, baptisms: pd.DataFrame):
-        self.ecpp = ecpp
+    def __init__(self, census, baptisms, config):
+        self.ecpp = census
         self.records = baptisms
-        self.ecpp_id_col = 'ecpp_id'
-        self.records_id_col = '#ID'
-        self.matched_records = pd.DataFrame(columns=[self.ecpp_id_col, self.records_id_col])
+        self.config = config
+        self.matched_records = pd.DataFrame()
+    
+    def calculate_total_match_score(self):
+        weights = {
+            'First_Name_Match_Score': 0.20,  # Updated weight for first name
+            'Last_Name_Match_Score': 0.35,   # Updated weight for last name
+            'Gender_Match_Score': 0.30,
+            'Age_Match_Score': 0.15
+        }
+
+        weight_sum = sum(weights.values())
+        normalized_weights = {k: v / weight_sum for k, v in weights.items()}
+
+        self.matched_records['Total_Match_Score'] = sum(
+            self.matched_records[score] * normalized_weights[score]
+            for score in weights.keys()
+        )
+
+
+    def match(self):
+        self.create_matched_records()
+        self.direct_match_names()
+        self.match_parents_names()
+        self.match_other_features()
+        self.calculate_total_match_score()
+        return self.matched_records
 
     def create_matched_records(self):
-        ecpp_ids = self.ecpp[self.ecpp_id_col]
-        records_ids = self.records[self.records_id_col].astype(int)
-        
-        all_pairs = product(ecpp_ids, records_ids)
-        
-        matched_records_list = [{'ecpp_id': ecpp_id, '#ID': record_id} for ecpp_id, record_id in all_pairs]
-        self.matched_records = pd.DataFrame(matched_records_list, columns=[self.ecpp_id_col, self.records_id_col])
-    
-    def direct_name_matcher(self):
-        ecpp_first_name_values = self.ecpp.set_index(self.ecpp_id_col)['Ego_First Name'].fillna('').to_dict()
-        records_first_name_values = self.records.set_index(self.records_id_col)['SpanishName'].fillna('').to_dict()
-        ecpp_last_name_values = self.ecpp.set_index(self.ecpp_id_col)['Ego_Last Name'].fillna('').to_dict()
-        records_last_name_values = self.records.set_index(self.records_id_col)['Surname'].fillna('').to_dict()
+        ecpp_ids = self.ecpp.reset_index()[self.config['ecpp_id_col']]
+        records_ids = self.records.reset_index()[self.config['records_id_col']]
 
-        self.matched_records['Census First Name'] = self.matched_records[self.ecpp_id_col].map(ecpp_first_name_values)
-        self.matched_records['Baptisms First Name'] = self.matched_records[self.records_id_col].map(records_first_name_values)
-        self.matched_records['First Name Match Classifier'] = 0
+        self.matched_records = pd.DataFrame(product(ecpp_ids, records_ids), columns=[self.config['ecpp_id_col'], self.config['records_id_col']])
 
-        self.matched_records['Census Last Name'] = self.matched_records[self.ecpp_id_col].map(ecpp_last_name_values)
-        self.matched_records['Baptisms Last Name'] = self.matched_records[self.records_id_col].map(records_last_name_values)
-        self.matched_records['Last Name Match Classifier'] = 0
-    
+        for key, value in self.config['census'].items():
+            self.matched_records[f'Census_{value}'] = self.matched_records[self.config['ecpp_id_col']].map(self.ecpp.set_index(self.config['ecpp_id_col'])[value])
+
+        for key, value in self.config['baptisms'].items():
+            self.matched_records[f'Baptisms_{value}'] = self.matched_records[self.config['records_id_col']].map(self.records.set_index(self.config['records_id_col'])[value])
+        
+        return self.matched_records
+
+
     def direct_match_names(self):
-        self.matched_records['First Name Match Classifier'] = \
-        self.matched_records.apply(lambda row: match_names_score(row['Census First Name'], row['Baptisms First Name']), axis=1)
-        self.matched_records['Last Name Match Classifier'] = \
-        self.matched_records.apply(lambda row: match_names_score(row['Census Last Name'], row['Baptisms Last Name']), axis=1)
+        # Calculate and assign first name match score
+        self.matched_records['First_Name_Match_Score'] = self.matched_records.apply(
+            lambda row: self.match_name_score(
+                row[f'Census_{self.config["census"]["First Name"]}'],
+                row[f'Baptisms_{self.config["baptisms"]["First Name"]}']
+            ) * 0.20, axis=1
+        )
 
-    # Now for the parent matching
-    # read in the pickle file to save on matching time
-    def match_parents(self):
-        records_mother_first_name_values = self.records.set_index(self.records_id_col)['MSpanishName'].to_dict()
-        records_mother_last_name_values = self.records.set_index(self.records_id_col)['MSurname'].to_dict()
-        records_father_first_name_values = self.records.set_index(self.records_id_col)['FSpanishName'].to_dict()
-        records_father_last_name_values = self.records.set_index(self.records_id_col)['FSurname'].to_dict()
+        # Calculate and assign last name match score
+        self.matched_records['Last_Name_Match_Score'] = self.matched_records.apply(
+            lambda row: self.match_name_score(
+                row[f'Census_{self.config["census"]["Last Name"]}'],
+                row[f'Baptisms_{self.config["baptisms"]["Last Name"]}']
+            ) * 0.35, axis=1
+        )
 
 
-        self.matched_records['Mother Baptisms First Name'] = self.matched_records[self.records_id_col].map(records_mother_first_name_values)
-        self.matched_records['Mother First Name Match Classifier'] = 0
-        self.matched_records['Mother Baptisms Last Name'] = self.matched_records[self.records_id_col].map(records_mother_last_name_values)
-        self.matched_records['Mother Last Name Match Classifier'] = 0
-
-        self.matched_records['Father Baptisms First Name'] = self.matched_records[self.records_id_col].map(records_father_first_name_values)
-        self.matched_records['Father First Name Match Classifier'] = 0
-        self.matched_records['Father Baptisms Last Name'] = self.matched_records[self.records_id_col].map(records_father_last_name_values)
-        self.matched_records['Father Last Name Match Classifier'] = 0
-    
     def match_parents_names(self):
-        self.matched_records['Mother First Name Match Classifier'] = \
-        self.matched_records.apply(lambda row: match_names_score(row['Census First Name'], row['Mother Baptisms First Name']), axis=1)
-        self.matched_records['Mother Last Name Match Classifier'] = \
-        self.matched_records.apply(lambda row: match_names_score(row['Census Last Name'], row['Mother Baptisms Last Name']), axis=1)
+        self.matched_records['Parent_Name_Match_Score'] = self.matched_records.apply(
+            lambda row: max(
+                self.match_name_score(
+                    row[f'Census_{self.config["census"]["First Name"]}'],
+                    row[f'Baptisms_{self.config["baptisms"]["Mother First Name"]}']
+                ) * self.match_name_score(
+                    row[f'Census_{self.config["census"]["Last Name"]}'],
+                    row[f'Baptisms_{self.config["baptisms"]["Mother Last Name"]}']
+                ),
+                self.match_name_score(
+                    row[f'Census_{self.config["census"]["First Name"]}'],
+                    row[f'Baptisms_{self.config["baptisms"]["Father First Name"]}']
+                ) * self.match_name_score(
+                    row[f'Census_{self.config["census"]["Last Name"]}'],
+                    row[f'Baptisms_{self.config["baptisms"]["Father Last Name"]}']
+                )
+            ), axis=1
+        )
 
-        self.matched_records['Father First Name Match Classifier'] = \
-        self.matched_records.apply(lambda row: match_names_score(row['Census First Name'], row['Father Baptisms First Name']), axis=1)
-        self.matched_records['Father Last Name Match Classifier'] = \
-        self.matched_records.apply(lambda row: match_names_score(row['Census Last Name'], row['Father Baptisms Last Name']), axis=1)
     
     def match_other_features(self):
-        ecpp_gender_values = self.ecpp.set_index(self.ecpp_id_col)['Sex'].to_dict()
-        records_gender_values = self.records.set_index(self.records_id_col)['Sex'].to_dict()
+        self.matched_records['Gender_Match_Score'] = self.matched_records.apply(
+            lambda row: self.match_gender_score(
+                row[f'Census_{self.config["census"]["Gender"]}'],
+                row[f'Baptisms_{self.config["baptisms"]["Gender"]}']
+            ), axis=1
+        )
+        self.matched_records['Age_Match_Score'] = self.matched_records.apply(
+            lambda row: self.match_age_score(
+                row[f'Census_{self.config["census"]["Age"]}'],
+                row[f'Baptisms_{self.config["baptisms"]["Age"]}']
+            ), axis=1
+        )
 
-        ecpp_age_values = self.ecpp.set_index(self.ecpp_id_col)['Age'].to_dict()
-        records_age_values = self.records.set_index(self.records_id_col)['Age'].to_dict()
 
-        self.matched_records['Census Gender'] = self.matched_records[self.ecpp_id_col].map(ecpp_gender_values).str.lower()
-        self.matched_records['Baptisms Gender'] = self.matched_records[self.records_id_col].map(records_gender_values).str.lower()
+    def match_name_score(self, name_census, name_baptism):
+        return 1 - np.exp(-match_names_score(name_census, name_baptism))
 
-        self.matched_records['Gender Match Classifier'] = np.where(
-        self.matched_records['Census Gender'] == self.matched_records['Baptisms Gender'], 1, 0)
+    def match_gender_score(self, gender_census, gender_baptism):
+        if pd.isna(gender_census) or pd.isna(gender_baptism):
+            return 0  # Return a score of 0 if either input is missing
 
-        self.matched_records['Census Age'] = self.matched_records[self.ecpp_id_col].map(ecpp_age_values)
-        self.matched_records['Baptisms Age'] = self.matched_records[self.records_id_col].map(records_age_values)
-        self.matched_records['Age Match Range'] = abs(self.matched_records['Census Age'] - self.matched_records['Baptisms Age']) 
-        
+        try:
+            gender_census = str(gender_census).lower()
+            gender_baptism = str(gender_baptism).lower()
+        except AttributeError:
+            return 0  # Return a score of 0 if either cannot be converted to string and lowered
 
-    def save_to_pickle(self, filename):
-        self.matched_records.to_pickle(filename)
+        return 1 if gender_census == gender_baptism else 0
 
-    def read_pickle(self, filename):
-        self.matched_records = pd.read_pickle(filename)
+    def match_age_score(self, age_census, age_baptism):
+        if pd.isna(age_census) or pd.isna(age_baptism):
+            return 0.0
+
+        max_age_diff = 5
+        try:
+            age_diff = abs(float(age_census) - float(age_baptism))
+            return max(0, (max_age_diff - age_diff) / max_age_diff)
+        except ValueError:
+            return 0.0 
+    
+    def save_matched_records(self, filename):
+        self.matched_records.to_csv(filename, index=False)
 
