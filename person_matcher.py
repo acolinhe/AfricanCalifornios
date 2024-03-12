@@ -33,19 +33,19 @@ class PersonMatcher:
 
     def calculate_mother_total_match_score(self):
         weights = {
-            'Mother_First_Name_Match_Score': 0.25,
-            'Mother_Last_Name_Match_Score': 0.25,
-            'Gender_Match_Score': 0.20,
-            'Age_Match_Score': 0.30
+            'Mother_First_Name_Match_Score': 0.20,
+            'Mother_Last_Name_Match_Score': 0.35,
+            'Gender_Match_Score': 0.25,
+            'Age_Match_Score': 0.20
         }
         self._calculate_specific_total_match_score(weights, 'Mother_Total_Match_Score')
 
     def calculate_father_total_match_score(self):
         weights = {
-            'Father_First_Name_Match_Score': 0.25,
-            'Father_Last_Name_Match_Score': 0.25,
-            'Gender_Match_Score': 0.20,
-            'Age_Match_Score': 0.30
+            'Father_First_Name_Match_Score': 0.20,
+            'Father_Last_Name_Match_Score': 0.35,
+            'Gender_Match_Score': 0.25,
+            'Age_Match_Score': 0.20
         }
         self._calculate_specific_total_match_score(weights, 'Father_Total_Match_Score')
     
@@ -73,7 +73,6 @@ class PersonMatcher:
 
 
     def direct_match_names(self):
-        # Calculate and assign first name match score
         self.matched_records['First_Name_Match_Score'] = self.matched_records.apply(
             lambda row: self.match_name_score(
                 row[f'Census_{self.config["census"]["First Name"]}'],
@@ -81,7 +80,6 @@ class PersonMatcher:
             ) * 0.20, axis=1
         )
 
-        # Calculate and assign last name match score
         self.matched_records['Last_Name_Match_Score'] = self.matched_records.apply(
             lambda row: self.match_name_score(
                 row[f'Census_{self.config["census"]["Last Name"]}'],
@@ -91,28 +89,27 @@ class PersonMatcher:
 
 
     def match_parents_names(self):
-    # Calculate and assign mother's and father's name match scores separately
         self.matched_records['Mother_First_Name_Match_Score'] = self.matched_records.apply(
             lambda row: self.match_name_score(
-                row[f'Census_{self.config["census"]["Mother First Name"]}'],
+                row[f'Census_{self.config["census"]["First Name"]}'],
                 row[f'Baptisms_{self.config["baptisms"]["Mother First Name"]}']
             ), axis=1
         )
         self.matched_records['Mother_Last_Name_Match_Score'] = self.matched_records.apply(
             lambda row: self.match_name_score(
-                row[f'Census_{self.config["census"]["Mother Last Name"]}'],
+                row[f'Census_{self.config["census"]["Last Name"]}'],
                 row[f'Baptisms_{self.config["baptisms"]["Mother Last Name"]}']
             ), axis=1
         )
         self.matched_records['Father_First_Name_Match_Score'] = self.matched_records.apply(
             lambda row: self.match_name_score(
-                row[f'Census_{self.config["census"]["Father First Name"]}'],
+                row[f'Census_{self.config["census"]["First Name"]}'],
                 row[f'Baptisms_{self.config["baptisms"]["Father First Name"]}']
             ), axis=1
         )
         self.matched_records['Father_Last_Name_Match_Score'] = self.matched_records.apply(
             lambda row: self.match_name_score(
-                row[f'Census_{self.config["census"]["Father Last Name"]}'],
+                row[f'Census_{self.config["census"]["Last Name"]}'],
                 row[f'Baptisms_{self.config["baptisms"]["Father Last Name"]}']
             ), axis=1
         )
