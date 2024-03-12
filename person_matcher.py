@@ -11,30 +11,51 @@ class PersonMatcher:
         self.config = config
         self.matched_records = pd.DataFrame()
     
-    def calculate_total_match_score(self):
-        weights = {
-            'First_Name_Match_Score': 0.20,  # Updated weight for first name
-            'Last_Name_Match_Score': 0.35,   # Updated weight for last name
-            'Gender_Match_Score': 0.30,
-            'Age_Match_Score': 0.15
-        }
-
-        weight_sum = sum(weights.values())
-        normalized_weights = {k: v / weight_sum for k, v in weights.items()}
-
-        self.matched_records['Total_Match_Score'] = sum(
-            self.matched_records[score] * normalized_weights[score]
-            for score in weights.keys()
-        )
-
-
     def match(self):
         self.create_matched_records()
         self.direct_match_names()
         self.match_parents_names()
         self.match_other_features()
-        self.calculate_total_match_score()
-        return self.matched_records
+        self.calculate_direct_total_match_score()
+        self.calculate_mother_total_match_score()
+        self.calculate_father_total_match_score()
+        return
+    
+    def calculate_direct_total_match_score(self):
+        weights = {
+            'First_Name_Match_Score': 0.20,
+            'Last_Name_Match_Score': 0.35,
+            'Gender_Match_Score': 0.25,
+            'Age_Match_Score': 0.20
+        }
+        self._calculate_specific_total_match_score(weights, 'Direct_Total_Match_Score')
+
+
+    def calculate_mother_total_match_score(self):
+        weights = {
+            'Mother_First_Name_Match_Score': 0.25,
+            'Mother_Last_Name_Match_Score': 0.25,
+            'Gender_Match_Score': 0.20,
+            'Age_Match_Score': 0.30
+        }
+        self._calculate_specific_total_match_score(weights, 'Mother_Total_Match_Score')
+
+    def calculate_father_total_match_score(self):
+        weights = {
+            'Father_First_Name_Match_Score': 0.25,
+            'Father_Last_Name_Match_Score': 0.25,
+            'Gender_Match_Score': 0.20,
+            'Age_Match_Score': 0.30
+        }
+        self._calculate_specific_total_match_score(weights, 'Father_Total_Match_Score')
+    
+    def _calculate_specific_total_match_score(self, weights, score_column_name):
+        weight_sum = sum(weights.values())
+        normalized_weights = {k: v / weight_sum for k, v in weights.items()}
+
+        self.matched_records[score_column_name] = sum(
+            self.matched_records[score] * normalized_weights[score] for score in weights
+        )
 
     def create_matched_records(self):
         ecpp_ids = self.ecpp.reset_index()[self.config['ecpp_id_col']]
@@ -70,22 +91,29 @@ class PersonMatcher:
 
 
     def match_parents_names(self):
-        self.matched_records['Parent_Name_Match_Score'] = self.matched_records.apply(
-            lambda row: max(
-                self.match_name_score(
-                    row[f'Census_{self.config["census"]["First Name"]}'],
-                    row[f'Baptisms_{self.config["baptisms"]["Mother First Name"]}']
-                ) * self.match_name_score(
-                    row[f'Census_{self.config["census"]["Last Name"]}'],
-                    row[f'Baptisms_{self.config["baptisms"]["Mother Last Name"]}']
-                ),
-                self.match_name_score(
-                    row[f'Census_{self.config["census"]["First Name"]}'],
-                    row[f'Baptisms_{self.config["baptisms"]["Father First Name"]}']
-                ) * self.match_name_score(
-                    row[f'Census_{self.config["census"]["Last Name"]}'],
-                    row[f'Baptisms_{self.config["baptisms"]["Father Last Name"]}']
-                )
+    # Calculate and assign mother's and father's name match scores separately
+        self.matched_records['Mother_First_Name_Match_Score'] = self.matched_records.apply(
+            lambda row: self.match_name_score(
+                row[f'Census_{self.config["census"]["Mother First Name"]}'],
+                row[f'Baptisms_{self.config["baptisms"]["Mother First Name"]}']
+            ), axis=1
+        )
+        self.matched_records['Mother_Last_Name_Match_Score'] = self.matched_records.apply(
+            lambda row: self.match_name_score(
+                row[f'Census_{self.config["census"]["Mother Last Name"]}'],
+                row[f'Baptisms_{self.config["baptisms"]["Mother Last Name"]}']
+            ), axis=1
+        )
+        self.matched_records['Father_First_Name_Match_Score'] = self.matched_records.apply(
+            lambda row: self.match_name_score(
+                row[f'Census_{self.config["census"]["Father First Name"]}'],
+                row[f'Baptisms_{self.config["baptisms"]["Father First Name"]}']
+            ), axis=1
+        )
+        self.matched_records['Father_Last_Name_Match_Score'] = self.matched_records.apply(
+            lambda row: self.match_name_score(
+                row[f'Census_{self.config["census"]["Father Last Name"]}'],
+                row[f'Baptisms_{self.config["baptisms"]["Father Last Name"]}']
             ), axis=1
         )
 
@@ -106,17 +134,19 @@ class PersonMatcher:
 
 
     def match_name_score(self, name_census, name_baptism):
+        if pd.isna(name_census) or pd.isna(name_baptism):
+            return 0
         return 1 - np.exp(-match_names_score(name_census, name_baptism))
 
     def match_gender_score(self, gender_census, gender_baptism):
         if pd.isna(gender_census) or pd.isna(gender_baptism):
-            return 0  # Return a score of 0 if either input is missing
+            return 0
 
         try:
             gender_census = str(gender_census).lower()
             gender_baptism = str(gender_baptism).lower()
         except AttributeError:
-            return 0  # Return a score of 0 if either cannot be converted to string and lowered
+            return 0
 
         return 1 if gender_census == gender_baptism else 0
 

@@ -125,7 +125,6 @@ def calculate_match_probability(levenshtein_distance, max_distance):
     return (max_distance - levenshtein_distance) / max_distance
 
 
-
 def match_names_score(name1, name2, max_distance=5):
     name1 = str(name1) if not pd.isna(name1) else ""
     name2 = str(name2) if not pd.isna(name2) else ""
@@ -137,4 +136,8 @@ def match_names_score(name1, name2, max_distance=5):
 
     # Call the new function to get a probability score
     return calculate_match_probability(levenshtein_distance, max_distance)
+
+
+def filter_records_by_score(matched_records, threshold):
+    return matched_records[matched_records['Total_Match_Score'] > threshold]
 
