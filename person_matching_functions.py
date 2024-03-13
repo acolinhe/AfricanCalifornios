@@ -38,19 +38,21 @@ def normalize_spanish_names(name: str):
     return normalized_name.lower()
 
 
-def modified_levenshtein_distance(name1: str, name2: str, cost_dict: dict=custom_costs):
+def modified_levenshtein_distance(name1: str, name2: str, cost_dict: dict, dynamic_max_distance: int):
     """
-    Calculates a modified Levenshtein distance between two names, allowing 
-    for custom substitution costs.
+    Calculates a modified Levenshtein distance between two names, allowing for custom substitution costs,
+    and returns early if the distance exceeds a dynamic maximum distance.
 
     Args:
         name1 (str): The first name.
         name2 (str): The second name.
-        cost_dict (dict, optional): A dictionary of substitution costs
-                                    {(char1, char2): cost}. Defaults to None.
+        cost_dict (dict): A dictionary of substitution costs {(char1, char2): cost}.
+        dynamic_max_distance (int): The dynamic maximum distance to consider. If the calculated distance
+                                    exceeds this value, the function returns early.
 
     Returns:
-        int: The modified Levenshtein distance between the two names.
+        int: The modified Levenshtein distance between the two names, or an indication that the distance
+             exceeds the dynamic maximum distance.
     """
 
     if len(name1) < len(name2):
@@ -71,6 +73,11 @@ def modified_levenshtein_distance(name1: str, name2: str, cost_dict: dict=custom
             else:
                 substitution_cost = previous_row[j] + cost_dict.get((char1, char2), 1)
             current_row[j + 1] = min(insertion_cost, deletion_cost, substitution_cost)
+        
+        # Check if the minimum distance so far exceeds the dynamic_max_distance
+        if min(current_row) > dynamic_max_distance:
+            return dynamic_max_distance + 1  # Indicates exceeding the threshold
+        
         previous_row = current_row
 
     return previous_row[-1]
@@ -118,26 +125,51 @@ def calculate_match_probability(levenshtein_distance, max_distance):
     
     if levenshtein_distance > max_distance:
         return 0
-
-    # Invert the distance within the maximum distance to get a probability score
-    # This ensures that a distance of 0 gets a perfect score of 1,
-    # and the score decreases as the distance increases.
+    
     return (max_distance - levenshtein_distance) / max_distance
 
 
 def match_names_score(name1, name2, max_distance=5):
+    """
+    Returns a score for levenshteing distance. 
+
+    Args:
+        name1 (str): Given name for matching.
+        name2 (str): Given name for matching.
+        max_distance (int): Minimum levenshtein distance for matching.
+    
+    Returns:
+        float: Probability score between 0 and 1 for levenshtein distance matching.
+
+    """
     name1 = str(name1) if not pd.isna(name1) else ""
     name2 = str(name2) if not pd.isna(name2) else ""
 
     name1 = normalize_spanish_names(name1)
     name2 = normalize_spanish_names(name2)
 
-    levenshtein_distance = modified_levenshtein_distance(name1, name2)
+    dynamic_max = dynamic_max_distance(name1, name2)
 
-    # Call the new function to get a probability score
-    return calculate_match_probability(levenshtein_distance, max_distance)
+    levenshtein_distance = modified_levenshtein_distance(name1, name2, custom_costs, dynamic_max)
+
+    return calculate_match_probability(levenshtein_distance, dynamic_max)
 
 
-def filter_records_by_score(matched_records, threshold):
-    return matched_records[matched_records['Total_Match_Score'] > threshold]
+def dynamic_max_distance(name1, name2):
+    base_max_distance = 5
+    length_threshold = 8
+    extra_length_factor = 0.2
+    
+    max_len = max(len(name1), len(name2))
+    
+    if max_len <= length_threshold:
+        return base_max_distance
+    else:
+        extra_length = max_len - length_threshold
+        return base_max_distance + (extra_length * extra_length_factor)
+
+
+
+def filter_records_by_score(matched_records, score_name,  threshold):
+    return matched_records[matched_records[score_name] > threshold]
 

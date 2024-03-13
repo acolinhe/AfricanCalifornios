@@ -23,29 +23,29 @@ class PersonMatcher:
     
     def calculate_direct_total_match_score(self):
         weights = {
-            'First_Name_Match_Score': 0.20,
-            'Last_Name_Match_Score': 0.35,
-            'Gender_Match_Score': 0.25,
-            'Age_Match_Score': 0.20
+            'First_Name_Match_Score': 0.45,
+            'Last_Name_Match_Score': 0.45,
+            'Gender_Match_Score': 0.05,
+            'Age_Match_Score': 0.05
         }
         self._calculate_specific_total_match_score(weights, 'Direct_Total_Match_Score')
 
 
     def calculate_mother_total_match_score(self):
         weights = {
-            'Mother_First_Name_Match_Score': 0.20,
-            'Mother_Last_Name_Match_Score': 0.35,
-            'Gender_Match_Score': 0.25,
-            'Age_Match_Score': 0.20
+            'Mother_First_Name_Match_Score': 0.45,
+            'Mother_Last_Name_Match_Score': 0.45,
+            'Gender_Match_Score': 0.05,
+            'Age_Match_Score': 0.05
         }
         self._calculate_specific_total_match_score(weights, 'Mother_Total_Match_Score')
 
     def calculate_father_total_match_score(self):
         weights = {
-            'Father_First_Name_Match_Score': 0.20,
-            'Father_Last_Name_Match_Score': 0.35,
-            'Gender_Match_Score': 0.25,
-            'Age_Match_Score': 0.20
+            'Father_First_Name_Match_Score': 0.45,
+            'Father_Last_Name_Match_Score': 0.45,
+            'Gender_Match_Score': 0.05,
+            'Age_Match_Score': 0.05
         }
         self._calculate_specific_total_match_score(weights, 'Father_Total_Match_Score')
     
@@ -77,14 +77,14 @@ class PersonMatcher:
             lambda row: self.match_name_score(
                 row[f'Census_{self.config["census"]["First Name"]}'],
                 row[f'Baptisms_{self.config["baptisms"]["First Name"]}']
-            ) * 0.20, axis=1
+            ), axis=1
         )
 
         self.matched_records['Last_Name_Match_Score'] = self.matched_records.apply(
             lambda row: self.match_name_score(
                 row[f'Census_{self.config["census"]["Last Name"]}'],
                 row[f'Baptisms_{self.config["baptisms"]["Last Name"]}']
-            ) * 0.35, axis=1
+            ), axis=1
         )
 
 
