@@ -5,3 +5,4 @@
 *.pyc
 *.pkl
 /old_matches/
+/csv_matches/

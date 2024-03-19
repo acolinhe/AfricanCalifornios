@@ -25,8 +25,8 @@ class PersonMatcher:
         weights = {
             'First_Name_Match_Score': 0.45,
             'Last_Name_Match_Score': 0.45,
-            'Gender_Match_Score': 0.05,
-            'Age_Match_Score': 0.05
+            'Gender_Match_Score': 0.10
+            # 'Age_Match_Score': 0.05
         }
         self._calculate_specific_total_match_score(weights, 'Direct_Total_Match_Score')
 
@@ -35,8 +35,8 @@ class PersonMatcher:
         weights = {
             'Mother_First_Name_Match_Score': 0.45,
             'Mother_Last_Name_Match_Score': 0.45,
-            'Gender_Match_Score': 0.05,
-            'Age_Match_Score': 0.05
+            'Gender_Match_Score': 0.10
+            # 'Age_Match_Score': 0.05
         }
         self._calculate_specific_total_match_score(weights, 'Mother_Total_Match_Score')
 
@@ -44,8 +44,8 @@ class PersonMatcher:
         weights = {
             'Father_First_Name_Match_Score': 0.45,
             'Father_Last_Name_Match_Score': 0.45,
-            'Gender_Match_Score': 0.05,
-            'Age_Match_Score': 0.05
+            'Gender_Match_Score': 0.10
+            # 'Age_Match_Score': 0.05
         }
         self._calculate_specific_total_match_score(weights, 'Father_Total_Match_Score')
     
@@ -122,12 +122,12 @@ class PersonMatcher:
                 row[f'Baptisms_{self.config["baptisms"]["Gender"]}']
             ), axis=1
         )
-        self.matched_records['Age_Match_Score'] = self.matched_records.apply(
-            lambda row: self.match_age_score(
-                row[f'Census_{self.config["census"]["Age"]}'],
-                row[f'Baptisms_{self.config["baptisms"]["Age"]}']
-            ), axis=1
-        )
+        # self.matched_records['Age_Match_Score'] = self.matched_records.apply(
+        #     lambda row: self.match_age_score(
+        #         row[f'Census_{self.config["census"]["Age"]}'],
+        #         row[f'Baptisms_{self.config["baptisms"]["Age"]}']
+        #     ), axis=1
+        # )
 
 
     def match_name_score(self, name_census, name_baptism):
