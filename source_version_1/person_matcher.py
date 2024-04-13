@@ -32,29 +32,35 @@ class PersonMatcher:
 
     def calculate_mother_total_match_score(self):
         weights = {
-            'Mother_First_Name_Match_Score': 0.40,
+            'Mother_First_Name_Match_Score': 0.35,
             'Mother_Last_Name_Match_Score': 0.45,
             'Gender_Match_Score': 0.10,
-            'Age_Match_Score': 0.05
+            'Age_Match_Score': 0.10
         }
         self._calculate_specific_total_match_score(weights, 'Mother_Total_Match_Score')
 
     def calculate_father_total_match_score(self):
         weights = {
-            'Father_First_Name_Match_Score': 0.40,
+            'Father_First_Name_Match_Score': 0.35,
             'Father_Last_Name_Match_Score': 0.45,
             'Gender_Match_Score': 0.10,
-            'Age_Match_Score': 0.05
+            'Age_Match_Score': 0.10
         }
         self._calculate_specific_total_match_score(weights, 'Father_Total_Match_Score')
 
     def _calculate_specific_total_match_score(self, weights, score_column_name):
+        # Check if 'Age' is available (Case for padron_1821 missing 'Age')
+        if 'Age_Match_Score' in weights and f'Census_{self.config["census"]["Age"]}' not in self.matched_records.columns:
+            age_weight = weights.pop('Age_Match_Score', 0)
+            weights['Last_Name_Match_Score'] += age_weight
+
         weight_sum = sum(weights.values())
         normalized_weights = {k: v / weight_sum for k, v in weights.items()}
 
-        self.matched_records[score_column_name] = sum(
-            self.matched_records[score] * normalized_weights[score] for score in weights
-        )
+        self.matched_records[score_column_name] = 0
+        for score, weight in normalized_weights.items():
+            if score in self.matched_records.columns:
+                self.matched_records[score_column_name] += self.matched_records[score] * weight
 
     def create_matched_records(self):
         ecpp_ids = self.ecpp.reset_index()[self.config['ecpp_id_col']]
