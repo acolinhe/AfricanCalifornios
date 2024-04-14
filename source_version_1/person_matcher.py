@@ -2,6 +2,7 @@ from person_matching_functions import *
 import pandas as pd
 from itertools import product
 import numpy as np
+import logging
 
 
 class PersonMatcher:
@@ -49,16 +50,16 @@ class PersonMatcher:
         self._calculate_specific_total_match_score(weights, 'Father_Total_Match_Score')
 
     def _calculate_specific_total_match_score(self, weights, score_column_name):
-        # Check if 'Age' is available (Case for padron_1821 missing 'Age')
-        if 'Age_Match_Score' in weights and f'Census_{self.config["census"]["Age"]}' not in self.matched_records.columns:
-            age_weight = weights.pop('Age_Match_Score', 0)
-            weights['Last_Name_Match_Score'] += age_weight
-
-        weight_sum = sum(weights.values())
-        normalized_weights = {k: v / weight_sum for k, v in weights.items()}
+        if self.ecpp[self.config['census']['Age']].isna().all():
+            logging.warning("Most 'Age' data is missing; adjusting weights for matching.")
+            age_weight = weights.pop('Age_Match_Score', None)
+            if age_weight is not None:
+                total_weight = sum(weights.values())
+                for key in weights:
+                    weights[key] += (age_weight * weights[key] / total_weight)
 
         self.matched_records[score_column_name] = 0
-        for score, weight in normalized_weights.items():
+        for score, weight in weights.items():
             if score in self.matched_records.columns:
                 self.matched_records[score_column_name] += self.matched_records[score] * weight
 
@@ -121,16 +122,20 @@ class PersonMatcher:
         )
 
     def match_other_features(self):
+        if 'Age' in self.config['census'] and f'Census_{self.config["census"]["Age"]}' in self.ecpp.columns:
+            self.matched_records['Age_Match_Score'] = self.matched_records.apply(
+                lambda row: self.match_age_score(
+                    row[f'Census_{self.config["census"]["Age"]}'],
+                    row[f'Baptisms_{self.config["baptisms"]["Age"]}']
+                ), axis=1
+            )
+        else:
+            self.matched_records['Age_Match_Score'] = 0  # Default to 0 if age data is missing
+
         self.matched_records['Gender_Match_Score'] = self.matched_records.apply(
             lambda row: self.match_gender_score(
                 row[f'Census_{self.config["census"]["Gender"]}'],
                 row[f'Baptisms_{self.config["baptisms"]["Gender"]}']
-            ), axis=1
-        )
-        self.matched_records['Age_Match_Score'] = self.matched_records.apply(
-            lambda row: self.match_age_score(
-                row[f'Census_{self.config["census"]["Age"]}'],
-                row[f'Baptisms_{self.config["baptisms"]["Age"]}']
             ), axis=1
         )
 
