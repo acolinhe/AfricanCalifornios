@@ -51,6 +51,7 @@ def load_and_prepare_data(path):
     }
     for name, dataset in datasets.items():
         if dataset is not None:
+            logging.debug(f"Columns in {name}: {dataset.columns}")
             if 'Age' not in dataset.columns:
                 logging.warning(f"'Age' column is missing in dataset {name}. Adding default values.")
                 dataset['Age'] = np.nan
@@ -68,21 +69,20 @@ def save_to_pickle(dataframe, path, filename):
 
 
 def process_dataset(dataset_key, datasets, config, output_path):
-    """Process dataset after parallel run and save to pickle"""
     if dataset_key == 'baptisms' or datasets[dataset_key] is None:
         return
 
     dataset_start_time = time.time()
     results = parallel_data_processing(datasets[dataset_key], datasets['baptisms'], config, dataset_key)
-    filtered_results = filter_results(results)
-    save_to_pickle(filtered_results, output_path, f'{dataset_key}_matched.pkl')
-    logging.info(f"Total matched records for {dataset_key}: {len(filtered_results)}")
+    threshold = 0.87
+    people_collect_2 = create_people_collect_2(results, threshold, datasets['baptisms'])
+    people_collect_2.to_csv(os.path.join(output_path, f'{dataset_key}_people_collect_2.csv'), index=False)
     logging.info(f"{dataset_key} processing time: {time.time() - dataset_start_time} seconds")
 
 
 def parallel_data_processing(dataset, baptisms, config, dataset_key):
-    """Run dataset into max 32 chunks for parallel processing."""
-    num_cores = min(32, cpu_count())
+    """Run dataset into max 64 chunks for parallel processing."""
+    num_cores = min(64, cpu_count())
     pool = Pool(processes=num_cores)
     try:
         chunks = chunk_dataframe(dataset, num_cores)
@@ -92,17 +92,44 @@ def parallel_data_processing(dataset, baptisms, config, dataset_key):
     finally:
         pool.close()
         pool.join()
-    return pd.concat(results)
+    combined_results = pd.concat(results)
+    logging.debug(f"Combined results count: {len(combined_results)}")
+    return combined_results
 
 
-def filter_results(matched_results):
-    """Filter Direct, Mother, Father total match scores for further processing."""
-    threshold_direct = threshold_mother = threshold_father = 0.75
-    return matched_results[
-        (matched_results['Direct_Total_Match_Score'] >= threshold_direct) &
-        (matched_results['Mother_Total_Match_Score'] >= threshold_mother) &
-        (matched_results['Father_Total_Match_Score'] >= threshold_father)
-    ]
+def create_people_collect_2(matched_results, threshold, baptisms, output_path, dataset_key):
+    logging.info(f"Starting to process matched results for {dataset_key}.")
+
+    baptisms_indexed = baptisms.set_index('#ID')
+    logging.info(f"Baptisms data indexed by #ID for {dataset_key}.")
+
+    direct_matches = matched_results[matched_results['Direct_Total_Match_Score'] >= threshold]
+    mother_matches = matched_results[matched_results['Mother_Total_Match_Score'] >= threshold]
+    father_matches = matched_results[matched_results['Father_Total_Match_Score'] >= threshold]
+    logging.info(f"Filtered direct matches for {dataset_key}: {len(direct_matches)} entries found.")
+    logging.info(f"Filtered mother matches for {dataset_key}: {len(mother_matches)} entries found.")
+    logging.info(f"Filtered father matches for {dataset_key}: {len(father_matches)} entries found.")
+
+    direct_matches.to_pickle(os.path.join(output_path, f'{dataset_key}_direct_matches.pkl'))
+    mother_matches.to_pickle(os.path.join(output_path, f'{dataset_key}_mother_matches.pkl'))
+    father_matches.to_pickle(os.path.join(output_path, f'{dataset_key}_father_matches.pkl'))
+    logging.info(f"Filtered matches for {dataset_key} saved as pickle files.")
+
+    direct_names = (baptisms_indexed.loc[direct_matches['#ID'], ['SpanishName', 'Surname']]
+                    .rename(columns={'SpanishName': 'first_name', 'Surname': 'last_name'}))
+    mother_names = (baptisms_indexed.loc[mother_matches['#ID'], ['MSpanishName', 'MSurname']]
+                    .rename(columns={'MSpanishName': 'first_name', 'MSurname': 'last_name'}))
+    father_names = (baptisms_indexed.loc[father_matches['#ID'], ['FSpanishName', 'FSurname']]
+                    .rename(columns={'FSpanishName': 'first_name', 'FSurname': 'last_name'}))
+
+    combined = pd.concat([direct_names, mother_names, father_names], axis=0)
+    combined['#ID'] = combined.index  # Add '#ID' back as a column
+
+    combined = combined.reset_index(drop=True)
+    final_output = combined[['#ID', 'first_name', 'last_name']]
+
+    logging.info(f"Finished processing matched results for {dataset_key}.")
+    return final_output
 
 
 def get_config():
@@ -132,8 +159,23 @@ def main():
     output_path = '/datasets/acolinhe/data_output'
     config = get_config()
     datasets = load_and_prepare_data(path)
+
+    all_people_collect_2 = []
+
     for dataset_key in datasets:
-        process_dataset(dataset_key, datasets, config, output_path)
+        if dataset_key == 'baptisms' or datasets[dataset_key] is None:
+            continue
+        results = parallel_data_processing(datasets[dataset_key], datasets['baptisms'], config, dataset_key)
+        threshold = 0.87
+        people_collect_2 = create_people_collect_2(results, threshold, datasets['baptisms'], output_path, dataset_key)
+
+        if not people_collect_2.empty:
+            all_people_collect_2.append(people_collect_2)
+
+    if all_people_collect_2:
+        final_people_collect_2 = pd.concat(all_people_collect_2, ignore_index=True)
+        final_people_collect_2.to_csv(os.path.join(output_path, 'people_collect_2.csv'), index=False)
+        logging.info(f"Final cumulative people_collect_2.csv has been saved.")
 
 
 if __name__ == '__main__':

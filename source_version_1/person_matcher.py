@@ -24,32 +24,33 @@ class PersonMatcher:
 
     def calculate_direct_total_match_score(self):
         weights = {
-            'First_Name_Match_Score': 0.40,
+            'First_Name_Match_Score': 0.4,
             'Last_Name_Match_Score': 0.45,
-            'Gender_Match_Score': 0.10,
-            'Age_Match_Score': 0.05
+            'Gender_Match_Score': 0.5,
+            'Age_Match_Score': 0.1
         }
         self._calculate_specific_total_match_score(weights, 'Direct_Total_Match_Score')
 
     def calculate_mother_total_match_score(self):
         weights = {
-            'Mother_First_Name_Match_Score': 0.35,
+            'Mother_First_Name_Match_Score': 0.4,
             'Mother_Last_Name_Match_Score': 0.45,
-            'Gender_Match_Score': 0.10,
-            'Age_Match_Score': 0.10
+            'Gender_Match_Score': 0.5,
+            'Age_Match_Score': 0.1
         }
         self._calculate_specific_total_match_score(weights, 'Mother_Total_Match_Score')
 
     def calculate_father_total_match_score(self):
         weights = {
-            'Father_First_Name_Match_Score': 0.35,
+            'Father_First_Name_Match_Score': 0.4,
             'Father_Last_Name_Match_Score': 0.45,
-            'Gender_Match_Score': 0.10,
-            'Age_Match_Score': 0.10
+            'Gender_Match_Score': 0.5,
+            'Age_Match_Score': 0.1
         }
         self._calculate_specific_total_match_score(weights, 'Father_Total_Match_Score')
 
     def _calculate_specific_total_match_score(self, weights, score_column_name):
+        # Adjust weights if age data is missing
         if self.ecpp[self.config['census']['Age']].isna().all():
             logging.warning("Most 'Age' data is missing; adjusting weights for matching.")
             age_weight = weights.pop('Age_Match_Score', None)
