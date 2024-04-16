@@ -75,7 +75,7 @@ def process_dataset(dataset_key, datasets, config, output_path):
     dataset_start_time = time.time()
     results = parallel_data_processing(datasets[dataset_key], datasets['baptisms'], config, dataset_key)
     threshold = 0.87
-    people_collect_2 = create_people_collect_2(results, threshold, datasets['baptisms'])
+    people_collect_2 = create_people_collect_2(results, threshold, datasets['baptisms'], datasets, dataset_key)
     people_collect_2.to_csv(os.path.join(output_path, f'{dataset_key}_people_collect_2.csv'), index=False)
     logging.info(f"{dataset_key} processing time: {time.time() - dataset_start_time} seconds")
 
@@ -97,36 +97,53 @@ def parallel_data_processing(dataset, baptisms, config, dataset_key):
     return combined_results
 
 
-def create_people_collect_2(matched_results, threshold, baptisms, output_path, dataset_key):
+def create_people_collect_2(matched_results, threshold, baptisms, other_datasets, dataset_key):
     logging.info(f"Starting to process matched results for {dataset_key}.")
 
-    baptisms_indexed = baptisms.set_index('#ID')
-    logging.info(f"Baptisms data indexed by #ID for {dataset_key}.")
+    if 'padron' in dataset_key or 'census' in dataset_key:
+        index_key = 'ecpp_id'
+        dataset = other_datasets[dataset_key]
+        data_columns = {
+            'direct': ['Race'],
+            'mother': ['Race'],
+            'father': ['Race']
+        }
+    else:
+        index_key = '#ID'
+        dataset = baptisms
+        data_columns = {
+            'direct': ['SpanishName', 'Surname'],
+            'mother': ['MSpanishName', 'MSurname'],
+            'father': ['FSpanishName', 'FSurname']
+        }
+
+    dataset_indexed = dataset.set_index(index_key)
+    logging.info(f"{dataset_key} data indexed by {index_key}.")
 
     direct_matches = matched_results[matched_results['Direct_Total_Match_Score'] >= threshold]
     mother_matches = matched_results[matched_results['Mother_Total_Match_Score'] >= threshold]
     father_matches = matched_results[matched_results['Father_Total_Match_Score'] >= threshold]
-    logging.info(f"Filtered direct matches for {dataset_key}: {len(direct_matches)} entries found.")
-    logging.info(f"Filtered mother matches for {dataset_key}: {len(mother_matches)} entries found.")
-    logging.info(f"Filtered father matches for {dataset_key}: {len(father_matches)} entries found.")
 
-    direct_matches.to_pickle(os.path.join(output_path, f'{dataset_key}_direct_matches.pkl'))
-    mother_matches.to_pickle(os.path.join(output_path, f'{dataset_key}_mother_matches.pkl'))
-    father_matches.to_pickle(os.path.join(output_path, f'{dataset_key}_father_matches.pkl'))
-    logging.info(f"Filtered matches for {dataset_key} saved as pickle files.")
+    direct_data = dataset_indexed.loc[direct_matches[index_key], data_columns['direct']]
+    mother_data = dataset_indexed.loc[mother_matches[index_key], data_columns['mother']]
+    father_data = dataset_indexed.loc[father_matches[index_key], data_columns['father']]
 
-    direct_names = (baptisms_indexed.loc[direct_matches['#ID'], ['SpanishName', 'Surname']]
-                    .rename(columns={'SpanishName': 'first_name', 'Surname': 'last_name'}))
-    mother_names = (baptisms_indexed.loc[mother_matches['#ID'], ['MSpanishName', 'MSurname']]
-                    .rename(columns={'MSpanishName': 'first_name', 'MSurname': 'last_name'}))
-    father_names = (baptisms_indexed.loc[father_matches['#ID'], ['FSpanishName', 'FSurname']]
-                    .rename(columns={'FSpanishName': 'first_name', 'FSurname': 'last_name'}))
-
-    combined = pd.concat([direct_names, mother_names, father_names], axis=0)
-    combined['#ID'] = combined.index  # Add '#ID' back as a column
+    combined = pd.concat([direct_data, mother_data, father_data], axis=0)
+    combined[index_key] = combined.index
 
     combined = combined.reset_index(drop=True)
-    final_output = combined[['#ID', 'first_name', 'last_name']]
+
+    combined.rename(columns={'Race': 'race_aggregated'}, inplace=True)
+
+    if 'padron' in dataset_key or 'census' in dataset_key:
+        required_columns = ['race_aggregated']
+    else:
+        combined.rename(columns={'SpanishName': 'first_name', 'Surname': 'last_name', 'MSpanishName': 'first_name',
+                                 'MSurname': 'last_name', 'FSpanishName': 'first_name', 'FSurname': 'last_name'},
+                        inplace=True)
+        required_columns = ['first_name', 'last_name']
+
+    final_output = combined[[index_key] + required_columns]
 
     logging.info(f"Finished processing matched results for {dataset_key}.")
     return final_output
@@ -167,7 +184,7 @@ def main():
             continue
         results = parallel_data_processing(datasets[dataset_key], datasets['baptisms'], config, dataset_key)
         threshold = 0.87
-        people_collect_2 = create_people_collect_2(results, threshold, datasets['baptisms'], output_path, dataset_key)
+        people_collect_2 = create_people_collect_2(results, threshold, datasets['baptisms'], datasets, dataset_key)
 
         if not people_collect_2.empty:
             all_people_collect_2.append(people_collect_2)
