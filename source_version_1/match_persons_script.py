@@ -110,32 +110,32 @@ def extract_year_from_filename(filename):
 def create_people_collect_2(matched_results, threshold, baptisms, other_datasets, dataset_key):
     logging.info(f"Starting to process matched results for {dataset_key}.")
 
-    baptismal_date = 'Date'
-
     index_key_primary = 'ecpp_id'
     extracted_year = extract_year_from_filename(dataset_key)
     race_year = 'race_' + (extracted_year if extracted_year else 'unknown')
     dataset_primary = other_datasets[dataset_key]
     if '1790' in dataset_key:
+        primary_list = ['Race', 'Current_Location', 'Origin Parish', 'Location Other Race']
         data_columns_primary = {
-            'direct': ['Race', 'Current_Location'],
-            'mother': ['Race', 'Current_Location'],
-            'father': ['Race', 'Current_Location']
+            'direct': primary_list,
+            'mother': primary_list,
+            'father': primary_list
         }
     else:
-
+        primary_list = ['Race']
         data_columns_primary = {
-            'direct': ['Race'],
-            'mother': ['Race'],
-            'father': ['Race']
+            'direct': primary_list,
+            'mother': primary_list,
+            'father': primary_list
         }
 
     index_key_baptisms = '#ID'
     dataset_baptisms = baptisms
     data_columns_baptisms = {
-        'direct': ['SpanishName', 'Surname', 'Ethnicity', 'FmtdDate', 'Mission'],
-        'mother': ['MSpanishName', 'MSurname', 'MEthnicity', 'FmtdDate', 'Mission'],
-        'father': ['FSpanishName', 'FSurname', 'FEthnicity', 'FmtdDate', 'Mission']
+        'direct': ['SpanishName', 'Surname', 'Ethnicity', 'FmtdDate', 'Mission', 'FSpanishName', 'FSurname',
+                   'FMilitaryStatus', 'FOrigin', 'MSpanishName', 'MSurname', 'MOrigin', 'Sex', 'Notes'],
+        'mother': ['MSpanishName', 'MSurname', 'MEthnicity', 'FmtdDate', 'Mission', 'Sex', 'Notes'],
+        'father': ['FSpanishName', 'FSurname', 'FEthnicity', 'FmtdDate', 'Mission', 'Sex', 'Notes']
     }
 
     dataset_primary_indexed = dataset_primary.set_index(index_key_primary)
@@ -167,7 +167,9 @@ def create_people_collect_2(matched_results, threshold, baptisms, other_datasets
     combined_baptisms = combined_baptisms.reset_index(drop=True)
 
     if '1790' in dataset_key:
-        combined_primary.rename(columns={'Race': race_year, 'Current_Location': 'location_1790_census'}, inplace=True)
+        combined_primary.rename(columns={'Race': race_year, 'Current_Location': 'location_1790_census',
+                                         'Origin Parish': 'origin_parish_1790_census',
+                                         'Location Other Race': 'location_other_race'}, inplace=True)
     else:
         combined_primary.rename(columns={'Race': race_year}, inplace=True)
 
@@ -181,13 +183,36 @@ def create_people_collect_2(matched_results, threshold, baptisms, other_datasets
 
     combined_baptisms['location_ecpp_baptism'] = combined_baptisms[['Mission']].fillna('').sum(axis=1)
 
+    combined_baptisms['father_first_name'] = combined_baptisms[['FSpanishName']].fillna('').sum(axis=1)
+
+    combined_baptisms['father_last_name'] = combined_baptisms[['FSurname']].fillna('').sum(axis=1)
+
+    combined_baptisms['father_military_status'] = combined_baptisms[['FMilitaryStatus']].fillna('').sum(axis=1)
+
+    combined_baptisms['father_origin'] = combined_baptisms[['FOrigin']].fillna('').sum(axis=1)
+
+    combined_baptisms['mother_first_name'] = combined_baptisms[['MSpanishName']].fillna('').sum(axis=1)
+
+    combined_baptisms['mother_last_name'] = combined_baptisms[['MSurname']].fillna('').sum(axis=1)
+
+    combined_baptisms['mother_origin'] = combined_baptisms[['MOrigin']].fillna('').sum(axis=1)
+
+    combined_baptisms['sex'] = combined_baptisms[['Sex']].fillna('').sum(axis=1)
+
+    combined_baptisms['notes'] = combined_baptisms[['Notes']].fillna('').sum(axis=1)
+
     combined_baptisms.drop(columns=['SpanishName', 'Surname', 'MSpanishName', 'MSurname', 'FSpanishName', 'FSurname',
-                                    'Ethnicity', 'MEthnicity', 'FEthnicity', 'FmtdDate', 'Mission'],
+                                    'Ethnicity', 'MEthnicity', 'FEthnicity', 'FmtdDate', 'Mission', 'FSpanishName',
+                                    'FSurname', 'MSpanishName', 'MSurname', 'FMilitaryStatus', 'FOrigin', 'MOrigin',
+                                    'Sex', 'Notes'],
                            inplace=True)
 
     final_output = pd.concat([combined_primary, combined_baptisms], axis=1)
 
-    desired_order = ['#ID', 'ecpp_id', 'first_name', 'last_name', race_year, 'ethnicity', 'baptismal_date', 'location_ecpp_baptism']
+    desired_order = ['#ID', 'ecpp_id', 'first_name', 'last_name', race_year, 'ethnicity', 'baptismal_date',
+                     'location_ecpp_baptism', 'location_ecpp_baptism', 'father_first_name', 'father_last_name',
+                     'father_military_status', 'father_origin', 'mother_first_name', 'mother_last_name', 'mother_origin',
+                     'sex', 'notes']
     final_output = final_output.reindex(columns=desired_order)
 
     logging.info(f"Finished processing matched results for {dataset_key}.")
@@ -243,10 +268,8 @@ def main():
     if all_people_collect_2:
         final_people_collect_2 = pd.concat(all_people_collect_2, ignore_index=True)
 
-        # Identify race columns and create 'race_aggregated' column
         race_columns = [col for col in final_people_collect_2.columns if 'race_' in col]
         if race_columns:
-            # Create a new 'race_aggregated' column by concatenating all race columns
             final_people_collect_2['race_aggregated'] = final_people_collect_2[race_columns].apply(
                 lambda x: ' '.join(x.dropna().astype(str)), axis=1)
 
