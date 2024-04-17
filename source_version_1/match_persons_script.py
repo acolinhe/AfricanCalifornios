@@ -3,6 +3,7 @@ import logging
 import pandas as pd
 import time
 import numpy as np
+import re
 from multiprocessing import Pool, cpu_count
 from data_processing import add_identifiers, clean_names_padrones
 from data_loading import load_data, create_afro_df
@@ -97,29 +98,49 @@ def parallel_data_processing(dataset, baptisms, config, dataset_key):
     return combined_results
 
 
+def extract_year_from_filename(filename):
+    """Extract year from filename assuming the year is always four digits."""
+    match = re.search(r'\d{4}', filename)
+    if match:
+        return match.group(0)
+    return None
+
+
+# Probably overwriting found values, need to figure this out
 def create_people_collect_2(matched_results, threshold, baptisms, other_datasets, dataset_key):
     logging.info(f"Starting to process matched results for {dataset_key}.")
 
-    if 'padron' in dataset_key or 'census' in dataset_key:
-        index_key_primary = 'ecpp_id'
-        dataset_primary = other_datasets[dataset_key]
+    baptismal_date = 'Date'
+
+    index_key_primary = 'ecpp_id'
+    extracted_year = extract_year_from_filename(dataset_key)
+    race_year = 'race_' + (extracted_year if extracted_year else 'unknown')
+    dataset_primary = other_datasets[dataset_key]
+    if '1790' in dataset_key:
+        data_columns_primary = {
+            'direct': ['Race', 'Current_Location'],
+            'mother': ['Race', 'Current_Location'],
+            'father': ['Race', 'Current_Location']
+        }
+    else:
+
         data_columns_primary = {
             'direct': ['Race'],
             'mother': ['Race'],
             'father': ['Race']
         }
 
-        index_key_baptisms = '#ID'
-        dataset_baptisms = baptisms
-        data_columns_baptisms = {
-            'direct': ['SpanishName', 'Surname'],
-            'mother': ['MSpanishName', 'MSurname'],
-            'father': ['FSpanishName', 'FSurname']
-        }
+    index_key_baptisms = '#ID'
+    dataset_baptisms = baptisms
+    data_columns_baptisms = {
+        'direct': ['SpanishName', 'Surname', 'Ethnicity', 'FmtdDate', 'Mission'],
+        'mother': ['MSpanishName', 'MSurname', 'MEthnicity', 'FmtdDate', 'Mission'],
+        'father': ['FSpanishName', 'FSurname', 'FEthnicity', 'FmtdDate', 'Mission']
+    }
 
-        dataset_primary_indexed = dataset_primary.set_index(index_key_primary)
-        dataset_baptisms_indexed = dataset_baptisms.set_index(index_key_baptisms)
-        logging.info(f"{dataset_key} data and Baptisms data indexed by their respective keys.")
+    dataset_primary_indexed = dataset_primary.set_index(index_key_primary)
+    dataset_baptisms_indexed = dataset_baptisms.set_index(index_key_baptisms)
+    logging.info(f"{dataset_key} data and Baptisms data indexed by their respective keys.")
 
     direct_matches = matched_results[matched_results['Direct_Total_Match_Score'] >= threshold]
     mother_matches = matched_results[matched_results['Mother_Total_Match_Score'] >= threshold]
@@ -145,18 +166,28 @@ def create_people_collect_2(matched_results, threshold, baptisms, other_datasets
     combined_primary = combined_primary.reset_index(drop=True)
     combined_baptisms = combined_baptisms.reset_index(drop=True)
 
-    combined_primary.rename(columns={'Race': 'race_aggregated'}, inplace=True)
+    if '1790' in dataset_key:
+        combined_primary.rename(columns={'Race': race_year, 'Current_Location': 'location_1790_census'}, inplace=True)
+    else:
+        combined_primary.rename(columns={'Race': race_year}, inplace=True)
 
     combined_baptisms['first_name'] = combined_baptisms[['SpanishName', 'MSpanishName', 'FSpanishName']].fillna('').sum(
         axis=1)
     combined_baptisms['last_name'] = combined_baptisms[['Surname', 'MSurname', 'FSurname']].fillna('').sum(axis=1)
 
-    combined_baptisms.drop(columns=['SpanishName', 'Surname', 'MSpanishName', 'MSurname', 'FSpanishName', 'FSurname'],
+    combined_baptisms['ethnicity'] = combined_baptisms[['Ethnicity', 'MEthnicity', 'FEthnicity']].fillna('').sum(axis=1)
+
+    combined_baptisms['baptismal_date'] = combined_baptisms[['FmtdDate']].fillna('').sum(axis=1)
+
+    combined_baptisms['location_ecpp_baptism'] = combined_baptisms[['Mission']].fillna('').sum(axis=1)
+
+    combined_baptisms.drop(columns=['SpanishName', 'Surname', 'MSpanishName', 'MSurname', 'FSpanishName', 'FSurname',
+                                    'Ethnicity', 'MEthnicity', 'FEthnicity', 'FmtdDate', 'Mission'],
                            inplace=True)
 
     final_output = pd.concat([combined_primary, combined_baptisms], axis=1)
 
-    desired_order = ['#ID', 'ecpp_id', 'first_name', 'last_name', 'race_aggregated']
+    desired_order = ['#ID', 'ecpp_id', 'first_name', 'last_name', race_year, 'ethnicity', 'baptismal_date', 'location_ecpp_baptism']
     final_output = final_output.reindex(columns=desired_order)
 
     logging.info(f"Finished processing matched results for {dataset_key}.")
@@ -185,6 +216,12 @@ def get_config():
     }
 
 
+def append_to_csv(data, filename):
+    """Append data to a CSV file."""
+    with open(filename, 'a') as f:
+        pd.DataFrame(data).to_csv(f, header=False, index=False)
+
+
 def main():
     path = '/datasets/acolinhe/data'
     output_path = '/datasets/acolinhe/data_output'
@@ -205,7 +242,16 @@ def main():
 
     if all_people_collect_2:
         final_people_collect_2 = pd.concat(all_people_collect_2, ignore_index=True)
-        final_people_collect_2.to_csv(os.path.join(output_path, 'people_collect_2.csv'), index=False)
+
+        # Identify race columns and create 'race_aggregated' column
+        race_columns = [col for col in final_people_collect_2.columns if 'race_' in col]
+        if race_columns:
+            # Create a new 'race_aggregated' column by concatenating all race columns
+            final_people_collect_2['race_aggregated'] = final_people_collect_2[race_columns].apply(
+                lambda x: ' '.join(x.dropna().astype(str)), axis=1)
+
+        final_file_path = os.path.join(output_path, 'people_collect_2.csv')
+        final_people_collect_2.to_csv(final_file_path, index=False)
         logging.info(f"Final cumulative people_collect_2.csv has been saved.")
 
 
