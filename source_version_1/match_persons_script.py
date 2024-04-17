@@ -106,31 +106,56 @@ def extract_year_from_filename(filename):
     return None
 
 
-# Probably overwriting found values, need to figure this out
+def fetch_and_combine_data(match_results, data_indexed, columns):
+    """Fetch data based on matches and required columns, handle missing data gracefully."""
+    try:
+        data = data_indexed.loc[match_results, columns]
+        if data.empty:
+            logging.warning("Data fetching returned an empty result.")
+        return data
+    except KeyError as e:
+        logging.error(f"Key error during data fetching: {e}")
+        return pd.DataFrame(columns=columns)
+
+
+def combine_data_sets(primary_data, baptism_data):
+    """Combine primary and baptism datasets into a single DataFrame, handle index reset and column renaming."""
+    combined_data = pd.concat([primary_data, baptism_data], axis=0, ignore_index=True)
+    return combined_data
+
+
+def process_matches(matched_results, dataset_primary, dataset_baptisms, threshold, data_columns_primary,
+                    data_columns_baptisms):
+    """Process matching scores and extract relevant data from primary and baptisms datasets."""
+    matched_data_primary = pd.DataFrame()
+    matched_data_baptisms = pd.DataFrame()
+
+    match_scores = {
+        'direct': 'Direct_Total_Match_Score',
+        'mother': 'Mother_Total_Match_Score',
+        'father': 'Father_Total_Match_Score'
+    }
+
+    for match_type, score_column in match_scores.items():
+        matches = matched_results[matched_results[score_column] >= threshold]
+        if not matches.empty:
+            primary_data = fetch_and_combine_data(matches['ecpp_id'], dataset_primary, data_columns_primary[match_type])
+            baptism_data = fetch_and_combine_data(matches['#ID'], dataset_baptisms, data_columns_baptisms[match_type])
+            matched_data_primary = pd.concat([matched_data_primary, primary_data], ignore_index=True)
+            matched_data_baptisms = pd.concat([matched_data_baptisms, baptism_data], ignore_index=True)
+
+    return matched_data_primary, matched_data_baptisms
+
+
 def create_people_collect_2(matched_results, threshold, baptisms, other_datasets, dataset_key):
     logging.info(f"Starting to process matched results for {dataset_key}.")
 
-    index_key_primary = 'ecpp_id'
-    extracted_year = extract_year_from_filename(dataset_key)
-    race_year = 'race_' + (extracted_year if extracted_year else 'unknown')
-    dataset_primary = other_datasets[dataset_key]
-    if '1790' in dataset_key:
-        primary_list = ['Race', 'Current_Location', 'Origin Parish', 'Location Other Race']
-        data_columns_primary = {
-            'direct': primary_list,
-            'mother': primary_list,
-            'father': primary_list
-        }
-    else:
-        primary_list = ['Race']
-        data_columns_primary = {
-            'direct': primary_list,
-            'mother': primary_list,
-            'father': primary_list
-        }
-
-    index_key_baptisms = '#ID'
-    dataset_baptisms = baptisms
+    data_columns_primary = {
+        'direct': ['Race', 'Current_Location', 'Origin Parish', 'Location Other Race']
+        if '1790' in dataset_key else ['Race'],
+        'mother': ['Race'],
+        'father': ['Race']
+    }
     data_columns_baptisms = {
         'direct': ['SpanishName', 'Surname', 'Ethnicity', 'FmtdDate', 'Mission', 'FSpanishName', 'FSurname',
                    'FMilitaryStatus', 'FOrigin', 'MSpanishName', 'MSurname', 'MOrigin', 'Sex', 'Notes'],
@@ -138,83 +163,16 @@ def create_people_collect_2(matched_results, threshold, baptisms, other_datasets
         'father': ['FSpanishName', 'FSurname', 'FEthnicity', 'FmtdDate', 'Mission', 'Sex', 'Notes']
     }
 
-    dataset_primary_indexed = dataset_primary.set_index(index_key_primary)
-    dataset_baptisms_indexed = dataset_baptisms.set_index(index_key_baptisms)
-    logging.info(f"{dataset_key} data and Baptisms data indexed by their respective keys.")
+    extracted_year = extract_year_from_filename(dataset_key)
+    race_year = 'race_' + (extracted_year if extracted_year else 'unknown')
+    dataset_primary = other_datasets[dataset_key].set_index('ecpp_id')
+    dataset_baptisms = baptisms.set_index('#ID')
 
-    direct_matches = matched_results[matched_results['Direct_Total_Match_Score'] >= threshold]
-    mother_matches = matched_results[matched_results['Mother_Total_Match_Score'] >= threshold]
-    father_matches = matched_results[matched_results['Father_Total_Match_Score'] >= threshold]
+    primary_data, baptism_data = process_matches(matched_results, dataset_primary, dataset_baptisms, threshold,
+                                                 data_columns_primary, data_columns_baptisms)
 
-    direct_data_primary = dataset_primary_indexed.loc[direct_matches[index_key_primary], data_columns_primary['direct']]
-    mother_data_primary = dataset_primary_indexed.loc[mother_matches[index_key_primary], data_columns_primary['mother']]
-    father_data_primary = dataset_primary_indexed.loc[father_matches[index_key_primary], data_columns_primary['father']]
-
-    direct_data_baptisms = dataset_baptisms_indexed.loc[
-        direct_matches[index_key_baptisms], data_columns_baptisms['direct']]
-    mother_data_baptisms = dataset_baptisms_indexed.loc[
-        mother_matches[index_key_baptisms], data_columns_baptisms['mother']]
-    father_data_baptisms = dataset_baptisms_indexed.loc[
-        father_matches[index_key_baptisms], data_columns_baptisms['father']]
-
-    combined_primary = pd.concat([direct_data_primary, mother_data_primary, father_data_primary], axis=0)
-    combined_baptisms = pd.concat([direct_data_baptisms, mother_data_baptisms, father_data_baptisms], axis=0)
-
-    combined_primary[index_key_primary] = combined_primary.index
-    combined_baptisms[index_key_baptisms] = combined_baptisms.index
-
-    combined_primary = combined_primary.reset_index(drop=True)
-    combined_baptisms = combined_baptisms.reset_index(drop=True)
-
-    if '1790' in dataset_key:
-        combined_primary.rename(columns={'Race': race_year, 'Current_Location': 'location_1790_census',
-                                         'Origin Parish': 'origin_parish_1790_census',
-                                         'Location Other Race': 'location_other_race'}, inplace=True)
-    else:
-        combined_primary.rename(columns={'Race': race_year}, inplace=True)
-
-    combined_baptisms['first_name'] = combined_baptisms[['SpanishName', 'MSpanishName', 'FSpanishName']].fillna('').sum(
-        axis=1)
-    combined_baptisms['last_name'] = combined_baptisms[['Surname', 'MSurname', 'FSurname']].fillna('').sum(axis=1)
-
-    combined_baptisms['ethnicity'] = combined_baptisms[['Ethnicity', 'MEthnicity', 'FEthnicity']].fillna('').sum(axis=1)
-
-    combined_baptisms['baptismal_date'] = combined_baptisms[['FmtdDate']].fillna('').sum(axis=1)
-
-    combined_baptisms['location_ecpp_baptism'] = combined_baptisms[['Mission']].fillna('').sum(axis=1)
-
-    combined_baptisms['father_first_name'] = combined_baptisms[['FSpanishName']].fillna('').sum(axis=1)
-
-    combined_baptisms['father_last_name'] = combined_baptisms[['FSurname']].fillna('').sum(axis=1)
-
-    combined_baptisms['father_military_status'] = combined_baptisms[['FMilitaryStatus']].fillna('').sum(axis=1)
-
-    combined_baptisms['father_origin'] = combined_baptisms[['FOrigin']].fillna('').sum(axis=1)
-
-    combined_baptisms['mother_first_name'] = combined_baptisms[['MSpanishName']].fillna('').sum(axis=1)
-
-    combined_baptisms['mother_last_name'] = combined_baptisms[['MSurname']].fillna('').sum(axis=1)
-
-    combined_baptisms['mother_origin'] = combined_baptisms[['MOrigin']].fillna('').sum(axis=1)
-
-    combined_baptisms['sex'] = combined_baptisms[['Sex']].fillna('').sum(axis=1)
-
-    combined_baptisms['notes'] = combined_baptisms[['Notes']].fillna('').sum(axis=1)
-
-    combined_baptisms.drop(columns=['SpanishName', 'Surname', 'MSpanishName', 'MSurname', 'FSpanishName', 'FSurname',
-                                    'Ethnicity', 'MEthnicity', 'FEthnicity', 'FmtdDate', 'Mission', 'FSpanishName',
-                                    'FSurname', 'MSpanishName', 'MSurname', 'FMilitaryStatus', 'FOrigin', 'MOrigin',
-                                    'Sex', 'Notes'],
-                           inplace=True)
-
-    final_output = pd.concat([combined_primary, combined_baptisms], axis=1)
-
-    desired_order = ['#ID', 'ecpp_id', 'first_name', 'last_name', race_year, 'ethnicity', 'baptismal_date',
-                     'location_ecpp_baptism', 'location_ecpp_baptism', 'father_first_name', 'father_last_name',
-                     'father_military_status', 'father_origin', 'mother_first_name', 'mother_last_name', 'mother_origin',
-                     'sex', 'notes']
-    final_output = final_output.reindex(columns=desired_order)
-
+    final_output = pd.concat([primary_data, baptism_data], axis=1)
+    final_output.rename(columns={'Race': race_year}, inplace=True)
     logging.info(f"Finished processing matched results for {dataset_key}.")
     return final_output
 
@@ -247,6 +205,20 @@ def append_to_csv(data, filename):
         pd.DataFrame(data).to_csv(f, header=False, index=False)
 
 
+def reorder_columns(dataframe):
+    desired_order = [
+        'last_name', 'first_name', 'race_aggregated', 'race_1790', 'race_sj1778', 'race_la1781',
+        'race_la1785', 'race_la1821', 'ethnicity', 'baptismal_date', 'location_ecpp_baptism',
+        'location_1790_census', 'father_last_name', 'father_first_name', 'father_military_status',
+        'father_origin', 'mother_last_name', 'mother_first_name', 'mother_origin', 'sex',
+        'origin_parish_1790_census', 'location_other_race', 'notes_url_1790_census'
+    ]
+
+    existing_columns = set(dataframe.columns)
+    ordered_columns = [col for col in desired_order if col in existing_columns]
+    return dataframe[ordered_columns]
+
+
 def main():
     path = '/datasets/acolinhe/data'
     output_path = '/datasets/acolinhe/data_output'
@@ -266,12 +238,15 @@ def main():
             all_people_collect_2.append(people_collect_2)
 
     if all_people_collect_2:
+        all_people_collect_2 = [df.reset_index(drop=True) for df in all_people_collect_2]
         final_people_collect_2 = pd.concat(all_people_collect_2, ignore_index=True)
 
         race_columns = [col for col in final_people_collect_2.columns if 'race_' in col]
         if race_columns:
             final_people_collect_2['race_aggregated'] = final_people_collect_2[race_columns].apply(
                 lambda x: ' '.join(x.dropna().astype(str)), axis=1)
+
+        reorder_columns(final_people_collect_2)
 
         final_file_path = os.path.join(output_path, 'people_collect_2.csv')
         final_people_collect_2.to_csv(final_file_path, index=False)
