@@ -101,49 +101,63 @@ def create_people_collect_2(matched_results, threshold, baptisms, other_datasets
     logging.info(f"Starting to process matched results for {dataset_key}.")
 
     if 'padron' in dataset_key or 'census' in dataset_key:
-        index_key = 'ecpp_id'
-        dataset = other_datasets[dataset_key]
-        data_columns = {
+        index_key_primary = 'ecpp_id'
+        dataset_primary = other_datasets[dataset_key]
+        data_columns_primary = {
             'direct': ['Race'],
             'mother': ['Race'],
             'father': ['Race']
         }
-    else:
-        index_key = '#ID'
-        dataset = baptisms
-        data_columns = {
+
+        index_key_baptisms = '#ID'
+        dataset_baptisms = baptisms
+        data_columns_baptisms = {
             'direct': ['SpanishName', 'Surname'],
             'mother': ['MSpanishName', 'MSurname'],
             'father': ['FSpanishName', 'FSurname']
         }
 
-    dataset_indexed = dataset.set_index(index_key)
-    logging.info(f"{dataset_key} data indexed by {index_key}.")
+        dataset_primary_indexed = dataset_primary.set_index(index_key_primary)
+        dataset_baptisms_indexed = dataset_baptisms.set_index(index_key_baptisms)
+        logging.info(f"{dataset_key} data and Baptisms data indexed by their respective keys.")
 
     direct_matches = matched_results[matched_results['Direct_Total_Match_Score'] >= threshold]
     mother_matches = matched_results[matched_results['Mother_Total_Match_Score'] >= threshold]
     father_matches = matched_results[matched_results['Father_Total_Match_Score'] >= threshold]
 
-    direct_data = dataset_indexed.loc[direct_matches[index_key], data_columns['direct']]
-    mother_data = dataset_indexed.loc[mother_matches[index_key], data_columns['mother']]
-    father_data = dataset_indexed.loc[father_matches[index_key], data_columns['father']]
+    direct_data_primary = dataset_primary_indexed.loc[direct_matches[index_key_primary], data_columns_primary['direct']]
+    mother_data_primary = dataset_primary_indexed.loc[mother_matches[index_key_primary], data_columns_primary['mother']]
+    father_data_primary = dataset_primary_indexed.loc[father_matches[index_key_primary], data_columns_primary['father']]
 
-    combined = pd.concat([direct_data, mother_data, father_data], axis=0)
-    combined[index_key] = combined.index
+    direct_data_baptisms = dataset_baptisms_indexed.loc[
+        direct_matches[index_key_baptisms], data_columns_baptisms['direct']]
+    mother_data_baptisms = dataset_baptisms_indexed.loc[
+        mother_matches[index_key_baptisms], data_columns_baptisms['mother']]
+    father_data_baptisms = dataset_baptisms_indexed.loc[
+        father_matches[index_key_baptisms], data_columns_baptisms['father']]
 
-    combined = combined.reset_index(drop=True)
+    combined_primary = pd.concat([direct_data_primary, mother_data_primary, father_data_primary], axis=0)
+    combined_baptisms = pd.concat([direct_data_baptisms, mother_data_baptisms, father_data_baptisms], axis=0)
 
-    combined.rename(columns={'Race': 'race_aggregated'}, inplace=True)
+    combined_primary[index_key_primary] = combined_primary.index
+    combined_baptisms[index_key_baptisms] = combined_baptisms.index
 
-    if 'padron' in dataset_key or 'census' in dataset_key:
-        required_columns = ['race_aggregated']
-    else:
-        combined.rename(columns={'SpanishName': 'first_name', 'Surname': 'last_name', 'MSpanishName': 'first_name',
-                                 'MSurname': 'last_name', 'FSpanishName': 'first_name', 'FSurname': 'last_name'},
-                        inplace=True)
-        required_columns = ['first_name', 'last_name']
+    combined_primary = combined_primary.reset_index(drop=True)
+    combined_baptisms = combined_baptisms.reset_index(drop=True)
 
-    final_output = combined[[index_key] + required_columns]
+    combined_primary.rename(columns={'Race': 'race_aggregated'}, inplace=True)
+
+    combined_baptisms['first_name'] = combined_baptisms[['SpanishName', 'MSpanishName', 'FSpanishName']].fillna('').sum(
+        axis=1)
+    combined_baptisms['last_name'] = combined_baptisms[['Surname', 'MSurname', 'FSurname']].fillna('').sum(axis=1)
+
+    combined_baptisms.drop(columns=['SpanishName', 'Surname', 'MSpanishName', 'MSurname', 'FSpanishName', 'FSurname'],
+                           inplace=True)
+
+    final_output = pd.concat([combined_primary, combined_baptisms], axis=1)
+
+    desired_order = ['#ID', 'ecpp_id', 'first_name', 'last_name', 'race_aggregated']
+    final_output = final_output.reindex(columns=desired_order)
 
     logging.info(f"Finished processing matched results for {dataset_key}.")
     return final_output
