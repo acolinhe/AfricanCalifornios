@@ -1,8 +1,12 @@
 /matches/
 /data/
 /people_collect/
+/pickles/
+/old_matches/
+/.ipynb_checkpoints
+/baptism_matches
+/scanned_pdfs/
 .DS_Store
 *.pyc
 *.pkl
-/old_matches/
 /csv_matches/
