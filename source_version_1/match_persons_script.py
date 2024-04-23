@@ -62,25 +62,6 @@ def load_and_prepare_data(path):
     return datasets
 
 
-def save_to_pickle(dataframe, path, filename):
-    """Save the dataframe to a pickle file."""
-    full_path = os.path.join(path, filename)
-    dataframe.to_pickle(full_path)
-    logging.info(f"Dataframe saved to {full_path}")
-
-
-def process_dataset(dataset_key, datasets, config, output_path):
-    if dataset_key == 'baptisms' or datasets[dataset_key] is None:
-        return
-
-    dataset_start_time = time.time()
-    results = parallel_data_processing(datasets[dataset_key], datasets['baptisms'], config, dataset_key)
-    threshold = 0.87
-    people_collect_2 = create_people_collect_2(results, threshold, datasets['baptisms'], datasets, dataset_key)
-    people_collect_2.to_csv(os.path.join(output_path, f'{dataset_key}_people_collect_2.csv'), index=False)
-    logging.info(f"{dataset_key} processing time: {time.time() - dataset_start_time} seconds")
-
-
 def parallel_data_processing(dataset, baptisms, config, dataset_key):
     """Run dataset into max 64 chunks for parallel processing."""
     num_cores = min(64, cpu_count())
@@ -118,12 +99,6 @@ def fetch_and_combine_data(match_results, data_indexed, columns):
         return pd.DataFrame(columns=columns)
 
 
-def combine_data_sets(primary_data, baptism_data):
-    """Combine primary and baptism datasets into a single DataFrame, handle index reset and column renaming."""
-    combined_data = pd.concat([primary_data, baptism_data], axis=0, ignore_index=True)
-    return combined_data
-
-
 def process_matches(matched_results, dataset_primary, dataset_baptisms, threshold, data_columns_primary,
                     data_columns_baptisms):
     """Process matching scores and extract relevant data from primary and baptisms datasets."""
@@ -156,6 +131,7 @@ def create_people_collect_2(matched_results, threshold, baptisms, other_datasets
         'mother': ['Race'],
         'father': ['Race']
     }
+
     data_columns_baptisms = {
         'direct': ['SpanishName', 'Surname', 'Ethnicity', 'FmtdDate', 'Mission', 'FSpanishName', 'FSurname',
                    'FMilitaryStatus', 'FOrigin', 'MSpanishName', 'MSurname', 'MOrigin', 'Sex', 'Notes'],
@@ -163,8 +139,6 @@ def create_people_collect_2(matched_results, threshold, baptisms, other_datasets
         'father': ['FSpanishName', 'FSurname', 'FEthnicity', 'FmtdDate', 'Mission', 'Sex', 'Notes']
     }
 
-    extracted_year = extract_year_from_filename(dataset_key)
-    race_year = 'race_' + (extracted_year if extracted_year else 'unknown')
     dataset_primary = other_datasets[dataset_key].set_index('ecpp_id')
     dataset_baptisms = baptisms.set_index('#ID')
 
@@ -172,7 +146,11 @@ def create_people_collect_2(matched_results, threshold, baptisms, other_datasets
                                                  data_columns_primary, data_columns_baptisms)
 
     final_output = pd.concat([primary_data, baptism_data], axis=1)
+
+    extracted_year = extract_year_from_filename(dataset_key)
+    race_year = 'race_' + (extracted_year if extracted_year else 'race_267')
     final_output.rename(columns={'Race': race_year}, inplace=True)
+
     logging.info(f"Finished processing matched results for {dataset_key}.")
     return final_output
 
@@ -199,26 +177,6 @@ def get_config():
     }
 
 
-def append_to_csv(data, filename):
-    """Append data to a CSV file."""
-    with open(filename, 'a') as f:
-        pd.DataFrame(data).to_csv(f, header=False, index=False)
-
-
-def reorder_columns(dataframe):
-    desired_order = [
-        'last_name', 'first_name', 'race_aggregated', 'race_1790', 'race_sj1778', 'race_la1781',
-        'race_la1785', 'race_la1821', 'ethnicity', 'baptismal_date', 'location_ecpp_baptism',
-        'location_1790_census', 'father_last_name', 'father_first_name', 'father_military_status',
-        'father_origin', 'mother_last_name', 'mother_first_name', 'mother_origin', 'sex',
-        'origin_parish_1790_census', 'location_other_race', 'notes_url_1790_census'
-    ]
-
-    existing_columns = set(dataframe.columns)
-    ordered_columns = [col for col in desired_order if col in existing_columns]
-    return dataframe[ordered_columns]
-
-
 def main():
     path = '/datasets/acolinhe/data'
     output_path = '/datasets/acolinhe/data_output'
@@ -233,6 +191,7 @@ def main():
         results = parallel_data_processing(datasets[dataset_key], datasets['baptisms'], config, dataset_key)
         threshold = 0.87
         people_collect_2 = create_people_collect_2(results, threshold, datasets['baptisms'], datasets, dataset_key)
+        logging.info(f"Finished processing {people_collect_2.columns}.")
 
         if not people_collect_2.empty:
             all_people_collect_2.append(people_collect_2)
@@ -241,12 +200,48 @@ def main():
         all_people_collect_2 = [df.reset_index(drop=True) for df in all_people_collect_2]
         final_people_collect_2 = pd.concat(all_people_collect_2, ignore_index=True)
 
-        race_columns = [col for col in final_people_collect_2.columns if 'race_' in col]
-        if race_columns:
-            final_people_collect_2['race_aggregated'] = final_people_collect_2[race_columns].apply(
-                lambda x: ' '.join(x.dropna().astype(str)), axis=1)
+        final_people_collect_2.rename(columns={
+            'SpanishName': 'first_name',
+            'Surname': 'last_name',
+            'Location Other Race': 'location_other_race',
+            'Origin Parish': 'origin_parish_1790_census',
+            'Current_Location': 'location_1790_census',
+            'Ethnicity': 'ethnicity',
+            'FmtdDate': 'baptismal_date',
+            'Mission': 'location_ecpp_baptism',
+            'FSpanishName': 'father_first_name',
+            'FSurname': 'father_last_name',
+            'FMilitaryStatus': 'father_military_status',
+            'FOrigin': 'father_origin',
+            'MSpanishName': 'mother_first_name',
+            'MSurname': 'mother_last_name',
+            'MOrigin': 'mother_origin',
+            'Sex': 'sex',
+            'Notes': 'notes_url_1790_census'
+        }, inplace=True)
 
-        reorder_columns(final_people_collect_2)
+        race_columns = {
+            'race_race_267': 'race_267',
+            'race_1790': 'race_1790',
+            'race_1781': 'race_1781',
+            'race_1785': 'race_1785',
+            'race_1821': 'race_1821'
+        }
+        final_people_collect_2.rename(columns=race_columns, inplace=True)
+
+        race_columns = ['race_1790', 'race_1781', 'race_1785', 'race_1821', 'race_267']
+        final_people_collect_2['race_aggregated'] = final_people_collect_2[race_columns].apply(
+            lambda row: ', '.join(row.dropna().unique()), axis=1
+        )
+
+        final_columns_order = [
+            'last_name', 'first_name', 'race_aggregated', 'race_1790', 'race_1781',
+            'race_1785', 'race_1821', 'race_267', 'ethnicity', 'baptismal_date', 'location_ecpp_baptism',
+            'location_1790_census', 'father_last_name', 'father_first_name', 'father_military_status',
+            'father_origin', 'mother_last_name', 'mother_first_name', 'mother_origin', 'sex',
+            'origin_parish_1790_census', 'location_other_race', 'notes_url_1790_census'
+        ]
+        final_people_collect_2 = final_people_collect_2[final_columns_order]
 
         final_file_path = os.path.join(output_path, 'people_collect_2.csv')
         final_people_collect_2.to_csv(final_file_path, index=False)
