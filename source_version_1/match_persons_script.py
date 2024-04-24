@@ -1,185 +1,90 @@
-import os
 import logging
 import pandas as pd
-import time
-import numpy as np
-import re
-from multiprocessing import Pool, cpu_count
-from data_processing import add_identifiers, clean_names_padrones
-from data_loading import load_data, create_afro_df
-from person_matcher import PersonMatcher
+from match_person_parallel_functions import load_and_prepare_data, parallel_data_processing
+from data_processing import get_config
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 
-def configure_and_match(census, baptisms, config):
-    """Configure the datasets and perform matching."""
-    matcher = PersonMatcher(census=census, baptisms=baptisms, config=config)
-    matcher.match()
-    return matcher.matched_records
-
-
-def parallel_configure_and_match(data_info):
-    """Unpack data from the tuple and run the configure_and_match function with detailed logging."""
-    census_data, baptisms_data, config, chunk_index = data_info
-    start_time = time.time()
-    try:
-        logging.info(f"Starting processing for chunk {chunk_index}")
-        results = configure_and_match(census_data, baptisms_data, config)
-        logging.info(f"Completed processing for chunk {chunk_index}")
-        logging.info(f"Chunk {chunk_index} processing time: {time.time() - start_time} seconds")
-        return results
-    except Exception as e:
-        logging.error(f"Error processing chunk {chunk_index}: {str(e)}")
-        return pd.DataFrame()
-
-
-def chunk_dataframe(df, num_chunks):
-    """Chunk the dataframe into smaller parts, returning chunks along with their indices."""
-    chunk_size = len(df) // num_chunks + (len(df) % num_chunks > 0)
-    return [(df.iloc[i:i + chunk_size], i) for i in range(0, len(df), chunk_size)]
-
-
-def load_and_prepare_data(path):
-    """Load data and prepare it by adding identifiers and cleaning names, ensuring 'Age' column exists."""
-    datasets = {
-        'afro_1790_census': create_afro_df(path + "/1790 Census Data Complete.csv"),
-        'padron_1781': create_afro_df(path + "/padron_1781.csv"),
-        'padron_1785': create_afro_df(path + "/padron_1785.csv"),
-        'padron_1821': create_afro_df(path + "/padron_1821.csv"),
-        'padron_267': create_afro_df(path + "/padron_267.csv"),
-        'baptisms': load_data(path + '/Baptisms.csv')
-    }
-    for name, dataset in datasets.items():
-        if dataset is not None:
-            logging.debug(f"Columns in {name}: {dataset.columns}")
-            if 'Age' not in dataset.columns:
-                logging.warning(f"'Age' column is missing in dataset {name}. Adding default values.")
-                dataset['Age'] = np.nan
-            add_identifiers(dataset, 'ecpp_id' if 'padron' in name or 'census' in name else '#ID')
-            if 'padron' in name:
-                clean_names_padrones(dataset)
-    return datasets
-
-
-def parallel_data_processing(dataset, baptisms, config, dataset_key):
-    """Run dataset into max 64 chunks for parallel processing."""
-    num_cores = min(64, cpu_count())
-    pool = Pool(processes=num_cores)
-    try:
-        chunks = chunk_dataframe(dataset, num_cores)
-        current_config = config['padrones_config'] if 'padron' in dataset_key else config['census_config']
-        tasks = [(chunk, baptisms, current_config, index) for chunk, index in chunks]
-        results = pool.map(parallel_configure_and_match, tasks)
-    finally:
-        pool.close()
-        pool.join()
-    combined_results = pd.concat(results)
-    logging.debug(f"Combined results count: {len(combined_results)}")
-    return combined_results
-
-
-def extract_year_from_filename(filename):
-    """Extract year from filename assuming the year is always four digits."""
-    match = re.search(r'\d{4}', filename)
-    if match:
-        return match.group(0)
-    return None
-
-
-def fetch_and_combine_data(match_results, data_indexed, columns):
-    """Fetch data based on matches and required columns, handle missing data."""
-    try:
-        data = data_indexed.loc[match_results, columns]
-        if data.empty:
-            logging.warning("Data fetching returned an empty result.")
-        return data
-    except KeyError as e:
-        logging.error(f"Key error during data fetching: {e}")
-        return pd.DataFrame(columns=columns)
-
-
-def process_matches(matched_results, dataset_primary, dataset_baptisms, threshold, data_columns_primary,
-                    data_columns_baptisms):
-    """Process matching scores and extract relevant data from primary and baptisms datasets."""
-    matched_data_primary = pd.DataFrame()
-    matched_data_baptisms = pd.DataFrame()
-
+def filter_matched_persons(matched_persons: pd.DataFrame, dataset_key: str, threshold: float) -> pd.DataFrame:
     match_scores = {
-        'direct': 'Direct_Total_Match_Score',
-        'mother': 'Mother_Total_Match_Score',
-        'father': 'Father_Total_Match_Score'
+        'Direct_Total_Match_Score': 'direct',
+        'Mother_Total_Match_Score': 'mother',
+        'Father_Total_Match_Score': 'father'
     }
 
-    for match_type, score_column in match_scores.items():
-        matches = matched_results[matched_results[score_column] >= threshold]
-        logging.info(f"matches Results: {matches.columns}")
-        if not matches.empty:
-            primary_data = fetch_and_combine_data(matches['ecpp_id'], dataset_primary, data_columns_primary[match_type])
-            baptism_data = fetch_and_combine_data(matches['#ID'], dataset_baptisms, data_columns_baptisms[match_type])
-            matched_data_primary = pd.concat([matched_data_primary, primary_data], ignore_index=True)
-            matched_data_baptisms = pd.concat([matched_data_baptisms, baptism_data], ignore_index=True)
-    # logging.info(f"Matched Primary: {matched_data_primary.columns}")
-    # logging.info(f"Matched baptisms: {matched_data_baptisms.columns}")
+    columns_to_keep = ['#ID', 'ecpp_id']
 
-    return matched_data_primary, matched_data_baptisms
+    results = []
 
+    for score, match_type in match_scores.items():
+        filtered_persons = matched_persons[matched_persons[score] >= threshold][columns_to_keep].copy()
+        filtered_persons['match_type'] = match_type
+        filtered_persons['dataset_key'] = dataset_key
+        results.append(filtered_persons)
 
-def create_people_collect_2(matched_results, threshold, baptisms, other_datasets, dataset_key):
-    logging.info(f"Starting to process matched results for {dataset_key}.")
-    # try to keep ecpp_id and #ID in here
+    combined_df = pd.concat(results, ignore_index=True)
+    logging.info(f"Filtered {combined_df.columns} persons with score {threshold}")
 
-    data_columns_primary = {
-        'direct': ['ecpp_id', 'Race', 'Current_Location', 'Origin Parish', 'Location Other Race']
-        if '1790' in dataset_key else ['ecpp_id', 'Race'],
-        'mother': ['ecpp_id', 'Race'],
-        'father': ['ecpp_id', 'Race']
-    }
-    data_columns_baptisms = {
-        'direct': ['#ID', 'SpanishName', 'Surname', 'Ethnicity', 'FmtdDate', 'Mission', 'FSpanishName', 'FSurname',
-                   'FMilitaryStatus', 'FOrigin', 'MSpanishName', 'MSurname', 'MOrigin', 'Sex', 'Notes'],
-        'mother': ['#ID', 'MSpanishName', 'MSurname', 'MEthnicity', 'FmtdDate', 'Mission', 'Sex', 'Notes'],
-        'father': ['#ID', 'FSpanishName', 'FSurname', 'FEthnicity', 'FmtdDate', 'Mission', 'Sex', 'Notes']
-    }
-
-    extracted_year = extract_year_from_filename(dataset_key)
-    race_year = 'race_' + (extracted_year if extracted_year else 'unknown')
-    dataset_primary = other_datasets[dataset_key].set_index('ecpp_id')
-    dataset_baptisms = baptisms.set_index('#ID')
-
-    primary_data, baptism_data = process_matches(matched_results, dataset_primary, dataset_baptisms, threshold,
-                                                 data_columns_primary, data_columns_baptisms)
-
-    final_output = pd.concat([primary_data, baptism_data], axis=1)
-
-    logging.info(f"Final output: {final_output.columns}.")
-    output = '/datasets/acolinhe/data_output'
-    final_output.to_csv(output + f"/{dataset_key}.csv", index=False)
-
-    logging.info(f"Finished processing matched results for {dataset_key}.")
-    return final_output
+    return combined_df
 
 
-def get_config():
-    """Matching configuration structure for score matching."""
-    return {
-        'census_config': {
-            'ecpp_id_col': 'ecpp_id',
-            'records_id_col': '#ID',
-            'census': {'First Name': 'First', 'Last Name': 'Last', 'Gender': 'Gender', 'Age': 'Age'},
-            'baptisms': {'First Name': 'SpanishName', 'Last Name': 'Surname', 'Mother First Name': 'MSpanishName',
-                         'Mother Last Name': 'MSurname', 'Father First Name': 'FSpanishName',
-                         'Father Last Name': 'FSurname', 'Gender': 'Sex', 'Age': 'Age'}
-        },
-        'padrones_config': {
-            'ecpp_id_col': 'ecpp_id',
-            'records_id_col': '#ID',
-            'census': {'First Name': 'Ego_First Name', 'Last Name': 'Ego_Last Name', 'Gender': 'Sex', 'Age': 'Age'},
-            'baptisms': {'First Name': 'SpanishName', 'Last Name': 'Surname', 'Mother First Name': 'MSpanishName',
-                         'Mother Last Name': 'MSurname', 'Father First Name': 'FSpanishName',
-                         'Father Last Name': 'FSurname', 'Gender': 'Sex', 'Age': 'Age'}
-        }
-    }
+def insert_matched_values(matched_persons_key: pd.DataFrame, datasets: dict) -> pd.DataFrame:
+    # Try to keep in specific order & figure out duplicate #ID for race_{year}
+    baptisms = datasets['baptisms'].set_index('#ID')
+    datasets_names = ['afro_1790_census', 'padron_1781', 'padron_1785', 'padron_1821', 'padron_267']
+    for name in datasets_names:
+        datasets[name] = datasets[name].set_index('ecpp_id')
+
+    for index, row in matched_persons_key.iterrows():
+        baptism_id = row['#ID']
+        census_id = row['ecpp_id']
+
+        matched_persons_key.at[index, 'baptismal_date'] = baptisms.at[baptism_id, 'Date']
+        matched_persons_key.at[index, 'location_ecpp_baptism'] = baptisms.at[baptism_id, 'Mission']
+        matched_persons_key.at[index, 'sex'] = baptisms.at[baptism_id, 'Sex']
+        matched_persons_key.at[index, 'origin_parish_1790_census'] = baptisms.at[baptism_id, 'Place']
+        matched_persons_key.at[index, 'notes_url_1790_census'] = baptisms.at[baptism_id, 'Notes']
+
+        if row['match_type'] == 'direct':
+            matched_persons_key.at[index, 'first_name'] = baptisms.at[baptism_id, 'SpanishName']
+            matched_persons_key.at[index, 'last_name'] = baptisms.at[baptism_id, 'Surname']
+            matched_persons_key.at[index, 'ethnicity'] = baptisms.at[baptism_id, 'Ethnicity']
+            matched_persons_key.at[index, 'father_first_name'] = baptisms.at[baptism_id, 'FSpanishName']
+            matched_persons_key.at[index, 'father_last_name'] = baptisms.at[baptism_id, 'FSurname']
+            matched_persons_key.at[index, 'father_military_status'] = baptisms.at[baptism_id, 'FMilitaryStatus']
+            matched_persons_key.at[index, 'father_origin'] = baptisms.at[baptism_id, 'FOrigin']
+            matched_persons_key.at[index, 'mother_first_name'] = baptisms.at[baptism_id, 'MSpanishName']
+            matched_persons_key.at[index, 'mother_last_name'] = baptisms.at[baptism_id, 'MSurname']
+            matched_persons_key.at[index, 'mother_origin'] = baptisms.at[baptism_id, 'MOrigin']
+        elif row['match_type'] == 'mother':
+            matched_persons_key.at[index, 'first_name'] = baptisms.at[baptism_id, 'MSpanishName']
+            matched_persons_key.at[index, 'last_name'] = baptisms.at[baptism_id, 'MSurname']
+            matched_persons_key.at[index, 'ethnicity'] = baptisms.at[baptism_id, 'MEthnicity']
+
+        elif row['match_type'] == 'father':
+            matched_persons_key.at[index, 'first_name'] = baptisms.at[baptism_id, 'FSpanishName']
+            matched_persons_key.at[index, 'last_name'] = baptisms.at[baptism_id, 'FSurname']
+            matched_persons_key.at[index, 'ethnicity'] = baptisms.at[baptism_id, 'FEthnicity']
+
+        # add check for duplicates
+        if row['dataset_key'] == 'afro_1790_census':
+            matched_persons_key.at[index, 'race_1790'] = datasets['afro_1790_census'].at[census_id, 'Race']
+        elif row['dataset_key'] == 'padron_1781':
+            matched_persons_key.at[index, 'race_1781'] = datasets['afro_1790_census'].at[census_id, 'Race']
+        elif row['dataset_key'] == 'padron_1785':
+            matched_persons_key.at[index, 'race_1785'] = datasets['afro_1790_census'].at[census_id, 'Race']
+        elif row['dataset_key'] == 'padron_1821':
+            matched_persons_key.at[index, 'race_1821'] = datasets['afro_1790_census'].at[census_id, 'Race']
+        elif row['dataset_key'] == 'padron_267':
+            matched_persons_key.at[index, 'race_267'] = datasets['afro_1790_census'].at[census_id, 'Race']
+
+        # Create race_aggregated
+        columns_to_combine = ['afro_1790_census', 'padron_1781', 'padron_1785', 'padron_1821', 'padron_267']
+        matched_persons_key['race_aggregated'] = (matched_persons_key[columns_to_combine].
+                                                  apply(lambda r: ','.join(r.values.astype(str)), axis=1))
+
+    return matched_persons_key
 
 
 def main():
@@ -187,35 +92,19 @@ def main():
     output_path = '/datasets/acolinhe/data_output'
     config = get_config()
     datasets = load_and_prepare_data(path)
-
-    all_people_collect_2 = []
+    matched_persons_key = []
 
     for dataset_key in datasets:
         if dataset_key == 'baptisms' or datasets[dataset_key] is None:
             continue
-        results = parallel_data_processing(datasets[dataset_key], datasets['baptisms'], config, dataset_key)
-        # stop here see results and work from there
-        # try to only keep ecpp_id and baptisms and then get other data from there
+        matched_persons = parallel_data_processing(datasets[dataset_key], datasets['baptisms'], config, dataset_key)
+        matched_persons_key.append(filter_matched_persons(matched_persons, dataset_key, .87))
+        logging.info(f"Completed filtering {dataset_key}")
 
-        threshold = 0.87
-        people_collect_2 = create_people_collect_2(results, threshold, datasets['baptisms'], datasets, dataset_key)
-        # logging.info(f"Matched datasets: {people_collect_2.columns}")
-
-    #     if not people_collect_2.empty:
-    #         all_people_collect_2.append(people_collect_2)
-    #
-    # if all_people_collect_2:
-    #     all_people_collect_2 = [df.reset_index(drop=True) for df in all_people_collect_2]
-    #     final_people_collect_2 = pd.concat(all_people_collect_2, ignore_index=True)
-    #
-    #     race_columns = [col for col in final_people_collect_2.columns if 'race_' in col]
-    #     if race_columns:
-    #         final_people_collect_2['race_aggregated'] = final_people_collect_2[race_columns].apply(
-    #             lambda x: ' '.join(x.dropna().astype(str)), axis=1)
-    #
-    #     final_file_path = os.path.join(output_path, 'people_collect_2.csv')
-    #     final_people_collect_2.to_csv(final_file_path, index=False)
-    #     logging.info(f"Final cumulative people_collect_2.csv has been saved.")
+    combined_matched_persons_key = pd.concat(matched_persons_key, ignore_index=True)
+    final_people_collect_2 = insert_matched_values(combined_matched_persons_key, datasets)
+    final_people_collect_2.to_csv(output_path + '/people_collect_2.csv', index=False)
+    logging.info(f"Completed matches and saved to {output_path + '/people_collect_2.csv'}")
 
 
 if __name__ == '__main__':
