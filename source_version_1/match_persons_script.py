@@ -88,7 +88,7 @@ def extract_year_from_filename(filename):
 
 
 def fetch_and_combine_data(match_results, data_indexed, columns):
-    """Fetch data based on matches and required columns, handle missing data gracefully."""
+    """Fetch data based on matches and required columns, handle missing data."""
     try:
         data = data_indexed.loc[match_results, columns]
         if data.empty:
@@ -113,32 +113,37 @@ def process_matches(matched_results, dataset_primary, dataset_baptisms, threshol
 
     for match_type, score_column in match_scores.items():
         matches = matched_results[matched_results[score_column] >= threshold]
+        logging.info(f"matches Results: {matches.columns}")
         if not matches.empty:
             primary_data = fetch_and_combine_data(matches['ecpp_id'], dataset_primary, data_columns_primary[match_type])
             baptism_data = fetch_and_combine_data(matches['#ID'], dataset_baptisms, data_columns_baptisms[match_type])
             matched_data_primary = pd.concat([matched_data_primary, primary_data], ignore_index=True)
             matched_data_baptisms = pd.concat([matched_data_baptisms, baptism_data], ignore_index=True)
+    # logging.info(f"Matched Primary: {matched_data_primary.columns}")
+    # logging.info(f"Matched baptisms: {matched_data_baptisms.columns}")
 
     return matched_data_primary, matched_data_baptisms
 
 
 def create_people_collect_2(matched_results, threshold, baptisms, other_datasets, dataset_key):
     logging.info(f"Starting to process matched results for {dataset_key}.")
+    # try to keep ecpp_id and #ID in here
 
     data_columns_primary = {
-        'direct': ['Race', 'Current_Location', 'Origin Parish', 'Location Other Race']
-        if '1790' in dataset_key else ['Race'],
-        'mother': ['Race'],
-        'father': ['Race']
+        'direct': ['ecpp_id', 'Race', 'Current_Location', 'Origin Parish', 'Location Other Race']
+        if '1790' in dataset_key else ['ecpp_id', 'Race'],
+        'mother': ['ecpp_id', 'Race'],
+        'father': ['ecpp_id', 'Race']
     }
-
     data_columns_baptisms = {
-        'direct': ['SpanishName', 'Surname', 'Ethnicity', 'FmtdDate', 'Mission', 'FSpanishName', 'FSurname',
+        'direct': ['#ID', 'SpanishName', 'Surname', 'Ethnicity', 'FmtdDate', 'Mission', 'FSpanishName', 'FSurname',
                    'FMilitaryStatus', 'FOrigin', 'MSpanishName', 'MSurname', 'MOrigin', 'Sex', 'Notes'],
-        'mother': ['MSpanishName', 'MSurname', 'MEthnicity', 'FmtdDate', 'Mission', 'Sex', 'Notes'],
-        'father': ['FSpanishName', 'FSurname', 'FEthnicity', 'FmtdDate', 'Mission', 'Sex', 'Notes']
+        'mother': ['#ID', 'MSpanishName', 'MSurname', 'MEthnicity', 'FmtdDate', 'Mission', 'Sex', 'Notes'],
+        'father': ['#ID', 'FSpanishName', 'FSurname', 'FEthnicity', 'FmtdDate', 'Mission', 'Sex', 'Notes']
     }
 
+    extracted_year = extract_year_from_filename(dataset_key)
+    race_year = 'race_' + (extracted_year if extracted_year else 'unknown')
     dataset_primary = other_datasets[dataset_key].set_index('ecpp_id')
     dataset_baptisms = baptisms.set_index('#ID')
 
@@ -147,9 +152,9 @@ def create_people_collect_2(matched_results, threshold, baptisms, other_datasets
 
     final_output = pd.concat([primary_data, baptism_data], axis=1)
 
-    extracted_year = extract_year_from_filename(dataset_key)
-    race_year = 'race_' + (extracted_year if extracted_year else 'race_267')
-    final_output.rename(columns={'Race': race_year}, inplace=True)
+    logging.info(f"Final output: {final_output.columns}.")
+    output = '/datasets/acolinhe/data_output'
+    final_output.to_csv(output + f"/{dataset_key}.csv", index=False)
 
     logging.info(f"Finished processing matched results for {dataset_key}.")
     return final_output
@@ -189,63 +194,28 @@ def main():
         if dataset_key == 'baptisms' or datasets[dataset_key] is None:
             continue
         results = parallel_data_processing(datasets[dataset_key], datasets['baptisms'], config, dataset_key)
+        # stop here see results and work from there
+        # try to only keep ecpp_id and baptisms and then get other data from there
+
         threshold = 0.87
         people_collect_2 = create_people_collect_2(results, threshold, datasets['baptisms'], datasets, dataset_key)
-        logging.info(f"Finished processing {people_collect_2.columns}.")
+        # logging.info(f"Matched datasets: {people_collect_2.columns}")
 
-        if not people_collect_2.empty:
-            all_people_collect_2.append(people_collect_2)
-
-    if all_people_collect_2:
-        all_people_collect_2 = [df.reset_index(drop=True) for df in all_people_collect_2]
-        final_people_collect_2 = pd.concat(all_people_collect_2, ignore_index=True)
-
-        final_people_collect_2.rename(columns={
-            'SpanishName': 'first_name',
-            'Surname': 'last_name',
-            'Location Other Race': 'location_other_race',
-            'Origin Parish': 'origin_parish_1790_census',
-            'Current_Location': 'location_1790_census',
-            'Ethnicity': 'ethnicity',
-            'FmtdDate': 'baptismal_date',
-            'Mission': 'location_ecpp_baptism',
-            'FSpanishName': 'father_first_name',
-            'FSurname': 'father_last_name',
-            'FMilitaryStatus': 'father_military_status',
-            'FOrigin': 'father_origin',
-            'MSpanishName': 'mother_first_name',
-            'MSurname': 'mother_last_name',
-            'MOrigin': 'mother_origin',
-            'Sex': 'sex',
-            'Notes': 'notes_url_1790_census'
-        }, inplace=True)
-
-        race_columns = {
-            'race_race_267': 'race_267',
-            'race_1790': 'race_1790',
-            'race_1781': 'race_1781',
-            'race_1785': 'race_1785',
-            'race_1821': 'race_1821'
-        }
-        final_people_collect_2.rename(columns=race_columns, inplace=True)
-
-        race_columns = ['race_1790', 'race_1781', 'race_1785', 'race_1821', 'race_267']
-        final_people_collect_2['race_aggregated'] = final_people_collect_2[race_columns].apply(
-            lambda row: ', '.join(row.dropna().unique()), axis=1
-        )
-
-        final_columns_order = [
-            'last_name', 'first_name', 'race_aggregated', 'race_1790', 'race_1781',
-            'race_1785', 'race_1821', 'race_267', 'ethnicity', 'baptismal_date', 'location_ecpp_baptism',
-            'location_1790_census', 'father_last_name', 'father_first_name', 'father_military_status',
-            'father_origin', 'mother_last_name', 'mother_first_name', 'mother_origin', 'sex',
-            'origin_parish_1790_census', 'location_other_race', 'notes_url_1790_census'
-        ]
-        final_people_collect_2 = final_people_collect_2[final_columns_order]
-
-        final_file_path = os.path.join(output_path, 'people_collect_2.csv')
-        final_people_collect_2.to_csv(final_file_path, index=False)
-        logging.info(f"Final cumulative people_collect_2.csv has been saved.")
+    #     if not people_collect_2.empty:
+    #         all_people_collect_2.append(people_collect_2)
+    #
+    # if all_people_collect_2:
+    #     all_people_collect_2 = [df.reset_index(drop=True) for df in all_people_collect_2]
+    #     final_people_collect_2 = pd.concat(all_people_collect_2, ignore_index=True)
+    #
+    #     race_columns = [col for col in final_people_collect_2.columns if 'race_' in col]
+    #     if race_columns:
+    #         final_people_collect_2['race_aggregated'] = final_people_collect_2[race_columns].apply(
+    #             lambda x: ' '.join(x.dropna().astype(str)), axis=1)
+    #
+    #     final_file_path = os.path.join(output_path, 'people_collect_2.csv')
+    #     final_people_collect_2.to_csv(final_file_path, index=False)
+    #     logging.info(f"Final cumulative people_collect_2.csv has been saved.")
 
 
 if __name__ == '__main__':
