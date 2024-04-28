@@ -79,12 +79,35 @@ def insert_matched_values(matched_persons_key: pd.DataFrame, datasets: dict) -> 
         elif row['dataset_key'] == 'padron_267':
             matched_persons_key.at[index, 'race_267'] = datasets['afro_1790_census'].at[census_id, 'Race']
 
-        # Create race_aggregated
-        columns_to_combine = ['afro_1790_census', 'padron_1781', 'padron_1785', 'padron_1821', 'padron_267']
-        matched_persons_key['race_aggregated'] = (matched_persons_key[columns_to_combine].
-                                                  apply(lambda r: ','.join(r.values.astype(str)), axis=1))
-
     return matched_persons_key
+
+
+def clean_and_create_race_aggregated(final_people_collect: pd.DataFrame) -> pd.DataFrame:
+    columns_to_combine = ['race_1790', 'race_1781', 'race_1785', 'race_1821', 'race_267']
+
+    final_people_collect['race_aggregated'] = (
+        final_people_collect[columns_to_combine]
+        .apply(lambda r: ','.join(
+            r.astype(str).str.strip().str.replace('[,\s\[\]]', '', regex=True).replace('nan', '').values), axis=1)
+    )
+
+    final_people_collect['ethnicity'] = final_people_collect['ethnicity'].str.replace('[,\s\[\]]', '', regex=True)
+    final_people_collect['origin_parish_1790_census'] = (final_people_collect['origin_parish_1790_census'].
+                                                         str.replace('[,\s\[\]]', '', regex=True))
+
+    return final_people_collect
+
+
+def reorder_columns(df):
+    new_column_order = ['#ID', 'ecpp_id', 'match_type', 'dataset_key', 'first_name', 'last_name',
+                        'father_first_name', 'father_last_name', 'father_military_status',
+                        'father_origin', 'mother_first_name', 'mother_last_name',
+                        'mother_origin', 'sex', 'race_1790', 'race_1781', 'race_1785',
+                        'race_1821', 'race_267', 'race_aggregated', 'ethnicity',
+                        'origin_parish_1790_census', 'baptismal_date', 'location_ecpp_baptism',
+                        'notes_url_1790_census']
+
+    return df[new_column_order]
 
 
 def main():
@@ -102,8 +125,12 @@ def main():
         logging.info(f"Completed filtering {dataset_key}")
 
     combined_matched_persons_key = pd.concat(matched_persons_key, ignore_index=True)
-    final_people_collect_2 = insert_matched_values(combined_matched_persons_key, datasets)
+    people_collect_2 = insert_matched_values(combined_matched_persons_key, datasets)
+    cleaned_people_collect_2 = clean_and_create_race_aggregated(people_collect_2)
+    final_people_collect_2 = reorder_columns(cleaned_people_collect_2)
+
     final_people_collect_2.to_csv(output_path + '/people_collect_2.csv', index=False)
+    logging.info(f"people_collect_2.csv columns {final_people_collect_2.columns}")
     logging.info(f"Completed matches and saved to {output_path + '/people_collect_2.csv'}")
 
 
