@@ -10,8 +10,9 @@ Code related to my Masters Thesis
 * Matching Persons of only Afro-Descent
 * Incorporates parallel computing (32 cores max on 127 machines)
 * Filters Direct, Mother, & Father matching scores.
-* `people_collect_2.py` is created by script and output. 
+* `people_collect_2.csv` is created by script and output. 
+* Final Output -> `people_collect_2.csv`
 
-## Version 2
+## Family Trees
 * Updated script to incorporate family tree matching
 * Matching through generations and keeping track of families

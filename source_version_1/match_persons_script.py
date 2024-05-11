@@ -30,7 +30,6 @@ def filter_matched_persons(matched_persons: pd.DataFrame, dataset_key: str, thre
 
 
 def insert_matched_values(matched_persons_key: pd.DataFrame, datasets: dict) -> pd.DataFrame:
-    # Try to keep in specific order & figure out duplicate #ID for race_{year}
     baptisms = datasets['baptisms'].set_index('#ID')
     datasets_names = ['afro_1790_census', 'padron_1781', 'padron_1785', 'padron_1821', 'padron_267']
     for name in datasets_names:
@@ -67,7 +66,6 @@ def insert_matched_values(matched_persons_key: pd.DataFrame, datasets: dict) -> 
             matched_persons_key.at[index, 'last_name'] = baptisms.at[baptism_id, 'FSurname']
             matched_persons_key.at[index, 'ethnicity'] = baptisms.at[baptism_id, 'FEthnicity']
 
-        # add check for duplicates
         if row['dataset_key'] == 'afro_1790_census':
             matched_persons_key.at[index, 'race_1790'] = datasets['afro_1790_census'].at[census_id, 'Race']
         elif row['dataset_key'] == 'padron_1781':
@@ -87,7 +85,7 @@ def clean_and_create_race_aggregated(final_people_collect: pd.DataFrame) -> pd.D
 
     final_people_collect['race_aggregated'] = (
         final_people_collect[columns_to_combine]
-        .apply(lambda r: ','.join(
+        .apply(lambda r: ', '.join(
             r.astype(str).str.strip().str.replace('[,\s\[\]]', '', regex=True).replace('nan', '').values), axis=1)
     )
 
