@@ -1,6 +1,4 @@
-import json
-
-
+# Family Units are isolated from each other
 class FamilyUnit:
     def __init__(self, fid):
         self.fid = fid
@@ -20,6 +18,7 @@ class FamilyUnit:
         }
 
 
+# Goal is to store all information from PC2
 class PersonUnit:
     def __init__(self, pid, name, children=None, spouse=None, sex=None, race=None, ethnicity=None, baptismal_date=None):
         self.pid = pid

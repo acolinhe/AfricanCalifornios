@@ -1,6 +1,9 @@
+import logging
 from typing import Optional
 import pandas as pd
-import logging
+from family_unit import FamilyUnit, PersonUnit
+
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 
 def read_people_collect() -> Optional[pd.DataFrame]:
@@ -14,3 +17,14 @@ def read_people_collect() -> Optional[pd.DataFrame]:
     except Exception as e:
         logging.error(f"An error occurred: {e}")
         return None
+
+
+def main():
+    # put in main for now and abstract away with functions
+    pc2 = read_people_collect()
+    print(pc2)
+    family = FamilyUnit(0)
+
+
+if __name__ == '__main__':
+    main()
