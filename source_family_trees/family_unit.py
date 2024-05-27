@@ -1,4 +1,3 @@
-# Family Units are isolated from each other
 class FamilyUnit:
     def __init__(self, fid):
         self.fid = fid
@@ -21,9 +20,8 @@ class FamilyUnit:
         }
 
 
-# Goal is to store all information from PC2
 class PersonUnit:
-    def __init__(self, pid, name, sex=None, race=None, ethnicity=None, baptismal_date=None, children=None, spouse=None):
+    def __init__(self, pid, name, sex=None, race=None, ethnicity=None, baptismal_date=None, children=None, spouse=None, parents=None):
         self.pid = pid
         self.name = name
         self.sex = sex
@@ -31,15 +29,19 @@ class PersonUnit:
         self.ethnicity = ethnicity
         self.baptismal_date = baptismal_date
         self.potential_children = children if children else []
-        self.potential_spouses = spouse if spouse else []
+        self.potential_spouse = spouse if spouse else None
+        self.potential_parents = parents if parents else []
 
     def add_potential_child(self, child):
         if child not in self.potential_children:
             self.potential_children.append(child)
 
-    def add_potential_spouse(self, spouse):
-        if spouse not in self.potential_spouses:
-            self.potential_spouses.append(spouse)
+    def set_potential_spouse(self, spouse):
+        self.potential_spouse = spouse
+
+    def add_potential_parent(self, parent):
+        if parent not in self.potential_parents:
+            self.potential_parents.append(parent)
 
     def to_dict(self):
         return {
@@ -50,7 +52,8 @@ class PersonUnit:
             "ethnicity": self.ethnicity,
             "baptismal_date": self.baptismal_date,
             "potential_children": [child.to_dict() for child in self.potential_children],
-            "potential_spouses": [spouse.to_dict() for spouse in self.potential_spouses],
+            "potential_spouse": self.potential_spouse.to_dict() if self.potential_spouse else None,
+            "potential_parents": [parent.to_dict() for parent in self.potential_parents]
         }
 
     def __str__(self):
