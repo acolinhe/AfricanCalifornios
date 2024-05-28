@@ -13,7 +13,8 @@ def filter_matched_persons(matched_persons: pd.DataFrame, dataset_key: str, thre
         'Father_Total_Match_Score': 'father'
     }
 
-    columns_to_keep = ['#ID', 'ecpp_id']
+    columns_to_keep = ['#ID', 'ecpp_id', 'Direct_Total_Match_Score', 'Mother_Total_Match_Score',
+                       'Father_Total_Match_Score']
 
     results = []
 
@@ -85,13 +86,13 @@ def clean_and_create_race_aggregated(final_people_collect: pd.DataFrame) -> pd.D
 
     final_people_collect['race_aggregated'] = (
         final_people_collect[columns_to_combine]
-        .apply(lambda r: ', '.join(
-            r.astype(str).str.strip().str.replace('[,\s\[\]]', '', regex=True).replace('nan', '').values), axis=1)
+        .apply(lambda r: ', '.join(r.dropna().astype(str).str.strip().str.replace('[,\s\[\]]', ' ', regex=True)), axis=1)
     )
 
-    final_people_collect['ethnicity'] = final_people_collect['ethnicity'].str.replace('[,\s\[\]]', '', regex=True)
-    final_people_collect['origin_parish_1790_census'] = (final_people_collect['origin_parish_1790_census'].
-                                                         str.replace('[,\s\[\]]', '', regex=True))
+    final_people_collect['ethnicity'] = final_people_collect['ethnicity'].str.replace('[,\s\[\]]', ' ', regex=True)
+    final_people_collect['origin_parish_1790_census'] = (
+        final_people_collect['origin_parish_1790_census'].str.replace('[,\s\[\]]', ' ', regex=True)
+    )
 
     return final_people_collect
 
@@ -103,7 +104,7 @@ def reorder_columns(df):
                         'mother_origin', 'sex', 'race_1790', 'race_1781', 'race_1785',
                         'race_1821', 'race_267', 'race_aggregated', 'ethnicity',
                         'origin_parish_1790_census', 'baptismal_date', 'location_ecpp_baptism',
-                        'notes_url_1790_census']
+                        'notes_url_1790_census', 'Direct_Total_Match_Score', 'Mother_Total_Match_Score', 'Father_Total_Match_Score']
 
     return df[new_column_order]
 
@@ -119,7 +120,7 @@ def main():
         if dataset_key == 'baptisms' or datasets[dataset_key] is None:
             continue
         matched_persons = parallel_data_processing(datasets[dataset_key], datasets['baptisms'], config, dataset_key)
-        matched_persons_key.append(filter_matched_persons(matched_persons, dataset_key, .87))
+        matched_persons_key.append(filter_matched_persons(matched_persons, dataset_key, .50))
         logging.info(f"Completed filtering {dataset_key}")
 
     combined_matched_persons_key = pd.concat(matched_persons_key, ignore_index=True)
