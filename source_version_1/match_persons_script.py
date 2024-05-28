@@ -13,8 +13,7 @@ def filter_matched_persons(matched_persons: pd.DataFrame, dataset_key: str, thre
         'Father_Total_Match_Score': 'father'
     }
 
-    columns_to_keep = ['#ID', 'ecpp_id', 'Direct_Total_Match_Score', 'Mother_Total_Match_Score',
-                       'Father_Total_Match_Score']
+    columns_to_keep = ['#ID', 'ecpp_id']
 
     results = []
 
@@ -104,7 +103,7 @@ def reorder_columns(df):
                         'mother_origin', 'sex', 'race_1790', 'race_1781', 'race_1785',
                         'race_1821', 'race_267', 'race_aggregated', 'ethnicity',
                         'origin_parish_1790_census', 'baptismal_date', 'location_ecpp_baptism',
-                        'notes_url_1790_census', 'Direct_Total_Match_Score', 'Mother_Total_Match_Score', 'Father_Total_Match_Score']
+                        'notes_url_1790_census']
 
     return df[new_column_order]
 
