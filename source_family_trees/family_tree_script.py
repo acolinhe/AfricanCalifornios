@@ -119,7 +119,11 @@ def check_nan(value):
 
 
 def remove_commas(value):
-    return value.replace(',', '') if value else value
+    if not value:
+        return value
+    value = value.rstrip(',')
+    value = value.replace(',', ', ')
+    return value
 
 
 def read_and_prepare_data():
