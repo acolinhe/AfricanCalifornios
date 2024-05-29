@@ -13,7 +13,7 @@ def filter_matched_persons(matched_persons: pd.DataFrame, dataset_key: str, thre
         'Father_Total_Match_Score': 'father'
     }
 
-    columns_to_keep = ['#ID', 'ecpp_id']
+    columns_to_keep = ['#ID', 'ecpp_id', 'Direct_Total_Match_Score', 'Mother_Total_Match_Score', 'Father_Total_Match_Score']
 
     results = []
 
@@ -97,7 +97,8 @@ def clean_and_create_race_aggregated(final_people_collect: pd.DataFrame) -> pd.D
 
 
 def reorder_columns(df):
-    new_column_order = ['#ID', 'ecpp_id', 'match_type', 'dataset_key', 'first_name', 'last_name',
+    new_column_order = ['#ID', 'ecpp_id', 'Direct_Total_Match_Score', 'Mother_Total_Match_Score', 'Father_Total_Match_Score',
+                        'match_type', 'dataset_key', 'first_name', 'last_name',
                         'father_first_name', 'father_last_name', 'father_military_status',
                         'father_origin', 'mother_first_name', 'mother_last_name',
                         'mother_origin', 'sex', 'race_1790', 'race_1781', 'race_1785',
@@ -106,6 +107,7 @@ def reorder_columns(df):
                         'notes_url_1790_census']
 
     return df[new_column_order]
+
 
 
 def main():
