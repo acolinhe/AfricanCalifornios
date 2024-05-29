@@ -198,6 +198,23 @@ def create_family_units(pc2, census_1790, baptisms):
     return family_units
 
 
+# probably put in a different .py file
+def traverse_and_match():
+    ...
+
+
+def extract_parents():
+    ...
+
+
+def extract_children():
+    ...
+
+
+def match_individuals():
+    ...
+
+
 def main():
     census_1790, baptisms, pc2 = read_and_prepare_data()
 
