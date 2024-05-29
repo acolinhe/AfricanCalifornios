@@ -59,6 +59,10 @@ class PersonMatcher:
                 for key in weights:
                     weights[key] += (age_weight * weights[key] / total_weight)
 
+        total_weight = sum(weights.values())
+        if total_weight != 1:
+            weights = {k: v / total_weight for k, v in weights.items()}
+
         self.matched_records[score_column_name] = 0
         for score, weight in weights.items():
             if score in self.matched_records.columns:
