@@ -21,13 +21,15 @@ class FamilyUnit:
 
 
 class PersonUnit:
-    def __init__(self, pid, name, sex=None, race=None, ethnicity=None, baptismal_date=None, children=None, spouse=None, parents=None):
+    def __init__(self, pid, name, sex=None, race=None, ethnicity=None, baptismal_date=None, match_prob=None,
+                 children=None, spouse=None, parents=None):
         self.pid = pid
         self.name = name
         self.sex = sex
         self.race = race
         self.ethnicity = ethnicity
         self.baptismal_date = baptismal_date
+        self.match_prob = match_prob
         self.potential_children = children if children else []
         self.potential_spouse = spouse if spouse else None
         self.potential_parents = parents if parents else []
@@ -51,6 +53,7 @@ class PersonUnit:
             "race": self.race,
             "ethnicity": self.ethnicity,
             "baptismal_date": self.baptismal_date,
+            "match_prob": self.match_prob,
             "potential_children": [child.to_dict() for child in self.potential_children],
             "potential_spouse": self.potential_spouse.to_dict() if self.potential_spouse else None,
             "potential_parents": [parent.to_dict() for parent in self.potential_parents]

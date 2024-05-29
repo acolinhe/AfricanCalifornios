@@ -139,13 +139,29 @@ def read_and_prepare_data():
     return census_1790, baptisms, pc2
 
 
+def get_match_score(row):
+    match_type = row['match_type']
+    if match_type == 'direct':
+        score = row['Direct_Total_Match_Score']
+    elif match_type == 'mother':
+        score = row['Mother_Total_Match_Score']
+    elif match_type == 'father':
+        score = row['Father_Total_Match_Score']
+    else:
+        score = None
+
+    return round(score, 2) if score is not None else None
+
+
 def create_person_unit(pid, row, census_1790, baptisms):
+    match_prob = get_match_score(row)
     person = PersonUnit(pid=pid,
                         name=check_nan(row['first_name']) + ' ' + check_nan(row['last_name']),
                         sex=check_nan(row['sex']),
                         race=remove_commas(check_nan(row['race_aggregated'])),
                         ethnicity=check_nan(row['ethnicity']),
-                        baptismal_date=check_nan(row['baptismal_date']))
+                        baptismal_date=check_nan(row['baptismal_date']),
+                        match_prob=match_prob)
 
     pid += 1
 
