@@ -13,7 +13,8 @@ def filter_matched_persons(matched_persons: pd.DataFrame, dataset_key: str, thre
         'Father_Total_Match_Score': 'father'
     }
 
-    columns_to_keep = ['#ID', 'ecpp_id', 'Direct_Total_Match_Score', 'Mother_Total_Match_Score', 'Father_Total_Match_Score']
+    columns_to_keep = ['#ID', 'ecpp_id', 'Direct_Total_Match_Score', 'Mother_Total_Match_Score',
+                       'Father_Total_Match_Score']
 
     results = []
 
@@ -27,20 +28,6 @@ def filter_matched_persons(matched_persons: pd.DataFrame, dataset_key: str, thre
     logging.info(f"Filtered {combined_df.columns} persons with score {threshold}")
 
     return combined_df
-
-
-def drop_irrelevant_scores(df):
-    for index, row in df.iterrows():
-        if row['match_type'] == 'direct':
-            df.at[index, 'Mother_Total_Match_Score'] = None
-            df.at[index, 'Father_Total_Match_Score'] = None
-        elif row['match_type'] == 'mother':
-            df.at[index, 'Direct_Total_Match_Score'] = None
-            df.at[index, 'Father_Total_Match_Score'] = None
-        elif row['match_type'] == 'father':
-            df.at[index, 'Direct_Total_Match_Score'] = None
-            df.at[index, 'Mother_Total_Match_Score'] = None
-    return df
 
 
 def insert_matched_values(matched_persons_key: pd.DataFrame, datasets: dict) -> pd.DataFrame:
@@ -99,7 +86,8 @@ def clean_and_create_race_aggregated(final_people_collect: pd.DataFrame) -> pd.D
 
     final_people_collect['race_aggregated'] = (
         final_people_collect[columns_to_combine]
-        .apply(lambda r: ', '.join(r.dropna().astype(str).str.strip().str.replace('[,\s\[\]]', ' ', regex=True)), axis=1)
+        .apply(lambda r: ', '.join(r.dropna().astype(str).str.strip().str.replace('[,\s\[\]]', ' ', regex=True)),
+               axis=1)
     )
 
     final_people_collect['ethnicity'] = final_people_collect['ethnicity'].str.replace('[,\s\[\]]', ' ', regex=True)
@@ -111,7 +99,8 @@ def clean_and_create_race_aggregated(final_people_collect: pd.DataFrame) -> pd.D
 
 
 def reorder_columns(df):
-    new_column_order = ['#ID', 'ecpp_id', 'Direct_Total_Match_Score', 'Mother_Total_Match_Score', 'Father_Total_Match_Score',
+    new_column_order = ['#ID', 'ecpp_id', 'Direct_Total_Match_Score', 'Mother_Total_Match_Score',
+                        'Father_Total_Match_Score',
                         'match_type', 'dataset_key', 'first_name', 'last_name',
                         'father_first_name', 'father_last_name', 'father_military_status',
                         'father_origin', 'mother_first_name', 'mother_last_name',
@@ -134,12 +123,11 @@ def main():
         if dataset_key == 'baptisms' or datasets[dataset_key] is None:
             continue
         matched_persons = parallel_data_processing(datasets[dataset_key], datasets['baptisms'], config, dataset_key)
-        matched_persons_key.append(filter_matched_persons(matched_persons, dataset_key, .7))
+        matched_persons_key.append(filter_matched_persons(matched_persons, dataset_key, .50))
         logging.info(f"Completed filtering {dataset_key}")
 
     combined_matched_persons_key = pd.concat(matched_persons_key, ignore_index=True)
     people_collect_2 = insert_matched_values(combined_matched_persons_key, datasets)
-    people_collect_2 = drop_irrelevant_scores(people_collect_2)
     cleaned_people_collect_2 = clean_and_create_race_aggregated(people_collect_2)
     final_people_collect_2 = reorder_columns(cleaned_people_collect_2)
 
