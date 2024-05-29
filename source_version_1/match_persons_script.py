@@ -134,7 +134,7 @@ def main():
         if dataset_key == 'baptisms' or datasets[dataset_key] is None:
             continue
         matched_persons = parallel_data_processing(datasets[dataset_key], datasets['baptisms'], config, dataset_key)
-        matched_persons_key.append(filter_matched_persons(matched_persons, dataset_key, .50))
+        matched_persons_key.append(filter_matched_persons(matched_persons, dataset_key, .7))
         logging.info(f"Completed filtering {dataset_key}")
 
     combined_matched_persons_key = pd.concat(matched_persons_key, ignore_index=True)

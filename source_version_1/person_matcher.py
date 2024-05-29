@@ -25,8 +25,8 @@ class PersonMatcher:
     def calculate_direct_total_match_score(self):
         weights = {
             'First_Name_Match_Score': 0.4,
-            'Last_Name_Match_Score': 0.45,
-            'Gender_Match_Score': 0.5,
+            'Last_Name_Match_Score': 0.4,
+            'Gender_Match_Score': 0.1,
             'Age_Match_Score': 0.1
         }
         self._calculate_specific_total_match_score(weights, 'Direct_Total_Match_Score')
@@ -34,8 +34,8 @@ class PersonMatcher:
     def calculate_mother_total_match_score(self):
         weights = {
             'Mother_First_Name_Match_Score': 0.4,
-            'Mother_Last_Name_Match_Score': 0.45,
-            'Gender_Match_Score': 0.5,
+            'Mother_Last_Name_Match_Score': 0.4,
+            'Gender_Match_Score': 0.1,
             'Age_Match_Score': 0.1
         }
         self._calculate_specific_total_match_score(weights, 'Mother_Total_Match_Score')
@@ -43,8 +43,8 @@ class PersonMatcher:
     def calculate_father_total_match_score(self):
         weights = {
             'Father_First_Name_Match_Score': 0.4,
-            'Father_Last_Name_Match_Score': 0.45,
-            'Gender_Match_Score': 0.5,
+            'Father_Last_Name_Match_Score': 0.4,
+            'Gender_Match_Score': 0.1,
             'Age_Match_Score': 0.1
         }
         self._calculate_specific_total_match_score(weights, 'Father_Total_Match_Score')
