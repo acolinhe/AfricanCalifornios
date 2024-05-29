@@ -29,6 +29,20 @@ def filter_matched_persons(matched_persons: pd.DataFrame, dataset_key: str, thre
     return combined_df
 
 
+def drop_irrelevant_scores(df):
+    for index, row in df.iterrows():
+        if row['match_type'] == 'direct':
+            df.at[index, 'Mother_Total_Match_Score'] = None
+            df.at[index, 'Father_Total_Match_Score'] = None
+        elif row['match_type'] == 'mother':
+            df.at[index, 'Direct_Total_Match_Score'] = None
+            df.at[index, 'Father_Total_Match_Score'] = None
+        elif row['match_type'] == 'father':
+            df.at[index, 'Direct_Total_Match_Score'] = None
+            df.at[index, 'Mother_Total_Match_Score'] = None
+    return df
+
+
 def insert_matched_values(matched_persons_key: pd.DataFrame, datasets: dict) -> pd.DataFrame:
     baptisms = datasets['baptisms'].set_index('#ID')
     datasets_names = ['afro_1790_census', 'padron_1781', 'padron_1785', 'padron_1821', 'padron_267']
@@ -109,7 +123,6 @@ def reorder_columns(df):
     return df[new_column_order]
 
 
-
 def main():
     path = '/datasets/acolinhe/data'
     output_path = '/datasets/acolinhe/data_output'
@@ -126,6 +139,7 @@ def main():
 
     combined_matched_persons_key = pd.concat(matched_persons_key, ignore_index=True)
     people_collect_2 = insert_matched_values(combined_matched_persons_key, datasets)
+    people_collect_2 = drop_irrelevant_scores(people_collect_2)
     cleaned_people_collect_2 = clean_and_create_race_aggregated(people_collect_2)
     final_people_collect_2 = reorder_columns(cleaned_people_collect_2)
 
