@@ -1,4 +1,6 @@
 import logging
+import re
+
 import pandas as pd
 from match_person_parallel_functions import load_and_prepare_data, parallel_data_processing
 from data_processing import get_config
@@ -32,7 +34,7 @@ def filter_matched_persons(matched_persons: pd.DataFrame, dataset_key: str, thre
 
 def insert_matched_values(matched_persons_key: pd.DataFrame, datasets: dict) -> pd.DataFrame:
     baptisms = datasets['baptisms'].set_index('#ID')
-    datasets_names = ['afro_1790_census', 'padron_1781', 'padron_1785', 'padron_1821', 'padron_267']
+    datasets_names = ['afro_1790_census', 'padron_1781', 'padron_1785', 'padron_1821', 'padron_1778']
     for name in datasets_names:
         datasets[name] = datasets[name].set_index('ecpp_id')
 
@@ -40,49 +42,57 @@ def insert_matched_values(matched_persons_key: pd.DataFrame, datasets: dict) -> 
         baptism_id = row['#ID']
         census_id = row['ecpp_id']
 
-        matched_persons_key.at[index, 'baptismal_date'] = baptisms.at[baptism_id, 'Date']
-        matched_persons_key.at[index, 'location_ecpp_baptism'] = baptisms.at[baptism_id, 'Mission']
-        matched_persons_key.at[index, 'sex'] = baptisms.at[baptism_id, 'Sex']
-        matched_persons_key.at[index, 'origin_parish_1790_census'] = baptisms.at[baptism_id, 'Place']
-        matched_persons_key.at[index, 'notes_url_1790_census'] = baptisms.at[baptism_id, 'Notes']
+        # Extract year from the dataset_key
+        dataset_key_year = int(extract_year(row['dataset_key']))
 
-        if row['match_type'] == 'direct':
-            matched_persons_key.at[index, 'first_name'] = baptisms.at[baptism_id, 'SpanishName']
-            matched_persons_key.at[index, 'last_name'] = baptisms.at[baptism_id, 'Surname']
-            matched_persons_key.at[index, 'ethnicity'] = baptisms.at[baptism_id, 'Ethnicity']
-            matched_persons_key.at[index, 'father_first_name'] = baptisms.at[baptism_id, 'FSpanishName']
-            matched_persons_key.at[index, 'father_last_name'] = baptisms.at[baptism_id, 'FSurname']
-            matched_persons_key.at[index, 'father_military_status'] = baptisms.at[baptism_id, 'FMilitaryStatus']
-            matched_persons_key.at[index, 'father_origin'] = baptisms.at[baptism_id, 'FOrigin']
-            matched_persons_key.at[index, 'mother_first_name'] = baptisms.at[baptism_id, 'MSpanishName']
-            matched_persons_key.at[index, 'mother_last_name'] = baptisms.at[baptism_id, 'MSurname']
-            matched_persons_key.at[index, 'mother_origin'] = baptisms.at[baptism_id, 'MOrigin']
-        elif row['match_type'] == 'mother':
-            matched_persons_key.at[index, 'first_name'] = baptisms.at[baptism_id, 'MSpanishName']
-            matched_persons_key.at[index, 'last_name'] = baptisms.at[baptism_id, 'MSurname']
-            matched_persons_key.at[index, 'ethnicity'] = baptisms.at[baptism_id, 'MEthnicity']
+        # Extract year from the 'Date' in the baptisms dataset
+        baptism_date_year = int(extract_year(baptisms.at[baptism_id, 'Date']))
 
-        elif row['match_type'] == 'father':
-            matched_persons_key.at[index, 'first_name'] = baptisms.at[baptism_id, 'FSpanishName']
-            matched_persons_key.at[index, 'last_name'] = baptisms.at[baptism_id, 'FSurname']
-            matched_persons_key.at[index, 'ethnicity'] = baptisms.at[baptism_id, 'FEthnicity']
+        # Skip insertion if the baptism date year is less than the dataset key year
+        if baptism_date_year >= dataset_key_year:
+            matched_persons_key.at[index, 'baptismal_date'] = baptisms.at[baptism_id, 'Date']
+            matched_persons_key.at[index, 'location_ecpp_baptism'] = baptisms.at[baptism_id, 'Mission']
+            matched_persons_key.at[index, 'sex'] = baptisms.at[baptism_id, 'Sex']
+            matched_persons_key.at[index, 'origin_parish_1790_census'] = baptisms.at[baptism_id, 'Place']
+            matched_persons_key.at[index, 'notes_url_1790_census'] = baptisms.at[baptism_id, 'Notes']
 
-        if row['dataset_key'] == 'afro_1790_census':
-            matched_persons_key.at[index, 'race_1790'] = datasets['afro_1790_census'].at[census_id, 'Race']
-        elif row['dataset_key'] == 'padron_1781':
-            matched_persons_key.at[index, 'race_1781'] = datasets['afro_1790_census'].at[census_id, 'Race']
-        elif row['dataset_key'] == 'padron_1785':
-            matched_persons_key.at[index, 'race_1785'] = datasets['afro_1790_census'].at[census_id, 'Race']
-        elif row['dataset_key'] == 'padron_1821':
-            matched_persons_key.at[index, 'race_1821'] = datasets['afro_1790_census'].at[census_id, 'Race']
-        elif row['dataset_key'] == 'padron_267':
-            matched_persons_key.at[index, 'race_267'] = datasets['afro_1790_census'].at[census_id, 'Race']
+            if row['match_type'] == 'direct':
+                matched_persons_key.at[index, 'first_name'] = baptisms.at[baptism_id, 'SpanishName']
+                matched_persons_key.at[index, 'last_name'] = baptisms.at[baptism_id, 'Surname']
+                matched_persons_key.at[index, 'ethnicity'] = baptisms.at[baptism_id, 'Ethnicity']
+                matched_persons_key.at[index, 'father_first_name'] = baptisms.at[baptism_id, 'FSpanishName']
+                matched_persons_key.at[index, 'father_last_name'] = baptisms.at[baptism_id, 'FSurname']
+                matched_persons_key.at[index, 'father_military_status'] = baptisms.at[baptism_id, 'FMilitaryStatus']
+                matched_persons_key.at[index, 'father_origin'] = baptisms.at[baptism_id, 'FOrigin']
+                matched_persons_key.at[index, 'mother_first_name'] = baptisms.at[baptism_id, 'MSpanishName']
+                matched_persons_key.at[index, 'mother_last_name'] = baptisms.at[baptism_id, 'MSurname']
+                matched_persons_key.at[index, 'mother_origin'] = baptisms.at[baptism_id, 'MOrigin']
+            elif row['match_type'] == 'mother':
+                matched_persons_key.at[index, 'first_name'] = baptisms.at[baptism_id, 'MSpanishName']
+                matched_persons_key.at[index, 'last_name'] = baptisms.at[baptism_id, 'MSurname']
+                matched_persons_key.at[index, 'ethnicity'] = baptisms.at[baptism_id, 'MEthnicity']
+
+            elif row['match_type'] == 'father':
+                matched_persons_key.at[index, 'first_name'] = baptisms.at[baptism_id, 'FSpanishName']
+                matched_persons_key.at[index, 'last_name'] = baptisms.at[baptism_id, 'FSurname']
+                matched_persons_key.at[index, 'ethnicity'] = baptisms.at[baptism_id, 'FEthnicity']
+
+            if row['dataset_key'] == 'afro_1790_census':
+                matched_persons_key.at[index, 'race_1790'] = datasets['afro_1790_census'].at[census_id, 'Race']
+            elif row['dataset_key'] == 'padron_1781':
+                matched_persons_key.at[index, 'race_1781'] = datasets['afro_1790_census'].at[census_id, 'Race']
+            elif row['dataset_key'] == 'padron_1785':
+                matched_persons_key.at[index, 'race_1785'] = datasets['afro_1790_census'].at[census_id, 'Race']
+            elif row['dataset_key'] == 'padron_1821':
+                matched_persons_key.at[index, 'race_1821'] = datasets['afro_1790_census'].at[census_id, 'Race']
+            elif row['dataset_key'] == 'padron_1778':
+                matched_persons_key.at[index, 'padron_1778'] = datasets['afro_1790_census'].at[census_id, 'Race']
 
     return matched_persons_key
 
 
 def clean_and_create_race_aggregated(final_people_collect: pd.DataFrame) -> pd.DataFrame:
-    columns_to_combine = ['race_1790', 'race_1781', 'race_1785', 'race_1821', 'race_267']
+    columns_to_combine = ['race_1790', 'race_1781', 'race_1785', 'race_1821', 'padron_1778']
 
     final_people_collect['race_aggregated'] = (
         final_people_collect[columns_to_combine]
@@ -105,11 +115,18 @@ def reorder_columns(df):
                         'father_first_name', 'father_last_name', 'father_military_status',
                         'father_origin', 'mother_first_name', 'mother_last_name',
                         'mother_origin', 'sex', 'race_1790', 'race_1781', 'race_1785',
-                        'race_1821', 'race_267', 'race_aggregated', 'ethnicity',
+                        'race_1821', 'race_1778', 'race_aggregated', 'ethnicity',
                         'origin_parish_1790_census', 'baptismal_date', 'location_ecpp_baptism',
                         'notes_url_1790_census']
 
     return df[new_column_order]
+
+
+def extract_year(date_string):
+    match = re.search(r'\b\d{4}\b', date_string)
+    if match:
+        return match.group(0)
+    return None
 
 
 def main():
