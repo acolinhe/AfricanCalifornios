@@ -32,6 +32,7 @@ def filter_matched_persons(matched_persons: pd.DataFrame, dataset_key: str, thre
     return combined_df
 
 
+# need to incorporate children for father and mother matches
 def insert_matched_values(matched_persons_key: pd.DataFrame, datasets: dict) -> pd.DataFrame:
     baptisms = datasets['baptisms'].set_index('#ID')
     datasets_names = ['afro_1790_census', 'padron_1781', 'padron_1785', 'padron_1821', 'padron_1778']
@@ -42,10 +43,7 @@ def insert_matched_values(matched_persons_key: pd.DataFrame, datasets: dict) -> 
         baptism_id = row['#ID']
         census_id = row['ecpp_id']
 
-        # Extract year from the dataset_key
         dataset_key_year = int(extract_year(row['dataset_key']))
-
-        # Extract year from the 'Date' in the baptisms dataset
         baptism_date_year = int(extract_year(baptisms.at[baptism_id, 'Date']))
 
         # Skip insertion if the baptism date year is less than the dataset key year
@@ -67,15 +65,65 @@ def insert_matched_values(matched_persons_key: pd.DataFrame, datasets: dict) -> 
                 matched_persons_key.at[index, 'mother_first_name'] = baptisms.at[baptism_id, 'MSpanishName']
                 matched_persons_key.at[index, 'mother_last_name'] = baptisms.at[baptism_id, 'MSurname']
                 matched_persons_key.at[index, 'mother_origin'] = baptisms.at[baptism_id, 'MOrigin']
-            elif row['match_type'] == 'mother':
-                matched_persons_key.at[index, 'first_name'] = baptisms.at[baptism_id, 'MSpanishName']
-                matched_persons_key.at[index, 'last_name'] = baptisms.at[baptism_id, 'MSurname']
-                matched_persons_key.at[index, 'ethnicity'] = baptisms.at[baptism_id, 'MEthnicity']
 
+            elif row['match_type'] == 'mother':
+                matched_persons_key.at[index, 'mother_first_name'] = baptisms.at[baptism_id, 'MSpanishName']
+                matched_persons_key.at[index, 'mother_last_name'] = baptisms.at[baptism_id, 'MSurname']
+                matched_persons_key.at[index, 'ethnicity'] = baptisms.at[baptism_id, 'MEthnicity']
+                if row['dataset_key'] == 'afro_1790_census':
+                    matched_persons_key.at[index, 'father_first_name'] = datasets['afro_1790_census'].at[
+                        census_id, 'Spouse_First']
+                    matched_persons_key.at[index, 'father_last_name'] = datasets['afro_1790_census'].at[
+                        census_id, 'Spouse_Last']
+                elif row['dataset_key'] == 'padron_1781':
+                    matched_persons_key.at[index, 'father_first_name'] = datasets['padron_1781'].at[
+                        census_id, 'Husband_First Name']
+                    matched_persons_key.at[index, 'father_last_name'] = datasets['padron_1781'].at[
+                        census_id, 'Huband_Paternal Last name']
+                elif row['dataset_key'] == 'padron_1785':
+                    matched_persons_key.at[index, 'father_first_name'] = datasets['padron_1785'].at[
+                        census_id, 'Husband_First Name']
+                    matched_persons_key.at[index, 'father_last_name'] = datasets['padron_1785'].at[
+                        census_id, 'Huband_Paternal Last name']
+                elif row['dataset_key'] == 'padron_1821':
+                    matched_persons_key.at[index, 'father_first_name'] = datasets['padron_1821'].at[
+                        census_id, 'Husband_First Name']
+                    matched_persons_key.at[index, 'father_last_name'] = datasets['padron_1821'].at[
+                        census_id, 'Huband_Paternal Last name']
+                elif row['dataset_key'] == 'padron_1778':
+                    matched_persons_key.at[index, 'father_first_name'] = datasets['padron_1778'].at[
+                        census_id, 'Husband_First Name ']
+                    matched_persons_key.at[index, 'father_last_name'] = datasets['padron_1778'].at[
+                        census_id, 'Huband_Paternal Last name']
             elif row['match_type'] == 'father':
-                matched_persons_key.at[index, 'first_name'] = baptisms.at[baptism_id, 'FSpanishName']
-                matched_persons_key.at[index, 'last_name'] = baptisms.at[baptism_id, 'FSurname']
+                matched_persons_key.at[index, 'father_first_name'] = baptisms.at[baptism_id, 'FSpanishName']
+                matched_persons_key.at[index, 'father_last_name'] = baptisms.at[baptism_id, 'FSurname']
                 matched_persons_key.at[index, 'ethnicity'] = baptisms.at[baptism_id, 'FEthnicity']
+                if row['dataset_key'] == 'afro_1790_census':
+                    matched_persons_key.at[index, 'mother_first_name'] = datasets['afro_1790_census'].at[
+                        census_id, 'Spouse_First']
+                    matched_persons_key.at[index, 'mother_last_name'] = datasets['afro_1790_census'].at[
+                        census_id, 'Spouse_Last']
+                elif row['dataset_key'] == 'padron_1781':
+                    matched_persons_key.at[index, 'mother_first_name'] = datasets['padron_1781'].at[
+                        census_id, 'Wife_First Name']
+                    matched_persons_key.at[index, 'mother_last_name'] = datasets['padron_1781'].at[
+                        census_id, 'Wife_ Paternal Last Name']
+                elif row['dataset_key'] == 'padron_1785':
+                    matched_persons_key.at[index, 'mother_first_name'] = datasets['padron_1785'].at[
+                        census_id, 'Wife_First Name']
+                    matched_persons_key.at[index, 'mother_last_name'] = datasets['padron_1785'].at[
+                        census_id, 'Wife_ Paternal Last Name']
+                elif row['dataset_key'] == 'padron_1821':
+                    matched_persons_key.at[index, 'mother_first_name'] = datasets['padron_1821'].at[
+                        census_id, 'Wife_First Name']
+                    matched_persons_key.at[index, 'mother_last_name'] = datasets['padron_1821'].at[
+                        census_id, 'Wife_ Paternal Last Name']
+                elif row['dataset_key'] == 'padron_1778':
+                    matched_persons_key.at[index, 'mother_first_name'] = datasets['padron_1778'].at[
+                        census_id, 'Wife_First Name']
+                    matched_persons_key.at[index, 'mother_last_name'] = datasets['padron_1778'].at[
+                        census_id, 'Wife_ Paternal Last Name']
 
             if row['dataset_key'] == 'afro_1790_census':
                 matched_persons_key.at[index, 'race_1790'] = datasets['afro_1790_census'].at[census_id, 'Race']
@@ -86,7 +134,7 @@ def insert_matched_values(matched_persons_key: pd.DataFrame, datasets: dict) -> 
             elif row['dataset_key'] == 'padron_1821':
                 matched_persons_key.at[index, 'race_1821'] = datasets['afro_1790_census'].at[census_id, 'Race']
             elif row['dataset_key'] == 'padron_1778':
-                matched_persons_key.at[index, 'padron_1778'] = datasets['afro_1790_census'].at[census_id, 'Race']
+                matched_persons_key.at[index, 'race_1778'] = datasets['afro_1790_census'].at[census_id, 'Race']
 
     return matched_persons_key
 
