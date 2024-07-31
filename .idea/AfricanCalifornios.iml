@@ -12,7 +12,7 @@
       <excludeFolder url="file://$MODULE_DIR$/pickles" />
       <excludeFolder url="file://$MODULE_DIR$/scanned_pdfs" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="/opt/homebrew/anaconda3" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="PyDocumentationSettings">

@@ -11,11 +11,10 @@ def parse_person_info(person_info, fid, id_counter, name_to_id):
     person_dict['father'] = None
     person_dict['mother'] = None
 
-    # Initialize the name from the first line
     if lines:
         person_dict['name'] = lines[0].strip()
         name_to_id[person_dict['name']] = id_counter
-        lines = lines[1:]  # Remove the name line
+        lines = lines[1:]
 
     for line in lines:
         if line.startswith('Spouse(s):'):
@@ -38,7 +37,6 @@ def parse_person_info(person_info, fid, id_counter, name_to_id):
             print(f"Skipping line: {line}")
 
     if 'name' in person_dict:
-        # Split name into first name and last name
         name_parts = person_dict['name'].split()
         person_dict['name'] = name_parts[0]
         person_dict['lastname'] = ' '.join(name_parts[1:])
@@ -76,7 +74,7 @@ def create_families(families_info):
 
         persons_info = family_info.split('\n\n')
         for person_info in persons_info:
-            if person_info.strip():  # Ensure that the person_info is not empty
+            if person_info.strip():
                 person_dict = parse_person_info(person_info, fid, id_counter, name_to_id)
                 id_counter += 1
                 people.append(person_dict)
@@ -86,20 +84,15 @@ def create_families(families_info):
     return all_familia, people
 
 
-# Read the .txt file
 with open('familia.txt', 'r') as file:
     data = file.read().strip()
 
-# Split the data into individual families information
-families_info = [data]  # For now we assume there's only one family
+families_info = [data]
 
-# Create families and people data
 all_familia, people = create_families(families_info)
 
-# Save all_familia.json
 with open('all_familia.json', 'w') as json_file:
     json.dump(all_familia, json_file, indent=4, ensure_ascii=False)
 
-# Save people.json
 with open('people.json', 'w') as json_file:
     json.dump(people, json_file, indent=4, ensure_ascii=False)

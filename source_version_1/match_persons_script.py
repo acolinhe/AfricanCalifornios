@@ -178,8 +178,8 @@ def extract_year(date_string):
 
 
 def main():
-    path = '/datasets/acolinhe/data'
-    output_path = '/datasets/acolinhe/data_output'
+    path = '/data'
+    output_path = '/data_output'
     config = get_config()
     datasets = load_and_prepare_data(path)
     matched_persons_key = []
