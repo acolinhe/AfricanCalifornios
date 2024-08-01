@@ -36,10 +36,10 @@ def get_config():
 
 def get_datasets(path: str):
     return {
-        'afro_1790_census': create_afro_df(path + "/1790 Census Data Complete.csv"),
+        'afro_1790_census': create_afro_df(path + "/padron_1790.csv"),
         'padron_1781': create_afro_df(path + "/padron_1781.csv"),
         'padron_1785': create_afro_df(path + "/padron_1785.csv"),
         'padron_1821': create_afro_df(path + "/padron_1821.csv"),
-        'padron_1778': create_afro_df(path + "/padron_267.csv"),
+        'padron_267': create_afro_df(path + "/padron_267.csv"),
         'baptisms': load_data(path + '/Baptisms.csv')
     }

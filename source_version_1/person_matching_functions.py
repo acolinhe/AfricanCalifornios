@@ -138,7 +138,7 @@ def match_names_score(name1, name2, max_distance=5):
         name1 (str): Given name for matching.
         name2 (str): Given name for matching.
         max_distance (int): Minimum levenshtein distance for matching.
-    
+
     Returns:
         float: Probability score between 0 and 1 for levenshtein distance matching.
 
