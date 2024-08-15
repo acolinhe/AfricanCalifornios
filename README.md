@@ -1,6 +1,9 @@
 # AfricanCalifornios
 Code related to my Masters Thesis
 
+## Data
+* Holds the census and death, marriage, baptismal records for person matching
+
 ## Version 0
 * Initial Person matching version
 * Matches for all
@@ -16,3 +19,7 @@ Code related to my Masters Thesis
 ## Family Trees
 * Updated script to incorporate family tree matching
 * Matching through generations and keeping track of families
+
+## Californio Ranchos
+* Contains work on mapped visualizations for matched person records and family trees
+* Relies on California Ranchos book for California land grand informatino
