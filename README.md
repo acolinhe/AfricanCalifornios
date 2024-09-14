@@ -5,8 +5,9 @@ Code related to my Masters Thesis
 * Holds the census and death, marriage, baptismal records for person matching
 
 ## Version 0
-* Initial Person matching version
+* First person matching version
 * Matches for all
+* Initally written in Jupyter Notebook format
 
 ## Version 1
 * Updated script to run on Cal Poly 127 Machines
