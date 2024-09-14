@@ -15,9 +15,14 @@ def readTextFile(path: str) -> str:
         with open(path, encoding='ISO-8859-1') as file:
             return file.read()
 
-def extract_grants(text: str):
+def cleanGrantName(grant_name: str) -> str:
+    cleaned_name = re.sub(r'\s*(MDM\.|SBM\.|MBM\.)$', '', grant_name)
+    cleaned_name = cleaned_name.replace('.', '').replace(',', '').strip()
+    return cleaned_name
+
+def extractGrants(text: str):
     pattern = re.compile(
-        r'([A-Z\s\(\)\.,]+) #(\d+), ([^\n]+(?:\n\s+[^\n]+)*)',
+        r'^\s*([A-Z][A-Z\s\(\)\.,]*)\s*#(\d+),\s*([^\n]+(?:\n\s+[^\n]+)*)',
         re.MULTILINE
     )
     
@@ -25,7 +30,7 @@ def extract_grants(text: str):
     
     grants = [
         {
-            "Grant Name": match[0].strip(),
+            "Grant Name": cleanGrantName(match[0].strip()),
             "Grant Number": match[1],
             "Description": match[2].strip()
         }
@@ -48,7 +53,7 @@ def main():
     outputPath = '../data/selectedGrants.txt'
     
     californiaRanchosText = readTextFile(filePath)
-    landGrants = extract_grants(californiaRanchosText)
+    landGrants = extractGrants(californiaRanchosText)
 
     random.shuffle(landGrants)
     selectedGrants = landGrants[:50]
