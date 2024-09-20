@@ -39,7 +39,6 @@ def extractGrants(text: str):
     
     return grants
 
-# Will change this up later for final dataset
 def saveGrants(grants, output_path):
     with open(output_path, 'w', encoding='utf-8') as file:
         for grant in grants:
