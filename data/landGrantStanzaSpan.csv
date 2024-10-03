@@ -1,46 +1,54 @@
-Grant Name,Grant Number,Location,Grantor,Grantee,Year,Land Size (Acres)
-NIGUEL,501,SBM,,,,3 sq. leagues
-SAN DIEGUITO,523,Rancho Santa Fe,,,,
-LOMPOC,374,SBM,,,,38.000 acres
-LOS GUILLICOS,66,MDM,,,,18.833 acres
-LOMAS DE LA PURIFICACION,366,SBM,,,,3 sq. leagues
-ISLAND OF SANTA ROSA,405,Jones,,,,696.49 acres
-BOLSA DE SAN CAYETANO,221,MDM,,,,2 sq. leagues
-PUNTA DE LA CONCEPCION,375,SBM,,,,6 sq. leagues
-CAP AY,8,MDM,,,,10 sq. leagues
-CANADA DE SAN MIGUELITO,391,Canada del Diablo,,,,2 sq. leagues
-SAN LUISITO,327,MDM,,,,369.56 acres
-PIEDRA BLANCA,321,Hearst Rancho,,,,805.59 acres
-PINOLE,126,MDM,,,,4 sq. leagues
-LA NACION,528,SBM,,,,6 sq. leagues
-LAS SALINAS,257,MDM,,,,4 sq. leagues
-PUNTA DE LA LAGUNA,354,SBM,,,,6 sq. leagues
-SAN MATEO,149,Pico to Cayetano Arenas,,,,2 sq. leagues
-CHUALAR,270,MDM,,,,2 sq. leagues
-SAN JOSE Y SER CHIQUITO,552,MDM,,,,2 sq. leagues
-ESTERO AMERICANO,28,MDM,,,,"8,829 acres"
-LOS CERRITOS,467,SBM,,,,054.36 acres
-LOS MEDANOS,111,MDM,,,,658.83 acres
-EL CONEJO,408,Altagracia,,,,11 sq. leagues
-LA GOLETA,382,SBM,,,,426.10 acres
-ROBLAR DE LA MISERIA,50,MDM,,,,"1,792 acres"
-CANADA DE LOS NOGALES,546,SBM,,,,199.56 acres
-CANADA DE SALISPUEDES,377,SBM,,,,651.21 acres
-PANOCHE DE SAN JUAN Y LOS CARRISALITOS,235,MDM,,,,5 sq. leagues
-NICASIO,32,MDM,,,,16 sq. leagues
-LOS MEGANOS,110,New York Rancho,,,,"13,316 acres"
-RINCON DE LA PUENTE DEL MONTE,272,MDM,,,,7 sq. leagues
-SAUCITO,277,Patent,,,,211.65 acres
-BOLSA DE CHAMISAL,352,SBM,,,,3 sq. leagues
-HUERTA DE CUATI,421,SBM,,,,128.26 acres
-NEW HELVETIA,20,MDM,,,,11 sq. leagues
-LA HABRA,462,SBM,,,,698.57 acres
-EL SUR,288,MDM,,,,2 sq. leagues
-SANTA ANA DEL CHINO,477,SBM,,,,5 sq. leagues
-NIPOMO,351,SBM,,,,11 sq. leagues
-CANADA DE HERRERA,40,La Providencia,,,,659.45 acres
-TRABUCO,497,SBM,,,,5 sq. leagues
-ARROYO DE LA ALAMEDA,133,MDM,,,,4 sq. leagues
-SAN JUAN,97,MDM,,,,2 sq. leagues
-BOCA DE SANTA MONICA,539,SBM,,,,635.93 acres
-POSOLMI,145,MDM,,,,695.90 acres
+Grant Name,Grant Number,County,Persons (entities),Year,Land Size (Acres),Land Size (Sq. Leagues),Coordinates,Notes
+NIGUEL,501,Orange,[],,316.01,3,"In T 7S, R 8W, SBM",
+SAN DIEGUITO,523,San Diego,[],,,,,
+LOMPOC,374,Santa Barbara,[],,38.000,,,
+LOS GUILLICOS,66,Sonoma,[],,18.833,,,
+LOMAS DE LA PURIFICACION,366,Santa Barbara,[],,,3,"In T 5-6N, R
+   30W, SBM",
+ISLAND OF SANTA ROSA,405,Santa Barbara,[],,696.49,,,
+BOLSA DE SAN CAYETANO,221,Monterey,[],,866.43,2,"In T
+   12S, R2E, MDM",
+PUNTA DE LA CONCEPCION,375,Santa Barbara,[],,992.04,6,"In T 5-6N, R 34-35W,
+   SBM",
+CAP AY,8,,[],,388.17,10,"In T 21-23N, R 1-3W, MDM",
+CANADA DE SAN MIGUELITO,391,Ventura,[],,877.04,2,"In T 3N, R 23-
+  24W.",
+SAN LUISITO,327,San Luis Obispo,[],,369.56,,,
+PIEDRA BLANCA,321,San Luis Obispo,[],,805.59,,"In T 25-26S, R 6-8E, MDM",
+PINOLE,126,Contra Costa,[],,"17,760",4,"In T 1-2N, R 3-4W, MDM",
+LA NACION,528,San Diego,[],,631.94,6,,
+LAS SALINAS,257,Monterey,[],,413.81,4,"In T 14S, R 2E.",
+PUNTA DE LA LAGUNA,354,,[],,648.42,6,,
+SAN MATEO,149,San Mateo,[],,538.80,2,,
+CHUALAR,270,Monterey,[],,889.68,2,,
+SAN JOSE Y SER CHIQUITO,552,Monterey,[],,,2,,
+ESTERO AMERICANO,28,Sonoma,[],,"8,829",,"In T 5-6N, R 10W.",
+LOS CERRITOS,467,Los Angeles,[],,054.36,,"In T 3-4S, R 12-13W, SBM",
+LOS MEDANOS,111,Contra Costa,[],,658.83,,,
+EL CONEJO,408,,[],,671.56,11,"In T 1-2N, R 19-20W, SBM",
+LA GOLETA,382,Santa Barbara,[],,426.10,,,
+ROBLAR DE LA MISERIA,50,Sonoma,[],,"1,792",,"In T 4-6N,
+  R 7-8W, MDM",
+CANADA DE LOS NOGALES,546,Los Angeles,[],,199.56,,,
+CANADA DE SALISPUEDES,377,Santa Barbara,[],,651.21,,"In T 6N, R 33-34W, SBM",
+PANOCHE DE SAN JUAN Y LOS CARRISALITOS,235,Merced,[],,175.34,5,"In T
+  11-13S, R 9-10E, MDM",
+NICASIO,32,Marin,[],,848.85,16,"In T 2-5N, R6-10W.",
+LOS MEGANOS,110,Contra Costa,[],,"13,316",,,
+RINCON DE LA PUENTE DEL MONTE,272,Monterey,[],,218.62,7,"In T 16S, R 5E.",
+SAUCITO,277,Monterey,[],,211.65,,,
+BOLSA DE CHAMISAL,352,San Luis Obispo,[],,335.22,3,,
+HUERTA DE CUATI,421,Los Angeles,[],,128.26,,,
+N2,20,,[],,839.30,11,,
+LA HABRA,462,,[],,698.57,,"In T
+  2-3S,R 10-11W, SBM",
+EL SUR,288,Monterey,[],,989.06,2,,
+SANTA ANA DEL CHINO,477,San Bernardino,[],,234.20,5,,
+NIPOMO,351,,[],,887.91,11,,
+CANADA DE HERRERA,40,Marin,[],,659.45,,,
+TRABUCO,497,Orange,[],,184.47,5,,
+ARROYO DE LA ALAMEDA,133,Alameda,[],,705.38,4,"In T 3-4S, R 1-2W, MDM",
+SAN JUAN,97,Sacramento,[],,982.70,2,,
+BOCA DE SANTA MONICA,539,Los Angeles,[],,635.93,,,
+POSOLMI,145,Santa Clara,[],,695.90,,"In T
+   6S, R 2W, MDM",

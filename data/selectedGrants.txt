@@ -148,7 +148,7 @@ Description: Monterey Co. Grant of 2 sq. leagues
 Grant Name: SAN JOSE Y SER CHIQUITO, Grant Number: 552
 Description: Monterey Co.
    Grant of 2 sq. leagues made in 1839 by Gov. Alvarado to
-   Marcelino Escobar. Patent for 8.818.56 acres issued in
+   Marcelino Escobar. Patent for  acres issued in
    1888 to Joseph S. Emory. Nathan W. Spaulding, adm. of
    the Estate of Abner Bassett and Mary Ann Bassett. In T
    17S, R IE-1 W, MDM.
@@ -293,7 +293,7 @@ Description: Los Angeles Co. Grant of
    Alvarado. Patent for 128.26 acres issued in 1859 to
    Victoria Reid. In T 18. R 12W. SBM.
 --------------------------------------------------------------------------------
-Grant Name: NEW HELVETIA, Grant Number: 20
+Grant Name: N2, Grant Number: 20
 Description: Yuba, Sutter, Sacramento Cos.
    Grant of 11 sq. leagues made in 1841 by Gov. Alvarado
    to John A. Sutter. Patent for 48,839.30 acres issued in

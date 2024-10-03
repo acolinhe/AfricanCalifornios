@@ -1,47 +1,65 @@
-Grant Name,Grant Number,Location,Grantor,Grantee,Year,Land Size (Acres)
-NIGUEL,501,Los Alisos,leagues,Alvarado,1873,3 sq. leagues
-SAN DIEGUITO,523,,Victoria,Silva,1871,
-LOMPOC,374,,Alvarado,Joaquin Carrillo,1873,38.000 acres
-LOS GUILLICOS,66,,Alvarado,John Wilson,1866,18.833 acres
-LOMAS DE LA PURIFICACION,366,Santa Barbara,leagues,Agustin Janssens,30W,3 sq. leagues
-ISLAND OF SANTA ROSA,405,,Micheltorena,Antonio,Long 34,696.49 acres
-BOLSA DE SAN CAYETANO,221,,leagues,de Sola,12S,2 sq. leagues
-PUNTA DE LA CONCEPCION,375,,leagues,Alvarado,1863 and 1880,6 sq. leagues
-CAP AY,8,,Glenn,Tehama,1859,10 sq. leagues
-CANADA DE SAN MIGUELITO,391,Canada,leagues,Pico,1871,2 sq. leagues
-SAN LUISITO,327,San Luis Obispo Co.,Alvarado,,1860,369.56 acres
-PIEDRA BLANCA,321,San Luis Obispo Co.,Alvarado,Jose de Jesus,1876,805.59 acres
-PINOLE,126,,Echeandia,Alvarado,1868,4 sq. leagues
-LA NACION,528,,Pico,Juan Forster,1866,6 sq. leagues
-LAS SALINAS,257,,Antonio Aceves,Antonio Romero,1867,4 sq. leagues
-PUNTA DE LA LAGUNA,354,San Luis,Obispo,leagues,1873,6 sq. leagues
-SAN MATEO,149,Cayetano Arenas,Pico,Howard,1856,2 sq. leagues
-CHUALAR,270,,Pro Tem,Manuel Jimeno,1872,2 sq. leagues
-SAN JOSE Y SER CHIQUITO,552,,leagues,Alvarado,1888,2 sq. leagues
-ESTERO AMERICANO,28,Jasper OÕFarrell,Pro Tern,Manuel Jimeno,1858,"8,829 acres"
-LOS CERRITOS,467,,Fages,"Don
-  ",12-13W,054.36 acres
-LOS MEDANOS,111,el al,Alvarado,Jose Antonio,1972,658.83 acres
-EL CONEJO,408,Los Angeles,Arrillaga,Arrillaga,1873,11 sq. leagues
-LA GOLETA,382,SBM,Pico,Daniel Hill,1865,426.10 acres
-ROBLAR DE LA MISERIA,50,,leagues,Pico,1858,"1,792 acres"
-CANADA DE LOS NOGALES,546,,Micheltorena,Jose M. Aguilar,13W,199.56 acres
-CANADA DE SALISPUEDES,377,,leagues,John Keyes,1874,651.21 acres
-PANOCHE DE SAN JUAN Y LOS CARRISALITOS,235,Ursua,leagues,Micheltorena,9-10E,5 sq. leagues
-NICASIO,32,,leagues,Micheltorena,1861,16 sq. leagues
-LOS MEGANOS,110,,Castro,Jose Noriega,1867,"13,316 acres"
-RINCON DE LA PUENTE DEL MONTE,272,Teodoro Gonzales,leagues,Gutierrez,T 16S,7 sq. leagues
-SAUCITO,277,Graciano Manjares,Figueroa,John Wilson,1862,211.65 acres
-BOLSA DE CHAMISAL,352,San Luis Obispo Co.,leagues,Alvarado,1867,3 sq. leagues
-HUERTA DE CUATI,421,Alvarado,Victoria Reid,Victoria Reid,T 18,128.26 acres
-NEW HELVETIA,20,Sacramento,Yuba,Sutter,1841,11 sq. leagues
-LA HABRA,462,SBM,leagues,Pro Tem,1872,698.57 acres
-EL SUR,288,,leagues,Figueroa,1866,2 sq. leagues
-SANTA ANA DEL CHINO,477,SBM,leagues,Alvarado,1869,5 sq. leagues
-NIPOMO,351,Santa Barbara,leagues,Alvarado,1868,11 sq. leagues
-CANADA DE HERRERA,40,,Pro Tern,Manuel Jimeno,1878,659.45 acres
-TRABUCO,497,,leagues,Pieo,1866,5 sq. leagues
-ARROYO DE LA ALAMEDA,133,,leagues,Alvarado,1858,4 sq. leagues
-SAN JUAN,97,,Micheltorena,Joel P. Dedmond,1860,2 sq. leagues
-BOCA DE SANTA MONICA,539,Xavier,leagues,Antonio Machado,16W,635.93 acres
-POSOLMI,145,Pozito,Micheltorena,Lopez Inigo,1881,695.90 acres
+Grant Name,Grant Number,County,Persons (entities),Year,Land Size (Acres),Land Size (Sq. Leagues),Coordinates,Notes
+NIGUEL,501,Orange,"leagues, Alvarado, Juan, Concepcion Avila, Juan, Concepcion Avila, Miguel",1873,316.01,3,"In T 7S, R 8W, SBM",
+SAN DIEGUITO,523,San Diego,"Victoria, Silva, Gutierrez, Alvarado, Pico, Juan Osuna, Juliana L. Osuna et al",1871,,,,
+LOMPOC,374,Santa Barbara,"Alvarado, Joaquin Carrillo, Jose Antonio Camilo, J. A. Carrillo",1873,38.000,,,
+LOS GUILLICOS,66,Sonoma,"Alvarado, John Wilson, Juan Wilson",1866,18.833,,,
+LOMAS DE LA PURIFICACION,366,Santa Barbara,"leagues, Agustin Janssens, Agustin Janssens",30W,,3,"In T 5-6N, R
+   30W, SBM",
+ISLAND OF SANTA ROSA,405,Santa Barbara,"Micheltorena, Antonio, Carlos Carrillo, Manuela Carrillo de Jones",Long 34,696.49,,,
+BOLSA DE SAN CAYETANO,221,Monterey,"leagues, de Sola, Ignacio Vallejo, Dolores Pico, Regrant, Arguello, Ignacio Vallejo, Jose de Jesus Vallejo, Ignacio, J. de J. Vallejo",12S,866.43,2,"In T
+   12S, R2E, MDM",
+PUNTA DE LA CONCEPCION,375,Santa Barbara,"leagues, Alvarado, Anastacio Carrillo",1863 and 1880,992.04,6,"In T 5-6N, R 34-35W,
+   SBM",
+CAP AY,8,,"Glenn, Tehama, Micheltorena, Josefa Soto, Josefa Soto",1859,388.17,10,"In T 21-23N, R 1-3W, MDM",
+CANADA DE SAN MIGUELITO,391,Ventura,"leagues, Pico, Juana Tico de Rodriguez",1871,877.04,2,"In T 3N, R 23-
+  24W.",
+SAN LUISITO,327,San Luis Obispo,Alvarado,1860,369.56,,,
+PIEDRA BLANCA,321,San Luis Obispo,"Alvarado, Jose de Jesus, Pico, Jose de
+   , Jesus Pico",1876,805.59,,"In T 25-26S, R 6-8E, MDM",
+PINOLE,126,Contra Costa,"Echeandia, Alvarado, Ygnacio Martinez, Maria Antonio Martinez de
+  , Richardson el al",1868,"17,760",4,"In T 1-2N, R 3-4W, MDM",
+LA NACION,528,San Diego,"Pico, Juan Forster, Juan Forster",1866,631.94,6,,
+LAS SALINAS,257,Monterey,"Antonio Aceves, Antonio Romero, Gutierrez, Gabriel Espinosa, Linda E. Pogue, G. Espinosa",1867,413.81,4,"In T 14S, R 2E.",
+PUNTA DE LA LAGUNA,354,,"Obispo, leagues, Micheltorena, Luis Arellanes, Miguel
+  Ortega, Luis
+  Arellanes",1873,648.42,6,,
+SAN MATEO,149,San Mateo,"Pico, Howard",1856,538.80,2,,
+CHUALAR,270,Monterey,"Pro Tem, Manuel Jimeno, Juan Malarin, M. Malarin, Juan Malaria, Santa Rosa de
+  Chualar",1872,889.68,2,,
+SAN JOSE Y SER CHIQUITO,552,Monterey,"leagues, Alvarado, Joseph S. Emory, Nathan W. Spaulding, Bassett, Mary Ann Bassett",1888,,2,,
+ESTERO AMERICANO,28,Sonoma,"Pro Tern, Manuel Jimeno, Edward McIntosh",1858,"8,829",,"In T 5-6N, R 10W.",
+LOS CERRITOS,467,Los Angeles,"Fages, Don
+  , Manuel Nieto, Figueroa, Manuel Nieto, Manuel Nieto, Figueroa, Juan Temple",12-13W,054.36,,"In T 3-4S, R 12-13W, SBM",
+LOS MEDANOS,111,Contra Costa,"Alvarado, Jose Antonio, Jose Miguel Mesa, J. D. Stevenson",1972,658.83,,,
+EL CONEJO,408,,"Arrillaga, Arrillaga, Jose Polanco, leagues, de Sola, Jose
+  de la Guerra, Noriega, Figueroa, Maria del Carmen Rodriguez, Regrant, Alvarado, Jose de la Guerra, Noriega, Jose de la Guerra, Noriega, Altagracia, Nuestra Senora de Altagracia",1873,671.56,11,"In T 1-2N, R 19-20W, SBM",
+LA GOLETA,382,Santa Barbara,"Pico, Daniel Hill, Daniel Hill",1865,426.10,,,
+ROBLAR DE LA MISERIA,50,Sonoma,"leagues, Pico, Juan
+  Nepomuseno Padillo, Daniel Wright, al.",1858,"1,792",,"In T 4-6N,
+  R 7-8W, MDM",
+CANADA DE LOS NOGALES,546,Los Angeles,"Micheltorena, Jose M. Aguilar, J. M. Aguilar",13W,199.56,,,
+CANADA DE SALISPUEDES,377,Santa Barbara,"leagues, John Keyes",1874,651.21,,"In T 6N, R 33-34W, SBM",
+PANOCHE DE SAN JUAN Y LOS CARRISALITOS,235,Merced,"leagues, Micheltorena, Romo",9-10E,175.34,5,"In T
+  11-13S, R 9-10E, MDM",
+NICASIO,32,Marin,"leagues, Micheltorena, Juan Cooper, H. W. Halleck, Daniel Frink, B. R. Buckelow",1861,848.85,16,"In T 2-5N, R6-10W.",
+LOS MEGANOS,110,Contra Costa,"Castro, Jose Noriega, Noriega, John Marsh, Alice Marsh, John Marsh",1867,"13,316",,,
+RINCON DE LA PUENTE DEL MONTE,272,Monterey,"leagues, Gutierrez, Figueroa",T 16S,218.62,7,"In T 16S, R 5E.",
+SAUCITO,277,Monterey,"Figueroa, John Wilson, Josiah Swain, George C. Harris",1862,211.65,,,
+BOLSA DE CHAMISAL,352,San Luis Obispo,"leagues, Alvarado, Francisco Quijada, Lewis T. Burton",1867,335.22,3,,
+HUERTA DE CUATI,421,Los Angeles,"Victoria Reid, Victoria Reid",T 18,128.26,,,
+N2,20,,"Yuba, Sutter, leagues, Alvarado, John A. Sutter, John A. Sutter, SutterÕs Grant",1841,839.30,11,,
+LA HABRA,462,,"leagues, Pro Tem, Manuel
+  Jimeno, Don Mariano Rolden",1872,698.57,,"In T
+  2-3S,R 10-11W, SBM",
+EL SUR,288,Monterey,"leagues, Figueroa, Juan B. Alvarado, J. B. R. Cooper",1866,989.06,2,,
+SANTA ANA DEL CHINO,477,San Bernardino,"leagues, Alvarado, Antonio M. Lugo, Maria Merced Williams, Francisca Williams, Isaac Williams",1869,234.20,5,,
+NIPOMO,351,,"leagues, Alvarado, William G. Dana, William G. Dana",1868,887.91,11,,
+CANADA DE HERRERA,40,Marin,"Pro Tern, Manuel Jimeno, Domingo Sais, La Providencia",1878,659.45,,,
+TRABUCO,497,Orange,"leagues, Pieo, J. Forster, Santiago Arguello, Juan Forster",1866,184.47,5,,
+ARROYO DE LA ALAMEDA,133,Alameda,"leagues, Alvarado, Jose
+   de Jesus Vallejo, J. de J. Vallejo",1858,705.38,4,"In T 3-4S, R 1-2W, MDM",
+SAN JUAN,97,Sacramento,"Micheltorena, Joel P. Dedmond",1860,982.70,2,,
+BOCA DE SANTA MONICA,539,Los Angeles,"leagues, Antonio Machado, Pro Tem, Manuel Jimeno, Alvarado, Francisco Marques, Valle de Santa Monica",16W,635.93,,,
+POSOLMI,145,Santa Clara,"Micheltorena, Lopez Inigo, Robert
+   Walkinshaw, Thomas Campbell, Lopez Inigo, Posolomi",1881,695.90,,"In T
+   6S, R 2W, MDM",
