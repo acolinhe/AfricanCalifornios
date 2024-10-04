@@ -75,7 +75,7 @@ def extractInfoWithCSVFormat(description):
     return grantor, grantee, location, year, size_acres, size_leagues, persons_entities
 
 def mainCSVFormat():
-    filePath = '../data/selectedGrants.txt'  # Update this to your correct file path
+    filePath = '../data/selectedGrants.txt'
     landGrants = parseGrantsFileWithCSVFormat(filePath)
     
     extractedData = []

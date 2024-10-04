@@ -70,7 +70,7 @@ def extractInfo(description):
     return grantor, grantee, persons_entities, year, size_acres, size_leagues
 
 def main():
-    filePath = '../data/selectedGrants.txt'  # Update this to your correct file path
+    filePath = '../data/selectedGrants.txt'
     landGrants = parseGrantsFile(filePath)
     
     extractedData = []
