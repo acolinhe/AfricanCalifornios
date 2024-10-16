@@ -115,6 +115,7 @@ def main():
         'landGrantHuggingFace.csv',
         'landGrantStanza.csv',
         'landGrantSpacy.csv',
+        'landGrantFlair.csv'  # Add the new Flair output file here
     ]
     
     # Process NER files and create a comparison dataset
@@ -126,6 +127,10 @@ def main():
     
     # Calculate and print the average hit percentage per model
     calculate_average_hit_percentage(all_comparisons_df)
+
+if __name__ == "__main__":
+    main()
+
 
 if __name__ == "__main__":
     main()

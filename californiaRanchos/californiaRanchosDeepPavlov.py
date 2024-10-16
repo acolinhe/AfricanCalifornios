@@ -1,11 +1,10 @@
-from flair.data import Sentence
-from flair.models import SequenceTagger
 import pandas as pd
 import os
 import re
+from deeppavlov import configs, build_model
 
-# Load Flair NER tagger
-tagger = SequenceTagger.load('ner')
+# Load DeepPavlov NER model
+ner_model = build_model(configs.ner.ner_ontonotes_bert_mult, download=True)
 
 def parseGrantsFile(filePath):
     with open(filePath, 'r', encoding='utf-8') as file:
@@ -19,11 +18,9 @@ def parseGrantsFile(filePath):
         nameMatch = re.search(r"Grant Name:\s*(.*?),\s*Grant Number:\s*(\d+)", grant)
         descriptionMatch = re.search(r"Description:\s*(.*)", grant, re.DOTALL)
         
-        # Updated regex to capture County (between "Description:" and first "Co." or "County")
         countyMatch = re.search(r"Description:\s*(.*?)\s*(Co\.|County)", grant)
         county = countyMatch.group(1).strip() if countyMatch else ''
         
-        # Loosened regex to capture Coordinates
         coordinatesMatch = re.search(r"In\s*T\s*[\d\-]+\s*[NS]?\s*,?\s*R\s*[\d\-]+\s*[EW]?\s*,?\s*(SBM|MDM|[\w\.]*)", grant)
         coordinates = coordinatesMatch.group(0).strip() if coordinatesMatch else ''
 
@@ -43,24 +40,29 @@ def parseGrantsFile(filePath):
     return landGrants
 
 def extractInfo(description):
-    sentence = Sentence(description)
-    tagger.predict(sentence)
-    
+    # Use DeepPavlov NER model to annotate the description
+    ner_results = ner_model([description])
+    print(ner_results)  # Debugging: Check the output structure
+
     grantor, grantee, location, year, size_acres, size_leagues = '', '', '', '', '', ''
     persons_entities = []
-    
-    for entity in sentence.get_spans('ner'):
-        if entity.tag == 'PER':
-            persons_entities.append(entity.text)
-            if not grantor:
-                grantor = entity.text
-            elif not grantee:
-                grantee = entity.text
-        elif entity.tag == 'LOC':
-            location = entity.text
-        elif entity.tag == 'DATE':
-            year = entity.text
-    
+
+    # Ensure that the entities list is not empty
+    if ner_results[1][0]:  # Check if there are entities in the result
+        for entity in ner_results[1][0]:
+            if len(entity) < 2:  # Catch unexpected format
+                continue
+            if entity[1] == 'PERSON':
+                persons_entities.append(entity[0])
+                if not grantor:
+                    grantor = entity[0]
+                elif not grantee:
+                    grantee = entity[0]
+            elif entity[1] == 'GPE':
+                location = entity[0]
+            elif entity[1] == 'DATE':
+                year = entity[0]
+
     # Extract land sizes
     size_acres_match = re.search(r'(\d+[\.,]?\d*) acres', description)
     if size_acres_match:
@@ -71,6 +73,7 @@ def extractInfo(description):
         size_leagues = size_leagues_match.group(1)
     
     return grantor, grantee, persons_entities, year, size_acres, size_leagues
+
 
 def main():
     filePath = '../data/selectedGrants.txt'
@@ -91,12 +94,12 @@ def main():
             "Grant Name": grantName,
             "Grant Number": grantNumber,
             "County": county,
-            "Persons (entities)": ', '.join(persons_entities),  # Combine all persons detected
+            "Persons (entities)": ', '.join(persons_entities),
             "Year": year,
             "Land Size (Acres)": size_acres,
             "Land Size (Sq. Leagues)": size_leagues,
             "Coordinates": coordinates,
-            "Notes": ""  # Empty field for 'Notes'
+            "Notes": ""
         })
     
     df = pd.DataFrame(extractedData)
@@ -105,8 +108,8 @@ def main():
     if not os.path.exists(outputDir):
         os.makedirs(outputDir)
     
-    df.to_csv(os.path.join(outputDir, "landGrantFlair.csv"), index=False)
-    print(f"CSV file saved: {os.path.join(outputDir, 'landGrantFlair.csv')}")
+    df.to_csv(os.path.join(outputDir, "californiaRanchosDeepPavlov.csv"), index=False)
+    print(f"CSV file saved: {os.path.join(outputDir, 'californiaRanchosDeepPavlov.csv')}")
 
 if __name__ == '__main__':
     main()

@@ -10,3 +10,4 @@
 *.pkl
 /csv_matches/
 /.idea
+venv/

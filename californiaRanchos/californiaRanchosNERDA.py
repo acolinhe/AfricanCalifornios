@@ -1,11 +1,17 @@
-from flair.data import Sentence
-from flair.models import SequenceTagger
 import pandas as pd
 import os
 import re
+from nerda.models import NERDA
 
-# Load Flair NER tagger
-tagger = SequenceTagger.load('ner')
+# Define the NERDA model
+nerda_model = NERDA(
+    dataset_training=None,
+    dataset_validation=None,
+    transformer_model="bert-base-multilingual-cased"
+)
+
+# Load pre-trained model
+nerda_model.load_network_from_file("nerda_model.pt")
 
 def parseGrantsFile(filePath):
     with open(filePath, 'r', encoding='utf-8') as file:
@@ -19,11 +25,9 @@ def parseGrantsFile(filePath):
         nameMatch = re.search(r"Grant Name:\s*(.*?),\s*Grant Number:\s*(\d+)", grant)
         descriptionMatch = re.search(r"Description:\s*(.*)", grant, re.DOTALL)
         
-        # Updated regex to capture County (between "Description:" and first "Co." or "County")
         countyMatch = re.search(r"Description:\s*(.*?)\s*(Co\.|County)", grant)
         county = countyMatch.group(1).strip() if countyMatch else ''
         
-        # Loosened regex to capture Coordinates
         coordinatesMatch = re.search(r"In\s*T\s*[\d\-]+\s*[NS]?\s*,?\s*R\s*[\d\-]+\s*[EW]?\s*,?\s*(SBM|MDM|[\w\.]*)", grant)
         coordinates = coordinatesMatch.group(0).strip() if coordinatesMatch else ''
 
@@ -43,24 +47,24 @@ def parseGrantsFile(filePath):
     return landGrants
 
 def extractInfo(description):
-    sentence = Sentence(description)
-    tagger.predict(sentence)
+    # Use NERDA model for Named Entity Recognition
+    ner_results = nerda_model.predict([description])
     
     grantor, grantee, location, year, size_acres, size_leagues = '', '', '', '', '', ''
     persons_entities = []
-    
-    for entity in sentence.get_spans('ner'):
-        if entity.tag == 'PER':
-            persons_entities.append(entity.text)
+
+    for entity in ner_results[0]:
+        if entity['tag'] == 'PER':
+            persons_entities.append(entity['word'])
             if not grantor:
-                grantor = entity.text
+                grantor = entity['word']
             elif not grantee:
-                grantee = entity.text
-        elif entity.tag == 'LOC':
-            location = entity.text
-        elif entity.tag == 'DATE':
-            year = entity.text
-    
+                grantee = entity['word']
+        elif entity['tag'] == 'LOC':
+            location = entity['word']
+        elif entity['tag'] == 'DATE':
+            year = entity['word']
+
     # Extract land sizes
     size_acres_match = re.search(r'(\d+[\.,]?\d*) acres', description)
     if size_acres_match:
@@ -105,8 +109,8 @@ def main():
     if not os.path.exists(outputDir):
         os.makedirs(outputDir)
     
-    df.to_csv(os.path.join(outputDir, "landGrantFlair.csv"), index=False)
-    print(f"CSV file saved: {os.path.join(outputDir, 'landGrantFlair.csv')}")
+    df.to_csv(os.path.join(outputDir, "californiaRanchosNERDA.csv"), index=False)
+    print(f"CSV file saved: {os.path.join(outputDir, 'californiaRanchosNERDA.csv')}")
 
 if __name__ == '__main__':
     main()
