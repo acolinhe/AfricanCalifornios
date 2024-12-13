@@ -1,0 +1,34 @@
+2024-12-12 19:30:16,267 - INFO - Loading NER models...
+2024-12-12 19:30:16,542 - INFO - Loaded spaCy model.
+2024-12-12 19:30:18,130 - INFO - Loaded Flair model.
+2024-12-12 19:30:33,116 - INFO - Loaded HuggingFace model.
+2024-12-12 19:30:33,491 - INFO - Downloaded file to /Users/acolinhe/stanza_resources/resources.json
+2024-12-12 19:30:33,494 - INFO - Downloading default packages for language: en (English) ...
+2024-12-12 19:30:52,445 - INFO - Downloaded file to /Users/acolinhe/stanza_resources/en/default.zip
+2024-12-12 19:30:54,938 - INFO - Finished downloading models and saved to /Users/acolinhe/stanza_resources
+2024-12-12 19:30:54,939 - INFO - Checking for updates to resources.json in case models have been updated.  Note: this behavior can be turned off with download_method=None or download_method=DownloadMethod.REUSE_RESOURCES
+2024-12-12 19:30:55,020 - INFO - Downloaded file to /Users/acolinhe/stanza_resources/resources.json
+2024-12-12 19:30:55,022 - WARNING - Language en package default expects mwt, which has been added
+2024-12-12 19:30:55,477 - INFO - Loading these models for language: en (English):
+=========================================
+| Processor | Package                   |
+-----------------------------------------
+| tokenize  | combined                  |
+| mwt       | combined                  |
+| ner       | ontonotes-ww-multi_charlm |
+=========================================
+
+2024-12-12 19:30:55,477 - INFO - Using device: cpu
+2024-12-12 19:30:55,477 - INFO - Loading: tokenize
+2024-12-12 19:30:55,936 - INFO - Loading: mwt
+2024-12-12 19:30:55,939 - INFO - Loading: ner
+2024-12-12 19:30:56,476 - INFO - Done loading processors!
+2024-12-12 19:30:56,476 - INFO - Loaded Stanza model.
+2024-12-12 19:30:56,476 - INFO - Processing grants using spacy model...
+2024-12-12 19:30:56,753 - INFO - CSV file saved: ../data/landGrantSpacy.csv
+2024-12-12 19:30:56,753 - INFO - Processing grants using flair model...
+2024-12-12 19:31:45,258 - INFO - CSV file saved: ../data/landGrantFlair.csv
+2024-12-12 19:31:45,258 - INFO - Processing grants using huggingface model...
+2024-12-12 19:31:47,801 - INFO - CSV file saved: ../data/landGrantHuggingFace.csv
+2024-12-12 19:31:47,801 - INFO - Processing grants using stanza model...
+2024-12-12 19:31:54,989 - INFO - CSV file saved: ../data/landGrantStanza.csv

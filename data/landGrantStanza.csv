@@ -1,55 +1,73 @@
 Grant Name,Grant Number,County,Persons (entities),Year,Land Size (Acres),Land Size (Sq. Leagues),Coordinates,Notes
-NIGUEL,501,Orange,"['Alvarado', 'Juan', 'Concepcion Avila', 'Juan', 'Concepcion Avila', 'Miguel', 'Los Alisos']",1873,316.01,3,"In T 7S, R 8W, SBM",
-SAN DIEGUITO,523,San Diego,"['Victoria', 'Silva', 'Gutierrez', 'Alvarado', 'Pico', 'Juan Osuna', 'Juliana L. Osuna']",1871,,,,
-LOMPOC,374,Santa Barbara,"['Alvarado', 'Joaquin Carrillo', 'Jose Antonio Camilo']",1873 to J. and J. A. Carrillo,38.000,,,
-LOS GUILLICOS,66,Sonoma,"['Alvarado', 'John Wilson', 'Juan Wilson']",1866,18.833,,,
-LOMAS DE LA PURIFICACION,366,Santa Barbara,"['Micheltorena', 'Agustin Janssens', 'Agustin Janssens']",1871,,3,"In T 5-6N, R
+NIGUEL,501,Orange,"Juan, Concepcion Avila, Juan, Concepcion Avila, Miguel, Los Alisos",1873,316.01,3,"In T 7S, R 8W, SBM",
+SAN DIEGUITO,523,San Diego,"Silva, Juan Osuna, Juliana L. Osuna",1871,,,,
+LOMPOC,374,Santa Barbara,"Joaquin Carrillo, Jose Antonio Camilo",1873 to J. and J. A. Carrillo,38.000,,,
+LOS GUILLICOS,66,Sonoma,"John Wilson, Juan Wilson",1866,18.833,,,
+LOMAS DE LA PURIFICACION,366,Santa Barbara,"Agustin Janssens, Agustin Janssens",1871,,3,"In T 5-6N, R
    30W, SBM",
-ISLAND OF SANTA ROSA,405,Santa Barbara,"['Micheltorena', 'Antonio', 'Carlos Carrillo', 'Manuela Carrillo de Jones el al.']",1871,696.49,,,
-BOLSA DE SAN CAYETANO,221,Monterey,"['de Sola', 'Ignacio Vallejo', 'Dolores Pico', 'Arguello', 'Ignacio Vallejo', 'Figueroa', 'Jose de Jesus Vallejo', 'Ignacio']",1865,866.43,2,"In T
+ISLAND OF SANTA ROSA,405,Santa Barbara,"Antonio, Carlos Carrillo, Manuela Carrillo de Jones el al.",1871,696.49,,,
+BOLSA DE SAN CAYETANO,221,Monterey,"de Sola, Ignacio Vallejo, Dolores Pico, Ignacio Vallejo, Jose de Jesus Vallejo, Ignacio",1865,866.43,2,"In T
    12S, R2E, MDM",
-PUNTA DE LA CONCEPCION,375,Santa Barbara,"['Alvarado', 'Anastacio Carrillo']",1863 and 1880 to A. Carrillo,992.04,6,"In T 5-6N, R 34-35W,
+PUNTA DE LA CONCEPCION,375,Santa Barbara,Anastacio Carrillo,1863 and 1880 to A. Carrillo,992.04,6,"In T 5-6N, R 34-35W,
    SBM",
-CAP AY,8,,"['Micheltorena', 'Josefa Soto', 'Josefa Soto']",1859,388.17,10,"In T 21-23N, R 1-3W, MDM",
-CANADA DE SAN MIGUELITO,391,Ventura,"['Pico', 'Ramon Rodriguez', 'Juana Tico de Rodriguez']",1871,877.04,2,"In T 3N, R 23-
+CAP AY,8,,"Josefa Soto, Josefa Soto",1859,388.17,10,"In T 21-23N, R 1-3W, MDM",
+CANADA DE SAN MIGUELITO,391,Ventura,"Ramon Rodriguez, Juana Tico de Rodriguez",1871,877.04,2,"In T 3N, R 23-
   24W.",
-SAN LUISITO,327,San Luis Obispo,"['Alvarado', 'Guadalupe\n  Cantua']",1860,369.56,,,
-PIEDRA BLANCA,321,San Luis Obispo,"['Alvarado', 'Jose de Jesus\n   Pico', 'Jose de\n   Jesus Pico']",1876,805.59,,"In T 25-26S, R 6-8E, MDM",
-PINOLE,126,Contra Costa,"['Echeandia', 'Alvarado', 'Ygnacio Martinez', 'Maria Antonio Martinez de\n  Richardson el al']",1868,"17,760",4,"In T 1-2N, R 3-4W, MDM",
-LA NACION,528,San Diego,"['Pico', 'Juan Forster', 'Juan Forster']",1866,631.94,6,,
-LAS SALINAS,257,Monterey,"['Antonio Aceves', 'Antonio Romero', 'Gutierrez', 'Gabriel Espinosa', 'Linda E. Pogue', 'G. Espinosa']",1867,413.81,4,"In T 14S, R 2E.",
-PUNTA DE LA LAGUNA,354,,"['Micheltorena', 'Luis Arellanes', 'Emelio Miguel\n  Ortega', 'Luis\n  Arellanes']",1873,648.42,6,,
-SAN MATEO,149,San Mateo,"['Pico', 'Cayetano Arenas', 'Howard']",1856,538.80,2,,
-CHUALAR,270,Monterey,"['Pro Tem.', 'Manuel Jimeno', 'Casarin', 'Juan Malarin', 'Juan Malaria']","1872
+SAN LUISITO,327,San Luis Obispo,"Guadalupe
+  Cantua",1860,369.56,,,
+PIEDRA BLANCA,321,San Luis Obispo,"Jose de Jesus
+   Pico, Jose de
+   Jesus Pico",1876,805.59,,"In T 25-26S, R 6-8E, MDM",
+PINOLE,126,Contra Costa,"Ygnacio Martinez, Maria Antonio Martinez de
+  Richardson el al",1868,"17,760",4,"In T 1-2N, R 3-4W, MDM",
+LA NACION,528,San Diego,"Juan Forster, Juan Forster",1866,631.94,6,,
+LAS SALINAS,257,Monterey,"Antonio Aceves, Antonio Romero, Gabriel Espinosa, Linda E. Pogue, G. Espinosa",1867,413.81,4,"In T 14S, R 2E.",
+PUNTA DE LA LAGUNA,354,,"Luis Arellanes, Emelio Miguel
+  Ortega, Luis
+  Arellanes",1873,648.42,6,,
+SAN MATEO,149,San Mateo,"Cayetano Arenas, Howard",1856,538.80,2,,
+CHUALAR,270,Monterey,"Tem. Manuel Jimeno, Casarin, Juan Malarin, Juan Malaria","1872
   to M. Malarin",889.68,2,,
-SAN JOSE Y SER CHIQUITO,552,Monterey,"['Alvarado', 'Marcelino Escobar', 'Joseph S. Emory', 'Nathan W. Spaulding', 'Mary Ann Bassett']",1888,,2,,
-ESTERO AMERICANO,28,Sonoma,"['Pro Tern.', 'Manuel Jimeno', 'Casarin', 'Edward McIntosh']",1858,"8,829",,"In T 5-6N, R 10W.",
-LOS CERRITOS,467,Los Angeles,"['Fages', 'Don\n  Manuel Nieto', 'Figueroa', 'Manuel Nieto', 'Dona\n  Manuela Nieto', 'Manuel Nieto', 'Figueroa']",1867,054.36,,"In T 3-4S, R 12-13W, SBM",
-LOS MEDANOS,111,Contra Costa,"['Alvarado', 'Jose Antonio\n  Mesa', 'Jose Miguel Mesa', 'J. D. Stevenson']",1972,658.83,,,
-EL CONEJO,408,,"['Arrillaga', 'Ignacio\n  Rodriguez', 'Arrillaga', 'Jose Polanco', 'Polanco', 'de Sola', 'Jose\n  de la Guerra y Noriega', 'Rodriguez', 'Figueroa', 'Maria del Carmen Rodriguez', 'Alvarado', 'Jose de la Guerra y Noriega', 'Jose de la Guerra y\n  Noriega']",1873,671.56,11,"In T 1-2N, R 19-20W, SBM",
-LA GOLETA,382,Santa Barbara,"['Pico', 'Daniel Hill']",1865,426.10,,,
-ROBLAR DE LA MISERIA,50,Sonoma,"['Pico', 'Juan\n  Nepomuseno Padillo', 'Daniel Wright']",1858,"1,792",,"In T 4-6N,
+SAN JOSE Y SER CHIQUITO,552,Monterey,"Marcelino Escobar, Joseph S. Emory, Nathan W. Spaulding, Mary Ann Bassett",1888,,2,,
+ESTERO AMERICANO,28,Sonoma,"Tern. Manuel Jimeno, Casarin, Edward McIntosh",1858,"8,829",,"In T 5-6N, R 10W.",
+LOS CERRITOS,467,Los Angeles,"Don
+  Manuel Nieto, Manuel Nieto, Dona
+  Manuela Nieto, Manuel Nieto",1867,054.36,,"In T 3-4S, R 12-13W, SBM",
+LOS MEDANOS,111,Contra Costa,"Jose Antonio
+  Mesa, Jose Miguel Mesa, J. D. Stevenson",1972,658.83,,,
+EL CONEJO,408,,"Grant, Ignacio
+  Rodriguez, Jose Polanco, Polanco, de Sola, Jose
+  de la Guerra y Noriega, Rodriguez, Maria del Carmen Rodriguez, Jose de la Guerra y Noriega, Jose de la Guerra y
+  Noriega",1873,671.56,11,"In T 1-2N, R 19-20W, SBM",
+LA GOLETA,382,Santa Barbara,Daniel Hill,1865,426.10,,,
+ROBLAR DE LA MISERIA,50,Sonoma,"Juan
+  Nepomuseno Padillo, Daniel Wright",1858,"1,792",,"In T 4-6N,
   R 7-8W, MDM",
-CANADA DE LOS NOGALES,546,Los Angeles,"['Micheltorena', 'Jose M. Aguilar', 'J. M. Aguilar']",1882,199.56,,,
-CANADA DE SALISPUEDES,377,Santa Barbara,"['Micheltorena', 'Pedro Cordero', 'John Keyes']",1874,651.21,,"In T 6N, R 33-34W, SBM",
-PANOCHE DE SAN JUAN Y LOS CARRISALITOS,235,Merced,"['Micheltorena', 'Julian Ursua', 'Romo', 'Fatjo Rancho']",1867,175.34,5,"In T
+CANADA DE LOS NOGALES,546,Los Angeles,"Jose M. Aguilar, J. M. Aguilar",1882,199.56,,,
+CANADA DE SALISPUEDES,377,Santa Barbara,"Pedro Cordero, John Keyes",1874,651.21,,"In T 6N, R 33-34W, SBM",
+PANOCHE DE SAN JUAN Y LOS CARRISALITOS,235,Merced,"Julian Ursua, Romo, Fatjo Rancho",1867,175.34,5,"In T
   11-13S, R 9-10E, MDM",
-NICASIO,32,Marin,"['Micheltorena', 'Pablo de la Guerra', 'Juan Cooper', 'H. W. Halleck', 'Wm. Reynolds', 'Daniel Frink.', 'James\n   Black']",1861,848.85,16,"In T 2-5N, R6-10W.",
-LOS MEGANOS,110,Contra Costa,"['Castro', 'Jose Noriega', 'Noriega', 'John Marsh', 'Alice Marsh', 'John Marsh']",1867,"13,316",,,
-RINCON DE LA PUENTE DEL MONTE,272,Monterey,"['Gutierrez', 'Figueroa', 'Teodoro Gonzales', 'Teodoro Gonzales']",1866,218.62,7,"In T 16S, R 5E.",
-SAUCITO,277,Monterey,"['Figueroa', 'Graciano Manjares', 'John Wilson', 'Josiah Swain', 'George C. Harris']",1862,211.65,,,
-BOLSA DE CHAMISAL,352,San Luis Obispo,"['Alvarado', 'Francisco Quijada', 'Lewis T. Burton']",1867,335.22,3,,
-HUERTA DE CUATI,421,Los Angeles,"['Victoria Reid', 'Alvarado', 'Victoria Reid']",T 18,128.26,,,
-N2,20,,"['Alvarado', 'John A. Sutter', 'John A. Sutter', 'SutterÕs Grant']",1866,839.30,11,,
-LA HABRA,462,,"['Pro Tem.', 'Manuel\n  Jimeno', 'Casarin', 'Don Mariano Rolden']",1872,698.57,,"In T
+NICASIO,32,Marin,"Pablo de la Guerra, Juan Cooper, H. W. Halleck, Wm. Reynolds, Daniel Frink., James
+   Black",1861,848.85,16,"In T 2-5N, R6-10W.",
+LOS MEGANOS,110,Contra Costa,"Jose Noriega, Noriega, John Marsh, Alice Marsh, John Marsh",1867,"13,316",,,
+RINCON DE LA PUENTE DEL MONTE,272,Monterey,"Teodoro Gonzales, Teodoro Gonzales",1866,218.62,7,"In T 16S, R 5E.",
+SAUCITO,277,Monterey,"Graciano Manjares, John Wilson, Josiah Swain, George C. Harris",1862,211.65,,,
+BOLSA DE CHAMISAL,352,San Luis Obispo,"Francisco Quijada, Lewis T. Burton",1867,335.22,3,,
+HUERTA DE CUATI,421,Los Angeles,"Victoria Reid, Victoria Reid",T 18,128.26,,,
+N2,20,,"John A. Sutter, John A. Sutter, SutterÕs Grant",1866,839.30,11,,
+LA HABRA,462,,"Tem. Manuel
+  Jimeno, Casarin, Don Mariano Rolden",1872,698.57,,"In T
   2-3S,R 10-11W, SBM",
-EL SUR,288,Monterey,"['Figueroa', 'Juan B. Alvarado', 'J. B. R. Cooper']",1866,989.06,2,,
-SANTA ANA DEL CHINO,477,San Bernardino,"['Alvarado', 'Maria Merced Williams', 'Francisca Williams', 'Isaac Williams']",1869,234.20,5,,
-NIPOMO,351,,"['Alvarado', 'William G. Dana', 'William G. Dana']",1868,887.91,11,,
-CANADA DE HERRERA,40,Marin,"['Manuel Jimeno', 'Casarin', 'Domingo Sais', 'Domingo Sais']",1878,659.45,,,
-TRABUCO,497,Orange,"['Pieo', 'J. Forster', 'Santiago Arguello', 'Juan Forster']",1866,184.47,5,,
-ARROYO DE LA ALAMEDA,133,Alameda,"['Alvarado', 'Jose\n   de Jesus Vallejo']",1858,705.38,4,"In T 3-4S, R 1-2W, MDM",
-SAN JUAN,97,Sacramento,"['Micheltorena', 'Joel P. Dedmond', 'Hiram\n   Grimes']",1860,982.70,2,,
-BOCA DE SANTA MONICA,539,Los Angeles,"['Echeandia', 'Xavier Alvarado', 'Antonio Machado', 'Pro Tem.', 'Manuel Jimeno', 'Casarin', 'Alvarado', 'Francisco Marques', 'Ysidro Reyes']",1881,635.93,,,
-POSOLMI,145,Santa Clara,"['Micheltorena', 'Lopez Inigo', 'Robert\n   Walkinshaw', 'Thomas Campbell', 'Lopez Inigo', 'Posolomi']",1881,695.90,,"In T
+EL SUR,288,Monterey,"Juan B. Alvarado, J. B. R. Cooper",1866,989.06,2,,
+SANTA ANA DEL CHINO,477,San Bernardino,"Antonio M. Lugo., Maria Merced Williams, Francisca Williams, Isaac Williams",1869,234.20,5,,
+NIPOMO,351,,"William G. Dana, William G. Dana",1868,887.91,11,,
+CANADA DE HERRERA,40,Marin,"Tern. Manuel Jimeno, Casarin, Domingo Sais, Domingo Sais",1878,659.45,,,
+TRABUCO,497,Orange,"J. Forster, Santiago Arguello, Juan Forster",1866,184.47,5,,
+ARROYO DE LA ALAMEDA,133,Alameda,"Jose
+   de Jesus Vallejo",1858,705.38,4,"In T 3-4S, R 1-2W, MDM",
+SAN JUAN,97,Sacramento,"Joel P. Dedmond, Hiram
+   Grimes",1860,982.70,2,,
+BOCA DE SANTA MONICA,539,Los Angeles,"Xavier Alvarado, Antonio Machado, Tem. Manuel Jimeno, Casarin, Francisco Marques, Ysidro Reyes",1881,635.93,,,
+POSOLMI,145,Santa Clara,"Lopez Inigo, Robert
+   Walkinshaw, Thomas Campbell, Lopez Inigo, Posolomi",1881,695.90,,"In T
    6S, R 2W, MDM",

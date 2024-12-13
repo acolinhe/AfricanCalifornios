@@ -6,6 +6,11 @@ import re
 # Load spaCy English model
 nlp = spacy.load("en_core_web_sm")
 
+def preprocessDescription(description):
+    # Remove occurrences of 'Gov.' followed by a name (e.g., 'Gov. Alvarado')
+    cleaned_description = re.sub(r'Gov\.\s+[A-Z][a-z]+\b', '', description)
+    return cleaned_description
+
 def parseGrantsFile(filePath):
     with open(filePath, 'r', encoding='utf-8') as file:
         text = file.read()
@@ -42,6 +47,9 @@ def parseGrantsFile(filePath):
     return landGrants
 
 def extractInfo(description):
+    # Preprocess the description to remove 'Gov.' prefixes
+    description = preprocessDescription(description)
+
     doc = nlp(description)
     grantor, grantee, location, year, size_acres, size_leagues = '', '', '', '', '', ''
     persons_entities = []
