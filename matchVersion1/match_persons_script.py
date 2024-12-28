@@ -57,14 +57,33 @@ def insert_matched_values(matched_persons_key: pd.DataFrame, datasets: dict) -> 
             matched_persons_key.at[index, 'mother_first_name'] = baptisms.at[baptism_id, 'MSpanishName']
             matched_persons_key.at[index, 'mother_last_name'] = baptisms.at[baptism_id, 'MSurname']
             matched_persons_key.at[index, 'mother_origin'] = baptisms.at[baptism_id, 'MOrigin']
-        elif row['match_type'] == 'mother':
-            matched_persons_key.at[index, 'first_name'] = baptisms.at[baptism_id, 'MSpanishName']
-            matched_persons_key.at[index, 'last_name'] = baptisms.at[baptism_id, 'MSurname']
+            
+        if row['match_type'] == 'mother':
+            if row['dataset_key'] == 'afro_1790_census':
+                child_columns = [f'Child{i}' for i in range(1, 15)]
+                child_names = [datasets['afro_1790_census'].at[census_id, col] for col in child_columns if pd.notna(datasets['afro_1790_census'].at[census_id, col])]
+                matched_persons_key.at[index, 'first_name'] = child_names[0] if child_names else ""
+                matched_persons_key.at[index, 'last_name'] = child_names[1] if len(child_names) > 1 else ""
+            else:
+                matched_persons_key.at[index, 'first_name'] = ""
+                matched_persons_key.at[index, 'last_name'] = ""
+            
+            matched_persons_key.at[index, 'mother_first_name'] = baptisms.at[baptism_id, 'MSpanishName']
+            matched_persons_key.at[index, 'mother_last_name'] = baptisms.at[baptism_id, 'MSurname']
             matched_persons_key.at[index, 'ethnicity'] = baptisms.at[baptism_id, 'MEthnicity']
 
         elif row['match_type'] == 'father':
-            matched_persons_key.at[index, 'first_name'] = baptisms.at[baptism_id, 'FSpanishName']
-            matched_persons_key.at[index, 'last_name'] = baptisms.at[baptism_id, 'FSurname']
+            if row['dataset_key'] == 'afro_1790_census':
+                child_columns = [f'Child{i}' for i in range(1, 15)]
+                child_names = [datasets['afro_1790_census'].at[census_id, col] for col in child_columns if pd.notna(datasets['afro_1790_census'].at[census_id, col])]
+                matched_persons_key.at[index, 'first_name'] = child_names[0] if child_names else ""
+                matched_persons_key.at[index, 'last_name'] = child_names[1] if len(child_names) > 1 else ""
+            else:
+                matched_persons_key.at[index, 'first_name'] = ""
+                matched_persons_key.at[index, 'last_name'] = ""
+
+            matched_persons_key.at[index, 'father_first_name'] = baptisms.at[baptism_id, 'FSpanishName']
+            matched_persons_key.at[index, 'father_last_name'] = baptisms.at[baptism_id, 'FSurname']
             matched_persons_key.at[index, 'ethnicity'] = baptisms.at[baptism_id, 'FEthnicity']
 
         if row['dataset_key'] == 'afro_1790_census':
@@ -95,6 +114,9 @@ def clean_and_create_race_aggregated(final_people_collect: pd.DataFrame) -> pd.D
         final_people_collect['origin_parish_1790_census'].str.replace('[,\s\[\]]', ' ', regex=True)
     )
 
+    final_people_collect['first_name'] = final_people_collect['first_name'].astype(str).str.replace('[', '', regex=False).str.replace(']', '', regex=False)
+    final_people_collect['last_name'] = final_people_collect['last_name'].astype(str).str.replace('[', '', regex=False).str.replace(']', '', regex=False) 
+
     return final_people_collect
 
 
@@ -112,9 +134,42 @@ def reorder_columns(df):
     return df[new_column_order]
 
 
+def combine_parental_matches(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Combines rows where individuals have been matched through both parents,
+    prioritizing data from direct matches.
+    """
+
+    def combine_rows(group):
+        direct_match = group[group['match_type'] == 'Direct']
+        if not direct_match.empty:
+            combined_row = direct_match.iloc[0].copy()
+        else:
+            combined_row = group.iloc[0].copy()
+
+        if len(group) > 1:
+            for col in ['Direct_Total_Match_Score', 'Mother_Total_Match_Score', 'Father_Total_Match_Score']:
+                combined_row[col] = group[col].max()
+            
+            # Combine data from other columns, prioritizing direct match if available
+            for col in group.columns:
+                if col not in ['Direct_Total_Match_Score', 'Mother_Total_Match_Score', 'Father_Total_Match_Score', 'match_type', '#ID', 'ecpp_id']:
+                    direct_value = direct_match[col].values[0] if not direct_match.empty else None
+                    mother_value = group[group['match_type'] == 'mother'][col].values[0] if not group[group['match_type'] == 'mother'].empty else None
+                    father_value = group[group['match_type'] == 'father'][col].values[0] if not group[group['match_type'] == 'father'].empty else None
+
+                    combined_row[col] = direct_value or mother_value or father_value  # Prioritize direct, then mother, then father
+
+            combined_row['match_type'] = 'mother_father'  # Update match type
+        return combined_row
+
+    df = df.groupby(['#ID', 'ecpp_id']).apply(combine_rows).reset_index(drop=True)
+    return df
+
+
 def main():
-    path = '/home/acolinhe/AfricanCalifornios/source_version_1/data'
-    output_path = '/home/acolinhe/AfricanCalifornios/source_version_1/data_output'
+    path = '/home/acolinhe/AfricanCalifornios/matchVersion1/data'
+    output_path = '/home/acolinhe/AfricanCalifornios/matchVersion1/data_output'
     config = get_config()
     datasets = load_and_prepare_data(path)
     matched_persons_key = []
@@ -123,17 +178,20 @@ def main():
         if dataset_key == 'baptisms' or datasets[dataset_key] is None:
             continue
         matched_persons = parallel_data_processing(datasets[dataset_key], datasets['baptisms'], config, dataset_key)
-        matched_persons_key.append(filter_matched_persons(matched_persons, dataset_key, .05))
+        matched_persons_key.append(filter_matched_persons(matched_persons, dataset_key, .45))
         logging.info(f"Completed filtering {dataset_key}")
 
     combined_matched_persons_key = pd.concat(matched_persons_key, ignore_index=True)
+    
+    combined_matched_persons_key = combine_parental_matches(combined_matched_persons_key)  
+
     people_collect_2 = insert_matched_values(combined_matched_persons_key, datasets)
     cleaned_people_collect_2 = clean_and_create_race_aggregated(people_collect_2)
     final_people_collect_2 = reorder_columns(cleaned_people_collect_2)
 
-    final_people_collect_2.to_csv(output_path + '/low_people_collect_2.csv', index=False)
+    final_people_collect_2.to_csv(output_path + '/people_collect_2.csv', index=False)
     logging.info(f"people_collect_2.csv columns {final_people_collect_2.columns}")
-    logging.info(f"Completed matches and saved to {output_path + '/low_people_collect_2.csv'}")
+    logging.info(f"Completed matches and saved to {output_path + '/people_collect_2.csv'}")
 
 
 if __name__ == '__main__':
