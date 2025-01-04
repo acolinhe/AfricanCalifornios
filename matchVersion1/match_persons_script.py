@@ -59,29 +59,15 @@ def insert_matched_values(matched_persons_key: pd.DataFrame, datasets: dict) -> 
             matched_persons_key.at[index, 'mother_origin'] = baptisms.at[baptism_id, 'MOrigin']
             
         if row['match_type'] == 'mother':
-            if row['dataset_key'] == 'afro_1790_census':
-                child_columns = [f'Child{i}' for i in range(1, 15)]
-                child_names = [datasets['afro_1790_census'].at[census_id, col] for col in child_columns if pd.notna(datasets['afro_1790_census'].at[census_id, col])]
-                matched_persons_key.at[index, 'first_name'] = child_names[0] if child_names else ""
-                matched_persons_key.at[index, 'last_name'] = child_names[1] if len(child_names) > 1 else ""
-            else:
-                matched_persons_key.at[index, 'first_name'] = ""
-                matched_persons_key.at[index, 'last_name'] = ""
-            
+            matched_persons_key.at[index, 'first_name'] = baptisms.at[baptism_id, 'SpanishName']
+            matched_persons_key.at[index, 'last_name'] = baptisms.at[baptism_id, 'Surname']
             matched_persons_key.at[index, 'mother_first_name'] = baptisms.at[baptism_id, 'MSpanishName']
             matched_persons_key.at[index, 'mother_last_name'] = baptisms.at[baptism_id, 'MSurname']
             matched_persons_key.at[index, 'ethnicity'] = baptisms.at[baptism_id, 'MEthnicity']
 
         elif row['match_type'] == 'father':
-            if row['dataset_key'] == 'afro_1790_census':
-                child_columns = [f'Child{i}' for i in range(1, 15)]
-                child_names = [datasets['afro_1790_census'].at[census_id, col] for col in child_columns if pd.notna(datasets['afro_1790_census'].at[census_id, col])]
-                matched_persons_key.at[index, 'first_name'] = child_names[0] if child_names else ""
-                matched_persons_key.at[index, 'last_name'] = child_names[1] if len(child_names) > 1 else ""
-            else:
-                matched_persons_key.at[index, 'first_name'] = ""
-                matched_persons_key.at[index, 'last_name'] = ""
-
+            matched_persons_key.at[index, 'first_name'] = baptisms.at[baptism_id, 'SpanishName']
+            matched_persons_key.at[index, 'last_name'] = baptisms.at[baptism_id, 'Surname']
             matched_persons_key.at[index, 'father_first_name'] = baptisms.at[baptism_id, 'FSpanishName']
             matched_persons_key.at[index, 'father_last_name'] = baptisms.at[baptism_id, 'FSurname']
             matched_persons_key.at[index, 'ethnicity'] = baptisms.at[baptism_id, 'FEthnicity']
