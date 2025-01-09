@@ -6,7 +6,7 @@ from data_processing import get_config
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 
-def filter_matched_persons(matched_persons: pd.DataFrame, dataset_key: str, threshold: float) -> pd.DataFrame:
+def filter_matched_persons(matched_persons: pd.DataFrame, dataset_key: str, threshold: int) -> pd.DataFrame:  # Change threshold type to int
     match_scores = {
         'Direct_Total_Match_Score': 'direct',
         'Mother_Total_Match_Score': 'mother',
@@ -14,18 +14,19 @@ def filter_matched_persons(matched_persons: pd.DataFrame, dataset_key: str, thre
     }
 
     columns_to_keep = ['#ID', 'ecpp_id', 'Direct_Total_Match_Score', 'Mother_Total_Match_Score',
-                       'Father_Total_Match_Score']
+                   'Father_Total_Match_Score', 'Matched_Criteria']
 
     results = []
+    # max_matches = 4  # You can potentially remove this if not needed
 
     for score, match_type in match_scores.items():
-        filtered_persons = matched_persons[matched_persons[score] >= threshold][columns_to_keep].copy()
+        filtered_persons = matched_persons[matched_persons[score] >= threshold][columns_to_keep].copy()  # Use the threshold for number of matches
         filtered_persons['match_type'] = match_type
         filtered_persons['dataset_key'] = dataset_key
         results.append(filtered_persons)
 
     combined_df = pd.concat(results, ignore_index=True)
-    logging.info(f"Filtered {len(combined_df)} persons with score >= {threshold}")
+    logging.info(f"Filtered {len(combined_df)} persons with at least {threshold} matching criteria.")  # Update log message
 
     return combined_df
 
@@ -45,6 +46,7 @@ def insert_matched_values(matched_persons_key: pd.DataFrame, datasets: dict) -> 
         matched_persons_key.at[index, 'sex'] = baptisms.at[baptism_id, 'Sex']
         matched_persons_key.at[index, 'origin_parish_1790_census'] = baptisms.at[baptism_id, 'Place']
         matched_persons_key.at[index, 'notes_url_1790_census'] = baptisms.at[baptism_id, 'Notes']
+        matched_persons_key.at[index, 'matched_criteria'] = row['Matched_Criteria']
 
         if row['match_type'] == 'direct':
             matched_persons_key.at[index, 'first_name'] = baptisms.at[baptism_id, 'SpanishName']
@@ -108,14 +110,14 @@ def clean_and_create_race_aggregated(final_people_collect: pd.DataFrame) -> pd.D
 
 def reorder_columns(df):
     new_column_order = ['#ID', 'ecpp_id', 'Direct_Total_Match_Score', 'Mother_Total_Match_Score',
-                        'Father_Total_Match_Score',
-                        'match_type', 'dataset_key', 'first_name', 'last_name',
-                        'father_first_name', 'father_last_name', 'father_military_status',
-                        'father_origin', 'mother_first_name', 'mother_last_name',
-                        'mother_origin', 'sex', 'race_1790', 'race_1781', 'race_1785',
-                        'race_1821', 'race_267', 'race_aggregated', 'ethnicity',
-                        'origin_parish_1790_census', 'baptismal_date', 'location_ecpp_baptism',
-                        'notes_url_1790_census']
+                    'Father_Total_Match_Score', 'Matched_Criteria',
+                    'match_type', 'dataset_key', 'first_name', 'last_name',
+                    'father_first_name', 'father_last_name', 'father_military_status',
+                    'father_origin', 'mother_first_name', 'mother_last_name',
+                    'mother_origin', 'sex', 'race_1790', 'race_1781', 'race_1785',
+                    'race_1821', 'race_267', 'race_aggregated', 'ethnicity',
+                    'origin_parish_1790_census', 'baptismal_date', 'location_ecpp_baptism',
+                    'notes_url_1790_census']
 
     return df[new_column_order]
 
@@ -164,7 +166,7 @@ def main():
         if dataset_key == 'baptisms' or datasets[dataset_key] is None:
             continue
         matched_persons = parallel_data_processing(datasets[dataset_key], datasets['baptisms'], config, dataset_key)
-        matched_persons_key.append(filter_matched_persons(matched_persons, dataset_key, .45))
+        matched_persons_key.append(filter_matched_persons(matched_persons, dataset_key, 1))
         logging.info(f"Completed filtering {dataset_key}")
 
     combined_matched_persons_key = pd.concat(matched_persons_key, ignore_index=True)

@@ -20,6 +20,7 @@ class PersonMatcher:
         self.calculate_direct_total_match_score()
         self.calculate_mother_total_match_score()
         self.calculate_father_total_match_score()
+        self.list_matched_criteria()
         return
 
     def calculate_direct_total_match_score(self):
@@ -29,7 +30,7 @@ class PersonMatcher:
             'Gender_Match_Score': 0.1,
             'Age_Match_Score': 0.1
         }
-        self._calculate_specific_total_match_score(weights, 'Direct_Total_Match_Score')
+        self.calculate_total_match_score(weights, 'Direct_Total_Match_Score')
 
     def calculate_mother_total_match_score(self):
         weights = {
@@ -38,7 +39,7 @@ class PersonMatcher:
             'Gender_Match_Score': 0.1,
             'Age_Match_Score': 0.1
         }
-        self._calculate_specific_total_match_score(weights, 'Mother_Total_Match_Score')
+        self.calculate_total_match_score(weights, 'Mother_Total_Match_Score')
 
     def calculate_father_total_match_score(self):
         weights = {
@@ -47,26 +48,13 @@ class PersonMatcher:
             'Gender_Match_Score': 0.1,
             'Age_Match_Score': 0.1
         }
-        self._calculate_specific_total_match_score(weights, 'Father_Total_Match_Score')
+        self.calculate_total_match_score(weights, 'Father_Total_Match_Score')
 
-    def _calculate_specific_total_match_score(self, weights, score_column_name):
-        # Adjust weights if age data is missing
-        if self.ecpp[self.config['census']['Age']].isna().all():
-            logging.warning("Most 'Age' data is missing; adjusting weights for matching.")
-            age_weight = weights.pop('Age_Match_Score', None)
-            if age_weight is not None:
-                total_weight = sum(weights.values())
-                for key in weights:
-                    weights[key] += (age_weight * weights[key] / total_weight)
-
-        total_weight = sum(weights.values())
-        if total_weight != 1:
-            weights = {k: v / total_weight for k, v in weights.items()}
-
+    def calculate_total_match_score(self, score_column_name):  # Simplified function
         self.matched_records[score_column_name] = 0
-        for score, weight in weights.items():
-            if score in self.matched_records.columns:
-                self.matched_records[score_column_name] += self.matched_records[score] * weight
+        for score_column in ["First_Name_Match_Score", "Last_Name_Match_Score", "Gender_Match_Score", "Age_Match_Score"]:
+            if score_column in self.matched_records.columns:
+                self.matched_records[score_column_name] += self.matched_records[score_column]
 
     def create_matched_records(self):
         ecpp_ids = self.ecpp.reset_index()[self.config['ecpp_id_col']]
@@ -147,7 +135,8 @@ class PersonMatcher:
     def match_name_score(self, name_census, name_baptism):
         if pd.isna(name_census) or pd.isna(name_baptism):
             return 0
-        return 1 - np.exp(-match_names_score(name_census, name_baptism))
+        distance = match_names_score(name_census, name_baptism)
+        return 1 if distance <= 2 else 0
 
     def match_gender_score(self, gender_census, gender_baptism):
         if pd.isna(gender_census) or pd.isna(gender_baptism):
@@ -163,14 +152,27 @@ class PersonMatcher:
 
     def match_age_score(self, age_census, age_baptism):
         if pd.isna(age_census) or pd.isna(age_baptism):
-            return 0.0
-
-        max_age_diff = 5
+            return 0
         try:
             age_diff = abs(float(age_census) - float(age_baptism))
-            return max(0, (max_age_diff - age_diff) / max_age_diff)
+            return 1 if age_diff <= 2 else 0  # Tolerance of +/- 2 years
         except ValueError:
-            return 0.0
+            return 0
+    
+    def get_matched_criteria(row):
+        criteria = []
+        if row['First_Name_Match_Score'] == 1:
+            criteria.append('First Name')
+        if row['Last_Name_Match_Score'] == 1:
+            criteria.append('Last Name')
+        if row['Age_Match_Score'] == 1:
+            criteria.append('Age')
+        if row['Gender_Match_Score'] == 1:
+            criteria.append('Gender')
+        return ', '.join(criteria)
+
+    def list_matched_criteria(self):
+        self.matched_records['Matched_Criteria'] = self.matched_records.apply(get_matched_criteria, axis=1)
 
     def save_matched_records(self, filename):
         self.matched_records.to_pickle(filename)

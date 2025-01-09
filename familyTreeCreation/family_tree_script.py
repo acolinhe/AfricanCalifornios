@@ -11,7 +11,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 def read_data(file_name: str) -> Optional[pd.DataFrame]:
     """ Load data from a CSV file and handle potential errors. """
     current_directory = os.getcwd()
-    matches_directory = os.path.join(current_directory, '..', 'people_collect')
+    matches_directory = os.path.join(current_directory, '..', 'matchVersion1', 'data_output')
     people_collect_path = os.path.join(matches_directory, file_name)
 
     try:
@@ -156,7 +156,7 @@ def get_match_score(row):
 def create_person_unit(pid, row, census_1790, baptisms):
     match_prob = get_match_score(row)
     person = PersonUnit(pid=pid,
-                        name=check_nan(row['first_name']) + ' ' + check_nan(row['last_name']),
+                        name = str(check_nan(row['first_name']) or "") + ' ' + str(check_nan(row['last_name']) or ""),
                         sex=check_nan(row['sex']),
                         race=remove_commas(check_nan(row['race_aggregated'])),
                         ethnicity=check_nan(row['ethnicity']),
