@@ -1,9 +1,7 @@
 from person_matching_functions import *
 import pandas as pd
 from itertools import product
-import numpy as np
 import logging
-
 
 class PersonMatcher:
     def __init__(self, census, baptisms, config):
@@ -17,40 +15,13 @@ class PersonMatcher:
         self.direct_match_names()
         self.match_parents_names()
         self.match_other_features()
-        self.calculate_direct_total_match_score()
-        self.calculate_mother_total_match_score()
-        self.calculate_father_total_match_score()
+        self.calculate_total_match_score('Direct_Total_Match_Score')
+        self.calculate_total_match_score('Mother_Total_Match_Score')
+        self.calculate_total_match_score('Father_Total_Match_Score')
         self.list_matched_criteria()
         return
 
-    def calculate_direct_total_match_score(self):
-        weights = {
-            'First_Name_Match_Score': 0.4,
-            'Last_Name_Match_Score': 0.4,
-            'Gender_Match_Score': 0.1,
-            'Age_Match_Score': 0.1
-        }
-        self.calculate_total_match_score(weights, 'Direct_Total_Match_Score')
-
-    def calculate_mother_total_match_score(self):
-        weights = {
-            'Mother_First_Name_Match_Score': 0.4,
-            'Mother_Last_Name_Match_Score': 0.4,
-            'Gender_Match_Score': 0.1,
-            'Age_Match_Score': 0.1
-        }
-        self.calculate_total_match_score(weights, 'Mother_Total_Match_Score')
-
-    def calculate_father_total_match_score(self):
-        weights = {
-            'Father_First_Name_Match_Score': 0.4,
-            'Father_Last_Name_Match_Score': 0.4,
-            'Gender_Match_Score': 0.1,
-            'Age_Match_Score': 0.1
-        }
-        self.calculate_total_match_score(weights, 'Father_Total_Match_Score')
-
-    def calculate_total_match_score(self, score_column_name):  # Simplified function
+    def calculate_total_match_score(self, score_column_name):
         self.matched_records[score_column_name] = 0
         for score_column in ["First_Name_Match_Score", "Last_Name_Match_Score", "Gender_Match_Score", "Age_Match_Score"]:
             if score_column in self.matched_records.columns:
@@ -158,8 +129,8 @@ class PersonMatcher:
             return 1 if age_diff <= 2 else 0  # Tolerance of +/- 2 years
         except ValueError:
             return 0
-    
-    def get_matched_criteria(row):
+
+    def get_matched_criteria(self, row):  # Corrected indentation
         criteria = []
         if row['First_Name_Match_Score'] == 1:
             criteria.append('First Name')
@@ -172,7 +143,7 @@ class PersonMatcher:
         return ', '.join(criteria)
 
     def list_matched_criteria(self):
-        self.matched_records['Matched_Criteria'] = self.matched_records.apply(get_matched_criteria, axis=1)
+        self.matched_records['Matched_Criteria'] = self.matched_records.apply(self.get_matched_criteria, axis=1)
 
     def save_matched_records(self, filename):
         self.matched_records.to_pickle(filename)
