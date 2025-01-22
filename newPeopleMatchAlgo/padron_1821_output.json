@@ -1,0 +1,2722 @@
+[
+    {
+        "name": "Anastacio Carrillo",
+        "race": "blanco",
+        "gender": "M",
+        "father": "Jose Raymundo Carrillo",
+        "mother": "Maria Tomasa Ygnacia Lugo",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Concepción García",
+        "race": "blanco",
+        "gender": "F",
+        "father": " ",
+        "mother": " ",
+        "spouse": "Anastacio Carrillo"
+    },
+    {
+        "name": "Jose Raymundo Tiburcio Carrillo",
+        "race": "blanco",
+        "gender": "M",
+        "father": "Anastacio Carrillo",
+        "mother": "Maria Concepcion Garcia",
+        "spouse": " "
+    },
+    {
+        "name": "Soledad Carrillo",
+        "race": "blanco",
+        "gender": "M",
+        "father": "Anastacio Carrillo",
+        "mother": "Maria Concepcion Garcia",
+        "spouse": " "
+    },
+    {
+        "name": "Manuela Carrillo",
+        "race": "blanco",
+        "gender": "F",
+        "father": "Anastacio Carrillo",
+        "mother": "Maria Concepcion Garcia",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Manuela Carrillo",
+        "race": "blanco",
+        "gender": "F",
+        "father": "Anastacio Carrillo",
+        "mother": "Maria Concepcion Garcia",
+        "spouse": " "
+    },
+    {
+        "name": "Francisco Carrillo",
+        "race": "blanco",
+        "gender": "M",
+        "father": "Anastacio Carrillo",
+        "mother": "Maria Concepcion Garcia",
+        "spouse": " "
+    },
+    {
+        "name": "Luis Carrillo",
+        "race": "blanco",
+        "gender": "M",
+        "father": "Anastacio Carrillo",
+        "mother": "Maria Concepcion Garcia",
+        "spouse": " "
+    },
+    {
+        "name": "Mateo Rubio",
+        "race": "blanco (belga)",
+        "gender": "M",
+        "father": "Mateo Rubio Romero",
+        "mother": "Gertrudis Bermon",
+        "spouse": " "
+    },
+    {
+        "name": "María Ursula Dominguez",
+        "race": "india",
+        "gender": "F",
+        "father": " ",
+        "mother": " ",
+        "spouse": "Mateo Rubio"
+    },
+    {
+        "name": "Maria Josefa Vicenta Rubio",
+        "race": "rosado",
+        "gender": "F",
+        "father": "Mateo Rubio",
+        "mother": "María Vindiana",
+        "spouse": "Leonardo Verdugo"
+    },
+    {
+        "name": "Paula Maria Rubio",
+        "race": "rosado",
+        "gender": "F",
+        "father": "Mateo Rubio",
+        "mother": "María Vindiana",
+        "spouse": "Juan Maria Lugo"
+    },
+    {
+        "name": "Josef Santiago Rubio",
+        "race": "rosado",
+        "gender": "M",
+        "father": "Mateo Rubio",
+        "mother": "María Vindiana",
+        "spouse": " "
+    },
+    {
+        "name": "Luisa Antonia Juana Rubio",
+        "race": "rosado",
+        "gender": "F",
+        "father": "Mateo Rubio",
+        "mother": "María Vindiana",
+        "spouse": "Anselmo Garcia"
+    },
+    {
+        "name": "Rafael Felipe Rubio",
+        "race": "rosado",
+        "gender": "M",
+        "father": "Mateo Rubio",
+        "mother": "María Vindiana",
+        "spouse": " "
+    },
+    {
+        "name": "Jose Ramón Buelna",
+        "race": "blanco",
+        "gender": "M",
+        "father": "Anastacio Buelna",
+        "mother": "Juana Maria Ignacia Josefa Domingues",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Petra Mejías",
+        "race": "blanco",
+        "gender": "F",
+        "father": "Pedro Jose Mejias",
+        "mother": "Francisca Xaviera Ortega",
+        "spouse": "Ramón Buelna"
+    },
+    {
+        "name": "Jose Raymundo Procopia Buelna",
+        "race": "blanco",
+        "gender": "M",
+        "father": "Jose Ramon Buelna",
+        "mother": "Maria Petra Mejias",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Francisca del Rosario Buelna",
+        "race": "blanco",
+        "gender": "F",
+        "father": "Jose Ramon Buelna",
+        "mother": "Maria Petra Mejias",
+        "spouse": " "
+    },
+    {
+        "name": "Jose Eusebio Buelna",
+        "race": "blanco",
+        "gender": "M",
+        "father": "Jose Ramon Buelna",
+        "mother": "Maria Petra Mejias",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Petra Manuela Buelna",
+        "race": "blanco",
+        "gender": "F",
+        "father": "Jose Ramon Buelna",
+        "mother": "Maria Petra Mejias",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Encarnacion Buelna",
+        "race": "blanco",
+        "gender": "F",
+        "father": "Jose Ramon Buelna",
+        "mother": "Maria Petra Mejias",
+        "spouse": " "
+    },
+    {
+        "name": "Maria del Pilar Buelna",
+        "race": "blanco",
+        "gender": "F",
+        "father": "Jose Ramon Buelna",
+        "mother": "Maria Petra Mejias",
+        "spouse": " "
+    },
+    {
+        "name": "Mariano Buelna",
+        "race": "blanco",
+        "gender": "M",
+        "father": "Jose Ramon Buelna",
+        "mother": "Maria Petra Mejias",
+        "spouse": " "
+    },
+    {
+        "name": "Juan Segundo Francisco Valenzuela",
+        "race": "prieto",
+        "gender": "M",
+        "father": "Andres Ramon Valenzuela.",
+        "mother": "Maria Antonia Aguilar",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Ana Juana Augustina Alcántara",
+        "race": "prieto",
+        "gender": "F",
+        "father": "Guillermo Alcantara",
+        "mother": "Feliciana Meza Salazar",
+        "spouse": "Juan Segundo Francisco Valenzuela"
+    },
+    {
+        "name": "Simeon Máximo Valenzuela",
+        "race": "rosado",
+        "gender": "M",
+        "father": "Juan Segundo Francisco Valenzuela",
+        "mother": "Maria Ana Juana Augustina Alcantara",
+        "spouse": " "
+    },
+    {
+        "name": "Maria de la Trinidad García",
+        "race": "rosado",
+        "gender": "F",
+        "father": "Anselmo Jose Ygnacio Garcia Romero",
+        "mother": "Maria Ana Gertrudis Flores",
+        "spouse": "Simeon Máximo Valenzuela"
+    },
+    {
+        "name": "Maria Gertrudis de la Natividad Valenzuela",
+        "race": "rosado",
+        "gender": "F",
+        "father": "Simeon Máximo Valenzuela",
+        "mother": "Maria de la Trinidad García",
+        "spouse": " "
+    },
+    {
+        "name": " Valenzuela",
+        "race": "rosado",
+        "gender": "F",
+        "father": "Simeon Máximo Valenzuela",
+        "mother": "Maria de la Trinidad García",
+        "spouse": " "
+    },
+    {
+        "name": " Valenzuela",
+        "race": "rosado",
+        "gender": "F",
+        "father": "Simeon Máximo Valenzuela",
+        "mother": "Maria de la Trinidad García",
+        "spouse": " "
+    },
+    {
+        "name": "Juana Maria Valenzuela",
+        "race": "prieto",
+        "gender": "F",
+        "father": "Jose Miguel Segundo Valenzuela",
+        "mother": "Maria de la Visitacion Rodriguez",
+        "spouse": "Anastacio Maria Mauricio Feliz"
+    },
+    {
+        "name": " ",
+        "race": "prieto",
+        "gender": "",
+        "father": "Anastacio Maria Mauricio Feliz",
+        "mother": "Juana Valenzuela",
+        "spouse": " "
+    },
+    {
+        "name": " ",
+        "race": "prieto",
+        "gender": "",
+        "father": "Anastacio Maria Mauricio Feliz",
+        "mother": "Juana Valenzuela",
+        "spouse": " "
+    },
+    {
+        "name": "Felipe Luis Talamantes",
+        "race": "rosado",
+        "gender": "M",
+        "father": " ",
+        "mother": " ",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Ildefonsa Avila",
+        "race": "rosado",
+        "gender": "F",
+        "father": "Antonio Cornelio Avila",
+        "mother": "Maria Isabel Urquidez",
+        "spouse": "Felipe Luis Talamantes"
+    },
+    {
+        "name": "Pablo Antonio Talamantes",
+        "race": "rosado",
+        "gender": "M",
+        "father": "Luis Felipe Talamantes",
+        "mother": "Maria Ildefonsa Avila",
+        "spouse": " "
+    },
+    {
+        "name": "Maria de Guadalupe Talamantes",
+        "race": "rosado",
+        "gender": "F",
+        "father": "Luis Felipe Talamantes",
+        "mother": "Maria Ildefonsa Avila",
+        "spouse": " "
+    },
+    {
+        "name": "Ygnacio Talamantes",
+        "race": "rosado",
+        "gender": "M",
+        "father": "Luis Felipe Talamantes",
+        "mother": "Maria Ildefonsa Avila",
+        "spouse": " "
+    },
+    {
+        "name": "Tomás Talamantes",
+        "race": "rosado",
+        "gender": "M",
+        "father": "Luis Felipe Talamantes",
+        "mother": "Maria Ildefonsa Avila",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Petronilla \"Petra\" Olivas",
+        "race": "rosado",
+        "gender": "F",
+        "father": "Juan Mathias Olivas",
+        "mother": "Juana Maria de Dios Ontiveros y Carrasco",
+        "spouse": "Tomás Talamantes"
+    },
+    {
+        "name": "Jose Damaso Talamantes",
+        "race": "rosado",
+        "gender": "M",
+        "father": "Tomás Talamantes",
+        "mother": "Maria Petronilla \"Petra\" Olivas",
+        "spouse": " "
+    },
+    {
+        "name": "Jose Felipe de Jesus Talamantes",
+        "race": "rosado",
+        "gender": "M",
+        "father": "Tomás Talamantes",
+        "mother": "Maria Petronilla \"Petra\" Olivas",
+        "spouse": " "
+    },
+    {
+        "name": "José Cristobal Palomares",
+        "race": "blanco",
+        "gender": "M",
+        "father": "Jose Antonio Palomares",
+        "mother": "Maria Pascuala Valenzuela",
+        "spouse": " "
+    },
+    {
+        "name": "María Vendita Saís",
+        "race": "blanco",
+        "gender": "F",
+        "father": "Justo Nazario Sais",
+        "mother": "Maria Micaela Sotelo",
+        "spouse": "José Cristobal Palomares"
+    },
+    {
+        "name": "Jose Luis Pascacio Palomares",
+        "race": "blanco",
+        "gender": "M",
+        "father": "José Palomares",
+        "mother": "María Vendita Saís",
+        "spouse": " "
+    },
+    {
+        "name": "Jose Francisco de Paula Palomares",
+        "race": "blanco",
+        "gender": "M",
+        "father": "José Palomares",
+        "mother": "María Vendita Saís",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Estefana Palomares",
+        "race": "blanco",
+        "gender": "F",
+        "father": "José Palomares",
+        "mother": "María Vendita Saís",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Dolores Palomares",
+        "race": "blanco",
+        "gender": "F",
+        "father": "José Palomares",
+        "mother": "María Vendita Saís",
+        "spouse": " "
+    },
+    {
+        "name": "Dona Petra Josefa Palomares",
+        "race": "blanco",
+        "gender": "F",
+        "father": "José Palomares",
+        "mother": "María Vendita Saís",
+        "spouse": " "
+    },
+    {
+        "name": "Maria del Rosario Andrea Palomares",
+        "race": "blanco",
+        "gender": "F",
+        "father": "José Palomares",
+        "mother": "María Vendita Saís",
+        "spouse": " "
+    },
+    {
+        "name": "Carlos Castro",
+        "race": "blanco",
+        "gender": "M",
+        "father": " ",
+        "mother": " ",
+        "spouse": " "
+    },
+    {
+        "name": "Josefa Augustina Avila",
+        "race": "blanco",
+        "gender": "F",
+        "father": "Antonio Cornelio Avila",
+        "mother": "Maria Isabel Urquidez",
+        "spouse": "Carlos Castro"
+    },
+    {
+        "name": " Castro",
+        "race": "blanco",
+        "gender": "F",
+        "father": "Carlos Castro",
+        "mother": "Josefa Augustina Avila",
+        "spouse": " "
+    },
+    {
+        "name": " Castro",
+        "race": "indio",
+        "gender": "F",
+        "father": "Carlos Castro",
+        "mother": "Josefa Augustina Avila",
+        "spouse": " "
+    },
+    {
+        "name": " Castro",
+        "race": "indio",
+        "gender": "F",
+        "father": "Carlos Castro",
+        "mother": "Josefa Augustina Avila",
+        "spouse": " "
+    },
+    {
+        "name": " Castro",
+        "race": "indio",
+        "gender": "M",
+        "father": "Carlos Castro",
+        "mother": "Josefa Augustina Avila",
+        "spouse": " "
+    },
+    {
+        "name": " Castro",
+        "race": "indio",
+        "gender": "M",
+        "father": "Carlos Castro",
+        "mother": "Josefa Augustina Avila",
+        "spouse": " "
+    },
+    {
+        "name": "José Polanco",
+        "race": "prieto",
+        "gender": "M",
+        "father": " ",
+        "mother": " ",
+        "spouse": " "
+    },
+    {
+        "name": "María Norberta León, de",
+        "race": "prieto",
+        "gender": "F",
+        "father": " ",
+        "mother": " ",
+        "spouse": "José Polanco"
+    },
+    {
+        "name": " Polanco",
+        "race": "rosado",
+        "gender": "F",
+        "father": "Jose Polanco",
+        "mother": "Maria Norberta de Leon",
+        "spouse": " "
+    },
+    {
+        "name": "Máximo Alanís",
+        "race": "rosado",
+        "gender": "M",
+        "father": "Jose Santiago Alanis",
+        "mother": "Maria Basilia Casillas y Lopez",
+        "spouse": " "
+    },
+    {
+        "name": "Juana Innocencia Reyes",
+        "race": "rosado",
+        "gender": "F",
+        "father": "Juan Francisco Reyes",
+        "mother": "Maria del Carmen Dominguez",
+        "spouse": "Máximo Alanís"
+    },
+    {
+        "name": "Maria Paula Josefa Alanís",
+        "race": "rosado",
+        "gender": "F",
+        "father": "Máximo Alanís",
+        "mother": "Juana Innocencia Reyes",
+        "spouse": " "
+    },
+    {
+        "name": "Isidro Alanís",
+        "race": "rosado",
+        "gender": "M",
+        "father": "Máximo Alanís",
+        "mother": "Juana Innocencia Reyes",
+        "spouse": " "
+    },
+    {
+        "name": "Jose Francisco Antonio Villa",
+        "race": "prieto",
+        "gender": "M",
+        "father": "Juan Jose Villa",
+        "mother": "Maria Paula Martinez",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Eulalia Soto",
+        "race": "prieto",
+        "gender": "F",
+        "father": "Guillermo Soto",
+        "mother": "Juana Maria Perez y Nieto ",
+        "spouse": "Jose Francisco Antonio Villa"
+    },
+    {
+        "name": "Rafael Antonio Villa",
+        "race": "prieto",
+        "gender": "M",
+        "father": "Jose Francisco Antonio Villa",
+        "mother": "Maria Eulalia Soto",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Ignacia Villa",
+        "race": "prieto",
+        "gender": "F",
+        "father": "Jose Francisco Antonio Villa",
+        "mother": "Maria Eulalia Soto",
+        "spouse": " "
+    },
+    {
+        "name": "Maria del Rosario Villa",
+        "race": "prieto",
+        "gender": "F",
+        "father": "Jose Francisco Antonio Villa",
+        "mother": "Maria Eulalia Soto",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Antonia Villa",
+        "race": "prieto",
+        "gender": "F",
+        "father": "Jose Francisco Antonio Villa",
+        "mother": "Maria Eulalia Soto",
+        "spouse": " "
+    },
+    {
+        "name": "Antonio Matias Villa",
+        "race": "prieto",
+        "gender": "M",
+        "father": "Jose Francisco Antonio Villa",
+        "mother": "Maria Eulalia Soto",
+        "spouse": " "
+    },
+    {
+        "name": "Maria de la Merced Villa",
+        "race": "prieto",
+        "gender": "F",
+        "father": "Jose Francisco Antonio Villa",
+        "mother": "Maria Eulalia Soto",
+        "spouse": " "
+    },
+    {
+        "name": "Jose Ignacio Almenares",
+        "race": "prieto",
+        "gender": "M",
+        "father": " ",
+        "mother": " ",
+        "spouse": " "
+    },
+    {
+        "name": "María Antonia Emilia Emigida Ceseña",
+        "race": "prieto",
+        "gender": "F",
+        "father": "Juan Ignacio Cipriano Cesena",
+        "mother": "Maria Ysabel Theresa Antonia Valles",
+        "spouse": "Ignacio Almenares"
+    },
+    {
+        "name": "Maria del Rosario Ramona Almenares",
+        "race": "prieto",
+        "gender": "F",
+        "father": "Jose Ignacio Almenares",
+        "mother": "María Antonia Emilia Emigida Ceseña",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Nepomucena Bernardina Almenares",
+        "race": "prieto",
+        "gender": "F",
+        "father": "Jose Ignacio Almenares",
+        "mother": "María Antonia Emilia Emigida Ceseña",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Andrea Almenares",
+        "race": "prieto",
+        "gender": "F",
+        "father": "Jose Ignacio Almenares",
+        "mother": "María Antonia Emilia Emigida Ceseña",
+        "spouse": " "
+    },
+    {
+        "name": " Almenares",
+        "race": "prieto",
+        "gender": "F",
+        "father": "Jose Ignacio Almenares",
+        "mother": "María Antonia Emilia Emigida Ceseña",
+        "spouse": " "
+    },
+    {
+        "name": " Almenares",
+        "race": "prieto",
+        "gender": "M",
+        "father": "Jose Ignacio Almenares",
+        "mother": "María Antonia Emilia Emigida Ceseña",
+        "spouse": " "
+    },
+    {
+        "name": " Almenares",
+        "race": "prieto",
+        "gender": "",
+        "father": "Jose Ignacio Almenares",
+        "mother": "María Antonia Emilia Emigida Ceseña",
+        "spouse": " "
+    },
+    {
+        "name": "Jose Luciano Maria Feliz",
+        "race": "blanco",
+        "gender": "M",
+        "father": "Josef Doroteo Feliz",
+        "mother": "Juana Josefa Villalobo",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Marcela Higuera",
+        "race": "blanco",
+        "gender": "F",
+        "father": " ",
+        "mother": " ",
+        "spouse": "Luciano Feliz"
+    },
+    {
+        "name": " ",
+        "race": "blanco",
+        "gender": "",
+        "father": "Jose Luciano Maria Feliz",
+        "mother": "Maria Marcela Higuera",
+        "spouse": " "
+    },
+    {
+        "name": "Jose Desiderio Ybarra",
+        "race": "prieto",
+        "gender": "M",
+        "father": "Juan Francisco Antonio Ybarra",
+        "mother": "Maria Antonia de los Angeles Velasquez",
+        "spouse": " "
+    },
+    {
+        "name": "Maria de Jesus Valeriana Lorenzana",
+        "race": "blanco",
+        "gender": "F",
+        "father": "Adopted by Archbishop Francisco Antonio Lorenzana, Archbishop of Mexico ",
+        "mother": " ",
+        "spouse": "Desiderio Ybarra"
+    },
+    {
+        "name": "Maria Juana Juliana Ybarra",
+        "race": "blanco",
+        "gender": "F",
+        "father": "Jose Desiderio Ybarra",
+        "mother": "Maria de Jesus Valeriana Lorenzana",
+        "spouse": " "
+    },
+    {
+        "name": "Jose de Jesus Severiano Ybarra",
+        "race": "blanco",
+        "gender": "M",
+        "father": "Jose Desiderio Ybarra",
+        "mother": "Maria de Jesus Valeriana Lorenzana",
+        "spouse": " "
+    },
+    {
+        "name": "Ramon Joaquin Ybarra",
+        "race": "blanco",
+        "gender": "M",
+        "father": "Jose Desiderio Ybarra",
+        "mother": "Maria de Jesus Valeriana Lorenzana",
+        "spouse": " "
+    },
+    {
+        "name": "Jose Maria Ybarra",
+        "race": "blanco",
+        "gender": "M",
+        "father": "Jose Desiderio Ybarra",
+        "mother": "Maria de Jesus Valeriana Lorenzana",
+        "spouse": " "
+    },
+    {
+        "name": "Felipe de Jesus Ybarra",
+        "race": "blanco",
+        "gender": "M",
+        "father": "Jose Desiderio Ybarra",
+        "mother": "Maria de Jesus Valeriana Lorenzana",
+        "spouse": " "
+    },
+    {
+        "name": "Pedro Ybarra",
+        "race": "blanco",
+        "gender": "M",
+        "father": "Jose Desiderio Ybarra",
+        "mother": "Maria de Jesus Valeriana Lorenzana",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Florentina Ybarra",
+        "race": "blanco",
+        "gender": "F",
+        "father": "Jose Desiderio Ybarra",
+        "mother": "Maria de Jesus Valeriana Lorenzana",
+        "spouse": " "
+    },
+    {
+        "name": "Francisco Acebedo",
+        "race": "rosado",
+        "gender": "M",
+        "father": "Ygnacia Eugenio Acebedo",
+        "mother": "Maria Estafana de Arroyo",
+        "spouse": " "
+    },
+    {
+        "name": "Maria de la Concepción Verdugo",
+        "race": "blanco",
+        "gender": "F",
+        "father": "Mariano de la Luz Verdugo",
+        "mother": "Maria Guadalupe Lugo",
+        "spouse": "Francisco Acebedo"
+    },
+    {
+        "name": "Jose Antonio Acebedo",
+        "race": "blanco",
+        "gender": "M",
+        "father": "Francisco Acebedo",
+        "mother": "Maria de la Concepcion Verdugo",
+        "spouse": " "
+    },
+    {
+        "name": "Juana Tomasa Acebedo",
+        "race": "blanco",
+        "gender": "F",
+        "father": "Francisco Acebedo",
+        "mother": "Maria de la Concepcion Verdugo",
+        "spouse": "Juan Maria Duarte"
+    },
+    {
+        "name": "Julian Jose Acebedo",
+        "race": "blanco",
+        "gender": "M",
+        "father": "Francisco Acebedo",
+        "mother": "Maria de la Concepcion Verdugo",
+        "spouse": " "
+    },
+    {
+        "name": "Pablo Jose Franco",
+        "race": "indio",
+        "gender": "M",
+        "father": " ",
+        "mother": " ",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Clara ",
+        "race": "India",
+        "gender": "F",
+        "father": " ",
+        "mother": " ",
+        "spouse": " "
+    },
+    {
+        "name": " ",
+        "race": "india",
+        "gender": "F",
+        "father": " ",
+        "mother": " ",
+        "spouse": " "
+    },
+    {
+        "name": " ",
+        "race": "india",
+        "gender": "F",
+        "father": " ",
+        "mother": " ",
+        "spouse": " "
+    },
+    {
+        "name": " ",
+        "race": "indio/a",
+        "gender": "",
+        "father": " ",
+        "mother": " ",
+        "spouse": " "
+    },
+    {
+        "name": " ",
+        "race": "indio/a",
+        "gender": "",
+        "father": " ",
+        "mother": " ",
+        "spouse": " "
+    },
+    {
+        "name": " ",
+        "race": "indio/a",
+        "gender": "",
+        "father": " ",
+        "mother": " ",
+        "spouse": " "
+    },
+    {
+        "name": "Francisco Jose Avila",
+        "race": "blanco",
+        "gender": "M",
+        "father": "Cornelio Avila",
+        "mother": "Maria Isabel Urduiqez",
+        "spouse": " "
+    },
+    {
+        "name": "Maria del Rosario Verdugo",
+        "race": "blanco",
+        "gender": "F",
+        "father": "Mariano de la Luz Verdugo",
+        "mother": "Maria Gertrudis Gregoria Espinosa",
+        "spouse": "Francisco Jose Avila"
+    },
+    {
+        "name": "Maria Ysabel Avila",
+        "race": "blanco",
+        "gender": "F",
+        "father": "Francisco Jose Avila",
+        "mother": "Maria del Rosario Verdugo",
+        "spouse": " "
+    },
+    {
+        "name": "Juanario Avila",
+        "race": "blanco",
+        "gender": "M",
+        "father": "Francisco Jose Avila",
+        "mother": "Maria del Rosario Verdugo",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Petronila Avila",
+        "race": "blanco",
+        "gender": "F",
+        "father": "Francisco Jose Avila",
+        "mother": "Maria del Rosario Verdugo",
+        "spouse": " "
+    },
+    {
+        "name": " Avila",
+        "race": "",
+        "gender": "",
+        "father": " ",
+        "mother": " ",
+        "spouse": " "
+    },
+    {
+        "name": "Jose Cayetano Varelas",
+        "race": "rosado",
+        "gender": "M",
+        "father": "Ygnacio Casimiro Varelas",
+        "mother": "Juana de Santa Ana Pinto",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Apolonia Varelas",
+        "race": "rosado",
+        "gender": "F",
+        "father": "Jose Cayetano Varelas",
+        "mother": "Maria Hilaria Ylaria Avila",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Francisca Varelas",
+        "race": "rosado",
+        "gender": "F",
+        "father": "Jose Cayetano Varelas",
+        "mother": "Maria Hilaria Ylaria Avila",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Dolores Varelas",
+        "race": "rosado",
+        "gender": "F",
+        "father": "Jose Cayetano Varelas",
+        "mother": "Maria Hilaria Ylaria Avila",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Gertrudis Varelas",
+        "race": "rosado",
+        "gender": "F",
+        "father": "Jose Cayetano Varelas",
+        "mother": "Maria Hilaria Ylaria Avila",
+        "spouse": " "
+    },
+    {
+        "name": "Jose Servulo Varelas",
+        "race": "rosado",
+        "gender": "M",
+        "father": "Jose Cayetano Varelas",
+        "mother": "Maria Hilaria Ylaria Avila",
+        "spouse": " "
+    },
+    {
+        "name": "Hilario Varelas",
+        "race": "rosado",
+        "gender": "M",
+        "father": "Jose Cayetano Varelas",
+        "mother": "Maria Hilaria Ylaria Avila",
+        "spouse": " "
+    },
+    {
+        "name": "Cayetano Varelas",
+        "race": "rosado",
+        "gender": "M",
+        "father": "Jose Cayetano Varelas",
+        "mother": "Maria Hilaria Ylaria Avila",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Marta Varelas",
+        "race": "rosado",
+        "gender": "F",
+        "father": "Jose Cayetano Varelas",
+        "mother": "Maria Hilaria Ylaria Avila",
+        "spouse": " "
+    },
+    {
+        "name": " ",
+        "race": "rosado",
+        "gender": "F",
+        "father": " ",
+        "mother": " ",
+        "spouse": " "
+    },
+    {
+        "name": "Juan Vicente Lorenzana",
+        "race": "indio ",
+        "gender": "M",
+        "father": "Adopted by Archbishop Francisco Antonio Lorenzana, Archbishop of Mexico ",
+        "mother": " ",
+        "spouse": " "
+    },
+    {
+        "name": "Mariana Verdugo",
+        "race": "rosado",
+        "gender": "F",
+        "father": "Joaquin Verdugo",
+        "mother": "Maria Guadalupe Paulina Buelna",
+        "spouse": "Juan Vicente Lorenzana"
+    },
+    {
+        "name": "Maria del Pilar Lorenzana",
+        "race": "prieto",
+        "gender": "F",
+        "father": "Juan Vicente Lorenzana",
+        "mother": "Mariana Verdugo",
+        "spouse": " "
+    },
+    {
+        "name": "Antonio Ignacio Avila",
+        "race": "blanco",
+        "gender": "M",
+        "father": "Cornelio Avila",
+        "mother": "Maria Isabel Urquidez",
+        "spouse": " "
+    },
+    {
+        "name": "Rosa Maria Ruiz",
+        "race": "rosado",
+        "gender": "F",
+        "father": "Efigenio Ruiz",
+        "mother": "Rosa Maria Lopez",
+        "spouse": "Antonio Ignacio Avila"
+    },
+    {
+        "name": "Francisca de Paula Avila",
+        "race": "",
+        "gender": "F",
+        "father": "Antonio Ignacio Avila",
+        "mother": "Rosa Maria Ruiz",
+        "spouse": "Jose Sepulveda"
+    },
+    {
+        "name": "Maria Asencion Avila",
+        "race": "",
+        "gender": "F",
+        "father": "Antonio Ignacio Avila",
+        "mother": "Rosa Maria Ruiz",
+        "spouse": "Pedro Antonio Sanchez"
+    },
+    {
+        "name": "Juan Avila Avila",
+        "race": "",
+        "gender": "M",
+        "father": "Antonio Ignacio Avila",
+        "mother": "Rosa Maria Ruiz",
+        "spouse": " "
+    },
+    {
+        "name": "Jose Martin Avila",
+        "race": "",
+        "gender": "M",
+        "father": "Antonio Ignacio Avila",
+        "mother": "Rosa Maria Ruiz",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Rafaela Avila",
+        "race": "",
+        "gender": "F",
+        "father": "Antonio Ignacio Avila",
+        "mother": "Rosa Maria Ruiz",
+        "spouse": "Emidio Vejar"
+    },
+    {
+        "name": "Asencion Avila",
+        "race": "",
+        "gender": "F",
+        "father": "Antonio Ignacio Avila",
+        "mother": "Rosa Maria Ruiz",
+        "spouse": "Jose Servulo Varelas"
+    },
+    {
+        "name": "Pedro Avila",
+        "race": "",
+        "gender": "M",
+        "father": "Antonio Ignacio Avila",
+        "mother": "Rosa Maria Ruiz",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Antonia Segunda Valenzuela",
+        "race": "blanco",
+        "gender": "F",
+        "father": "Juan Segundo Valenzuela",
+        "mother": "Maria Ana Juana Augustina Alcantara",
+        "spouse": "Juan Jose Maria Alvarado Castro"
+    },
+    {
+        "name": "Maria Dolores de Gracia Alvarado",
+        "race": "rosado",
+        "gender": "F",
+        "father": "Juan Jose Maria Alvarado",
+        "mother": "Maria Antonia Segunda Valenzuela",
+        "spouse": "Leon Rosas"
+    },
+    {
+        "name": "Joaquin Alvarado",
+        "race": "rosado",
+        "gender": "M",
+        "father": "Juan Jose Maria Alvarado",
+        "mother": "Maria Antonia Segunda Valenzuela",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Tomasa Alvarado",
+        "race": "rosado",
+        "gender": "F",
+        "father": "Juan Jose Maria Alvarado",
+        "mother": "Maria Antonia Segunda Valenzuela",
+        "spouse": "Juan Maria Alvitre"
+    },
+    {
+        "name": "Maria Magdalena Alvarado",
+        "race": "",
+        "gender": "F",
+        "father": "Juan Jose Maria Alvarado",
+        "mother": "Maria Antonia Segunda Valenzuela",
+        "spouse": "Francisco Silvas"
+    },
+    {
+        "name": "Juana Maria Alvarado",
+        "race": "",
+        "gender": "F",
+        "father": "Juan Jose Maria Alvarado",
+        "mother": "Maria Antonia Segunda Valenzuela",
+        "spouse": "Teodoro Silvas"
+    },
+    {
+        "name": " Alvarado",
+        "race": "",
+        "gender": "F",
+        "father": "Juan Jose Maria Alvarado",
+        "mother": "Maria Antonia Segunda Valenzuela",
+        "spouse": " "
+    },
+    {
+        "name": " Alvarado",
+        "race": "",
+        "gender": "F",
+        "father": "Juan Jose Maria Alvarado",
+        "mother": "Maria Antonia Segunda Valenzuela",
+        "spouse": " "
+    },
+    {
+        "name": " Alvarado",
+        "race": "",
+        "gender": "F",
+        "father": "Juan Jose Maria Alvarado",
+        "mother": "Maria Antonia Segunda Valenzuela",
+        "spouse": " "
+    },
+    {
+        "name": "Jose Maria Aguilar",
+        "race": "",
+        "gender": "M",
+        "father": " ",
+        "mother": " ",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Ignacia Margarita Lisalde",
+        "race": "blanco",
+        "gender": "F",
+        "father": "Pedro Antonio Lisalde",
+        "mother": "Maria Encarnacion Peres",
+        "spouse": "Jose Maria Aguilar"
+    },
+    {
+        "name": "Jose Cristobal Aguilar",
+        "race": "blanco ",
+        "gender": "M",
+        "father": "Jose Maria Aguilar",
+        "mother": "Maria Ignacia Margarita Lisalde",
+        "spouse": " "
+    },
+    {
+        "name": "Juana Maria de Dios Ontiveros",
+        "race": "prieto",
+        "gender": "F",
+        "father": "Jose Antonio Ontiveros",
+        "mother": "Anna Maria Carrasco",
+        "spouse": "Juan Mathias Olivas"
+    },
+    {
+        "name": "Jose Domingo Olivas",
+        "race": "prieto",
+        "gender": "M",
+        "father": "Juan Mathias Olivas",
+        "mother": "Juana Maria de Dios Ontiveros",
+        "spouse": " "
+    },
+    {
+        "name": "Jose Herculano Olivas",
+        "race": "prieto",
+        "gender": "M",
+        "father": "Juan Mathias Olivas",
+        "mother": "Juana Maria de Dios Ontiveros",
+        "spouse": " "
+    },
+    {
+        "name": "Jose Nicolas Olivas",
+        "race": "prieto",
+        "gender": "M",
+        "father": "Juan Mathias Olivas",
+        "mother": "Juana Maria de Dios Ontiveros",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Petronilla Olivas",
+        "race": "prieto",
+        "gender": "F",
+        "father": "Juan Mathias Olivas",
+        "mother": "Juana Maria de Dios Ontiveros",
+        "spouse": " "
+    },
+    {
+        "name": "Jose Antonio Olivas",
+        "race": "prieto",
+        "gender": "M",
+        "father": "Juan Mathias Olivas",
+        "mother": "Juana Maria de Dios Ontiveros",
+        "spouse": " "
+    },
+    {
+        "name": "Jose Francisco Benito Olivares",
+        "race": "prieto",
+        "gender": "M",
+        "father": "Jose Miguel Olivares Garcia",
+        "mother": "Juana Maria de Dios Ontiveros",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Prudencia Murillo",
+        "race": "rosado",
+        "gender": "F",
+        "father": " ",
+        "mother": " ",
+        "spouse": " "
+    },
+    {
+        "name": "Maria de la Asencion (Possibly) Olivares",
+        "race": "",
+        "gender": "F",
+        "father": "Jose Francisco Benito Olivares",
+        "mother": "Maria Prudencia Murillo",
+        "spouse": " "
+    },
+    {
+        "name": "Ana Maria Gertrudis Silvas",
+        "race": "blanco",
+        "gender": "F",
+        "father": "Jose Miguel Silvas",
+        "mother": "Maria Pascuala Silvas",
+        "spouse": "Manuel Antonio Figueroa"
+    },
+    {
+        "name": "Maria Pasquala Figueroa",
+        "race": "blanco",
+        "gender": "F",
+        "father": "Manuel Antonio (Rumored to not be biological father) Figueroa",
+        "mother": "Ana Maria Gertrudis Silvas",
+        "spouse": " "
+    },
+    {
+        "name": " ",
+        "race": "blanco",
+        "gender": "M",
+        "father": " ",
+        "mother": " ",
+        "spouse": " "
+    },
+    {
+        "name": " ",
+        "race": "blanco",
+        "gender": "M",
+        "father": " ",
+        "mother": " ",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Pascuala Lugo",
+        "race": "blanco",
+        "gender": "F",
+        "father": "Juan Salvador Francisco Lugo Dominguez",
+        "mother": "Maria Josefa Francisca Espinoza Martin",
+        "spouse": "Jose Manuel Silvas"
+    },
+    {
+        "name": "Maria Bernardina Silvas",
+        "race": "",
+        "gender": "F",
+        "father": "Jose Miguel Silvas",
+        "mother": "Maria Pascuala Lugo",
+        "spouse": "Juan Alvarez"
+    },
+    {
+        "name": "Maria Asumpcion de la Encarnacion Ontiveros",
+        "race": "prieto",
+        "gender": "F",
+        "father": "Jose Antonio Ontiveros",
+        "mother": "Ana Maria Carrasco",
+        "spouse": "Jose Esteban Perez"
+    },
+    {
+        "name": "Maria Ventura Perez",
+        "race": "prieto",
+        "gender": "F",
+        "father": "Jose Esteban Perez",
+        "mother": "Maria Asumpcion de la Encarnacion Ontiveros",
+        "spouse": " "
+    },
+    {
+        "name": "Jacinto Perez",
+        "race": "prieto",
+        "gender": "M",
+        "father": "Jose Esteban Perez",
+        "mother": "Maria Asumpcion de la Encarnacion Ontiveros",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Francisca Pancha Perez",
+        "race": "prieto",
+        "gender": "F",
+        "father": "Jose Esteban Perez",
+        "mother": "Maria Asumpcion de la Encarnacion Ontiveros",
+        "spouse": "Felipe Lugo"
+    },
+    {
+        "name": "Jose Crispin Perez",
+        "race": "prieto",
+        "gender": "M",
+        "father": "Jose Esteban Perez",
+        "mother": "Maria Asumpcion de la Encarnacion Ontiveros",
+        "spouse": " "
+    },
+    {
+        "name": "Mariano de la Luz Verdugo",
+        "race": "blanco",
+        "gender": "M",
+        "father": "Juan Diego Verdugo",
+        "mother": "Maria Ignacia de la Concepcion Carrillo",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Gertrudis Gregoria Espinosa",
+        "race": "blanco",
+        "gender": "F",
+        "father": "Bernardino Espinosa",
+        "mother": "Maria Isabel Acosta",
+        "spouse": "Mariano de la Luz Verdugo"
+    },
+    {
+        "name": "Maria del Rosario Verdugo",
+        "race": "prieto",
+        "gender": "F",
+        "father": "Mariano de la Luz Verdugo",
+        "mother": "Maria Gertrudis Gregoria Espinosa",
+        "spouse": "Francisco Avila"
+    },
+    {
+        "name": "Maria Ana Verdugo",
+        "race": "blanco",
+        "gender": "F",
+        "father": "Mariano de la Luz Verdugo",
+        "mother": "Maria Gertrudis Gregoria Espinosa",
+        "spouse": "Jose Antonio Tapia"
+    },
+    {
+        "name": "Maria Antonia Segunda Verdugo",
+        "race": "blanco",
+        "gender": "F",
+        "father": "Mariano de la Luz Verdugo",
+        "mother": "Maria Gertrudis Gregoria Espinosa",
+        "spouse": "Carlos Ruiz"
+    },
+    {
+        "name": "Maria de la Concepcion Verdugo",
+        "race": "blanco",
+        "gender": "F",
+        "father": "Mariano de la Luz Verdugo",
+        "mother": "Maria Guadalupe Lugo",
+        "spouse": "Francisco Acebedo"
+    },
+    {
+        "name": " Verdugo",
+        "race": "blanco",
+        "gender": "F",
+        "father": "Mariano de la Luz Verdugo",
+        "mother": "Maria Gertrudis Gregoria Espinosa",
+        "spouse": " "
+    },
+    {
+        "name": "Jose Bartolome Tapia",
+        "race": "prieto",
+        "gender": "M",
+        "father": "Felipe Santiago Tapia y Garcia",
+        "mother": "Maria Philomena Hernandez y Rodrigues",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Francisca Mauricia Villalobos",
+        "race": "rosado ",
+        "gender": "F",
+        "father": "Juan Jose Miguel Villalobos y Romero",
+        "mother": "Maria Nicolasa de los Santos Beltran Carrillo",
+        "spouse": "Jose Bartolome Tapia"
+    },
+    {
+        "name": " ",
+        "race": "",
+        "gender": "F",
+        "father": " ",
+        "mother": " ",
+        "spouse": " "
+    },
+    {
+        "name": "Eugenio Nicolas Alanis",
+        "race": "blanco",
+        "gender": "M",
+        "father": "Jose Maximo Alanis",
+        "mother": "Juana Maria Miranda",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Fernanda Tapia",
+        "race": "rosado",
+        "gender": "F",
+        "father": "Jose Bartholome Tapia",
+        "mother": "Maria Francisca Mauricia Villalobos",
+        "spouse": "Eugenio Nicolas Alanis"
+    },
+    {
+        "name": "Maria de Jesus Felipa Alanis",
+        "race": "blanco y rosado",
+        "gender": "F",
+        "father": "Eugenio Nicolas Alanis",
+        "mother": "Maria Fernanda Tapia",
+        "spouse": "Juan Capistrano Sepulveda"
+    },
+    {
+        "name": " Alanis",
+        "race": "blanco y rosado",
+        "gender": "F",
+        "father": "Eugenio Nicolas Alanis",
+        "mother": "Maria Fernanda Tapia",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Tomasa Alanis",
+        "race": "blanco y rosado",
+        "gender": "F",
+        "father": "Eugenio Nicolas Alanis",
+        "mother": "Maria Fernanda Tapia",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Basilia Alanis",
+        "race": "blanco y rosado",
+        "gender": "F",
+        "father": "Eugenio Nicolas Alanis",
+        "mother": "Maria Fernanda Tapia",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Bernarda Alanis",
+        "race": "blanco y rosado",
+        "gender": "F",
+        "father": "Eugenio Nicolas Alanis",
+        "mother": "Maria Fernanda Tapia",
+        "spouse": "Jose Henrique Anselmo Sepulveda"
+    },
+    {
+        "name": "Juan de Dios Ballesteros",
+        "race": "blanco",
+        "gender": "M",
+        "father": "Jose Ballesteros",
+        "mother": "Josefa Cosio Magobrejo",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Teresa Sepulveda",
+        "race": "blanco",
+        "gender": "F",
+        "father": "Francisco Xavier Sepulveda",
+        "mother": "Maria Candelaria Redondo",
+        "spouse": "Juan de Dios Ballesteros"
+    },
+    {
+        "name": "Juan Antonio Ballesteros",
+        "race": "blanco",
+        "gender": "M",
+        "father": "Juan de Dios Ballesteros",
+        "mother": "Maria Teresa Sepulveda",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Faustina del Carmen Figueroa",
+        "race": "blanco",
+        "gender": "F",
+        "father": "Manuel Antonio Figueroa",
+        "mother": "Ana Maria Gertrudis Silvas",
+        "spouse": "Juan Antonio Ballesteros"
+    },
+    {
+        "name": "Carlos Ballesteros",
+        "race": "blanco",
+        "gender": "M",
+        "father": "Juan Antonio Ballesteros",
+        "mother": "Maria Faustina del Carmen Figueroa",
+        "spouse": " "
+    },
+    {
+        "name": "Francisco de Jesus Ballesteros",
+        "race": "blanco ",
+        "gender": "M",
+        "father": "Juan Antonio Ballesteros",
+        "mother": "Maria Faustina del Carmen Figueroa",
+        "spouse": " "
+    },
+    {
+        "name": "Jose Anastacio Avila",
+        "race": "blanco ",
+        "gender": "M",
+        "father": "Antonio Cornelio Santana Avila",
+        "mother": "Maria Isabel Urquidez",
+        "spouse": " "
+    },
+    {
+        "name": "Juana Maria Ballesteros",
+        "race": "blanco",
+        "gender": "F",
+        "father": "Juan de Dios Ballesteros",
+        "mother": "Maria Teresa Sepuleva",
+        "spouse": "Jose Anastacio Avila"
+    },
+    {
+        "name": "Cornelio Pedro Hilario Avila",
+        "race": "blanco",
+        "gender": "M",
+        "father": "Jose Anastacio Avila",
+        "mother": "Juana Ballesteros",
+        "spouse": " "
+    },
+    {
+        "name": "Enrique Avila",
+        "race": "blanco",
+        "gender": "M",
+        "father": "Jose Anastacio Avila",
+        "mother": "Juana Ballesteros",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Juana Josefa Avila",
+        "race": "blanco",
+        "gender": "F",
+        "father": "Jose Anastacio Avila",
+        "mother": "Juana Ballesteros",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Petra Avila",
+        "race": "blanco",
+        "gender": "F",
+        "father": "Jose Anastacio Avila",
+        "mother": "Juana Ballesteros",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Rafaela Avila",
+        "race": "blanco",
+        "gender": "F",
+        "father": "Jose Anastacio Avila",
+        "mother": "Juana Ballesteros",
+        "spouse": " "
+    },
+    {
+        "name": "Juana Maria Avila",
+        "race": "blanco",
+        "gender": "F",
+        "father": "Jose Anastacio Avila",
+        "mother": "Juana Ballesteros",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Micaela Avila",
+        "race": "blanco",
+        "gender": "F",
+        "father": "Jose Anastacio Avila",
+        "mother": "Juana Ballesteros",
+        "spouse": " "
+    },
+    {
+        "name": "Manuela Lorezana Justiniana ",
+        "race": "blanco ",
+        "gender": "F",
+        "father": "Jose Anastacio Avila",
+        "mother": "Juana Ballesteros",
+        "spouse": " "
+    },
+    {
+        "name": "Jose Antonio Ygnacio Rendon",
+        "race": "blanco",
+        "gender": "M",
+        "father": "Juan Jose Rendon Avila",
+        "mother": "Ysabel Maria Garcia",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Gregoria Matilda Cota",
+        "race": "mestisa",
+        "gender": "F",
+        "father": "Antonio Cota",
+        "mother": "Maria Bernarda Chigili Zoget",
+        "spouse": "Jose Antonio Ygnacio Rendon"
+    },
+    {
+        "name": "Maria Calixtra Rendon",
+        "race": "",
+        "gender": "F",
+        "father": "Jose Antonio Ygnacio Rendon",
+        "mother": "Maria Gregoria Mathilda Cota",
+        "spouse": " "
+    },
+    {
+        "name": "Julian Rendon",
+        "race": "",
+        "gender": "M",
+        "father": "Jose Antonio Ygnacio Rendon",
+        "mother": "Maria Gregoria Mathilda Cota",
+        "spouse": " "
+    },
+    {
+        "name": "Gabriela Rendon",
+        "race": "",
+        "gender": "F",
+        "father": "Jose Antonio Ygnacio Rendon",
+        "mother": "Maria Gregoria Mathilda Cota",
+        "spouse": " "
+    },
+    {
+        "name": "Jose Guadalupe Rendon",
+        "race": "",
+        "gender": "M",
+        "father": "Jose Antonio Ygnacio Rendon",
+        "mother": "Maria Gregoria Mathilda Cota",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Avelina Rendon",
+        "race": "",
+        "gender": "F",
+        "father": "Jose Antonio Ygnacio Rendon",
+        "mother": "Maria Gregoria Mathilda Cota",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Vicenta Rendon",
+        "race": "",
+        "gender": "F",
+        "father": "Jose Antonio Ygnacio Rendon",
+        "mother": "Maria Gregoria Mathilda Cota",
+        "spouse": " "
+    },
+    {
+        "name": "Juana Rendon",
+        "race": "",
+        "gender": "F",
+        "father": "Jose Antonio Ygnacio Rendon",
+        "mother": "Maria Gregoria Mathilda Cota",
+        "spouse": " "
+    },
+    {
+        "name": "Francisco Sepulveda",
+        "race": "blanco",
+        "gender": "M",
+        "father": "Francisco Xavier Sepulveda",
+        "mother": "Maria Candelaria Redondo",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Teodora Ramona Serrano",
+        "race": "blanco ",
+        "gender": "F",
+        "father": "Francisco Serrano",
+        "mother": "Maria Balbaneda Silvas",
+        "spouse": "Francisco Sepulveda"
+    },
+    {
+        "name": "Jose Antonio Andres Sepulveda",
+        "race": "blanco",
+        "gender": "M",
+        "father": "Francisco Sepulveda",
+        "mother": "Maria Teodora Ramona Serrano",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Encarnacion Sepulveda",
+        "race": "blanco",
+        "gender": "F",
+        "father": "Francisco Sepulveda",
+        "mother": "Maria Teodora Ramona Serrano",
+        "spouse": "Francisco Avila"
+    },
+    {
+        "name": "Maria Ramona Sepulveda",
+        "race": "blanco",
+        "gender": "F",
+        "father": "Francisco Sepulveda",
+        "mother": "Maria Teodora Ramona Serrano",
+        "spouse": "Jose Agustin Antonio Machado"
+    },
+    {
+        "name": "Maria Dolores Isabel Sepulveda",
+        "race": "blanco",
+        "gender": "F",
+        "father": "Francisco Sepulveda",
+        "mother": "Maria Teodora Ramona Serrano",
+        "spouse": "Seferino Covarrubias"
+    },
+    {
+        "name": "Bernardo Fernando Sepulveda",
+        "race": "blanco",
+        "gender": "M",
+        "father": "Francisco Sepulveda",
+        "mother": "Maria Teodora Ramona Serrano",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Vicenta Sepulveda",
+        "race": "blanco",
+        "gender": "F",
+        "father": "Francisco Sepulveda",
+        "mother": "Maria Teodora Ramona Serrano",
+        "spouse": "Tomas Antonio Yorba"
+    },
+    {
+        "name": "Jose del Carmen Sepulveda",
+        "race": "blanco",
+        "gender": "M",
+        "father": "Francisco Sepulveda",
+        "mother": "Maria Teodora Ramona Serrano",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Asencion Sepulveda",
+        "race": "blanco ",
+        "gender": "F",
+        "father": "Francisco Sepulveda",
+        "mother": "Maria Teodora Ramona Serrano",
+        "spouse": "Francisco de la Guerra"
+    },
+    {
+        "name": "Vicente Anastacio Sanchez",
+        "race": "blanco",
+        "gender": "M",
+        "father": "Josef Tadeo Sanchez",
+        "mother": "Maria Petra Montiel",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Victoria Higuera",
+        "race": "blanco",
+        "gender": "F",
+        "father": "Joaquin Joseph Joaquin Higuera",
+        "mother": "Maria Beatriz Cota",
+        "spouse": "Vicente Antonio Sanchez"
+    },
+    {
+        "name": "Pedro Antonio Jose Sanchez",
+        "race": "prieto",
+        "gender": "M",
+        "father": "Vicente Anastacio Sanchez",
+        "mother": "Maria Victoria Higuera",
+        "spouse": " "
+    },
+    {
+        "name": "Orphan Girl Sanchez",
+        "race": "prieto",
+        "gender": "F",
+        "father": " ",
+        "mother": " ",
+        "spouse": " "
+    },
+    {
+        "name": "Jose Antonio Briones",
+        "race": "prieto",
+        "gender": "M",
+        "father": "Marcos Jose Briones",
+        "mother": "Maria Isidora Tapia",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Demetria Ramirez",
+        "race": "blanco ",
+        "gender": "F",
+        "father": "Juan Bernardo Ramirez",
+        "mother": "Maria Rosa Quijada",
+        "spouse": "Jose Antonio Briones"
+    },
+    {
+        "name": "Maria Benedicta Briones",
+        "race": "mestiso",
+        "gender": "F",
+        "father": "Jose Antonio Briones",
+        "mother": "Maria Demetria Ramirez",
+        "spouse": " "
+    },
+    {
+        "name": "Jose Balbanedo Briones",
+        "race": "mestiso ",
+        "gender": "M",
+        "father": "Jose Antonio Briones",
+        "mother": "Maria Demetria Ramirez",
+        "spouse": " "
+    },
+    {
+        "name": "Jose Julian Maria Lara",
+        "race": "trigueno",
+        "gender": "M",
+        "father": "Jose Fernando de Velasco y Ronquillo Lara",
+        "mother": "Maria Antonia Euvalda Campos Lara Lugo",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Antonia Nieves Moreno",
+        "race": "trigueno ",
+        "gender": "F",
+        "father": "Jose Maria Cesario Moreno",
+        "mother": "Maria Guadalupe Gertrudis Gaspar Perez",
+        "spouse": "Jose Julian Maria Lara"
+    },
+    {
+        "name": "Margarita de Gracia Lara",
+        "race": "trigueno",
+        "gender": "F",
+        "father": "Jose Julian Maria Lara",
+        "mother": "Maria Antonia Nieves Moreno",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Viviana Lara",
+        "race": "trigueno",
+        "gender": "F",
+        "father": "Jose Julian Maria Lara",
+        "mother": "Maria Antonia Nieves Moreno",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Paula Policarpia Lara",
+        "race": "trigueno",
+        "gender": "F",
+        "father": "Jose Julian Maria Lara",
+        "mother": "Maria Antonia Nieves Moreno",
+        "spouse": " "
+    },
+    {
+        "name": "Juan de Dios Lara",
+        "race": "trigueno",
+        "gender": "M",
+        "father": "Jose Julian Maria Lara",
+        "mother": "Maria Antonia Nieves Moreno",
+        "spouse": " "
+    },
+    {
+        "name": "Jose Casimiro Lara",
+        "race": "trigueno",
+        "gender": "M",
+        "father": "Jose Julian Maria Lara",
+        "mother": "Maria Antonia Nieves Moreno",
+        "spouse": " "
+    },
+    {
+        "name": "Francisco Antonio Lara",
+        "race": "trigueno ",
+        "gender": "M",
+        "father": "Jose Julian Maria Lara",
+        "mother": "Maria Antonia Nieves Moreno",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Anastacia Rochin",
+        "race": "",
+        "gender": "F",
+        "father": "Jose Agustin Leyva",
+        "mother": "Maria Guadalupe Velarde Salazar",
+        "spouse": "Jose Juan Francisco Ayala Solorzano"
+    },
+    {
+        "name": "Ramon Maria Solorzano",
+        "race": "",
+        "gender": "M",
+        "father": "Jose Juan Francisco Ayala Solorzano",
+        "mother": "Maria Anastacia Rochin",
+        "spouse": " "
+    },
+    {
+        "name": " ",
+        "race": "",
+        "gender": "F",
+        "father": " ",
+        "mother": " ",
+        "spouse": " "
+    },
+    {
+        "name": " ",
+        "race": "",
+        "gender": "M",
+        "father": " ",
+        "mother": " ",
+        "spouse": " "
+    },
+    {
+        "name": "Antonio Maria Lugo",
+        "race": "rosado",
+        "gender": "M",
+        "father": "Francisco Salvador Lugo",
+        "mother": "Juana Maria Rita Martinez",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Dolores Ruiz",
+        "race": "rosado",
+        "gender": "F",
+        "father": "Efigenio Ruiz",
+        "mother": "Maria Rosa Lopez",
+        "spouse": "Antonio Maria Lugo"
+    },
+    {
+        "name": "Maria Vicenta Lugo",
+        "race": "rosado",
+        "gender": "F",
+        "father": "Antonio Maria Lugo",
+        "mother": "Maria Dolores Ruiz",
+        "spouse": "Irene Perez"
+    },
+    {
+        "name": "Felipe Lugo",
+        "race": "rosado",
+        "gender": "M",
+        "father": "Antonio Maria Lugo",
+        "mother": "Maria Dolores Ruiz",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Antonia Lugo",
+        "race": "rosado",
+        "gender": "F",
+        "father": "Antonio Maria Lugo",
+        "mother": "Maria Dolores Ruiz",
+        "spouse": "Teodosio Yorba"
+    },
+    {
+        "name": "Jose del Carmen Lugo",
+        "race": "rosado",
+        "gender": "M",
+        "father": "Antonio Maria Lugo",
+        "mother": "Maria Dolores Ruiz",
+        "spouse": " "
+    },
+    {
+        "name": "Maria de la Merced Lugo",
+        "race": "rosado",
+        "gender": "F",
+        "father": "Antonio Maria Lugo",
+        "mother": "Maria Dolores Ruiz",
+        "spouse": " "
+    },
+    {
+        "name": "Mariano Lugo",
+        "race": "rosado",
+        "gender": "M",
+        "father": "Antonio Maria Lugo",
+        "mother": "Maria Dolores Ruiz",
+        "spouse": "Jose Perez"
+    },
+    {
+        "name": "Vicente Lugo",
+        "race": "rosado",
+        "gender": "M",
+        "father": "Antonio Maria Lugo",
+        "mother": "Maria Dolores Ruiz",
+        "spouse": " "
+    },
+    {
+        "name": "Jose Maria Lugo",
+        "race": "blanco",
+        "gender": "M",
+        "father": "Antonio Maria Lugo",
+        "mother": "Maria Dolores Ruiz",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Antonia Rendon",
+        "race": "rosado",
+        "gender": "F",
+        "father": "Antonio Ygnacio Avila",
+        "mother": "Maria Gregoria Mathilda Cota",
+        "spouse": "Jose Maria Lugo"
+    },
+    {
+        "name": "Maria de Jesus Lugo",
+        "race": "",
+        "gender": "F",
+        "father": "Jose Maria Lugo",
+        "mother": "Maria Antonia Rendon",
+        "spouse": " "
+    },
+    {
+        "name": "Maria del Pilar Lugo",
+        "race": "",
+        "gender": "F",
+        "father": "Jose Maria Lugo",
+        "mother": "Maria Antonia Rendon",
+        "spouse": " "
+    },
+    {
+        "name": "Ignacio Maria Valencia",
+        "race": "trigueno ",
+        "gender": "M",
+        "father": "Jose Manuel Valencia",
+        "mother": "Maria de la Luz Munoz",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Luisa Varelas",
+        "race": "prieto",
+        "gender": "F",
+        "father": "Ygnacio Casimiro Varelas",
+        "mother": "Juana Maria de Santa Ana Pinto",
+        "spouse": "Ignacio Maria Valencia"
+    },
+    {
+        "name": "Maria Benedicta Valencia",
+        "race": "trigueno ",
+        "gender": "F",
+        "father": "Ignacio Maria Valencia",
+        "mother": "Maria Luisa Varelas",
+        "spouse": " "
+    },
+    {
+        "name": "Maria de la Luz Valencia",
+        "race": "trigueno ",
+        "gender": "F",
+        "father": "Ignacio Maria Valencia",
+        "mother": "Maria Luisa Varelas",
+        "spouse": " "
+    },
+    {
+        "name": "Ascencio Inocencio Valencia",
+        "race": "trigueno ",
+        "gender": "M",
+        "father": "Ignacio Maria Valencia",
+        "mother": "Maria Luisa Varelas",
+        "spouse": " "
+    },
+    {
+        "name": "Jose Manuel Valencia",
+        "race": "trigueno ",
+        "gender": "M",
+        "father": "Ignacio Maria Valencia",
+        "mother": "Maria Luisa Varelas",
+        "spouse": " "
+    },
+    {
+        "name": "Jose Antonio Valencia",
+        "race": "trigueno ",
+        "gender": "M",
+        "father": "Ignacio Maria Valencia",
+        "mother": "Maria Luisa Varelas",
+        "spouse": " "
+    },
+    {
+        "name": "Joaquin Maria Valencia",
+        "race": "trigueno ",
+        "gender": "M",
+        "father": "Ignacio Maria Valencia",
+        "mother": "Maria Luisa Varelas",
+        "spouse": " "
+    },
+    {
+        "name": "Eugenia Valencia",
+        "race": "trigueno ",
+        "gender": "F",
+        "father": "Ignacio Maria Valencia",
+        "mother": "Maria Luisa Varelas",
+        "spouse": " "
+    },
+    {
+        "name": " Valencia",
+        "race": "trigueno ",
+        "gender": "M",
+        "father": "Ignacio Maria Valencia",
+        "mother": "Maria Luisa Varelas",
+        "spouse": " "
+    },
+    {
+        "name": "Juan Francisco Moreno",
+        "race": "",
+        "gender": "M",
+        "father": "Jose Juan Cesario Moreno",
+        "mother": "Maria Guadalupe Gertrudis Perez",
+        "spouse": " "
+    },
+    {
+        "name": "Maria del Pilar Canedo",
+        "race": "prieto",
+        "gender": "F",
+        "father": " Canedo",
+        "mother": "Maria de Jesus Rodriguez",
+        "spouse": "Juan Francisco Moreno"
+    },
+    {
+        "name": "Maria Gertrudis Guadalupe Moreno",
+        "race": "",
+        "gender": "F",
+        "father": "Jose Maria Cesario Moreno",
+        "mother": "Maria del Guadalupe Gertrudis Perez y Nieto",
+        "spouse": "Juan Jose Duarte"
+    },
+    {
+        "name": "Manuel Antonio Duarte",
+        "race": "",
+        "gender": "M",
+        "father": "Juan Jose Duarte",
+        "mother": "Maria Gertrudis Guadalupe Moreno",
+        "spouse": " "
+    },
+    {
+        "name": "Jose Cristobal Duarte",
+        "race": "",
+        "gender": "M",
+        "father": "Juan Jose Duarte",
+        "mother": "Maria Gertrudis Guadalupe Moreno",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Ygnacia Duarte",
+        "race": "",
+        "gender": "F",
+        "father": "Juan Jose Duarte",
+        "mother": "Maria Gertrudis Guadalupe Moreno",
+        "spouse": " "
+    },
+    {
+        "name": " Duarte",
+        "race": "",
+        "gender": "F",
+        "father": " ",
+        "mother": " ",
+        "spouse": " "
+    },
+    {
+        "name": " Duarte",
+        "race": "",
+        "gender": "F",
+        "father": " ",
+        "mother": " ",
+        "spouse": " "
+    },
+    {
+        "name": " Duarte",
+        "race": "",
+        "gender": "M",
+        "father": " ",
+        "mother": " ",
+        "spouse": " "
+    },
+    {
+        "name": "Rafael Felipe Rubio",
+        "race": "mestiso ",
+        "gender": "M",
+        "father": "Mateo Rubio",
+        "mother": "Maria Ursula Dominguez",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Petra Regalada Varelas",
+        "race": "prieto",
+        "gender": "F",
+        "father": "Ygnacio Casimiro Varelas",
+        "mother": "Juana de Santa Ana Pinto",
+        "spouse": "Rafael Felipe Rubio"
+    },
+    {
+        "name": "Tomas Rubio",
+        "race": "rosado-trigueno",
+        "gender": "",
+        "father": "Rafael Felipe Rubio",
+        "mother": "Maria Petra Regalada Varelas",
+        "spouse": " "
+    },
+    {
+        "name": "Jose Crespin Ramon Rubio",
+        "race": "rosado-trigueno",
+        "gender": "",
+        "father": "Rafael Felipe Rubio",
+        "mother": "Maria Petra Regalada Varelas",
+        "spouse": " "
+    },
+    {
+        "name": "Manuel Moreno",
+        "race": "prieto",
+        "gender": "M",
+        "father": " ",
+        "mother": " ",
+        "spouse": " "
+    },
+    {
+        "name": "Ana Pinto",
+        "race": "trigueno ",
+        "gender": "F",
+        "father": " ",
+        "mother": " ",
+        "spouse": " "
+    },
+    {
+        "name": "Bernardo de la Luz Higuera",
+        "race": "blanco ",
+        "gender": "M",
+        "father": "Jose Joaquin Antonio Higuera",
+        "mother": "Maria Teresa Cota",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Rosalia Palomares",
+        "race": "blanco ",
+        "gender": "F",
+        "father": "Jose Cristobal Palomares",
+        "mother": "Maria Benedicta Saenz",
+        "spouse": "Bernardo de la Luz Higuera"
+    },
+    {
+        "name": "Maria Rufina ",
+        "race": "india ",
+        "gender": "F",
+        "father": "Axalap ",
+        "mother": " ",
+        "spouse": "Pio Quinto de Jesus Zuniga"
+    },
+    {
+        "name": "Pedro Buenaventura Zuniga",
+        "race": "trigueno ",
+        "gender": "M",
+        "father": "Pio Quinto de Jesus Zuniga",
+        "mother": "Maria Rufina ",
+        "spouse": " "
+    },
+    {
+        "name": "Serapio Zuniga",
+        "race": "trigueno ",
+        "gender": "M",
+        "father": "Pio Quinto de Jesus Zuniga",
+        "mother": "Maria Rufina ",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Anastacia Michaela Zuniga",
+        "race": "rosado ",
+        "gender": "F",
+        "father": "Pio Quinto de Jesus Zuniga",
+        "mother": "Maria Rufina ",
+        "spouse": "Jose Laureano Montalvan"
+    },
+    {
+        "name": "Maria de la Concepcion Montalvan",
+        "race": "rosado",
+        "gender": "F",
+        "father": "Jose Laureano Montalvan",
+        "mother": "Maria Anastacia Michaela Zuniga",
+        "spouse": " "
+    },
+    {
+        "name": "Sebastiana Montalvan",
+        "race": "rosado",
+        "gender": "F",
+        "father": "Jose Laureano Montalvan",
+        "mother": "Maria Anastacia Michaela Zuniga",
+        "spouse": " "
+    },
+    {
+        "name": "Josefa Antonia Josephine Montalvan",
+        "race": "rosado",
+        "gender": "F",
+        "father": "Jose Laureano Montalvan",
+        "mother": "Maria Anastacia Michaela Zuniga",
+        "spouse": " "
+    },
+    {
+        "name": "Jose Maria Montalvan",
+        "race": "rosado",
+        "gender": "M",
+        "father": "Jose Laureano Montalvan",
+        "mother": "Maria Anastacia Michaela Zuniga",
+        "spouse": " "
+    },
+    {
+        "name": "Jose Antonio Ramirez",
+        "race": "rosado ",
+        "gender": "M",
+        "father": "Jose Antonio Ramirez",
+        "mother": "Maria Anastacia Michaela Zuniga",
+        "spouse": " "
+    },
+    {
+        "name": "Juan Ygnacio Guillermo Cota",
+        "race": "blanco ",
+        "gender": "M",
+        "father": "Roque Jacinto Cota",
+        "mother": "Juana Maria Verdugo",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Manuela Nieto",
+        "race": "rosado ",
+        "gender": "F",
+        "father": "Josef Manuel Perez Nieto",
+        "mother": "Maria Teresa Morillo",
+        "spouse": "Guillermo Cota"
+    },
+    {
+        "name": "Maria Antonia Cota",
+        "race": "blanco ",
+        "gender": "F",
+        "father": "Juan Ygnacio Guillermo Cota",
+        "mother": "Maria Manuela Nieto",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Engracia Cota",
+        "race": "blanco ",
+        "gender": "F",
+        "father": "Juan Ygnacio Guillermo Cota",
+        "mother": "Maria Manuela Nieto",
+        "spouse": "Luis Gonzaga Policarpo Manuel Antonio y Fernando Dominguez"
+    },
+    {
+        "name": "Maria Jesus Cota",
+        "race": "blanco ",
+        "gender": "F",
+        "father": "Juan Ygnacio Guillermo Cota",
+        "mother": "Maria Manuela Nieto",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Viviana Cota",
+        "race": "blanco ",
+        "gender": "F",
+        "father": "Juan Ygnacio Guillermo Cota",
+        "mother": "Maria Manuela Nieto",
+        "spouse": "Pedro Pectinario Juan Santiago Dominguez"
+    },
+    {
+        "name": "Jose Maria de los Angeles Cota",
+        "race": "blanco ",
+        "gender": "M",
+        "father": "Juan Ygnacio Guillermo Cota",
+        "mother": "Maria Manuela Nieto",
+        "spouse": " "
+    },
+    {
+        "name": "Jose Maria Cota",
+        "race": "blanco ",
+        "gender": "M",
+        "father": "Juan Ygnacio Guillermo Cota",
+        "mother": "Maria Manuela Nieto",
+        "spouse": " "
+    },
+    {
+        "name": "Maria de la Ascencion Cota",
+        "race": "blanco ",
+        "gender": "F",
+        "father": "Juan Ygnacio Guillermo Cota",
+        "mother": "Maria Manuela Nieto",
+        "spouse": "Marcelo Rafael Andres Perez Nieto"
+    },
+    {
+        "name": "Leonardo Cota",
+        "race": "blanco ",
+        "gender": "M",
+        "father": "Juan Ygnacio Guillermo Cota",
+        "mother": "Maria Manuela Nieto",
+        "spouse": " "
+    },
+    {
+        "name": "Marcos Cota",
+        "race": "blanco ",
+        "gender": "M",
+        "father": "Juan Ygnacio Guillermo Cota",
+        "mother": "Maria Manuela Nieto",
+        "spouse": " "
+    },
+    {
+        "name": "Juana Maria Rita Verdugo",
+        "race": "rosado ",
+        "gender": "F",
+        "father": "Juan Diego Verdugo y Rios",
+        "mother": "Maria Ygnacia de la Concepcion Millan Carrillo",
+        "spouse": " "
+    },
+    {
+        "name": "Orphan Girl ",
+        "race": "",
+        "gender": "",
+        "father": " ",
+        "mother": " ",
+        "spouse": " "
+    },
+    {
+        "name": "Orphan Girl ",
+        "race": "",
+        "gender": "",
+        "father": " ",
+        "mother": " ",
+        "spouse": " "
+    },
+    {
+        "name": "Antonio Maria de los Santos Nieto",
+        "race": "rosado ",
+        "gender": "M",
+        "father": "Josef Manuel Nieto",
+        "mother": "Maria Teresa Morillo",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Josefa Cota",
+        "race": "blanco ",
+        "gender": "F",
+        "father": "Juan Ignacio Guillermo Cota",
+        "mother": "Maria Manuela Elizalde",
+        "spouse": "Antonio Maria de los Santos Nieto"
+    },
+    {
+        "name": "Maria de Guadalupe Nieto",
+        "race": "blanco ",
+        "gender": "F",
+        "father": "Antonio Maria de los Santos Nieto",
+        "mother": "Maria Josefa Cota",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Pietra Nieto",
+        "race": "blanco ",
+        "gender": "F",
+        "father": "Antonio Maria de los Santos Nieto",
+        "mother": "Maria Josefa Cota",
+        "spouse": " "
+    },
+    {
+        "name": "Concepcion Nieto",
+        "race": "blanco ",
+        "gender": "F",
+        "father": "Antonio Maria de los Santos Nieto",
+        "mother": "Maria Josefa Cota",
+        "spouse": " "
+    },
+    {
+        "name": "Jose Antonio Nieto",
+        "race": "blanco ",
+        "gender": "M",
+        "father": "Antonio Maria de los Santos Nieto",
+        "mother": "Maria Josefa Cota",
+        "spouse": " "
+    },
+    {
+        "name": "Juan Nepomuceno Dolores Alvarado",
+        "race": "blanco ",
+        "gender": "M",
+        "father": "Francisco Xavier Alvarado",
+        "mother": "Maria Ygnacia Amador",
+        "spouse": " "
+    },
+    {
+        "name": "Maria del Carmen Palomares",
+        "race": "blanco ",
+        "gender": "F",
+        "father": "Jose Cristobal Palomares",
+        "mother": "Maria Benedicta Saenz",
+        "spouse": "Juan Nepomuceno Dolores Alvarado"
+    },
+    {
+        "name": "Maria Tomasa Nepomucena Rafaela Alvarado",
+        "race": "blanco ",
+        "gender": "F",
+        "father": "Juan Nepomuceno Dolores Alvarado",
+        "mother": "Maria del Carmen Palomares",
+        "spouse": "Bruno Antonio Soto"
+    },
+    {
+        "name": "Francisco Maria Alvarado",
+        "race": "blanco ",
+        "gender": "M",
+        "father": "Juan Nepomuceno Dolores Alvarado",
+        "mother": "Maria del Carmen Palomares",
+        "spouse": " "
+    },
+    {
+        "name": "Mariano Alvarado",
+        "race": "blanco ",
+        "gender": "M",
+        "father": "Juan Nepomuceno Dolores Alvarado",
+        "mother": "Maria del Carmen Palomares",
+        "spouse": " "
+    },
+    {
+        "name": "Emerenciana Ignacia Alvarado",
+        "race": "blanco ",
+        "gender": "F",
+        "father": "Juan Nepomuceno Dolores Alvarado",
+        "mother": "Maria del Carmen Palomares",
+        "spouse": "Mariano Reyes Roldan"
+    },
+    {
+        "name": "Francisco Xavier Alvarado",
+        "race": "blanco ",
+        "gender": "M",
+        "father": " ",
+        "mother": " ",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Ignacia Amador",
+        "race": "blanco ",
+        "gender": "F",
+        "father": "Pedro Amador",
+        "mother": "Maria de la Luz Ruiz",
+        "spouse": "Francisco Xavier Alvarado"
+    },
+    {
+        "name": "Ana Joaquina Alvarado",
+        "race": "blanco ",
+        "gender": "F",
+        "father": "Francisco Xavier Alvarado",
+        "mother": "Maria Ignacia Amador",
+        "spouse": "Gabriel Moraga"
+    },
+    {
+        "name": "Juan Bautista Alvarado",
+        "race": "blanco ",
+        "gender": "M",
+        "father": "Francisco Xavier Alvarado",
+        "mother": "Maria Ignacia Amador",
+        "spouse": " "
+    },
+    {
+        "name": "Juan Nepomuceno Dolores Alvarado",
+        "race": "blanco ",
+        "gender": "M",
+        "father": "Francisco Xavier Alvarado",
+        "mother": "Maria Ignacia Amador",
+        "spouse": " "
+    },
+    {
+        "name": "Francisco Maria Dolores Canuto Alvarado",
+        "race": "blanco ",
+        "gender": "M",
+        "father": "Francisco Xavier Alvarado",
+        "mother": "Maria Ignacia Amador",
+        "spouse": " "
+    },
+    {
+        "name": "Maria de Jesus de Dolores Alvarado",
+        "race": "blanco ",
+        "gender": "F",
+        "father": "Francisco Xavier Alvarado",
+        "mother": "Maria Ignacia Amador",
+        "spouse": "Bernardo Antonio Yorba"
+    },
+    {
+        "name": "Jose Miguel Dolores Alvarado",
+        "race": "blanco ",
+        "gender": "M",
+        "father": "Francisco Xavier Alvarado",
+        "mother": "Maria Ignacia Amador",
+        "spouse": "Maria Guadalupe Ruiz"
+    },
+    {
+        "name": "Orphan Girl ",
+        "race": "rosada",
+        "gender": "F",
+        "father": " ",
+        "mother": " ",
+        "spouse": " "
+    },
+    {
+        "name": "Juan Bautista Lopez",
+        "race": "",
+        "gender": "M",
+        "father": "Ygnacio Lopez",
+        "mother": "Maria Facunda Mora",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Dolores Salgado",
+        "race": "triguena",
+        "gender": "F",
+        "father": "Francisco Gabriel Salgado",
+        "mother": "Lucia Maria Alipaz",
+        "spouse": "Juan Bautista Lopez"
+    },
+    {
+        "name": "Juan Bautista Lopez",
+        "race": "trigueno ",
+        "gender": "M",
+        "father": "Juan Bautista Lopez",
+        "mother": "Maria Dolores Salgado",
+        "spouse": " "
+    },
+    {
+        "name": "Juan Lopez",
+        "race": "trigueno ",
+        "gender": "M",
+        "father": "Juan Bautista Lopez",
+        "mother": "Maria Dolores Salgado",
+        "spouse": " "
+    },
+    {
+        "name": "Jose Antonio Maria Lopez",
+        "race": "trigueno ",
+        "gender": "M",
+        "father": "Juan Bautista Lopez",
+        "mother": "Maria Dolores Salgado",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Eulogia Concepion Palomares",
+        "race": "blanca",
+        "gender": "F",
+        "father": "Jose Antonio Maria Lopez",
+        "mother": "Maria Eulogia Concepcion Palomares",
+        "spouse": " "
+    },
+    {
+        "name": " Lopez",
+        "race": "",
+        "gender": "",
+        "father": "Jose Antonio Maria Lopez",
+        "mother": "Maria Eulogia Concepcion Palomares",
+        "spouse": " "
+    },
+    {
+        "name": " Lopez",
+        "race": "",
+        "gender": "",
+        "father": "Jose Antonio Maria Lopez",
+        "mother": "Maria Eulogia Concepcion Palomares",
+        "spouse": " "
+    },
+    {
+        "name": " Lopez",
+        "race": "",
+        "gender": "F",
+        "father": "Jose Antonio Maria Lopez",
+        "mother": "Maria Eulogia Concepcion Palomares",
+        "spouse": " "
+    },
+    {
+        "name": " Lopez",
+        "race": "",
+        "gender": "F",
+        "father": "Jose Antonio Maria Lopez",
+        "mother": "Maria Eulogia Concepcion Palomares",
+        "spouse": " "
+    },
+    {
+        "name": "Julio Antonio Josef Verdugo",
+        "race": "",
+        "gender": "M",
+        "father": "Josef Maria Lopez",
+        "mother": "Maria Encarnacion Lopez",
+        "spouse": " "
+    },
+    {
+        "name": "Maria de Jesus Romero",
+        "race": "blanco",
+        "gender": "F",
+        "father": "Juan Maria Romero",
+        "mother": "Maria Lugarda Salgado",
+        "spouse": "Julio Antonio Josef Verdugo"
+    },
+    {
+        "name": "Maria Rafaela Antonia Verdugo",
+        "race": "",
+        "gender": "F",
+        "father": "Julio Antonio Josef Verdugo",
+        "mother": "Maria de Jesus Romero",
+        "spouse": "Bernardo Fernando Sepulveda"
+    },
+    {
+        "name": "Pedro Nolasco Antonio Jose Verdugo",
+        "race": "",
+        "gender": "M",
+        "father": "Julio Antonio Josef Verdugo",
+        "mother": "Maria de Jesus Romero",
+        "spouse": " "
+    },
+    {
+        "name": "Jose Antonio de Jesus Verdugo",
+        "race": "",
+        "gender": "M",
+        "father": "Julio Antonio Josef Verdugo",
+        "mother": "Maria de Jesus Romero",
+        "spouse": " "
+    },
+    {
+        "name": "Josef Desiderio Olivera",
+        "race": "blanco",
+        "gender": "M",
+        "father": "Juan Maria Olivera",
+        "mother": "Maria Guadalupe Briones",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Luisa del Carmen Reyes",
+        "race": "rosado ",
+        "gender": "F",
+        "father": "Juan Francisco Reyes",
+        "mother": "Maria del Carmen Dominguez",
+        "spouse": "Josef Desiderio Olivera"
+    },
+    {
+        "name": "Martin Olivera",
+        "race": "",
+        "gender": "M",
+        "father": "Josef Desiderio Olivera",
+        "mother": "Maria Luisa del Carmen Reyes",
+        "spouse": " "
+    },
+    {
+        "name": "Mariano Olivera",
+        "race": "",
+        "gender": "M",
+        "father": "Josef Desiderio Olivera",
+        "mother": "Maria Luisa del Carmen Reyes",
+        "spouse": " "
+    }
+]

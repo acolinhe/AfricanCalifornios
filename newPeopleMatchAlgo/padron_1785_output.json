@@ -1,0 +1,322 @@
+[
+    {
+        "name": "Antonio Clemente Felix Villavicencio",
+        "race": "español",
+        "gender": "M",
+        "father": " ",
+        "mother": " ",
+        "spouse": " "
+    },
+    {
+        "name": "María de los Santos Flores",
+        "race": "india ",
+        "gender": "F",
+        "father": " ",
+        "mother": " ",
+        "spouse": "Antonio Clemente Felix Villavicencio"
+    },
+    {
+        "name": "José Maria Librado Vanegas",
+        "race": "indio",
+        "gender": "M",
+        "father": " ",
+        "mother": "Maria Josepha Banaga",
+        "spouse": " "
+    },
+    {
+        "name": "Mariana \"María\" Máxima Bonifacia Aguilar",
+        "race": "india",
+        "gender": "F",
+        "father": "Ramon Aguilar",
+        "mother": " ",
+        "spouse": "José Maria Librado Vanegas"
+    },
+    {
+        "name": "Cosmé Damién Damacio \"Pablo\" Vanegas",
+        "race": "indio; india",
+        "gender": "M",
+        "father": "José Maria Librado Vanegas",
+        "mother": "Mariana \"María\" Máxima Bonifacia Aguilar",
+        "spouse": " "
+    },
+    {
+        "name": "Pedro Pablo Rodríguez",
+        "race": "coyote or indio",
+        "gender": "M",
+        "father": "Jose San Juan del Rio Rodriguez",
+        "mother": "Maria Efigenia Ortega",
+        "spouse": " "
+    },
+    {
+        "name": "María Rosalía \"Rosa\" Ximenes",
+        "race": "india",
+        "gender": "F",
+        "father": "Nicolas Tolentino Ximenes",
+        "mother": "Juana Manuela Noriega",
+        "spouse": "Pedro Pablo Rodríguez"
+    },
+    {
+        "name": "María Antonia Rodríguez",
+        "race": "coyote; india",
+        "gender": "F",
+        "father": "Pedro Pablo Rodríguez",
+        "mother": "María Rosalía \"Rosa\" Ximenes",
+        "spouse": "Juan Pacifico Ontiveros"
+    },
+    {
+        "name": "Maria de Jesus Rodríguez",
+        "race": "coyote; india",
+        "gender": "F",
+        "father": "Pedro Pablo Rodríguez",
+        "mother": "Maria Rosalia \"Rosa\" Ximenes",
+        "spouse": "Albino Canedo"
+    },
+    {
+        "name": "José Antonio Navarro",
+        "race": "mestizo or espanol",
+        "gender": "M",
+        "father": "Joseph Christoval Logrono Navarro",
+        "mother": "Josepha Molinero",
+        "spouse": " "
+    },
+    {
+        "name": "José María Eduardo Navarro",
+        "race": "mestizo; mulata",
+        "gender": "M",
+        "father": "José Antonio Navarro",
+        "mother": "Maria Regina Dorotea Glorea Soto, de",
+        "spouse": " "
+    },
+    {
+        "name": "José Clemente Navarro",
+        "race": "mestizo; mulata",
+        "gender": "M",
+        "father": "José Antonio Navarro",
+        "mother": "Maria Regina Dorotea Glorea Soto, de",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Anna \"Mariana\" Josefa Navarro",
+        "race": "mestizo; mulata",
+        "gender": "F",
+        "father": "José Antonio Navarro",
+        "mother": "Maria Regina Dorotea Glorea Soto, de",
+        "spouse": "Juan Jose Faustino Higuera"
+    },
+    {
+        "name": "José Maria Moreno",
+        "race": "mulato or mestizo",
+        "gender": "M",
+        "father": " ",
+        "mother": " ",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Gertrudis (Maria Guadalupe) Perez or Gaspar",
+        "race": "india or coyota",
+        "gender": "F",
+        "father": " ",
+        "mother": " ",
+        "spouse": "José Maria Moreno"
+    },
+    {
+        "name": "Maria Lugarda Bernabea Moreno",
+        "race": "mulato; india",
+        "gender": "F",
+        "father": "Jose Maria Moreno",
+        "mother": "Maria Gertrudis (Maria Guadalupe) Perez or Gaspar",
+        "spouse": "Jacinto Alvitre"
+    },
+    {
+        "name": "Unnamed Daughter Moreno",
+        "race": "mulato; india",
+        "gender": "F",
+        "father": "Jose Maria Moreno",
+        "mother": "Maria Gertrudis (Maria Guadalupe) Perez or Gaspar",
+        "spouse": " "
+    },
+    {
+        "name": "Manuel Camero",
+        "race": "mulato",
+        "gender": "M",
+        "father": " ",
+        "mother": " ",
+        "spouse": " "
+    },
+    {
+        "name": "Tomasa Garcia",
+        "race": "mulata or coyota",
+        "gender": "F",
+        "father": " ",
+        "mother": " ",
+        "spouse": "Manuel Camero"
+    },
+    {
+        "name": "Jose Antonio Basilio Rosas",
+        "race": "indio",
+        "gender": "M",
+        "father": "Jose de las Rosas",
+        "mother": "Maria Ascuncion ",
+        "spouse": " "
+    },
+    {
+        "name": "María Manuela Calistra Hernández",
+        "race": "mulata",
+        "gender": "F",
+        "father": " ",
+        "mother": " ",
+        "spouse": "Jose Antonio Basilio Rosas"
+    },
+    {
+        "name": "Maria Josefa Rosas",
+        "race": "indio; mulata",
+        "gender": "F",
+        "father": "Jose Antonio Basilio Rosas",
+        "mother": "María Manuela Calistra Hernández",
+        "spouse": " "
+    },
+    {
+        "name": "Antonio Rosalino Rosas",
+        "race": "indio; mulato",
+        "gender": "M",
+        "father": "Jose Antonio Basilio Rosas",
+        "mother": "Maria Manuela Calistra Hernández",
+        "spouse": " "
+    },
+    {
+        "name": "Joseph (Jose) Marcelino Rosas",
+        "race": "indio; mulato",
+        "gender": "M",
+        "father": "Jose Antonio Basilio Rosas",
+        "mother": "Maria Manuela Calistra Hernández",
+        "spouse": " "
+    },
+    {
+        "name": "Juana (Diana) Maria Rosas",
+        "race": "indio; mulata",
+        "gender": "F",
+        "father": "Jose Antonio Basilio Rosas",
+        "mother": "Maria Manuela Calistra Hernández",
+        "spouse": "Miguel Blanco"
+    },
+    {
+        "name": "Jose Alejandro Rosas",
+        "race": "indio; mulato",
+        "gender": "M",
+        "father": "Jose Antonio Basilio Rosas",
+        "mother": "Maria Manuela Calistra Hernández",
+        "spouse": " "
+    },
+    {
+        "name": "Juana Rodríguez",
+        "race": "coyota; india ",
+        "gender": "F",
+        "father": " ",
+        "mother": " ",
+        "spouse": "Alejandro Rosas"
+    },
+    {
+        "name": "Maria de la Ascencion Rosas",
+        "race": "indio; coyota",
+        "gender": "F",
+        "father": "Jose Alejandro Rosas",
+        "mother": "Juana Maria Rodríguez",
+        "spouse": " "
+    },
+    {
+        "name": "Unnamed Boy Rosas",
+        "race": "indio; coyote",
+        "gender": "M",
+        "father": "Jose Alejandro Rosas",
+        "mother": "Juana Maria Rodríguez",
+        "spouse": " "
+    },
+    {
+        "name": "José Francisco Sinoba",
+        "race": "español",
+        "gender": "M",
+        "father": "Jose Francisco Sinoba",
+        "mother": "Maria Petra Cartagena",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Gertrudis Bojorquez",
+        "race": "mulata; mestiza ",
+        "gender": "F",
+        "father": "Jose Ramon Bojorquez",
+        "mother": "Maria Francisca Romero",
+        "spouse": "José Francisco Sinoba"
+    },
+    {
+        "name": "Josefa Maria de los Dolores Sinoba",
+        "race": "español; mulata",
+        "gender": "F",
+        "father": "Jose Francisco Sinoba",
+        "mother": "Maria Gertrudis ",
+        "spouse": "Vicente Ferrer Villa"
+    },
+    {
+        "name": "Vicenta Sinoba",
+        "race": "español; mulata",
+        "gender": "F",
+        "father": "Jose Francisco Sinoba",
+        "mother": "Maria Gertrudis ",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Julia Sinoba",
+        "race": "español; mulata",
+        "gender": "F",
+        "father": "Jose Francisco Sinoba",
+        "mother": "Maria Gertrudis ",
+        "spouse": " "
+    },
+    {
+        "name": "Jose Carlos Rosas",
+        "race": "indio",
+        "gender": "M",
+        "father": "Jose Antonio Basilio Rosas",
+        "mother": "Maria Manuela Hernandez",
+        "spouse": " "
+    },
+    {
+        "name": "Maria Dolores ",
+        "race": "india",
+        "gender": "F",
+        "father": " ",
+        "mother": " ",
+        "spouse": "Jose Carlos Rosas"
+    },
+    {
+        "name": "Unnamed Daughter Rosas",
+        "race": "india; indio",
+        "gender": "F",
+        "father": "Jose Carlos Rosas",
+        "mother": "Maria Dolores ",
+        "spouse": " "
+    },
+    {
+        "name": "Jose Máximo Rosas",
+        "race": "indio",
+        "gender": "M",
+        "father": " ",
+        "mother": " ",
+        "spouse": " "
+    },
+    {
+        "name": "María Antonia ",
+        "race": "india",
+        "gender": "F",
+        "father": " ",
+        "mother": " ",
+        "spouse": "Jose Máximo Rosas"
+    },
+    {
+        "name": "Juan José Domínguez",
+        "race": "español",
+        "gender": "M",
+        "father": "Jose Ygnacio Dominguez",
+        "mother": "Ana Maria Sepulveda",
+        "spouse": " "
+    }
+]

@@ -1,0 +1,370 @@
+[
+    {
+        "name": "José Lara",
+        "race": "español",
+        "gender": "M",
+        "father": " ",
+        "mother": " ",
+        "spouse": " "
+    },
+    {
+        "name": "María Antonia Campos",
+        "race": "india ladina",
+        "gender": "F",
+        "father": " ",
+        "mother": " ",
+        "spouse": "José Lara"
+    },
+    {
+        "name": "José Julián Lara",
+        "race": "español; india ladina",
+        "gender": "M",
+        "father": "José Lara",
+        "mother": "María Antonia Campos",
+        "spouse": " "
+    },
+    {
+        "name": "Juana Jesús Lara",
+        "race": "español; india ladina",
+        "gender": "F",
+        "father": "José Lara",
+        "mother": "María Antonia Campos",
+        "spouse": " "
+    },
+    {
+        "name": "María Faustina Lara",
+        "race": "español; india ladina",
+        "gender": "F",
+        "father": "José Lara",
+        "mother": "María Antonia Campos",
+        "spouse": " "
+    },
+    {
+        "name": "José Antonio Navarro",
+        "race": "mestizo",
+        "gender": "M",
+        "father": " ",
+        "mother": " ",
+        "spouse": " "
+    },
+    {
+        "name": "María Rufina Dorotea",
+        "race": "mulata",
+        "gender": "F",
+        "father": " ",
+        "mother": " ",
+        "spouse": "José Antonio Navarro"
+    },
+    {
+        "name": "José María Navarro",
+        "race": "mestizo; mulata",
+        "gender": "M",
+        "father": "José Antonio Navarro",
+        "mother": "María Rufina Dorotea",
+        "spouse": " "
+    },
+    {
+        "name": "José Clemente Navarro",
+        "race": "mestizo; mulata",
+        "gender": "M",
+        "father": "José Antonio Navarro",
+        "mother": "María Rufina Dorotea",
+        "spouse": " "
+    },
+    {
+        "name": "María Josefa Navarro",
+        "race": "mestizo; mulata",
+        "gender": "F",
+        "father": "José Antonio Navarro",
+        "mother": "María Rufina Dorotea",
+        "spouse": " "
+    },
+    {
+        "name": "Basilio Rosas",
+        "race": "indio",
+        "gender": "M",
+        "father": " ",
+        "mother": " ",
+        "spouse": " "
+    },
+    {
+        "name": "María Manuela Calixtra Hernández",
+        "race": "mulata",
+        "gender": "F",
+        "father": " ",
+        "mother": " ",
+        "spouse": "Basilio Rosas"
+    },
+    {
+        "name": "José Máximo Rosas",
+        "race": "indio; mulata",
+        "gender": "M",
+        "father": "Basilio Rosas",
+        "mother": "María Manuela Calixtra Hernández",
+        "spouse": " "
+    },
+    {
+        "name": "Carlos Rosas",
+        "race": "indio; mulata",
+        "gender": "M",
+        "father": "Basilio Rosas",
+        "mother": "María Manuela Calixtra Hernández",
+        "spouse": " "
+    },
+    {
+        "name": "Antonio Rosalino Rosas",
+        "race": "indio; mulata",
+        "gender": "M",
+        "father": "Basilio Rosas",
+        "mother": "María Manuela Calixtra Hernández",
+        "spouse": " "
+    },
+    {
+        "name": "José Marcelino Rosas",
+        "race": "indio; mulata",
+        "gender": "M",
+        "father": "Basilio Rosas",
+        "mother": "María Manuela Calixtra Hernández",
+        "spouse": " "
+    },
+    {
+        "name": "Juan Estaban Rosas",
+        "race": "indio; mulata",
+        "gender": "M",
+        "father": "Basilio Rosas",
+        "mother": "María Manuela Calixtra Hernández",
+        "spouse": " "
+    },
+    {
+        "name": "María Josefa Rosas",
+        "race": "indio; mulata",
+        "gender": "F",
+        "father": "Basilio Rosas",
+        "mother": "María Manuela Calixtra Hernández",
+        "spouse": " "
+    },
+    {
+        "name": "Antonio Mesa",
+        "race": "negro",
+        "gender": "M",
+        "father": " ",
+        "mother": " ",
+        "spouse": " "
+    },
+    {
+        "name": "Ana Gertrudis López",
+        "race": "mulata",
+        "gender": "F",
+        "father": " ",
+        "mother": " ",
+        "spouse": "Antonio Mesa"
+    },
+    {
+        "name": "Antonio María Mesa",
+        "race": "negro; mulata",
+        "gender": "M",
+        "father": "Antonio Mesa",
+        "mother": "Ana Gertrudis López",
+        "spouse": " "
+    },
+    {
+        "name": "María Paula Mesa",
+        "race": "negro; mulata",
+        "gender": "F",
+        "father": "Antonio Mesa",
+        "mother": "Ana Gertrudis López",
+        "spouse": " "
+    },
+    {
+        "name": "Antonio Villavicencio",
+        "race": "español",
+        "gender": "M",
+        "father": " ",
+        "mother": " ",
+        "spouse": " "
+    },
+    {
+        "name": "María de los Santos Seferina",
+        "race": "india",
+        "gender": "F",
+        "father": " ",
+        "mother": " ",
+        "spouse": "Antonio Villavicencio"
+    },
+    {
+        "name": "María Antonia Josefa ",
+        "race": "india",
+        "gender": "F",
+        "father": " ",
+        "mother": "María de los Santos Seferina",
+        "spouse": " "
+    },
+    {
+        "name": "José Vanegas",
+        "race": "indio",
+        "gender": "M",
+        "father": " ",
+        "mother": " ",
+        "spouse": " "
+    },
+    {
+        "name": "María Máxima Aguilar",
+        "race": "india",
+        "gender": "F",
+        "father": " ",
+        "mother": " ",
+        "spouse": "José Vanegas"
+    },
+    {
+        "name": "Cosmé Damién Vanegas",
+        "race": "indio; india",
+        "gender": "M",
+        "father": "José Vanegas",
+        "mother": "María Máxima Aguilar",
+        "spouse": " "
+    },
+    {
+        "name": "Alejandro Rosas",
+        "race": "indio",
+        "gender": "M",
+        "father": " ",
+        "mother": " ",
+        "spouse": " "
+    },
+    {
+        "name": "Juana Rodríguez",
+        "race": "coyota",
+        "gender": "F",
+        "father": " ",
+        "mother": " ",
+        "spouse": "Alejandro Rosas"
+    },
+    {
+        "name": "Pablo Rodríguez",
+        "race": "indio",
+        "gender": "M",
+        "father": " ",
+        "mother": " ",
+        "spouse": " "
+    },
+    {
+        "name": "María Rosalía Noriega",
+        "race": "india",
+        "gender": "F",
+        "father": " ",
+        "mother": " ",
+        "spouse": "Pablo Rodríguez"
+    },
+    {
+        "name": "María Antonia Rodríguez",
+        "race": "indio; india",
+        "gender": "F",
+        "father": "Pablo Rodríguez",
+        "mother": "María Rosalía Noriega",
+        "spouse": " "
+    },
+    {
+        "name": "Manuel Camero",
+        "race": "mulato",
+        "gender": "M",
+        "father": " ",
+        "mother": " ",
+        "spouse": " "
+    },
+    {
+        "name": "María Tomasa ",
+        "race": "mulata",
+        "gender": "F",
+        "father": " ",
+        "mother": " ",
+        "spouse": "Manuel Camero"
+    },
+    {
+        "name": "Luís Quintero",
+        "race": "negro",
+        "gender": "M",
+        "father": " ",
+        "mother": " ",
+        "spouse": " "
+    },
+    {
+        "name": "María Petra Rubio",
+        "race": "mulata",
+        "gender": "F",
+        "father": " ",
+        "mother": " ",
+        "spouse": "Luís Quintero"
+    },
+    {
+        "name": "José Clemente Quintero",
+        "race": "negro; mulata",
+        "gender": "M",
+        "father": "Luís Quintero",
+        "mother": "María Petra Rubio",
+        "spouse": " "
+    },
+    {
+        "name": "María Gertrudis Quintero",
+        "race": "negro; mulata",
+        "gender": "F",
+        "father": "Luís Quintero",
+        "mother": "María Petra Rubio",
+        "spouse": " "
+    },
+    {
+        "name": "María Concepción Quintero",
+        "race": "negro; mulata",
+        "gender": "F",
+        "father": "Luís Quintero",
+        "mother": "María Petra Rubio",
+        "spouse": " "
+    },
+    {
+        "name": "Tomasa Quintero",
+        "race": "negro; mulata",
+        "gender": "F",
+        "father": "Luís Quintero",
+        "mother": "María Petra Rubio",
+        "spouse": " "
+    },
+    {
+        "name": "Rafaela Quintero",
+        "race": "negro; mulata",
+        "gender": "F",
+        "father": "Luís Quintero",
+        "mother": "María Petra Rubio",
+        "spouse": " "
+    },
+    {
+        "name": "José Moreno",
+        "race": "mulato",
+        "gender": "M",
+        "father": " ",
+        "mother": " ",
+        "spouse": " "
+    },
+    {
+        "name": "María Guadalupe Gertrudis",
+        "race": "mulata",
+        "gender": "F",
+        "father": " ",
+        "mother": " ",
+        "spouse": "José Moreno"
+    },
+    {
+        "name": "Antonio Miranda",
+        "race": "chino",
+        "gender": "M",
+        "father": " ",
+        "mother": " ",
+        "spouse": " "
+    },
+    {
+        "name": "Juana María Miranda",
+        "race": "chino",
+        "gender": "F",
+        "father": "Antonio Miranda",
+        "mother": " ",
+        "spouse": " "
+    }
+]

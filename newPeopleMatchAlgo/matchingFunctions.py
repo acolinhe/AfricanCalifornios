@@ -82,25 +82,25 @@ def modified_levenshtein_distance(name1: str, name2: str, cost_dict: dict):
     return previous_row[-1]
 
 
-def convert_age(x):
-    """
-    Converts age into a float, handling potential type inconsistencies.
+# def convert_age(x):
+#     """
+#     Converts age into a float, handling potential type inconsistencies.
 
-    Args:
-        x: The input age value.
+#     Args:
+#         x: The input age value.
 
-    Returns:
-        float: The converted age, or 0 if conversion fails.
-        None: If the input is already None.
-    """
+#     Returns:
+#         float: The converted age, or 0 if conversion fails.
+#         None: If the input is already None.
+#     """
 
-    if pd.isna(x):
-        return x
+#     if pd.isna(x):
+#         return x
 
-    elif isinstance(x, str):
-        try:
-            return float(x)
-        except ValueError:
-            return 0
-    else:
-        return x
+#     elif isinstance(x, str):
+#         try:
+#             return float(x)
+#         except ValueError:
+#             return 0
+#     else:
+#         return x
