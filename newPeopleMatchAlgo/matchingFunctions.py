@@ -39,7 +39,7 @@ def normalize_spanish_names(name: str):
     return normalized_name.lower()
 
 
-def modified_levenshtein_distance(name1: str, name2: str, cost_dict: dict):
+def modified_levenshtein_distance(name1: str, name2: str, cost_dict: dict=custom_costs):
     """
     Calculates a modified Levenshtein distance between two names, allowing for custom substitution costs,
     and returns early if the distance exceeds a dynamic maximum distance.
@@ -48,12 +48,9 @@ def modified_levenshtein_distance(name1: str, name2: str, cost_dict: dict):
         name1 (str): The first name.
         name2 (str): The second name.
         cost_dict (dict): A dictionary of substitution costs {(char1, char2): cost}.
-        dynamic_max_distance (int): The dynamic maximum distance to consider. If the calculated distance
-                                    exceeds this value, the function returns early.
 
     Returns:
-        int: The modified Levenshtein distance between the two names, or an indication that the distance
-             exceeds the dynamic maximum distance.
+        int: The modified Levenshtein distance between the two names with custom costs into account and returns a score.
     """
 
     if len(name1) < len(name2):
@@ -75,7 +72,6 @@ def modified_levenshtein_distance(name1: str, name2: str, cost_dict: dict):
                 substitution_cost = previous_row[j] + cost_dict.get((char1, char2), 1)
             current_row[j + 1] = min(insertion_cost, deletion_cost, substitution_cost)
 
-        # Check if the minimum distance so far exceeds the dynamic_max_distance
 
         previous_row = current_row
 

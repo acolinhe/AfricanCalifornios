@@ -1,0 +1,587 @@
+[
+    {
+        "name": "Valerio Mesa, de",
+        "race": "Español",
+        "gender": "M",
+        "father": " ",
+        "mother": " ",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Maria Borboa",
+        "race": "Española",
+        "gender": "F",
+        "father": " ",
+        "mother": " ",
+        "spouse": " Mesa, de",
+        "age": null
+    },
+    {
+        "name": "Joseph Joachin Mesa, de",
+        "race": "Español",
+        "gender": "M",
+        "father": " Mesa, de",
+        "mother": "Maria Borboa",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Joseph Ygnacio Mesa, de",
+        "race": "Español",
+        "gender": "M",
+        "father": " Mesa, de",
+        "mother": "Maria Borboa",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Ygnacio Dolores Mesa, de",
+        "race": "Español",
+        "gender": "M",
+        "father": " Mesa, de",
+        "mother": "Maria Borboa",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Joseph Antonio Mesa, de",
+        "race": "Español",
+        "gender": "M",
+        "father": " Mesa, de",
+        "mother": "Maria Borboa",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Nicolas Maria Mesa, de",
+        "race": "Español",
+        "gender": "M",
+        "father": " Mesa, de",
+        "mother": "Maria Borboa",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Juan Mesa, de",
+        "race": "Español",
+        "gender": "M",
+        "father": " Mesa, de",
+        "mother": "Maria Borboa",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Maria Manuela Mesa, de",
+        "race": "Española",
+        "gender": "M",
+        "father": " Mesa, de",
+        "mother": "Maria Borboa",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Gabriel Peralta",
+        "race": "Español",
+        "gender": "M",
+        "father": " ",
+        "mother": " ",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Francisca Valensuela",
+        "race": "Española",
+        "gender": "F",
+        "father": " ",
+        "mother": " ",
+        "spouse": " Peralta",
+        "age": null
+    },
+    {
+        "name": "Luis Peralta",
+        "race": "Español",
+        "gender": "M",
+        "father": " Peralta",
+        "mother": "Francisca Valensuela",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Pedro Regalado Peralta",
+        "race": "Español",
+        "gender": "M",
+        "father": " Peralta",
+        "mother": "Francisca Valensuela",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Maria Gertrudis Peralta",
+        "race": "Española",
+        "gender": "F",
+        "father": " Peralta",
+        "mother": "Francisca Valensuela",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Joachin Castro, de",
+        "race": "Español",
+        "gender": "M",
+        "father": " ",
+        "mother": " ",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Maria Botiller",
+        "race": "Española",
+        "gender": "F",
+        "father": " ",
+        "mother": " ",
+        "spouse": " Castro, de",
+        "age": null
+    },
+    {
+        "name": "Joseph Mariano Castro, de",
+        "race": "Español",
+        "gender": "M",
+        "father": " Castro, de",
+        "mother": "Maria Bortiller",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Joseph Joachin Castro, de",
+        "race": "Español",
+        "gender": "M",
+        "father": " Castro, de",
+        "mother": "Maria Bortiller",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Francisco Maria Castro, de",
+        "race": "Español",
+        "gender": "M",
+        "father": " Castro, de",
+        "mother": "Maria Bortiller",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Carlos Antonio Castro, de",
+        "race": "Española",
+        "gender": "M",
+        "father": " Castro, de",
+        "mother": "Maria Bortiller",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Maria de la Encarncion Castro, de",
+        "race": "Español",
+        "gender": "F",
+        "father": " Castro, de",
+        "mother": "Maria Bortiller",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Francisco Maria Castro, de",
+        "race": "Indio",
+        "gender": "M",
+        "father": " ",
+        "mother": " ",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Xavier Beltran",
+        "race": "Español",
+        "gender": "M",
+        "father": " ",
+        "mother": " ",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Gertrudis Lugo",
+        "race": "Española",
+        "gender": "F",
+        "father": " ",
+        "mother": " ",
+        "spouse": " Beltran",
+        "age": null
+    },
+    {
+        "name": "Maria Gertrudis Valencia",
+        "race": "",
+        "gender": "F",
+        "father": " ",
+        "mother": " ",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Maria Valencia",
+        "race": "",
+        "gender": "F",
+        "father": " ",
+        "mother": " ",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Loreto Lugo",
+        "race": "India",
+        "gender": "F",
+        "father": " ",
+        "mother": " ",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Joseph Manuel Higuera",
+        "race": "Español",
+        "gender": "M",
+        "father": " ",
+        "mother": " ",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Antonia Redondo",
+        "race": "Española",
+        "gender": "F",
+        "father": " ",
+        "mother": " ",
+        "spouse": " Higuera",
+        "age": null
+    },
+    {
+        "name": "Juan Joseph Higuera",
+        "race": "Español",
+        "gender": "M",
+        "father": " Higuera",
+        "mother": "Antonia Redondo",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Juan Faustino Higuera",
+        "race": "Español",
+        "gender": "M",
+        "father": " Higuera",
+        "mother": "Antonia Redondo",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Maria Victoria Higuera",
+        "race": "Española",
+        "gender": "F",
+        "father": " Higuera",
+        "mother": "Antonia Redondo",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Maria Gertrudis Higuera",
+        "race": "Española",
+        "gender": "F",
+        "father": " Higuera",
+        "mother": "Antonia Redondo",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Joseph Higuera",
+        "race": "Indio",
+        "gender": "M",
+        "father": " ",
+        "mother": " ",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Seferino Lugo",
+        "race": "Español",
+        "gender": "M",
+        "father": " ",
+        "mother": " ",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Gertrudis Pachaco",
+        "race": "Española",
+        "gender": "F",
+        "father": " ",
+        "mother": " ",
+        "spouse": " Lugo",
+        "age": null
+    },
+    {
+        "name": "Manuel Ramirez de Arrellano",
+        "race": "Español",
+        "gender": "M",
+        "father": " ",
+        "mother": " ",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Maria Lopez de Aro",
+        "race": "Española",
+        "gender": "F",
+        "father": " ",
+        "mother": " ",
+        "spouse": " Ramirez de Arrellano",
+        "age": null
+    },
+    {
+        "name": "Juan Mariano Ramirez de Arrellano",
+        "race": "Español",
+        "gender": "M",
+        "father": " Ramirez de Arrellano",
+        "mother": "Maria Lopez de Aro",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Ygnacio Achuleta",
+        "race": "Español",
+        "gender": "M",
+        "father": " ",
+        "mother": " ",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Ygnacia Pachaco",
+        "race": "Española",
+        "gender": "F",
+        "father": " ",
+        "mother": " ",
+        "spouse": " Achuleta",
+        "age": null
+    },
+    {
+        "name": "Felipe Tapia",
+        "race": "Mulato",
+        "gender": "M",
+        "father": " ",
+        "mother": " ",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Juana Cardenas",
+        "race": "Mestiza",
+        "gender": "F",
+        "father": " ",
+        "mother": " ",
+        "spouse": " Tapia",
+        "age": null
+    },
+    {
+        "name": "Joseph Bartolome Tapia",
+        "race": "Mulato, Mestizo",
+        "gender": "M",
+        "father": " Tapia",
+        "mother": "Juana Cardenas",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Juan Joseph Tapia",
+        "race": "Mulato, Mestizo",
+        "gender": "M",
+        "father": " Tapia",
+        "mother": "Juana Cardenas",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Juan Cristoval Tapia",
+        "race": "Mulato, Mestizo",
+        "gender": "M",
+        "father": " Tapia",
+        "mother": "Juana Cardenas",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Joseph Francisco Tapia",
+        "race": "Mulato, Mestizo",
+        "gender": "M",
+        "father": " Tapia",
+        "mother": "Juana Cardenas",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Joseph Bito Tapia",
+        "race": "Mulato, Mestizo",
+        "gender": "M",
+        "father": " Tapia",
+        "mother": "Juana Cardenas",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Maria Rosa Tapia",
+        "race": "Mulato, Mestizo",
+        "gender": "F",
+        "father": " Tapia",
+        "mother": "Juana Cardenas",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Maria Manuela Tapia",
+        "race": "Mulato, Mestizo",
+        "gender": "F",
+        "father": " Tapia",
+        "mother": "Juana Cardenas",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Maria Ygnacia Tapia",
+        "race": "Mulato, Mestizo",
+        "gender": "F",
+        "father": " Tapia",
+        "mother": "Juana Cardenas",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Joseph Romero",
+        "race": "Mulato",
+        "gender": "M",
+        "father": " ",
+        "mother": " ",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Maria Petra Azeves",
+        "race": "Mulata",
+        "gender": "F",
+        "father": " ",
+        "mother": " ",
+        "spouse": " Romero",
+        "age": null
+    },
+    {
+        "name": "Manuel Amerquita",
+        "race": "Mulato",
+        "gender": "M",
+        "father": " Amerquita",
+        "mother": " ",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Joachin Gabriel Amerquita",
+        "race": "Mulato",
+        "gender": "F",
+        "father": " ",
+        "mother": " ",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Manuel Gonzales",
+        "race": "Indio Apache",
+        "gender": "M",
+        "father": " ",
+        "mother": " ",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Michaela Ruiz",
+        "race": "India",
+        "gender": "F",
+        "father": " ",
+        "mother": " ",
+        "spouse": " Gonzales",
+        "age": null
+    },
+    {
+        "name": "Juan Gonzales",
+        "race": "Indio Apache",
+        "gender": "M",
+        "father": " Gonzales",
+        "mother": "Michaela Ruiz",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Ramon Gonzales",
+        "race": "Indio Apache",
+        "gender": "M",
+        "father": " Gonzales",
+        "mother": "Michaela Ruiz",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Faustino Gonzales",
+        "race": "Indio Apache",
+        "gender": "M",
+        "father": " Gonzales",
+        "mother": "Michaela Ruiz",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Maria Gregoria Gonzales",
+        "race": "Indio Apache",
+        "gender": "F",
+        "father": " Gonzales",
+        "mother": "Michaela Ruiz",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Ana Maria Gonzales",
+        "race": "Indio Apache",
+        "gender": "F",
+        "father": " Gonzales",
+        "mother": "Michaela Ruiz",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Juan Manuel Villela",
+        "race": "Español",
+        "gender": "M",
+        "father": " ",
+        "mother": " ",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Joseph Francisco Sinoba",
+        "race": "",
+        "gender": "M",
+        "father": " ",
+        "mother": " ",
+        "spouse": " ",
+        "age": null
+    },
+    {
+        "name": "Maria Gertrudis Bojorques",
+        "race": "Mestiza",
+        "gender": "F",
+        "father": " ",
+        "mother": " ",
+        "spouse": " ",
+        "age": null
+    }
+]

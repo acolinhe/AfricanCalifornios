@@ -1,10 +1,9 @@
 import os
 import csv
-import sys
-import json
 import pandas as pd
 from mappings import mappings  # Import mappings from a separate file
 
+transformed_datasets = {}
 
 def fetch_local_tsv(file_path):
     """
@@ -25,57 +24,57 @@ def parse_tsv_data(tsv_data):
 
 
 def standardize_column_names(data):
-    standardized_data = []
-    for row in data:
-        print(f"Row before standardization: {row}")
-        standardized_row = {key.lower(): value for key, value in row.items() if key is not None}
-        print(f"Row after standardization: {standardized_row}")
-        standardized_data.append(standardized_row)
-    return standardized_data
+    """
+    Standardizes column names in the data by converting them to lowercase and stripping whitespace.
+    """
+    return [
+        {key.lower().strip(): value for key, value in row.items() if key is not None}
+        for row in data
+    ]
 
 
+def safe_convert_to_number(value):
+    """
+    Safely converts a value to an integer if possible, or returns None for invalid values.
+    """
+    try:
+        return int(value) if value and value.strip().isdigit() else None
+    except ValueError:
+        return None
 
-def transformData(data, mapping):
+
+def transform_data(data, mapping):
     """
     Transforms the data using the mapping and combines first/last names into a single field.
     """
-    transformedData = []
+    transformed_data = []
     for row in data:
         def combine_fields(fields):
-            # Combine fields if a list is provided, skip None values
             if isinstance(fields, list):
                 return ' '.join(row.get(field, '').strip() for field in fields if field)
             return row.get(fields, None)
 
-        transformedRow = {
+        transformed_row = {
             'name': combine_fields(mapping.get('name')),
             'race': combine_fields(mapping.get('race')),
             'gender': combine_fields(mapping.get('gender')),
             'father': combine_fields(mapping.get('father')),
             'mother': combine_fields(mapping.get('mother')),
-            'spouse': combine_fields(mapping.get('spouse'))
+            'spouse': combine_fields(mapping.get('spouse')),
+            'age': safe_convert_to_number(row.get(mapping.get('age')))
         }
-        transformedData.append(transformedRow)
-    return transformedData
+        transformed_data.append(transformed_row)
+    return transformed_data
 
 
-
-def write_json_data(data, output_file):
+def load_data():
     """
-    Writes transformed data to a JSON file.
-    """
-    with open(output_file, 'w', encoding='utf-8') as json_file:
-        json.dump(data, json_file, indent=4, ensure_ascii=False)
-
-
-def main():
-    """
-    Main function to process all TSV files for the given dataset keys.
+    Processes all TSV files for the given dataset keys and stores them in memory.
     """
     dataset_files = {
         "1790_census": "1790 Census Data Complete.tsv",
         "baptisms": "Baptisms.tsv",
-        "padron_1767": "padron_267.tsv",
+        "padron_1767": "padron_1767.tsv",
         "padron_1781": "padron_1781.tsv",
         "padron_1785": "padron_1785.tsv",
         "padron_1821": "padron_1821.tsv"
@@ -84,10 +83,8 @@ def main():
     base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "../data"))
 
     for dataset_key, file_name in dataset_files.items():
-        print(f"Processing {dataset_key}...")
         file_path = os.path.join(base_dir, file_name)
 
-        # Check if mapping exists for the dataset
         mapping = mappings.get(dataset_key)
         if not mapping:
             print(f"Error: No mapping found for dataset key '{dataset_key}'")
@@ -97,15 +94,17 @@ def main():
             tsv_data = fetch_local_tsv(file_path)
             parsed_data = parse_tsv_data(tsv_data)
             standardized_data = standardize_column_names(parsed_data)
-            transformed_data = transformData(standardized_data, mapping)
-
-            # Write output JSON file
-            output_file = f"{dataset_key}_output.json"
-            write_json_data(transformed_data, output_file)
-            print(f"Transformed data saved to {output_file}")
+            transformed_datasets[dataset_key] = transform_data(standardized_data, mapping)
         except Exception as e:
             print(f"Error processing {dataset_key}: {e}")
 
 
-if __name__ == "__main__":
-    main()
+def get_transformed_data():
+    """
+    Returns the transformed datasets stored in memory.
+    """
+    if not transformed_datasets:
+        load_data()
+    return transformed_datasets
+
+load_data()

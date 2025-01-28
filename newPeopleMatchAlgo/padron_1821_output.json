@@ -5,7 +5,8 @@
         "gender": "M",
         "father": "Jose Raymundo Carrillo",
         "mother": "Maria Tomasa Ygnacia Lugo",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Concepción García",
@@ -13,7 +14,8 @@
         "gender": "F",
         "father": " ",
         "mother": " ",
-        "spouse": "Anastacio Carrillo"
+        "spouse": "Anastacio Carrillo",
+        "age": null
     },
     {
         "name": "Jose Raymundo Tiburcio Carrillo",
@@ -21,7 +23,8 @@
         "gender": "M",
         "father": "Anastacio Carrillo",
         "mother": "Maria Concepcion Garcia",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Soledad Carrillo",
@@ -29,7 +32,8 @@
         "gender": "M",
         "father": "Anastacio Carrillo",
         "mother": "Maria Concepcion Garcia",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Manuela Carrillo",
@@ -37,7 +41,8 @@
         "gender": "F",
         "father": "Anastacio Carrillo",
         "mother": "Maria Concepcion Garcia",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Manuela Carrillo",
@@ -45,7 +50,8 @@
         "gender": "F",
         "father": "Anastacio Carrillo",
         "mother": "Maria Concepcion Garcia",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Francisco Carrillo",
@@ -53,7 +59,8 @@
         "gender": "M",
         "father": "Anastacio Carrillo",
         "mother": "Maria Concepcion Garcia",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Luis Carrillo",
@@ -61,7 +68,8 @@
         "gender": "M",
         "father": "Anastacio Carrillo",
         "mother": "Maria Concepcion Garcia",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Mateo Rubio",
@@ -69,7 +77,8 @@
         "gender": "M",
         "father": "Mateo Rubio Romero",
         "mother": "Gertrudis Bermon",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "María Ursula Dominguez",
@@ -77,7 +86,8 @@
         "gender": "F",
         "father": " ",
         "mother": " ",
-        "spouse": "Mateo Rubio"
+        "spouse": "Mateo Rubio",
+        "age": null
     },
     {
         "name": "Maria Josefa Vicenta Rubio",
@@ -85,7 +95,8 @@
         "gender": "F",
         "father": "Mateo Rubio",
         "mother": "María Vindiana",
-        "spouse": "Leonardo Verdugo"
+        "spouse": "Leonardo Verdugo",
+        "age": null
     },
     {
         "name": "Paula Maria Rubio",
@@ -93,7 +104,8 @@
         "gender": "F",
         "father": "Mateo Rubio",
         "mother": "María Vindiana",
-        "spouse": "Juan Maria Lugo"
+        "spouse": "Juan Maria Lugo",
+        "age": null
     },
     {
         "name": "Josef Santiago Rubio",
@@ -101,7 +113,8 @@
         "gender": "M",
         "father": "Mateo Rubio",
         "mother": "María Vindiana",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Luisa Antonia Juana Rubio",
@@ -109,7 +122,8 @@
         "gender": "F",
         "father": "Mateo Rubio",
         "mother": "María Vindiana",
-        "spouse": "Anselmo Garcia"
+        "spouse": "Anselmo Garcia",
+        "age": null
     },
     {
         "name": "Rafael Felipe Rubio",
@@ -117,7 +131,8 @@
         "gender": "M",
         "father": "Mateo Rubio",
         "mother": "María Vindiana",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Jose Ramón Buelna",
@@ -125,7 +140,8 @@
         "gender": "M",
         "father": "Anastacio Buelna",
         "mother": "Juana Maria Ignacia Josefa Domingues",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Petra Mejías",
@@ -133,7 +149,8 @@
         "gender": "F",
         "father": "Pedro Jose Mejias",
         "mother": "Francisca Xaviera Ortega",
-        "spouse": "Ramón Buelna"
+        "spouse": "Ramón Buelna",
+        "age": null
     },
     {
         "name": "Jose Raymundo Procopia Buelna",
@@ -141,7 +158,8 @@
         "gender": "M",
         "father": "Jose Ramon Buelna",
         "mother": "Maria Petra Mejias",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Francisca del Rosario Buelna",
@@ -149,7 +167,8 @@
         "gender": "F",
         "father": "Jose Ramon Buelna",
         "mother": "Maria Petra Mejias",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Jose Eusebio Buelna",
@@ -157,7 +176,8 @@
         "gender": "M",
         "father": "Jose Ramon Buelna",
         "mother": "Maria Petra Mejias",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Petra Manuela Buelna",
@@ -165,7 +185,8 @@
         "gender": "F",
         "father": "Jose Ramon Buelna",
         "mother": "Maria Petra Mejias",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Encarnacion Buelna",
@@ -173,7 +194,8 @@
         "gender": "F",
         "father": "Jose Ramon Buelna",
         "mother": "Maria Petra Mejias",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria del Pilar Buelna",
@@ -181,7 +203,8 @@
         "gender": "F",
         "father": "Jose Ramon Buelna",
         "mother": "Maria Petra Mejias",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Mariano Buelna",
@@ -189,7 +212,8 @@
         "gender": "M",
         "father": "Jose Ramon Buelna",
         "mother": "Maria Petra Mejias",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Juan Segundo Francisco Valenzuela",
@@ -197,7 +221,8 @@
         "gender": "M",
         "father": "Andres Ramon Valenzuela.",
         "mother": "Maria Antonia Aguilar",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Ana Juana Augustina Alcántara",
@@ -205,7 +230,8 @@
         "gender": "F",
         "father": "Guillermo Alcantara",
         "mother": "Feliciana Meza Salazar",
-        "spouse": "Juan Segundo Francisco Valenzuela"
+        "spouse": "Juan Segundo Francisco Valenzuela",
+        "age": null
     },
     {
         "name": "Simeon Máximo Valenzuela",
@@ -213,7 +239,8 @@
         "gender": "M",
         "father": "Juan Segundo Francisco Valenzuela",
         "mother": "Maria Ana Juana Augustina Alcantara",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria de la Trinidad García",
@@ -221,7 +248,8 @@
         "gender": "F",
         "father": "Anselmo Jose Ygnacio Garcia Romero",
         "mother": "Maria Ana Gertrudis Flores",
-        "spouse": "Simeon Máximo Valenzuela"
+        "spouse": "Simeon Máximo Valenzuela",
+        "age": null
     },
     {
         "name": "Maria Gertrudis de la Natividad Valenzuela",
@@ -229,7 +257,8 @@
         "gender": "F",
         "father": "Simeon Máximo Valenzuela",
         "mother": "Maria de la Trinidad García",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": " Valenzuela",
@@ -237,7 +266,8 @@
         "gender": "F",
         "father": "Simeon Máximo Valenzuela",
         "mother": "Maria de la Trinidad García",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": " Valenzuela",
@@ -245,7 +275,8 @@
         "gender": "F",
         "father": "Simeon Máximo Valenzuela",
         "mother": "Maria de la Trinidad García",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Juana Maria Valenzuela",
@@ -253,7 +284,8 @@
         "gender": "F",
         "father": "Jose Miguel Segundo Valenzuela",
         "mother": "Maria de la Visitacion Rodriguez",
-        "spouse": "Anastacio Maria Mauricio Feliz"
+        "spouse": "Anastacio Maria Mauricio Feliz",
+        "age": null
     },
     {
         "name": " ",
@@ -261,7 +293,8 @@
         "gender": "",
         "father": "Anastacio Maria Mauricio Feliz",
         "mother": "Juana Valenzuela",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": " ",
@@ -269,7 +302,8 @@
         "gender": "",
         "father": "Anastacio Maria Mauricio Feliz",
         "mother": "Juana Valenzuela",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Felipe Luis Talamantes",
@@ -277,7 +311,8 @@
         "gender": "M",
         "father": " ",
         "mother": " ",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Ildefonsa Avila",
@@ -285,7 +320,8 @@
         "gender": "F",
         "father": "Antonio Cornelio Avila",
         "mother": "Maria Isabel Urquidez",
-        "spouse": "Felipe Luis Talamantes"
+        "spouse": "Felipe Luis Talamantes",
+        "age": null
     },
     {
         "name": "Pablo Antonio Talamantes",
@@ -293,7 +329,8 @@
         "gender": "M",
         "father": "Luis Felipe Talamantes",
         "mother": "Maria Ildefonsa Avila",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria de Guadalupe Talamantes",
@@ -301,7 +338,8 @@
         "gender": "F",
         "father": "Luis Felipe Talamantes",
         "mother": "Maria Ildefonsa Avila",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Ygnacio Talamantes",
@@ -309,7 +347,8 @@
         "gender": "M",
         "father": "Luis Felipe Talamantes",
         "mother": "Maria Ildefonsa Avila",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Tomás Talamantes",
@@ -317,7 +356,8 @@
         "gender": "M",
         "father": "Luis Felipe Talamantes",
         "mother": "Maria Ildefonsa Avila",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Petronilla \"Petra\" Olivas",
@@ -325,7 +365,8 @@
         "gender": "F",
         "father": "Juan Mathias Olivas",
         "mother": "Juana Maria de Dios Ontiveros y Carrasco",
-        "spouse": "Tomás Talamantes"
+        "spouse": "Tomás Talamantes",
+        "age": null
     },
     {
         "name": "Jose Damaso Talamantes",
@@ -333,7 +374,8 @@
         "gender": "M",
         "father": "Tomás Talamantes",
         "mother": "Maria Petronilla \"Petra\" Olivas",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Jose Felipe de Jesus Talamantes",
@@ -341,7 +383,8 @@
         "gender": "M",
         "father": "Tomás Talamantes",
         "mother": "Maria Petronilla \"Petra\" Olivas",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "José Cristobal Palomares",
@@ -349,7 +392,8 @@
         "gender": "M",
         "father": "Jose Antonio Palomares",
         "mother": "Maria Pascuala Valenzuela",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "María Vendita Saís",
@@ -357,7 +401,8 @@
         "gender": "F",
         "father": "Justo Nazario Sais",
         "mother": "Maria Micaela Sotelo",
-        "spouse": "José Cristobal Palomares"
+        "spouse": "José Cristobal Palomares",
+        "age": null
     },
     {
         "name": "Jose Luis Pascacio Palomares",
@@ -365,7 +410,8 @@
         "gender": "M",
         "father": "José Palomares",
         "mother": "María Vendita Saís",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Jose Francisco de Paula Palomares",
@@ -373,7 +419,8 @@
         "gender": "M",
         "father": "José Palomares",
         "mother": "María Vendita Saís",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Estefana Palomares",
@@ -381,7 +428,8 @@
         "gender": "F",
         "father": "José Palomares",
         "mother": "María Vendita Saís",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Dolores Palomares",
@@ -389,7 +437,8 @@
         "gender": "F",
         "father": "José Palomares",
         "mother": "María Vendita Saís",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Dona Petra Josefa Palomares",
@@ -397,7 +446,8 @@
         "gender": "F",
         "father": "José Palomares",
         "mother": "María Vendita Saís",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria del Rosario Andrea Palomares",
@@ -405,7 +455,8 @@
         "gender": "F",
         "father": "José Palomares",
         "mother": "María Vendita Saís",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Carlos Castro",
@@ -413,7 +464,8 @@
         "gender": "M",
         "father": " ",
         "mother": " ",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Josefa Augustina Avila",
@@ -421,7 +473,8 @@
         "gender": "F",
         "father": "Antonio Cornelio Avila",
         "mother": "Maria Isabel Urquidez",
-        "spouse": "Carlos Castro"
+        "spouse": "Carlos Castro",
+        "age": null
     },
     {
         "name": " Castro",
@@ -429,7 +482,8 @@
         "gender": "F",
         "father": "Carlos Castro",
         "mother": "Josefa Augustina Avila",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": " Castro",
@@ -437,7 +491,8 @@
         "gender": "F",
         "father": "Carlos Castro",
         "mother": "Josefa Augustina Avila",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": " Castro",
@@ -445,7 +500,8 @@
         "gender": "F",
         "father": "Carlos Castro",
         "mother": "Josefa Augustina Avila",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": " Castro",
@@ -453,7 +509,8 @@
         "gender": "M",
         "father": "Carlos Castro",
         "mother": "Josefa Augustina Avila",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": " Castro",
@@ -461,7 +518,8 @@
         "gender": "M",
         "father": "Carlos Castro",
         "mother": "Josefa Augustina Avila",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "José Polanco",
@@ -469,7 +527,8 @@
         "gender": "M",
         "father": " ",
         "mother": " ",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "María Norberta León, de",
@@ -477,7 +536,8 @@
         "gender": "F",
         "father": " ",
         "mother": " ",
-        "spouse": "José Polanco"
+        "spouse": "José Polanco",
+        "age": null
     },
     {
         "name": " Polanco",
@@ -485,7 +545,8 @@
         "gender": "F",
         "father": "Jose Polanco",
         "mother": "Maria Norberta de Leon",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Máximo Alanís",
@@ -493,7 +554,8 @@
         "gender": "M",
         "father": "Jose Santiago Alanis",
         "mother": "Maria Basilia Casillas y Lopez",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Juana Innocencia Reyes",
@@ -501,7 +563,8 @@
         "gender": "F",
         "father": "Juan Francisco Reyes",
         "mother": "Maria del Carmen Dominguez",
-        "spouse": "Máximo Alanís"
+        "spouse": "Máximo Alanís",
+        "age": null
     },
     {
         "name": "Maria Paula Josefa Alanís",
@@ -509,7 +572,8 @@
         "gender": "F",
         "father": "Máximo Alanís",
         "mother": "Juana Innocencia Reyes",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Isidro Alanís",
@@ -517,7 +581,8 @@
         "gender": "M",
         "father": "Máximo Alanís",
         "mother": "Juana Innocencia Reyes",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Jose Francisco Antonio Villa",
@@ -525,7 +590,8 @@
         "gender": "M",
         "father": "Juan Jose Villa",
         "mother": "Maria Paula Martinez",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Eulalia Soto",
@@ -533,7 +599,8 @@
         "gender": "F",
         "father": "Guillermo Soto",
         "mother": "Juana Maria Perez y Nieto ",
-        "spouse": "Jose Francisco Antonio Villa"
+        "spouse": "Jose Francisco Antonio Villa",
+        "age": null
     },
     {
         "name": "Rafael Antonio Villa",
@@ -541,7 +608,8 @@
         "gender": "M",
         "father": "Jose Francisco Antonio Villa",
         "mother": "Maria Eulalia Soto",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Ignacia Villa",
@@ -549,7 +617,8 @@
         "gender": "F",
         "father": "Jose Francisco Antonio Villa",
         "mother": "Maria Eulalia Soto",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria del Rosario Villa",
@@ -557,7 +626,8 @@
         "gender": "F",
         "father": "Jose Francisco Antonio Villa",
         "mother": "Maria Eulalia Soto",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Antonia Villa",
@@ -565,7 +635,8 @@
         "gender": "F",
         "father": "Jose Francisco Antonio Villa",
         "mother": "Maria Eulalia Soto",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Antonio Matias Villa",
@@ -573,7 +644,8 @@
         "gender": "M",
         "father": "Jose Francisco Antonio Villa",
         "mother": "Maria Eulalia Soto",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria de la Merced Villa",
@@ -581,7 +653,8 @@
         "gender": "F",
         "father": "Jose Francisco Antonio Villa",
         "mother": "Maria Eulalia Soto",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Jose Ignacio Almenares",
@@ -589,7 +662,8 @@
         "gender": "M",
         "father": " ",
         "mother": " ",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "María Antonia Emilia Emigida Ceseña",
@@ -597,7 +671,8 @@
         "gender": "F",
         "father": "Juan Ignacio Cipriano Cesena",
         "mother": "Maria Ysabel Theresa Antonia Valles",
-        "spouse": "Ignacio Almenares"
+        "spouse": "Ignacio Almenares",
+        "age": null
     },
     {
         "name": "Maria del Rosario Ramona Almenares",
@@ -605,7 +680,8 @@
         "gender": "F",
         "father": "Jose Ignacio Almenares",
         "mother": "María Antonia Emilia Emigida Ceseña",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Nepomucena Bernardina Almenares",
@@ -613,7 +689,8 @@
         "gender": "F",
         "father": "Jose Ignacio Almenares",
         "mother": "María Antonia Emilia Emigida Ceseña",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Andrea Almenares",
@@ -621,7 +698,8 @@
         "gender": "F",
         "father": "Jose Ignacio Almenares",
         "mother": "María Antonia Emilia Emigida Ceseña",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": " Almenares",
@@ -629,7 +707,8 @@
         "gender": "F",
         "father": "Jose Ignacio Almenares",
         "mother": "María Antonia Emilia Emigida Ceseña",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": " Almenares",
@@ -637,7 +716,8 @@
         "gender": "M",
         "father": "Jose Ignacio Almenares",
         "mother": "María Antonia Emilia Emigida Ceseña",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": " Almenares",
@@ -645,7 +725,8 @@
         "gender": "",
         "father": "Jose Ignacio Almenares",
         "mother": "María Antonia Emilia Emigida Ceseña",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Jose Luciano Maria Feliz",
@@ -653,7 +734,8 @@
         "gender": "M",
         "father": "Josef Doroteo Feliz",
         "mother": "Juana Josefa Villalobo",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Marcela Higuera",
@@ -661,7 +743,8 @@
         "gender": "F",
         "father": " ",
         "mother": " ",
-        "spouse": "Luciano Feliz"
+        "spouse": "Luciano Feliz",
+        "age": null
     },
     {
         "name": " ",
@@ -669,7 +752,8 @@
         "gender": "",
         "father": "Jose Luciano Maria Feliz",
         "mother": "Maria Marcela Higuera",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Jose Desiderio Ybarra",
@@ -677,7 +761,8 @@
         "gender": "M",
         "father": "Juan Francisco Antonio Ybarra",
         "mother": "Maria Antonia de los Angeles Velasquez",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria de Jesus Valeriana Lorenzana",
@@ -685,7 +770,8 @@
         "gender": "F",
         "father": "Adopted by Archbishop Francisco Antonio Lorenzana, Archbishop of Mexico ",
         "mother": " ",
-        "spouse": "Desiderio Ybarra"
+        "spouse": "Desiderio Ybarra",
+        "age": null
     },
     {
         "name": "Maria Juana Juliana Ybarra",
@@ -693,7 +779,8 @@
         "gender": "F",
         "father": "Jose Desiderio Ybarra",
         "mother": "Maria de Jesus Valeriana Lorenzana",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Jose de Jesus Severiano Ybarra",
@@ -701,7 +788,8 @@
         "gender": "M",
         "father": "Jose Desiderio Ybarra",
         "mother": "Maria de Jesus Valeriana Lorenzana",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Ramon Joaquin Ybarra",
@@ -709,7 +797,8 @@
         "gender": "M",
         "father": "Jose Desiderio Ybarra",
         "mother": "Maria de Jesus Valeriana Lorenzana",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Jose Maria Ybarra",
@@ -717,7 +806,8 @@
         "gender": "M",
         "father": "Jose Desiderio Ybarra",
         "mother": "Maria de Jesus Valeriana Lorenzana",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Felipe de Jesus Ybarra",
@@ -725,7 +815,8 @@
         "gender": "M",
         "father": "Jose Desiderio Ybarra",
         "mother": "Maria de Jesus Valeriana Lorenzana",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Pedro Ybarra",
@@ -733,7 +824,8 @@
         "gender": "M",
         "father": "Jose Desiderio Ybarra",
         "mother": "Maria de Jesus Valeriana Lorenzana",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Florentina Ybarra",
@@ -741,7 +833,8 @@
         "gender": "F",
         "father": "Jose Desiderio Ybarra",
         "mother": "Maria de Jesus Valeriana Lorenzana",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Francisco Acebedo",
@@ -749,7 +842,8 @@
         "gender": "M",
         "father": "Ygnacia Eugenio Acebedo",
         "mother": "Maria Estafana de Arroyo",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria de la Concepción Verdugo",
@@ -757,7 +851,8 @@
         "gender": "F",
         "father": "Mariano de la Luz Verdugo",
         "mother": "Maria Guadalupe Lugo",
-        "spouse": "Francisco Acebedo"
+        "spouse": "Francisco Acebedo",
+        "age": null
     },
     {
         "name": "Jose Antonio Acebedo",
@@ -765,7 +860,8 @@
         "gender": "M",
         "father": "Francisco Acebedo",
         "mother": "Maria de la Concepcion Verdugo",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Juana Tomasa Acebedo",
@@ -773,7 +869,8 @@
         "gender": "F",
         "father": "Francisco Acebedo",
         "mother": "Maria de la Concepcion Verdugo",
-        "spouse": "Juan Maria Duarte"
+        "spouse": "Juan Maria Duarte",
+        "age": null
     },
     {
         "name": "Julian Jose Acebedo",
@@ -781,7 +878,8 @@
         "gender": "M",
         "father": "Francisco Acebedo",
         "mother": "Maria de la Concepcion Verdugo",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Pablo Jose Franco",
@@ -789,7 +887,8 @@
         "gender": "M",
         "father": " ",
         "mother": " ",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Clara ",
@@ -797,7 +896,8 @@
         "gender": "F",
         "father": " ",
         "mother": " ",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": " ",
@@ -805,7 +905,8 @@
         "gender": "F",
         "father": " ",
         "mother": " ",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": " ",
@@ -813,7 +914,8 @@
         "gender": "F",
         "father": " ",
         "mother": " ",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": " ",
@@ -821,7 +923,8 @@
         "gender": "",
         "father": " ",
         "mother": " ",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": " ",
@@ -829,7 +932,8 @@
         "gender": "",
         "father": " ",
         "mother": " ",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": " ",
@@ -837,7 +941,8 @@
         "gender": "",
         "father": " ",
         "mother": " ",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Francisco Jose Avila",
@@ -845,7 +950,8 @@
         "gender": "M",
         "father": "Cornelio Avila",
         "mother": "Maria Isabel Urduiqez",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria del Rosario Verdugo",
@@ -853,7 +959,8 @@
         "gender": "F",
         "father": "Mariano de la Luz Verdugo",
         "mother": "Maria Gertrudis Gregoria Espinosa",
-        "spouse": "Francisco Jose Avila"
+        "spouse": "Francisco Jose Avila",
+        "age": null
     },
     {
         "name": "Maria Ysabel Avila",
@@ -861,7 +968,8 @@
         "gender": "F",
         "father": "Francisco Jose Avila",
         "mother": "Maria del Rosario Verdugo",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Juanario Avila",
@@ -869,7 +977,8 @@
         "gender": "M",
         "father": "Francisco Jose Avila",
         "mother": "Maria del Rosario Verdugo",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Petronila Avila",
@@ -877,7 +986,8 @@
         "gender": "F",
         "father": "Francisco Jose Avila",
         "mother": "Maria del Rosario Verdugo",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": " Avila",
@@ -885,7 +995,8 @@
         "gender": "",
         "father": " ",
         "mother": " ",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Jose Cayetano Varelas",
@@ -893,7 +1004,8 @@
         "gender": "M",
         "father": "Ygnacio Casimiro Varelas",
         "mother": "Juana de Santa Ana Pinto",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Apolonia Varelas",
@@ -901,7 +1013,8 @@
         "gender": "F",
         "father": "Jose Cayetano Varelas",
         "mother": "Maria Hilaria Ylaria Avila",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Francisca Varelas",
@@ -909,7 +1022,8 @@
         "gender": "F",
         "father": "Jose Cayetano Varelas",
         "mother": "Maria Hilaria Ylaria Avila",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Dolores Varelas",
@@ -917,7 +1031,8 @@
         "gender": "F",
         "father": "Jose Cayetano Varelas",
         "mother": "Maria Hilaria Ylaria Avila",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Gertrudis Varelas",
@@ -925,7 +1040,8 @@
         "gender": "F",
         "father": "Jose Cayetano Varelas",
         "mother": "Maria Hilaria Ylaria Avila",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Jose Servulo Varelas",
@@ -933,7 +1049,8 @@
         "gender": "M",
         "father": "Jose Cayetano Varelas",
         "mother": "Maria Hilaria Ylaria Avila",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Hilario Varelas",
@@ -941,7 +1058,8 @@
         "gender": "M",
         "father": "Jose Cayetano Varelas",
         "mother": "Maria Hilaria Ylaria Avila",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Cayetano Varelas",
@@ -949,7 +1067,8 @@
         "gender": "M",
         "father": "Jose Cayetano Varelas",
         "mother": "Maria Hilaria Ylaria Avila",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Marta Varelas",
@@ -957,7 +1076,8 @@
         "gender": "F",
         "father": "Jose Cayetano Varelas",
         "mother": "Maria Hilaria Ylaria Avila",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": " ",
@@ -965,7 +1085,8 @@
         "gender": "F",
         "father": " ",
         "mother": " ",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Juan Vicente Lorenzana",
@@ -973,7 +1094,8 @@
         "gender": "M",
         "father": "Adopted by Archbishop Francisco Antonio Lorenzana, Archbishop of Mexico ",
         "mother": " ",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Mariana Verdugo",
@@ -981,7 +1103,8 @@
         "gender": "F",
         "father": "Joaquin Verdugo",
         "mother": "Maria Guadalupe Paulina Buelna",
-        "spouse": "Juan Vicente Lorenzana"
+        "spouse": "Juan Vicente Lorenzana",
+        "age": null
     },
     {
         "name": "Maria del Pilar Lorenzana",
@@ -989,7 +1112,8 @@
         "gender": "F",
         "father": "Juan Vicente Lorenzana",
         "mother": "Mariana Verdugo",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Antonio Ignacio Avila",
@@ -997,7 +1121,8 @@
         "gender": "M",
         "father": "Cornelio Avila",
         "mother": "Maria Isabel Urquidez",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Rosa Maria Ruiz",
@@ -1005,7 +1130,8 @@
         "gender": "F",
         "father": "Efigenio Ruiz",
         "mother": "Rosa Maria Lopez",
-        "spouse": "Antonio Ignacio Avila"
+        "spouse": "Antonio Ignacio Avila",
+        "age": null
     },
     {
         "name": "Francisca de Paula Avila",
@@ -1013,7 +1139,8 @@
         "gender": "F",
         "father": "Antonio Ignacio Avila",
         "mother": "Rosa Maria Ruiz",
-        "spouse": "Jose Sepulveda"
+        "spouse": "Jose Sepulveda",
+        "age": null
     },
     {
         "name": "Maria Asencion Avila",
@@ -1021,7 +1148,8 @@
         "gender": "F",
         "father": "Antonio Ignacio Avila",
         "mother": "Rosa Maria Ruiz",
-        "spouse": "Pedro Antonio Sanchez"
+        "spouse": "Pedro Antonio Sanchez",
+        "age": null
     },
     {
         "name": "Juan Avila Avila",
@@ -1029,7 +1157,8 @@
         "gender": "M",
         "father": "Antonio Ignacio Avila",
         "mother": "Rosa Maria Ruiz",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Jose Martin Avila",
@@ -1037,7 +1166,8 @@
         "gender": "M",
         "father": "Antonio Ignacio Avila",
         "mother": "Rosa Maria Ruiz",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Rafaela Avila",
@@ -1045,7 +1175,8 @@
         "gender": "F",
         "father": "Antonio Ignacio Avila",
         "mother": "Rosa Maria Ruiz",
-        "spouse": "Emidio Vejar"
+        "spouse": "Emidio Vejar",
+        "age": null
     },
     {
         "name": "Asencion Avila",
@@ -1053,7 +1184,8 @@
         "gender": "F",
         "father": "Antonio Ignacio Avila",
         "mother": "Rosa Maria Ruiz",
-        "spouse": "Jose Servulo Varelas"
+        "spouse": "Jose Servulo Varelas",
+        "age": null
     },
     {
         "name": "Pedro Avila",
@@ -1061,7 +1193,8 @@
         "gender": "M",
         "father": "Antonio Ignacio Avila",
         "mother": "Rosa Maria Ruiz",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Antonia Segunda Valenzuela",
@@ -1069,7 +1202,8 @@
         "gender": "F",
         "father": "Juan Segundo Valenzuela",
         "mother": "Maria Ana Juana Augustina Alcantara",
-        "spouse": "Juan Jose Maria Alvarado Castro"
+        "spouse": "Juan Jose Maria Alvarado Castro",
+        "age": null
     },
     {
         "name": "Maria Dolores de Gracia Alvarado",
@@ -1077,7 +1211,8 @@
         "gender": "F",
         "father": "Juan Jose Maria Alvarado",
         "mother": "Maria Antonia Segunda Valenzuela",
-        "spouse": "Leon Rosas"
+        "spouse": "Leon Rosas",
+        "age": null
     },
     {
         "name": "Joaquin Alvarado",
@@ -1085,7 +1220,8 @@
         "gender": "M",
         "father": "Juan Jose Maria Alvarado",
         "mother": "Maria Antonia Segunda Valenzuela",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Tomasa Alvarado",
@@ -1093,7 +1229,8 @@
         "gender": "F",
         "father": "Juan Jose Maria Alvarado",
         "mother": "Maria Antonia Segunda Valenzuela",
-        "spouse": "Juan Maria Alvitre"
+        "spouse": "Juan Maria Alvitre",
+        "age": null
     },
     {
         "name": "Maria Magdalena Alvarado",
@@ -1101,7 +1238,8 @@
         "gender": "F",
         "father": "Juan Jose Maria Alvarado",
         "mother": "Maria Antonia Segunda Valenzuela",
-        "spouse": "Francisco Silvas"
+        "spouse": "Francisco Silvas",
+        "age": null
     },
     {
         "name": "Juana Maria Alvarado",
@@ -1109,7 +1247,8 @@
         "gender": "F",
         "father": "Juan Jose Maria Alvarado",
         "mother": "Maria Antonia Segunda Valenzuela",
-        "spouse": "Teodoro Silvas"
+        "spouse": "Teodoro Silvas",
+        "age": null
     },
     {
         "name": " Alvarado",
@@ -1117,7 +1256,8 @@
         "gender": "F",
         "father": "Juan Jose Maria Alvarado",
         "mother": "Maria Antonia Segunda Valenzuela",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": " Alvarado",
@@ -1125,7 +1265,8 @@
         "gender": "F",
         "father": "Juan Jose Maria Alvarado",
         "mother": "Maria Antonia Segunda Valenzuela",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": " Alvarado",
@@ -1133,7 +1274,8 @@
         "gender": "F",
         "father": "Juan Jose Maria Alvarado",
         "mother": "Maria Antonia Segunda Valenzuela",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Jose Maria Aguilar",
@@ -1141,7 +1283,8 @@
         "gender": "M",
         "father": " ",
         "mother": " ",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Ignacia Margarita Lisalde",
@@ -1149,7 +1292,8 @@
         "gender": "F",
         "father": "Pedro Antonio Lisalde",
         "mother": "Maria Encarnacion Peres",
-        "spouse": "Jose Maria Aguilar"
+        "spouse": "Jose Maria Aguilar",
+        "age": null
     },
     {
         "name": "Jose Cristobal Aguilar",
@@ -1157,7 +1301,8 @@
         "gender": "M",
         "father": "Jose Maria Aguilar",
         "mother": "Maria Ignacia Margarita Lisalde",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Juana Maria de Dios Ontiveros",
@@ -1165,7 +1310,8 @@
         "gender": "F",
         "father": "Jose Antonio Ontiveros",
         "mother": "Anna Maria Carrasco",
-        "spouse": "Juan Mathias Olivas"
+        "spouse": "Juan Mathias Olivas",
+        "age": null
     },
     {
         "name": "Jose Domingo Olivas",
@@ -1173,7 +1319,8 @@
         "gender": "M",
         "father": "Juan Mathias Olivas",
         "mother": "Juana Maria de Dios Ontiveros",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Jose Herculano Olivas",
@@ -1181,7 +1328,8 @@
         "gender": "M",
         "father": "Juan Mathias Olivas",
         "mother": "Juana Maria de Dios Ontiveros",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Jose Nicolas Olivas",
@@ -1189,7 +1337,8 @@
         "gender": "M",
         "father": "Juan Mathias Olivas",
         "mother": "Juana Maria de Dios Ontiveros",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Petronilla Olivas",
@@ -1197,7 +1346,8 @@
         "gender": "F",
         "father": "Juan Mathias Olivas",
         "mother": "Juana Maria de Dios Ontiveros",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Jose Antonio Olivas",
@@ -1205,7 +1355,8 @@
         "gender": "M",
         "father": "Juan Mathias Olivas",
         "mother": "Juana Maria de Dios Ontiveros",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Jose Francisco Benito Olivares",
@@ -1213,7 +1364,8 @@
         "gender": "M",
         "father": "Jose Miguel Olivares Garcia",
         "mother": "Juana Maria de Dios Ontiveros",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Prudencia Murillo",
@@ -1221,7 +1373,8 @@
         "gender": "F",
         "father": " ",
         "mother": " ",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria de la Asencion (Possibly) Olivares",
@@ -1229,7 +1382,8 @@
         "gender": "F",
         "father": "Jose Francisco Benito Olivares",
         "mother": "Maria Prudencia Murillo",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Ana Maria Gertrudis Silvas",
@@ -1237,7 +1391,8 @@
         "gender": "F",
         "father": "Jose Miguel Silvas",
         "mother": "Maria Pascuala Silvas",
-        "spouse": "Manuel Antonio Figueroa"
+        "spouse": "Manuel Antonio Figueroa",
+        "age": null
     },
     {
         "name": "Maria Pasquala Figueroa",
@@ -1245,7 +1400,8 @@
         "gender": "F",
         "father": "Manuel Antonio (Rumored to not be biological father) Figueroa",
         "mother": "Ana Maria Gertrudis Silvas",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": " ",
@@ -1253,7 +1409,8 @@
         "gender": "M",
         "father": " ",
         "mother": " ",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": " ",
@@ -1261,7 +1418,8 @@
         "gender": "M",
         "father": " ",
         "mother": " ",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Pascuala Lugo",
@@ -1269,7 +1427,8 @@
         "gender": "F",
         "father": "Juan Salvador Francisco Lugo Dominguez",
         "mother": "Maria Josefa Francisca Espinoza Martin",
-        "spouse": "Jose Manuel Silvas"
+        "spouse": "Jose Manuel Silvas",
+        "age": null
     },
     {
         "name": "Maria Bernardina Silvas",
@@ -1277,7 +1436,8 @@
         "gender": "F",
         "father": "Jose Miguel Silvas",
         "mother": "Maria Pascuala Lugo",
-        "spouse": "Juan Alvarez"
+        "spouse": "Juan Alvarez",
+        "age": null
     },
     {
         "name": "Maria Asumpcion de la Encarnacion Ontiveros",
@@ -1285,7 +1445,8 @@
         "gender": "F",
         "father": "Jose Antonio Ontiveros",
         "mother": "Ana Maria Carrasco",
-        "spouse": "Jose Esteban Perez"
+        "spouse": "Jose Esteban Perez",
+        "age": null
     },
     {
         "name": "Maria Ventura Perez",
@@ -1293,7 +1454,8 @@
         "gender": "F",
         "father": "Jose Esteban Perez",
         "mother": "Maria Asumpcion de la Encarnacion Ontiveros",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Jacinto Perez",
@@ -1301,7 +1463,8 @@
         "gender": "M",
         "father": "Jose Esteban Perez",
         "mother": "Maria Asumpcion de la Encarnacion Ontiveros",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Francisca Pancha Perez",
@@ -1309,7 +1472,8 @@
         "gender": "F",
         "father": "Jose Esteban Perez",
         "mother": "Maria Asumpcion de la Encarnacion Ontiveros",
-        "spouse": "Felipe Lugo"
+        "spouse": "Felipe Lugo",
+        "age": null
     },
     {
         "name": "Jose Crispin Perez",
@@ -1317,7 +1481,8 @@
         "gender": "M",
         "father": "Jose Esteban Perez",
         "mother": "Maria Asumpcion de la Encarnacion Ontiveros",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Mariano de la Luz Verdugo",
@@ -1325,7 +1490,8 @@
         "gender": "M",
         "father": "Juan Diego Verdugo",
         "mother": "Maria Ignacia de la Concepcion Carrillo",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Gertrudis Gregoria Espinosa",
@@ -1333,7 +1499,8 @@
         "gender": "F",
         "father": "Bernardino Espinosa",
         "mother": "Maria Isabel Acosta",
-        "spouse": "Mariano de la Luz Verdugo"
+        "spouse": "Mariano de la Luz Verdugo",
+        "age": null
     },
     {
         "name": "Maria del Rosario Verdugo",
@@ -1341,7 +1508,8 @@
         "gender": "F",
         "father": "Mariano de la Luz Verdugo",
         "mother": "Maria Gertrudis Gregoria Espinosa",
-        "spouse": "Francisco Avila"
+        "spouse": "Francisco Avila",
+        "age": null
     },
     {
         "name": "Maria Ana Verdugo",
@@ -1349,7 +1517,8 @@
         "gender": "F",
         "father": "Mariano de la Luz Verdugo",
         "mother": "Maria Gertrudis Gregoria Espinosa",
-        "spouse": "Jose Antonio Tapia"
+        "spouse": "Jose Antonio Tapia",
+        "age": null
     },
     {
         "name": "Maria Antonia Segunda Verdugo",
@@ -1357,7 +1526,8 @@
         "gender": "F",
         "father": "Mariano de la Luz Verdugo",
         "mother": "Maria Gertrudis Gregoria Espinosa",
-        "spouse": "Carlos Ruiz"
+        "spouse": "Carlos Ruiz",
+        "age": null
     },
     {
         "name": "Maria de la Concepcion Verdugo",
@@ -1365,7 +1535,8 @@
         "gender": "F",
         "father": "Mariano de la Luz Verdugo",
         "mother": "Maria Guadalupe Lugo",
-        "spouse": "Francisco Acebedo"
+        "spouse": "Francisco Acebedo",
+        "age": null
     },
     {
         "name": " Verdugo",
@@ -1373,7 +1544,8 @@
         "gender": "F",
         "father": "Mariano de la Luz Verdugo",
         "mother": "Maria Gertrudis Gregoria Espinosa",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Jose Bartolome Tapia",
@@ -1381,7 +1553,8 @@
         "gender": "M",
         "father": "Felipe Santiago Tapia y Garcia",
         "mother": "Maria Philomena Hernandez y Rodrigues",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Francisca Mauricia Villalobos",
@@ -1389,7 +1562,8 @@
         "gender": "F",
         "father": "Juan Jose Miguel Villalobos y Romero",
         "mother": "Maria Nicolasa de los Santos Beltran Carrillo",
-        "spouse": "Jose Bartolome Tapia"
+        "spouse": "Jose Bartolome Tapia",
+        "age": null
     },
     {
         "name": " ",
@@ -1397,7 +1571,8 @@
         "gender": "F",
         "father": " ",
         "mother": " ",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Eugenio Nicolas Alanis",
@@ -1405,7 +1580,8 @@
         "gender": "M",
         "father": "Jose Maximo Alanis",
         "mother": "Juana Maria Miranda",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Fernanda Tapia",
@@ -1413,7 +1589,8 @@
         "gender": "F",
         "father": "Jose Bartholome Tapia",
         "mother": "Maria Francisca Mauricia Villalobos",
-        "spouse": "Eugenio Nicolas Alanis"
+        "spouse": "Eugenio Nicolas Alanis",
+        "age": null
     },
     {
         "name": "Maria de Jesus Felipa Alanis",
@@ -1421,7 +1598,8 @@
         "gender": "F",
         "father": "Eugenio Nicolas Alanis",
         "mother": "Maria Fernanda Tapia",
-        "spouse": "Juan Capistrano Sepulveda"
+        "spouse": "Juan Capistrano Sepulveda",
+        "age": null
     },
     {
         "name": " Alanis",
@@ -1429,7 +1607,8 @@
         "gender": "F",
         "father": "Eugenio Nicolas Alanis",
         "mother": "Maria Fernanda Tapia",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Tomasa Alanis",
@@ -1437,7 +1616,8 @@
         "gender": "F",
         "father": "Eugenio Nicolas Alanis",
         "mother": "Maria Fernanda Tapia",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Basilia Alanis",
@@ -1445,7 +1625,8 @@
         "gender": "F",
         "father": "Eugenio Nicolas Alanis",
         "mother": "Maria Fernanda Tapia",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Bernarda Alanis",
@@ -1453,7 +1634,8 @@
         "gender": "F",
         "father": "Eugenio Nicolas Alanis",
         "mother": "Maria Fernanda Tapia",
-        "spouse": "Jose Henrique Anselmo Sepulveda"
+        "spouse": "Jose Henrique Anselmo Sepulveda",
+        "age": null
     },
     {
         "name": "Juan de Dios Ballesteros",
@@ -1461,7 +1643,8 @@
         "gender": "M",
         "father": "Jose Ballesteros",
         "mother": "Josefa Cosio Magobrejo",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Teresa Sepulveda",
@@ -1469,7 +1652,8 @@
         "gender": "F",
         "father": "Francisco Xavier Sepulveda",
         "mother": "Maria Candelaria Redondo",
-        "spouse": "Juan de Dios Ballesteros"
+        "spouse": "Juan de Dios Ballesteros",
+        "age": null
     },
     {
         "name": "Juan Antonio Ballesteros",
@@ -1477,7 +1661,8 @@
         "gender": "M",
         "father": "Juan de Dios Ballesteros",
         "mother": "Maria Teresa Sepulveda",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Faustina del Carmen Figueroa",
@@ -1485,7 +1670,8 @@
         "gender": "F",
         "father": "Manuel Antonio Figueroa",
         "mother": "Ana Maria Gertrudis Silvas",
-        "spouse": "Juan Antonio Ballesteros"
+        "spouse": "Juan Antonio Ballesteros",
+        "age": null
     },
     {
         "name": "Carlos Ballesteros",
@@ -1493,7 +1679,8 @@
         "gender": "M",
         "father": "Juan Antonio Ballesteros",
         "mother": "Maria Faustina del Carmen Figueroa",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Francisco de Jesus Ballesteros",
@@ -1501,7 +1688,8 @@
         "gender": "M",
         "father": "Juan Antonio Ballesteros",
         "mother": "Maria Faustina del Carmen Figueroa",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Jose Anastacio Avila",
@@ -1509,7 +1697,8 @@
         "gender": "M",
         "father": "Antonio Cornelio Santana Avila",
         "mother": "Maria Isabel Urquidez",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Juana Maria Ballesteros",
@@ -1517,7 +1706,8 @@
         "gender": "F",
         "father": "Juan de Dios Ballesteros",
         "mother": "Maria Teresa Sepuleva",
-        "spouse": "Jose Anastacio Avila"
+        "spouse": "Jose Anastacio Avila",
+        "age": null
     },
     {
         "name": "Cornelio Pedro Hilario Avila",
@@ -1525,7 +1715,8 @@
         "gender": "M",
         "father": "Jose Anastacio Avila",
         "mother": "Juana Ballesteros",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Enrique Avila",
@@ -1533,7 +1724,8 @@
         "gender": "M",
         "father": "Jose Anastacio Avila",
         "mother": "Juana Ballesteros",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Juana Josefa Avila",
@@ -1541,7 +1733,8 @@
         "gender": "F",
         "father": "Jose Anastacio Avila",
         "mother": "Juana Ballesteros",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Petra Avila",
@@ -1549,7 +1742,8 @@
         "gender": "F",
         "father": "Jose Anastacio Avila",
         "mother": "Juana Ballesteros",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Rafaela Avila",
@@ -1557,7 +1751,8 @@
         "gender": "F",
         "father": "Jose Anastacio Avila",
         "mother": "Juana Ballesteros",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Juana Maria Avila",
@@ -1565,7 +1760,8 @@
         "gender": "F",
         "father": "Jose Anastacio Avila",
         "mother": "Juana Ballesteros",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Micaela Avila",
@@ -1573,7 +1769,8 @@
         "gender": "F",
         "father": "Jose Anastacio Avila",
         "mother": "Juana Ballesteros",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Manuela Lorezana Justiniana ",
@@ -1581,7 +1778,8 @@
         "gender": "F",
         "father": "Jose Anastacio Avila",
         "mother": "Juana Ballesteros",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Jose Antonio Ygnacio Rendon",
@@ -1589,7 +1787,8 @@
         "gender": "M",
         "father": "Juan Jose Rendon Avila",
         "mother": "Ysabel Maria Garcia",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Gregoria Matilda Cota",
@@ -1597,7 +1796,8 @@
         "gender": "F",
         "father": "Antonio Cota",
         "mother": "Maria Bernarda Chigili Zoget",
-        "spouse": "Jose Antonio Ygnacio Rendon"
+        "spouse": "Jose Antonio Ygnacio Rendon",
+        "age": null
     },
     {
         "name": "Maria Calixtra Rendon",
@@ -1605,7 +1805,8 @@
         "gender": "F",
         "father": "Jose Antonio Ygnacio Rendon",
         "mother": "Maria Gregoria Mathilda Cota",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Julian Rendon",
@@ -1613,7 +1814,8 @@
         "gender": "M",
         "father": "Jose Antonio Ygnacio Rendon",
         "mother": "Maria Gregoria Mathilda Cota",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Gabriela Rendon",
@@ -1621,7 +1823,8 @@
         "gender": "F",
         "father": "Jose Antonio Ygnacio Rendon",
         "mother": "Maria Gregoria Mathilda Cota",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Jose Guadalupe Rendon",
@@ -1629,7 +1832,8 @@
         "gender": "M",
         "father": "Jose Antonio Ygnacio Rendon",
         "mother": "Maria Gregoria Mathilda Cota",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Avelina Rendon",
@@ -1637,7 +1841,8 @@
         "gender": "F",
         "father": "Jose Antonio Ygnacio Rendon",
         "mother": "Maria Gregoria Mathilda Cota",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Vicenta Rendon",
@@ -1645,7 +1850,8 @@
         "gender": "F",
         "father": "Jose Antonio Ygnacio Rendon",
         "mother": "Maria Gregoria Mathilda Cota",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Juana Rendon",
@@ -1653,7 +1859,8 @@
         "gender": "F",
         "father": "Jose Antonio Ygnacio Rendon",
         "mother": "Maria Gregoria Mathilda Cota",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Francisco Sepulveda",
@@ -1661,7 +1868,8 @@
         "gender": "M",
         "father": "Francisco Xavier Sepulveda",
         "mother": "Maria Candelaria Redondo",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Teodora Ramona Serrano",
@@ -1669,7 +1877,8 @@
         "gender": "F",
         "father": "Francisco Serrano",
         "mother": "Maria Balbaneda Silvas",
-        "spouse": "Francisco Sepulveda"
+        "spouse": "Francisco Sepulveda",
+        "age": null
     },
     {
         "name": "Jose Antonio Andres Sepulveda",
@@ -1677,7 +1886,8 @@
         "gender": "M",
         "father": "Francisco Sepulveda",
         "mother": "Maria Teodora Ramona Serrano",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Encarnacion Sepulveda",
@@ -1685,7 +1895,8 @@
         "gender": "F",
         "father": "Francisco Sepulveda",
         "mother": "Maria Teodora Ramona Serrano",
-        "spouse": "Francisco Avila"
+        "spouse": "Francisco Avila",
+        "age": null
     },
     {
         "name": "Maria Ramona Sepulveda",
@@ -1693,7 +1904,8 @@
         "gender": "F",
         "father": "Francisco Sepulveda",
         "mother": "Maria Teodora Ramona Serrano",
-        "spouse": "Jose Agustin Antonio Machado"
+        "spouse": "Jose Agustin Antonio Machado",
+        "age": null
     },
     {
         "name": "Maria Dolores Isabel Sepulveda",
@@ -1701,7 +1913,8 @@
         "gender": "F",
         "father": "Francisco Sepulveda",
         "mother": "Maria Teodora Ramona Serrano",
-        "spouse": "Seferino Covarrubias"
+        "spouse": "Seferino Covarrubias",
+        "age": null
     },
     {
         "name": "Bernardo Fernando Sepulveda",
@@ -1709,7 +1922,8 @@
         "gender": "M",
         "father": "Francisco Sepulveda",
         "mother": "Maria Teodora Ramona Serrano",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Vicenta Sepulveda",
@@ -1717,7 +1931,8 @@
         "gender": "F",
         "father": "Francisco Sepulveda",
         "mother": "Maria Teodora Ramona Serrano",
-        "spouse": "Tomas Antonio Yorba"
+        "spouse": "Tomas Antonio Yorba",
+        "age": null
     },
     {
         "name": "Jose del Carmen Sepulveda",
@@ -1725,7 +1940,8 @@
         "gender": "M",
         "father": "Francisco Sepulveda",
         "mother": "Maria Teodora Ramona Serrano",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Asencion Sepulveda",
@@ -1733,7 +1949,8 @@
         "gender": "F",
         "father": "Francisco Sepulveda",
         "mother": "Maria Teodora Ramona Serrano",
-        "spouse": "Francisco de la Guerra"
+        "spouse": "Francisco de la Guerra",
+        "age": null
     },
     {
         "name": "Vicente Anastacio Sanchez",
@@ -1741,7 +1958,8 @@
         "gender": "M",
         "father": "Josef Tadeo Sanchez",
         "mother": "Maria Petra Montiel",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Victoria Higuera",
@@ -1749,7 +1967,8 @@
         "gender": "F",
         "father": "Joaquin Joseph Joaquin Higuera",
         "mother": "Maria Beatriz Cota",
-        "spouse": "Vicente Antonio Sanchez"
+        "spouse": "Vicente Antonio Sanchez",
+        "age": null
     },
     {
         "name": "Pedro Antonio Jose Sanchez",
@@ -1757,7 +1976,8 @@
         "gender": "M",
         "father": "Vicente Anastacio Sanchez",
         "mother": "Maria Victoria Higuera",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Orphan Girl Sanchez",
@@ -1765,7 +1985,8 @@
         "gender": "F",
         "father": " ",
         "mother": " ",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Jose Antonio Briones",
@@ -1773,7 +1994,8 @@
         "gender": "M",
         "father": "Marcos Jose Briones",
         "mother": "Maria Isidora Tapia",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Demetria Ramirez",
@@ -1781,7 +2003,8 @@
         "gender": "F",
         "father": "Juan Bernardo Ramirez",
         "mother": "Maria Rosa Quijada",
-        "spouse": "Jose Antonio Briones"
+        "spouse": "Jose Antonio Briones",
+        "age": null
     },
     {
         "name": "Maria Benedicta Briones",
@@ -1789,7 +2012,8 @@
         "gender": "F",
         "father": "Jose Antonio Briones",
         "mother": "Maria Demetria Ramirez",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Jose Balbanedo Briones",
@@ -1797,7 +2021,8 @@
         "gender": "M",
         "father": "Jose Antonio Briones",
         "mother": "Maria Demetria Ramirez",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Jose Julian Maria Lara",
@@ -1805,7 +2030,8 @@
         "gender": "M",
         "father": "Jose Fernando de Velasco y Ronquillo Lara",
         "mother": "Maria Antonia Euvalda Campos Lara Lugo",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Antonia Nieves Moreno",
@@ -1813,7 +2039,8 @@
         "gender": "F",
         "father": "Jose Maria Cesario Moreno",
         "mother": "Maria Guadalupe Gertrudis Gaspar Perez",
-        "spouse": "Jose Julian Maria Lara"
+        "spouse": "Jose Julian Maria Lara",
+        "age": null
     },
     {
         "name": "Margarita de Gracia Lara",
@@ -1821,7 +2048,8 @@
         "gender": "F",
         "father": "Jose Julian Maria Lara",
         "mother": "Maria Antonia Nieves Moreno",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Viviana Lara",
@@ -1829,7 +2057,8 @@
         "gender": "F",
         "father": "Jose Julian Maria Lara",
         "mother": "Maria Antonia Nieves Moreno",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Paula Policarpia Lara",
@@ -1837,7 +2066,8 @@
         "gender": "F",
         "father": "Jose Julian Maria Lara",
         "mother": "Maria Antonia Nieves Moreno",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Juan de Dios Lara",
@@ -1845,7 +2075,8 @@
         "gender": "M",
         "father": "Jose Julian Maria Lara",
         "mother": "Maria Antonia Nieves Moreno",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Jose Casimiro Lara",
@@ -1853,7 +2084,8 @@
         "gender": "M",
         "father": "Jose Julian Maria Lara",
         "mother": "Maria Antonia Nieves Moreno",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Francisco Antonio Lara",
@@ -1861,7 +2093,8 @@
         "gender": "M",
         "father": "Jose Julian Maria Lara",
         "mother": "Maria Antonia Nieves Moreno",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Anastacia Rochin",
@@ -1869,7 +2102,8 @@
         "gender": "F",
         "father": "Jose Agustin Leyva",
         "mother": "Maria Guadalupe Velarde Salazar",
-        "spouse": "Jose Juan Francisco Ayala Solorzano"
+        "spouse": "Jose Juan Francisco Ayala Solorzano",
+        "age": null
     },
     {
         "name": "Ramon Maria Solorzano",
@@ -1877,7 +2111,8 @@
         "gender": "M",
         "father": "Jose Juan Francisco Ayala Solorzano",
         "mother": "Maria Anastacia Rochin",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": " ",
@@ -1885,7 +2120,8 @@
         "gender": "F",
         "father": " ",
         "mother": " ",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": " ",
@@ -1893,7 +2129,8 @@
         "gender": "M",
         "father": " ",
         "mother": " ",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Antonio Maria Lugo",
@@ -1901,7 +2138,8 @@
         "gender": "M",
         "father": "Francisco Salvador Lugo",
         "mother": "Juana Maria Rita Martinez",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Dolores Ruiz",
@@ -1909,7 +2147,8 @@
         "gender": "F",
         "father": "Efigenio Ruiz",
         "mother": "Maria Rosa Lopez",
-        "spouse": "Antonio Maria Lugo"
+        "spouse": "Antonio Maria Lugo",
+        "age": null
     },
     {
         "name": "Maria Vicenta Lugo",
@@ -1917,7 +2156,8 @@
         "gender": "F",
         "father": "Antonio Maria Lugo",
         "mother": "Maria Dolores Ruiz",
-        "spouse": "Irene Perez"
+        "spouse": "Irene Perez",
+        "age": null
     },
     {
         "name": "Felipe Lugo",
@@ -1925,7 +2165,8 @@
         "gender": "M",
         "father": "Antonio Maria Lugo",
         "mother": "Maria Dolores Ruiz",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Antonia Lugo",
@@ -1933,7 +2174,8 @@
         "gender": "F",
         "father": "Antonio Maria Lugo",
         "mother": "Maria Dolores Ruiz",
-        "spouse": "Teodosio Yorba"
+        "spouse": "Teodosio Yorba",
+        "age": null
     },
     {
         "name": "Jose del Carmen Lugo",
@@ -1941,7 +2183,8 @@
         "gender": "M",
         "father": "Antonio Maria Lugo",
         "mother": "Maria Dolores Ruiz",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria de la Merced Lugo",
@@ -1949,7 +2192,8 @@
         "gender": "F",
         "father": "Antonio Maria Lugo",
         "mother": "Maria Dolores Ruiz",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Mariano Lugo",
@@ -1957,7 +2201,8 @@
         "gender": "M",
         "father": "Antonio Maria Lugo",
         "mother": "Maria Dolores Ruiz",
-        "spouse": "Jose Perez"
+        "spouse": "Jose Perez",
+        "age": null
     },
     {
         "name": "Vicente Lugo",
@@ -1965,7 +2210,8 @@
         "gender": "M",
         "father": "Antonio Maria Lugo",
         "mother": "Maria Dolores Ruiz",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Jose Maria Lugo",
@@ -1973,7 +2219,8 @@
         "gender": "M",
         "father": "Antonio Maria Lugo",
         "mother": "Maria Dolores Ruiz",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Antonia Rendon",
@@ -1981,7 +2228,8 @@
         "gender": "F",
         "father": "Antonio Ygnacio Avila",
         "mother": "Maria Gregoria Mathilda Cota",
-        "spouse": "Jose Maria Lugo"
+        "spouse": "Jose Maria Lugo",
+        "age": null
     },
     {
         "name": "Maria de Jesus Lugo",
@@ -1989,7 +2237,8 @@
         "gender": "F",
         "father": "Jose Maria Lugo",
         "mother": "Maria Antonia Rendon",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria del Pilar Lugo",
@@ -1997,7 +2246,8 @@
         "gender": "F",
         "father": "Jose Maria Lugo",
         "mother": "Maria Antonia Rendon",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Ignacio Maria Valencia",
@@ -2005,7 +2255,8 @@
         "gender": "M",
         "father": "Jose Manuel Valencia",
         "mother": "Maria de la Luz Munoz",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Luisa Varelas",
@@ -2013,7 +2264,8 @@
         "gender": "F",
         "father": "Ygnacio Casimiro Varelas",
         "mother": "Juana Maria de Santa Ana Pinto",
-        "spouse": "Ignacio Maria Valencia"
+        "spouse": "Ignacio Maria Valencia",
+        "age": null
     },
     {
         "name": "Maria Benedicta Valencia",
@@ -2021,7 +2273,8 @@
         "gender": "F",
         "father": "Ignacio Maria Valencia",
         "mother": "Maria Luisa Varelas",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria de la Luz Valencia",
@@ -2029,7 +2282,8 @@
         "gender": "F",
         "father": "Ignacio Maria Valencia",
         "mother": "Maria Luisa Varelas",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Ascencio Inocencio Valencia",
@@ -2037,7 +2291,8 @@
         "gender": "M",
         "father": "Ignacio Maria Valencia",
         "mother": "Maria Luisa Varelas",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Jose Manuel Valencia",
@@ -2045,7 +2300,8 @@
         "gender": "M",
         "father": "Ignacio Maria Valencia",
         "mother": "Maria Luisa Varelas",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Jose Antonio Valencia",
@@ -2053,7 +2309,8 @@
         "gender": "M",
         "father": "Ignacio Maria Valencia",
         "mother": "Maria Luisa Varelas",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Joaquin Maria Valencia",
@@ -2061,7 +2318,8 @@
         "gender": "M",
         "father": "Ignacio Maria Valencia",
         "mother": "Maria Luisa Varelas",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Eugenia Valencia",
@@ -2069,7 +2327,8 @@
         "gender": "F",
         "father": "Ignacio Maria Valencia",
         "mother": "Maria Luisa Varelas",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": " Valencia",
@@ -2077,7 +2336,8 @@
         "gender": "M",
         "father": "Ignacio Maria Valencia",
         "mother": "Maria Luisa Varelas",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Juan Francisco Moreno",
@@ -2085,7 +2345,8 @@
         "gender": "M",
         "father": "Jose Juan Cesario Moreno",
         "mother": "Maria Guadalupe Gertrudis Perez",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria del Pilar Canedo",
@@ -2093,7 +2354,8 @@
         "gender": "F",
         "father": " Canedo",
         "mother": "Maria de Jesus Rodriguez",
-        "spouse": "Juan Francisco Moreno"
+        "spouse": "Juan Francisco Moreno",
+        "age": null
     },
     {
         "name": "Maria Gertrudis Guadalupe Moreno",
@@ -2101,7 +2363,8 @@
         "gender": "F",
         "father": "Jose Maria Cesario Moreno",
         "mother": "Maria del Guadalupe Gertrudis Perez y Nieto",
-        "spouse": "Juan Jose Duarte"
+        "spouse": "Juan Jose Duarte",
+        "age": null
     },
     {
         "name": "Manuel Antonio Duarte",
@@ -2109,7 +2372,8 @@
         "gender": "M",
         "father": "Juan Jose Duarte",
         "mother": "Maria Gertrudis Guadalupe Moreno",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Jose Cristobal Duarte",
@@ -2117,7 +2381,8 @@
         "gender": "M",
         "father": "Juan Jose Duarte",
         "mother": "Maria Gertrudis Guadalupe Moreno",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Ygnacia Duarte",
@@ -2125,7 +2390,8 @@
         "gender": "F",
         "father": "Juan Jose Duarte",
         "mother": "Maria Gertrudis Guadalupe Moreno",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": " Duarte",
@@ -2133,7 +2399,8 @@
         "gender": "F",
         "father": " ",
         "mother": " ",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": " Duarte",
@@ -2141,7 +2408,8 @@
         "gender": "F",
         "father": " ",
         "mother": " ",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": " Duarte",
@@ -2149,7 +2417,8 @@
         "gender": "M",
         "father": " ",
         "mother": " ",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Rafael Felipe Rubio",
@@ -2157,7 +2426,8 @@
         "gender": "M",
         "father": "Mateo Rubio",
         "mother": "Maria Ursula Dominguez",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Petra Regalada Varelas",
@@ -2165,7 +2435,8 @@
         "gender": "F",
         "father": "Ygnacio Casimiro Varelas",
         "mother": "Juana de Santa Ana Pinto",
-        "spouse": "Rafael Felipe Rubio"
+        "spouse": "Rafael Felipe Rubio",
+        "age": null
     },
     {
         "name": "Tomas Rubio",
@@ -2173,7 +2444,8 @@
         "gender": "",
         "father": "Rafael Felipe Rubio",
         "mother": "Maria Petra Regalada Varelas",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Jose Crespin Ramon Rubio",
@@ -2181,7 +2453,8 @@
         "gender": "",
         "father": "Rafael Felipe Rubio",
         "mother": "Maria Petra Regalada Varelas",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Manuel Moreno",
@@ -2189,7 +2462,8 @@
         "gender": "M",
         "father": " ",
         "mother": " ",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Ana Pinto",
@@ -2197,7 +2471,8 @@
         "gender": "F",
         "father": " ",
         "mother": " ",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Bernardo de la Luz Higuera",
@@ -2205,7 +2480,8 @@
         "gender": "M",
         "father": "Jose Joaquin Antonio Higuera",
         "mother": "Maria Teresa Cota",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Rosalia Palomares",
@@ -2213,7 +2489,8 @@
         "gender": "F",
         "father": "Jose Cristobal Palomares",
         "mother": "Maria Benedicta Saenz",
-        "spouse": "Bernardo de la Luz Higuera"
+        "spouse": "Bernardo de la Luz Higuera",
+        "age": null
     },
     {
         "name": "Maria Rufina ",
@@ -2221,7 +2498,8 @@
         "gender": "F",
         "father": "Axalap ",
         "mother": " ",
-        "spouse": "Pio Quinto de Jesus Zuniga"
+        "spouse": "Pio Quinto de Jesus Zuniga",
+        "age": null
     },
     {
         "name": "Pedro Buenaventura Zuniga",
@@ -2229,7 +2507,8 @@
         "gender": "M",
         "father": "Pio Quinto de Jesus Zuniga",
         "mother": "Maria Rufina ",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Serapio Zuniga",
@@ -2237,7 +2516,8 @@
         "gender": "M",
         "father": "Pio Quinto de Jesus Zuniga",
         "mother": "Maria Rufina ",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Anastacia Michaela Zuniga",
@@ -2245,7 +2525,8 @@
         "gender": "F",
         "father": "Pio Quinto de Jesus Zuniga",
         "mother": "Maria Rufina ",
-        "spouse": "Jose Laureano Montalvan"
+        "spouse": "Jose Laureano Montalvan",
+        "age": null
     },
     {
         "name": "Maria de la Concepcion Montalvan",
@@ -2253,7 +2534,8 @@
         "gender": "F",
         "father": "Jose Laureano Montalvan",
         "mother": "Maria Anastacia Michaela Zuniga",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Sebastiana Montalvan",
@@ -2261,7 +2543,8 @@
         "gender": "F",
         "father": "Jose Laureano Montalvan",
         "mother": "Maria Anastacia Michaela Zuniga",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Josefa Antonia Josephine Montalvan",
@@ -2269,7 +2552,8 @@
         "gender": "F",
         "father": "Jose Laureano Montalvan",
         "mother": "Maria Anastacia Michaela Zuniga",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Jose Maria Montalvan",
@@ -2277,7 +2561,8 @@
         "gender": "M",
         "father": "Jose Laureano Montalvan",
         "mother": "Maria Anastacia Michaela Zuniga",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Jose Antonio Ramirez",
@@ -2285,7 +2570,8 @@
         "gender": "M",
         "father": "Jose Antonio Ramirez",
         "mother": "Maria Anastacia Michaela Zuniga",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Juan Ygnacio Guillermo Cota",
@@ -2293,7 +2579,8 @@
         "gender": "M",
         "father": "Roque Jacinto Cota",
         "mother": "Juana Maria Verdugo",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Manuela Nieto",
@@ -2301,7 +2588,8 @@
         "gender": "F",
         "father": "Josef Manuel Perez Nieto",
         "mother": "Maria Teresa Morillo",
-        "spouse": "Guillermo Cota"
+        "spouse": "Guillermo Cota",
+        "age": null
     },
     {
         "name": "Maria Antonia Cota",
@@ -2309,7 +2597,8 @@
         "gender": "F",
         "father": "Juan Ygnacio Guillermo Cota",
         "mother": "Maria Manuela Nieto",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Engracia Cota",
@@ -2317,7 +2606,8 @@
         "gender": "F",
         "father": "Juan Ygnacio Guillermo Cota",
         "mother": "Maria Manuela Nieto",
-        "spouse": "Luis Gonzaga Policarpo Manuel Antonio y Fernando Dominguez"
+        "spouse": "Luis Gonzaga Policarpo Manuel Antonio y Fernando Dominguez",
+        "age": null
     },
     {
         "name": "Maria Jesus Cota",
@@ -2325,7 +2615,8 @@
         "gender": "F",
         "father": "Juan Ygnacio Guillermo Cota",
         "mother": "Maria Manuela Nieto",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Viviana Cota",
@@ -2333,7 +2624,8 @@
         "gender": "F",
         "father": "Juan Ygnacio Guillermo Cota",
         "mother": "Maria Manuela Nieto",
-        "spouse": "Pedro Pectinario Juan Santiago Dominguez"
+        "spouse": "Pedro Pectinario Juan Santiago Dominguez",
+        "age": null
     },
     {
         "name": "Jose Maria de los Angeles Cota",
@@ -2341,7 +2633,8 @@
         "gender": "M",
         "father": "Juan Ygnacio Guillermo Cota",
         "mother": "Maria Manuela Nieto",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Jose Maria Cota",
@@ -2349,7 +2642,8 @@
         "gender": "M",
         "father": "Juan Ygnacio Guillermo Cota",
         "mother": "Maria Manuela Nieto",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria de la Ascencion Cota",
@@ -2357,7 +2651,8 @@
         "gender": "F",
         "father": "Juan Ygnacio Guillermo Cota",
         "mother": "Maria Manuela Nieto",
-        "spouse": "Marcelo Rafael Andres Perez Nieto"
+        "spouse": "Marcelo Rafael Andres Perez Nieto",
+        "age": null
     },
     {
         "name": "Leonardo Cota",
@@ -2365,7 +2660,8 @@
         "gender": "M",
         "father": "Juan Ygnacio Guillermo Cota",
         "mother": "Maria Manuela Nieto",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Marcos Cota",
@@ -2373,7 +2669,8 @@
         "gender": "M",
         "father": "Juan Ygnacio Guillermo Cota",
         "mother": "Maria Manuela Nieto",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Juana Maria Rita Verdugo",
@@ -2381,7 +2678,8 @@
         "gender": "F",
         "father": "Juan Diego Verdugo y Rios",
         "mother": "Maria Ygnacia de la Concepcion Millan Carrillo",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Orphan Girl ",
@@ -2389,7 +2687,8 @@
         "gender": "",
         "father": " ",
         "mother": " ",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Orphan Girl ",
@@ -2397,7 +2696,8 @@
         "gender": "",
         "father": " ",
         "mother": " ",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Antonio Maria de los Santos Nieto",
@@ -2405,7 +2705,8 @@
         "gender": "M",
         "father": "Josef Manuel Nieto",
         "mother": "Maria Teresa Morillo",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Josefa Cota",
@@ -2413,7 +2714,8 @@
         "gender": "F",
         "father": "Juan Ignacio Guillermo Cota",
         "mother": "Maria Manuela Elizalde",
-        "spouse": "Antonio Maria de los Santos Nieto"
+        "spouse": "Antonio Maria de los Santos Nieto",
+        "age": null
     },
     {
         "name": "Maria de Guadalupe Nieto",
@@ -2421,7 +2723,8 @@
         "gender": "F",
         "father": "Antonio Maria de los Santos Nieto",
         "mother": "Maria Josefa Cota",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Pietra Nieto",
@@ -2429,7 +2732,8 @@
         "gender": "F",
         "father": "Antonio Maria de los Santos Nieto",
         "mother": "Maria Josefa Cota",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Concepcion Nieto",
@@ -2437,7 +2741,8 @@
         "gender": "F",
         "father": "Antonio Maria de los Santos Nieto",
         "mother": "Maria Josefa Cota",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Jose Antonio Nieto",
@@ -2445,7 +2750,8 @@
         "gender": "M",
         "father": "Antonio Maria de los Santos Nieto",
         "mother": "Maria Josefa Cota",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Juan Nepomuceno Dolores Alvarado",
@@ -2453,7 +2759,8 @@
         "gender": "M",
         "father": "Francisco Xavier Alvarado",
         "mother": "Maria Ygnacia Amador",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria del Carmen Palomares",
@@ -2461,7 +2768,8 @@
         "gender": "F",
         "father": "Jose Cristobal Palomares",
         "mother": "Maria Benedicta Saenz",
-        "spouse": "Juan Nepomuceno Dolores Alvarado"
+        "spouse": "Juan Nepomuceno Dolores Alvarado",
+        "age": null
     },
     {
         "name": "Maria Tomasa Nepomucena Rafaela Alvarado",
@@ -2469,7 +2777,8 @@
         "gender": "F",
         "father": "Juan Nepomuceno Dolores Alvarado",
         "mother": "Maria del Carmen Palomares",
-        "spouse": "Bruno Antonio Soto"
+        "spouse": "Bruno Antonio Soto",
+        "age": null
     },
     {
         "name": "Francisco Maria Alvarado",
@@ -2477,7 +2786,8 @@
         "gender": "M",
         "father": "Juan Nepomuceno Dolores Alvarado",
         "mother": "Maria del Carmen Palomares",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Mariano Alvarado",
@@ -2485,7 +2795,8 @@
         "gender": "M",
         "father": "Juan Nepomuceno Dolores Alvarado",
         "mother": "Maria del Carmen Palomares",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Emerenciana Ignacia Alvarado",
@@ -2493,7 +2804,8 @@
         "gender": "F",
         "father": "Juan Nepomuceno Dolores Alvarado",
         "mother": "Maria del Carmen Palomares",
-        "spouse": "Mariano Reyes Roldan"
+        "spouse": "Mariano Reyes Roldan",
+        "age": null
     },
     {
         "name": "Francisco Xavier Alvarado",
@@ -2501,7 +2813,8 @@
         "gender": "M",
         "father": " ",
         "mother": " ",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Ignacia Amador",
@@ -2509,7 +2822,8 @@
         "gender": "F",
         "father": "Pedro Amador",
         "mother": "Maria de la Luz Ruiz",
-        "spouse": "Francisco Xavier Alvarado"
+        "spouse": "Francisco Xavier Alvarado",
+        "age": null
     },
     {
         "name": "Ana Joaquina Alvarado",
@@ -2517,7 +2831,8 @@
         "gender": "F",
         "father": "Francisco Xavier Alvarado",
         "mother": "Maria Ignacia Amador",
-        "spouse": "Gabriel Moraga"
+        "spouse": "Gabriel Moraga",
+        "age": null
     },
     {
         "name": "Juan Bautista Alvarado",
@@ -2525,7 +2840,8 @@
         "gender": "M",
         "father": "Francisco Xavier Alvarado",
         "mother": "Maria Ignacia Amador",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Juan Nepomuceno Dolores Alvarado",
@@ -2533,7 +2849,8 @@
         "gender": "M",
         "father": "Francisco Xavier Alvarado",
         "mother": "Maria Ignacia Amador",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Francisco Maria Dolores Canuto Alvarado",
@@ -2541,7 +2858,8 @@
         "gender": "M",
         "father": "Francisco Xavier Alvarado",
         "mother": "Maria Ignacia Amador",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria de Jesus de Dolores Alvarado",
@@ -2549,7 +2867,8 @@
         "gender": "F",
         "father": "Francisco Xavier Alvarado",
         "mother": "Maria Ignacia Amador",
-        "spouse": "Bernardo Antonio Yorba"
+        "spouse": "Bernardo Antonio Yorba",
+        "age": null
     },
     {
         "name": "Jose Miguel Dolores Alvarado",
@@ -2557,7 +2876,8 @@
         "gender": "M",
         "father": "Francisco Xavier Alvarado",
         "mother": "Maria Ignacia Amador",
-        "spouse": "Maria Guadalupe Ruiz"
+        "spouse": "Maria Guadalupe Ruiz",
+        "age": null
     },
     {
         "name": "Orphan Girl ",
@@ -2565,7 +2885,8 @@
         "gender": "F",
         "father": " ",
         "mother": " ",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Juan Bautista Lopez",
@@ -2573,7 +2894,8 @@
         "gender": "M",
         "father": "Ygnacio Lopez",
         "mother": "Maria Facunda Mora",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Dolores Salgado",
@@ -2581,7 +2903,8 @@
         "gender": "F",
         "father": "Francisco Gabriel Salgado",
         "mother": "Lucia Maria Alipaz",
-        "spouse": "Juan Bautista Lopez"
+        "spouse": "Juan Bautista Lopez",
+        "age": null
     },
     {
         "name": "Juan Bautista Lopez",
@@ -2589,7 +2912,8 @@
         "gender": "M",
         "father": "Juan Bautista Lopez",
         "mother": "Maria Dolores Salgado",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Juan Lopez",
@@ -2597,7 +2921,8 @@
         "gender": "M",
         "father": "Juan Bautista Lopez",
         "mother": "Maria Dolores Salgado",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Jose Antonio Maria Lopez",
@@ -2605,7 +2930,8 @@
         "gender": "M",
         "father": "Juan Bautista Lopez",
         "mother": "Maria Dolores Salgado",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Eulogia Concepion Palomares",
@@ -2613,7 +2939,8 @@
         "gender": "F",
         "father": "Jose Antonio Maria Lopez",
         "mother": "Maria Eulogia Concepcion Palomares",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": " Lopez",
@@ -2621,7 +2948,8 @@
         "gender": "",
         "father": "Jose Antonio Maria Lopez",
         "mother": "Maria Eulogia Concepcion Palomares",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": " Lopez",
@@ -2629,7 +2957,8 @@
         "gender": "",
         "father": "Jose Antonio Maria Lopez",
         "mother": "Maria Eulogia Concepcion Palomares",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": " Lopez",
@@ -2637,7 +2966,8 @@
         "gender": "F",
         "father": "Jose Antonio Maria Lopez",
         "mother": "Maria Eulogia Concepcion Palomares",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": " Lopez",
@@ -2645,7 +2975,8 @@
         "gender": "F",
         "father": "Jose Antonio Maria Lopez",
         "mother": "Maria Eulogia Concepcion Palomares",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Julio Antonio Josef Verdugo",
@@ -2653,7 +2984,8 @@
         "gender": "M",
         "father": "Josef Maria Lopez",
         "mother": "Maria Encarnacion Lopez",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria de Jesus Romero",
@@ -2661,7 +2993,8 @@
         "gender": "F",
         "father": "Juan Maria Romero",
         "mother": "Maria Lugarda Salgado",
-        "spouse": "Julio Antonio Josef Verdugo"
+        "spouse": "Julio Antonio Josef Verdugo",
+        "age": null
     },
     {
         "name": "Maria Rafaela Antonia Verdugo",
@@ -2669,7 +3002,8 @@
         "gender": "F",
         "father": "Julio Antonio Josef Verdugo",
         "mother": "Maria de Jesus Romero",
-        "spouse": "Bernardo Fernando Sepulveda"
+        "spouse": "Bernardo Fernando Sepulveda",
+        "age": null
     },
     {
         "name": "Pedro Nolasco Antonio Jose Verdugo",
@@ -2677,7 +3011,8 @@
         "gender": "M",
         "father": "Julio Antonio Josef Verdugo",
         "mother": "Maria de Jesus Romero",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Jose Antonio de Jesus Verdugo",
@@ -2685,7 +3020,8 @@
         "gender": "M",
         "father": "Julio Antonio Josef Verdugo",
         "mother": "Maria de Jesus Romero",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Josef Desiderio Olivera",
@@ -2693,7 +3029,8 @@
         "gender": "M",
         "father": "Juan Maria Olivera",
         "mother": "Maria Guadalupe Briones",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Maria Luisa del Carmen Reyes",
@@ -2701,7 +3038,8 @@
         "gender": "F",
         "father": "Juan Francisco Reyes",
         "mother": "Maria del Carmen Dominguez",
-        "spouse": "Josef Desiderio Olivera"
+        "spouse": "Josef Desiderio Olivera",
+        "age": null
     },
     {
         "name": "Martin Olivera",
@@ -2709,7 +3047,8 @@
         "gender": "M",
         "father": "Josef Desiderio Olivera",
         "mother": "Maria Luisa del Carmen Reyes",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Mariano Olivera",
@@ -2717,6 +3056,7 @@
         "gender": "M",
         "father": "Josef Desiderio Olivera",
         "mother": "Maria Luisa del Carmen Reyes",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     }
 ]

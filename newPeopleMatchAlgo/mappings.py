@@ -2,6 +2,7 @@ mappings = {
     "1790_census": {
         "name": ["first", "last"],
         "race": "race",
+        "age": "age",
         "gender": "gender",
         "father": ["father_first", "father_last"],
         "mother": ["mother_first", "mother_last"],
@@ -10,6 +11,7 @@ mappings = {
     "baptisms": {
         "name": ["mspanishname", "msurname"],  # Mother's SpanishName and Surname
         "race": "origin",  # Origin column indicates race
+        "age": "age",
         "gender": "sex",  # Gender available as Sex
         "father": ["fspanishname", "fsurname"],  # Father's SpanishName and Surname
         "mother": ["mspanishname", "msurname"],  # Mother's SpanishName and Surname
@@ -18,6 +20,7 @@ mappings = {
     "padron_1767": {
         "name": ["ego_first name", "ego_paternal last name"],  # Combine first and last name
         "race": "race",
+        "age": "age ",
         "gender": "sex",
         "father": ["father_first name ", "father_paternal last name"],  # Combine father's first and last names
         "mother": ["mother_first name", "mother_paternal last name"],  # Combine mother's first and last names
@@ -27,6 +30,7 @@ mappings = {
         "name": ["ego_first name", "ego_paternal last name"],
         "race": "race",
         "gender": "sex",
+        "age": "age",
         "father": ["father_first name", "father_paternal last name"],
         "mother": ["mother_first name", "mother_paternal last name"],
         "spouse": ["husband_first name", "huband_paternal last name"]
@@ -38,8 +42,9 @@ mappings = {
         "father": ["father_first name", "father_paternal last name"],
         "mother": ["mother_first name", "mother_paternal last name"],
         "spouse": ["husband_first name", "huband_paternal last name"],
-        "marital_status": "marital status",  # Additional marital status column
-        "profession": "profession"  # Additional profession column
+        "marital_status": "marital status",
+        "profession": "profession",
+        "age": "age"
     },
     "padron_1821": {
         "name": ["ego_first name", "ego_paternal last name"],

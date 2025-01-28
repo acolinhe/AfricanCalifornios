@@ -5,7 +5,8 @@
         "gender": "M",
         "father": " ",
         "mother": " ",
-        "spouse": " "
+        "spouse": " ",
+        "age": 50
     },
     {
         "name": "María de los Santos Flores",
@@ -13,7 +14,8 @@
         "gender": "F",
         "father": " ",
         "mother": " ",
-        "spouse": "Antonio Clemente Felix Villavicencio"
+        "spouse": "Antonio Clemente Felix Villavicencio",
+        "age": 20
     },
     {
         "name": "José Maria Librado Vanegas",
@@ -21,7 +23,8 @@
         "gender": "M",
         "father": " ",
         "mother": "Maria Josepha Banaga",
-        "spouse": " "
+        "spouse": " ",
+        "age": 33
     },
     {
         "name": "Mariana \"María\" Máxima Bonifacia Aguilar",
@@ -29,7 +32,8 @@
         "gender": "F",
         "father": "Ramon Aguilar",
         "mother": " ",
-        "spouse": "José Maria Librado Vanegas"
+        "spouse": "José Maria Librado Vanegas",
+        "age": 24
     },
     {
         "name": "Cosmé Damién Damacio \"Pablo\" Vanegas",
@@ -37,7 +41,8 @@
         "gender": "M",
         "father": "José Maria Librado Vanegas",
         "mother": "Mariana \"María\" Máxima Bonifacia Aguilar",
-        "spouse": " "
+        "spouse": " ",
+        "age": 4
     },
     {
         "name": "Pedro Pablo Rodríguez",
@@ -45,7 +50,8 @@
         "gender": "M",
         "father": "Jose San Juan del Rio Rodriguez",
         "mother": "Maria Efigenia Ortega",
-        "spouse": " "
+        "spouse": " ",
+        "age": 30
     },
     {
         "name": "María Rosalía \"Rosa\" Ximenes",
@@ -53,7 +59,8 @@
         "gender": "F",
         "father": "Nicolas Tolentino Ximenes",
         "mother": "Juana Manuela Noriega",
-        "spouse": "Pedro Pablo Rodríguez"
+        "spouse": "Pedro Pablo Rodríguez",
+        "age": 28
     },
     {
         "name": "María Antonia Rodríguez",
@@ -61,7 +68,8 @@
         "gender": "F",
         "father": "Pedro Pablo Rodríguez",
         "mother": "María Rosalía \"Rosa\" Ximenes",
-        "spouse": "Juan Pacifico Ontiveros"
+        "spouse": "Juan Pacifico Ontiveros",
+        "age": 5
     },
     {
         "name": "Maria de Jesus Rodríguez",
@@ -69,7 +77,8 @@
         "gender": "F",
         "father": "Pedro Pablo Rodríguez",
         "mother": "Maria Rosalia \"Rosa\" Ximenes",
-        "spouse": "Albino Canedo"
+        "spouse": "Albino Canedo",
+        "age": 2
     },
     {
         "name": "José Antonio Navarro",
@@ -77,7 +86,8 @@
         "gender": "M",
         "father": "Joseph Christoval Logrono Navarro",
         "mother": "Josepha Molinero",
-        "spouse": " "
+        "spouse": " ",
+        "age": 47
     },
     {
         "name": "José María Eduardo Navarro",
@@ -85,7 +95,8 @@
         "gender": "M",
         "father": "José Antonio Navarro",
         "mother": "Maria Regina Dorotea Glorea Soto, de",
-        "spouse": " "
+        "spouse": " ",
+        "age": 16
     },
     {
         "name": "José Clemente Navarro",
@@ -93,7 +104,8 @@
         "gender": "M",
         "father": "José Antonio Navarro",
         "mother": "Maria Regina Dorotea Glorea Soto, de",
-        "spouse": " "
+        "spouse": " ",
+        "age": 14
     },
     {
         "name": "Maria Anna \"Mariana\" Josefa Navarro",
@@ -101,7 +113,8 @@
         "gender": "F",
         "father": "José Antonio Navarro",
         "mother": "Maria Regina Dorotea Glorea Soto, de",
-        "spouse": "Juan Jose Faustino Higuera"
+        "spouse": "Juan Jose Faustino Higuera",
+        "age": 7
     },
     {
         "name": "José Maria Moreno",
@@ -109,7 +122,8 @@
         "gender": "M",
         "father": " ",
         "mother": " ",
-        "spouse": " "
+        "spouse": " ",
+        "age": 35
     },
     {
         "name": "Maria Gertrudis (Maria Guadalupe) Perez or Gaspar",
@@ -117,7 +131,8 @@
         "gender": "F",
         "father": " ",
         "mother": " ",
-        "spouse": "José Maria Moreno"
+        "spouse": "José Maria Moreno",
+        "age": 21
     },
     {
         "name": "Maria Lugarda Bernabea Moreno",
@@ -125,7 +140,8 @@
         "gender": "F",
         "father": "Jose Maria Moreno",
         "mother": "Maria Gertrudis (Maria Guadalupe) Perez or Gaspar",
-        "spouse": "Jacinto Alvitre"
+        "spouse": "Jacinto Alvitre",
+        "age": null
     },
     {
         "name": "Unnamed Daughter Moreno",
@@ -133,7 +149,8 @@
         "gender": "F",
         "father": "Jose Maria Moreno",
         "mother": "Maria Gertrudis (Maria Guadalupe) Perez or Gaspar",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Manuel Camero",
@@ -141,7 +158,8 @@
         "gender": "M",
         "father": " ",
         "mother": " ",
-        "spouse": " "
+        "spouse": " ",
+        "age": 35
     },
     {
         "name": "Tomasa Garcia",
@@ -149,7 +167,8 @@
         "gender": "F",
         "father": " ",
         "mother": " ",
-        "spouse": "Manuel Camero"
+        "spouse": "Manuel Camero",
+        "age": 28
     },
     {
         "name": "Jose Antonio Basilio Rosas",
@@ -157,7 +176,8 @@
         "gender": "M",
         "father": "Jose de las Rosas",
         "mother": "Maria Ascuncion ",
-        "spouse": " "
+        "spouse": " ",
+        "age": 78
     },
     {
         "name": "María Manuela Calistra Hernández",
@@ -165,7 +185,8 @@
         "gender": "F",
         "father": " ",
         "mother": " ",
-        "spouse": "Jose Antonio Basilio Rosas"
+        "spouse": "Jose Antonio Basilio Rosas",
+        "age": 35
     },
     {
         "name": "Maria Josefa Rosas",
@@ -173,7 +194,8 @@
         "gender": "F",
         "father": "Jose Antonio Basilio Rosas",
         "mother": "María Manuela Calistra Hernández",
-        "spouse": " "
+        "spouse": " ",
+        "age": 12
     },
     {
         "name": "Antonio Rosalino Rosas",
@@ -181,7 +203,8 @@
         "gender": "M",
         "father": "Jose Antonio Basilio Rosas",
         "mother": "Maria Manuela Calistra Hernández",
-        "spouse": " "
+        "spouse": " ",
+        "age": 11
     },
     {
         "name": "Joseph (Jose) Marcelino Rosas",
@@ -189,7 +212,8 @@
         "gender": "M",
         "father": "Jose Antonio Basilio Rosas",
         "mother": "Maria Manuela Calistra Hernández",
-        "spouse": " "
+        "spouse": " ",
+        "age": 6
     },
     {
         "name": "Juana (Diana) Maria Rosas",
@@ -197,7 +221,8 @@
         "gender": "F",
         "father": "Jose Antonio Basilio Rosas",
         "mother": "Maria Manuela Calistra Hernández",
-        "spouse": "Miguel Blanco"
+        "spouse": "Miguel Blanco",
+        "age": 1
     },
     {
         "name": "Jose Alejandro Rosas",
@@ -205,7 +230,8 @@
         "gender": "M",
         "father": "Jose Antonio Basilio Rosas",
         "mother": "Maria Manuela Calistra Hernández",
-        "spouse": " "
+        "spouse": " ",
+        "age": 22
     },
     {
         "name": "Juana Rodríguez",
@@ -213,7 +239,8 @@
         "gender": "F",
         "father": " ",
         "mother": " ",
-        "spouse": "Alejandro Rosas"
+        "spouse": "Alejandro Rosas",
+        "age": 21
     },
     {
         "name": "Maria de la Ascencion Rosas",
@@ -221,7 +248,8 @@
         "gender": "F",
         "father": "Jose Alejandro Rosas",
         "mother": "Juana Maria Rodríguez",
-        "spouse": " "
+        "spouse": " ",
+        "age": 5
     },
     {
         "name": "Unnamed Boy Rosas",
@@ -229,7 +257,8 @@
         "gender": "M",
         "father": "Jose Alejandro Rosas",
         "mother": "Juana Maria Rodríguez",
-        "spouse": " "
+        "spouse": " ",
+        "age": 1
     },
     {
         "name": "José Francisco Sinoba",
@@ -237,7 +266,8 @@
         "gender": "M",
         "father": "Jose Francisco Sinoba",
         "mother": "Maria Petra Cartagena",
-        "spouse": " "
+        "spouse": " ",
+        "age": 34
     },
     {
         "name": "Maria Gertrudis Bojorquez",
@@ -245,7 +275,8 @@
         "gender": "F",
         "father": "Jose Ramon Bojorquez",
         "mother": "Maria Francisca Romero",
-        "spouse": "José Francisco Sinoba"
+        "spouse": "José Francisco Sinoba",
+        "age": 35
     },
     {
         "name": "Josefa Maria de los Dolores Sinoba",
@@ -253,7 +284,8 @@
         "gender": "F",
         "father": "Jose Francisco Sinoba",
         "mother": "Maria Gertrudis ",
-        "spouse": "Vicente Ferrer Villa"
+        "spouse": "Vicente Ferrer Villa",
+        "age": 7
     },
     {
         "name": "Vicenta Sinoba",
@@ -261,7 +293,8 @@
         "gender": "F",
         "father": "Jose Francisco Sinoba",
         "mother": "Maria Gertrudis ",
-        "spouse": " "
+        "spouse": " ",
+        "age": 5
     },
     {
         "name": "Maria Julia Sinoba",
@@ -269,7 +302,8 @@
         "gender": "F",
         "father": "Jose Francisco Sinoba",
         "mother": "Maria Gertrudis ",
-        "spouse": " "
+        "spouse": " ",
+        "age": 2
     },
     {
         "name": "Jose Carlos Rosas",
@@ -277,7 +311,8 @@
         "gender": "M",
         "father": "Jose Antonio Basilio Rosas",
         "mother": "Maria Manuela Hernandez",
-        "spouse": " "
+        "spouse": " ",
+        "age": 17
     },
     {
         "name": "Maria Dolores ",
@@ -285,7 +320,8 @@
         "gender": "F",
         "father": " ",
         "mother": " ",
-        "spouse": "Jose Carlos Rosas"
+        "spouse": "Jose Carlos Rosas",
+        "age": 15
     },
     {
         "name": "Unnamed Daughter Rosas",
@@ -293,7 +329,8 @@
         "gender": "F",
         "father": "Jose Carlos Rosas",
         "mother": "Maria Dolores ",
-        "spouse": " "
+        "spouse": " ",
+        "age": null
     },
     {
         "name": "Jose Máximo Rosas",
@@ -301,7 +338,8 @@
         "gender": "M",
         "father": " ",
         "mother": " ",
-        "spouse": " "
+        "spouse": " ",
+        "age": 16
     },
     {
         "name": "María Antonia ",
@@ -309,7 +347,8 @@
         "gender": "F",
         "father": " ",
         "mother": " ",
-        "spouse": "Jose Máximo Rosas"
+        "spouse": "Jose Máximo Rosas",
+        "age": null
     },
     {
         "name": "Juan José Domínguez",
@@ -317,6 +356,7 @@
         "gender": "M",
         "father": "Jose Ygnacio Dominguez",
         "mother": "Ana Maria Sepulveda",
-        "spouse": " "
+        "spouse": " ",
+        "age": 58
     }
 ]

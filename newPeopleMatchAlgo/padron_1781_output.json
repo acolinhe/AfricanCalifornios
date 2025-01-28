@@ -5,7 +5,8 @@
         "gender": "M",
         "father": " ",
         "mother": " ",
-        "spouse": " "
+        "spouse": " ",
+        "age": 50
     },
     {
         "name": "María Antonia Campos",
@@ -13,7 +14,8 @@
         "gender": "F",
         "father": " ",
         "mother": " ",
-        "spouse": "José Lara"
+        "spouse": "José Lara",
+        "age": 23
     },
     {
         "name": "José Julián Lara",
@@ -21,7 +23,8 @@
         "gender": "M",
         "father": "José Lara",
         "mother": "María Antonia Campos",
-        "spouse": " "
+        "spouse": " ",
+        "age": 4
     },
     {
         "name": "Juana Jesús Lara",
@@ -29,7 +32,8 @@
         "gender": "F",
         "father": "José Lara",
         "mother": "María Antonia Campos",
-        "spouse": " "
+        "spouse": " ",
+        "age": 6
     },
     {
         "name": "María Faustina Lara",
@@ -37,7 +41,8 @@
         "gender": "F",
         "father": "José Lara",
         "mother": "María Antonia Campos",
-        "spouse": " "
+        "spouse": " ",
+        "age": 2
     },
     {
         "name": "José Antonio Navarro",
@@ -45,7 +50,8 @@
         "gender": "M",
         "father": " ",
         "mother": " ",
-        "spouse": " "
+        "spouse": " ",
+        "age": 42
     },
     {
         "name": "María Rufina Dorotea",
@@ -53,7 +59,8 @@
         "gender": "F",
         "father": " ",
         "mother": " ",
-        "spouse": "José Antonio Navarro"
+        "spouse": "José Antonio Navarro",
+        "age": null
     },
     {
         "name": "José María Navarro",
@@ -61,7 +68,8 @@
         "gender": "M",
         "father": "José Antonio Navarro",
         "mother": "María Rufina Dorotea",
-        "spouse": " "
+        "spouse": " ",
+        "age": 10
     },
     {
         "name": "José Clemente Navarro",
@@ -69,7 +77,8 @@
         "gender": "M",
         "father": "José Antonio Navarro",
         "mother": "María Rufina Dorotea",
-        "spouse": " "
+        "spouse": " ",
+        "age": 9
     },
     {
         "name": "María Josefa Navarro",
@@ -77,7 +86,8 @@
         "gender": "F",
         "father": "José Antonio Navarro",
         "mother": "María Rufina Dorotea",
-        "spouse": " "
+        "spouse": " ",
+        "age": 4
     },
     {
         "name": "Basilio Rosas",
@@ -85,7 +95,8 @@
         "gender": "M",
         "father": " ",
         "mother": " ",
-        "spouse": " "
+        "spouse": " ",
+        "age": 67
     },
     {
         "name": "María Manuela Calixtra Hernández",
@@ -93,7 +104,8 @@
         "gender": "F",
         "father": " ",
         "mother": " ",
-        "spouse": "Basilio Rosas"
+        "spouse": "Basilio Rosas",
+        "age": null
     },
     {
         "name": "José Máximo Rosas",
@@ -101,7 +113,8 @@
         "gender": "M",
         "father": "Basilio Rosas",
         "mother": "María Manuela Calixtra Hernández",
-        "spouse": " "
+        "spouse": " ",
+        "age": 15
     },
     {
         "name": "Carlos Rosas",
@@ -109,7 +122,8 @@
         "gender": "M",
         "father": "Basilio Rosas",
         "mother": "María Manuela Calixtra Hernández",
-        "spouse": " "
+        "spouse": " ",
+        "age": 12
     },
     {
         "name": "Antonio Rosalino Rosas",
@@ -117,7 +131,8 @@
         "gender": "M",
         "father": "Basilio Rosas",
         "mother": "María Manuela Calixtra Hernández",
-        "spouse": " "
+        "spouse": " ",
+        "age": 7
     },
     {
         "name": "José Marcelino Rosas",
@@ -125,7 +140,8 @@
         "gender": "M",
         "father": "Basilio Rosas",
         "mother": "María Manuela Calixtra Hernández",
-        "spouse": " "
+        "spouse": " ",
+        "age": 4
     },
     {
         "name": "Juan Estaban Rosas",
@@ -133,7 +149,8 @@
         "gender": "M",
         "father": "Basilio Rosas",
         "mother": "María Manuela Calixtra Hernández",
-        "spouse": " "
+        "spouse": " ",
+        "age": 2
     },
     {
         "name": "María Josefa Rosas",
@@ -141,7 +158,8 @@
         "gender": "F",
         "father": "Basilio Rosas",
         "mother": "María Manuela Calixtra Hernández",
-        "spouse": " "
+        "spouse": " ",
+        "age": 8
     },
     {
         "name": "Antonio Mesa",
@@ -149,7 +167,8 @@
         "gender": "M",
         "father": " ",
         "mother": " ",
-        "spouse": " "
+        "spouse": " ",
+        "age": 38
     },
     {
         "name": "Ana Gertrudis López",
@@ -157,7 +176,8 @@
         "gender": "F",
         "father": " ",
         "mother": " ",
-        "spouse": "Antonio Mesa"
+        "spouse": "Antonio Mesa",
+        "age": 27
     },
     {
         "name": "Antonio María Mesa",
@@ -165,7 +185,8 @@
         "gender": "M",
         "father": "Antonio Mesa",
         "mother": "Ana Gertrudis López",
-        "spouse": " "
+        "spouse": " ",
+        "age": 8
     },
     {
         "name": "María Paula Mesa",
@@ -173,7 +194,8 @@
         "gender": "F",
         "father": "Antonio Mesa",
         "mother": "Ana Gertrudis López",
-        "spouse": " "
+        "spouse": " ",
+        "age": 10
     },
     {
         "name": "Antonio Villavicencio",
@@ -181,7 +203,8 @@
         "gender": "M",
         "father": " ",
         "mother": " ",
-        "spouse": " "
+        "spouse": " ",
+        "age": 30
     },
     {
         "name": "María de los Santos Seferina",
@@ -189,7 +212,8 @@
         "gender": "F",
         "father": " ",
         "mother": " ",
-        "spouse": "Antonio Villavicencio"
+        "spouse": "Antonio Villavicencio",
+        "age": 26
     },
     {
         "name": "María Antonia Josefa ",
@@ -197,7 +221,8 @@
         "gender": "F",
         "father": " ",
         "mother": "María de los Santos Seferina",
-        "spouse": " "
+        "spouse": " ",
+        "age": 8
     },
     {
         "name": "José Vanegas",
@@ -205,7 +230,8 @@
         "gender": "M",
         "father": " ",
         "mother": " ",
-        "spouse": " "
+        "spouse": " ",
+        "age": 28
     },
     {
         "name": "María Máxima Aguilar",
@@ -213,7 +239,8 @@
         "gender": "F",
         "father": " ",
         "mother": " ",
-        "spouse": "José Vanegas"
+        "spouse": "José Vanegas",
+        "age": 20
     },
     {
         "name": "Cosmé Damién Vanegas",
@@ -221,7 +248,8 @@
         "gender": "M",
         "father": "José Vanegas",
         "mother": "María Máxima Aguilar",
-        "spouse": " "
+        "spouse": " ",
+        "age": 1
     },
     {
         "name": "Alejandro Rosas",
@@ -229,7 +257,8 @@
         "gender": "M",
         "father": " ",
         "mother": " ",
-        "spouse": " "
+        "spouse": " ",
+        "age": 19
     },
     {
         "name": "Juana Rodríguez",
@@ -237,7 +266,8 @@
         "gender": "F",
         "father": " ",
         "mother": " ",
-        "spouse": "Alejandro Rosas"
+        "spouse": "Alejandro Rosas",
+        "age": 20
     },
     {
         "name": "Pablo Rodríguez",
@@ -245,7 +275,8 @@
         "gender": "M",
         "father": " ",
         "mother": " ",
-        "spouse": " "
+        "spouse": " ",
+        "age": 25
     },
     {
         "name": "María Rosalía Noriega",
@@ -253,7 +284,8 @@
         "gender": "F",
         "father": " ",
         "mother": " ",
-        "spouse": "Pablo Rodríguez"
+        "spouse": "Pablo Rodríguez",
+        "age": 26
     },
     {
         "name": "María Antonia Rodríguez",
@@ -261,7 +293,8 @@
         "gender": "F",
         "father": "Pablo Rodríguez",
         "mother": "María Rosalía Noriega",
-        "spouse": " "
+        "spouse": " ",
+        "age": 1
     },
     {
         "name": "Manuel Camero",
@@ -269,7 +302,8 @@
         "gender": "M",
         "father": " ",
         "mother": " ",
-        "spouse": " "
+        "spouse": " ",
+        "age": 30
     },
     {
         "name": "María Tomasa ",
@@ -277,7 +311,8 @@
         "gender": "F",
         "father": " ",
         "mother": " ",
-        "spouse": "Manuel Camero"
+        "spouse": "Manuel Camero",
+        "age": 24
     },
     {
         "name": "Luís Quintero",
@@ -285,7 +320,8 @@
         "gender": "M",
         "father": " ",
         "mother": " ",
-        "spouse": " "
+        "spouse": " ",
+        "age": 55
     },
     {
         "name": "María Petra Rubio",
@@ -293,7 +329,8 @@
         "gender": "F",
         "father": " ",
         "mother": " ",
-        "spouse": "Luís Quintero"
+        "spouse": "Luís Quintero",
+        "age": 40
     },
     {
         "name": "José Clemente Quintero",
@@ -301,7 +338,8 @@
         "gender": "M",
         "father": "Luís Quintero",
         "mother": "María Petra Rubio",
-        "spouse": " "
+        "spouse": " ",
+        "age": 3
     },
     {
         "name": "María Gertrudis Quintero",
@@ -309,7 +347,8 @@
         "gender": "F",
         "father": "Luís Quintero",
         "mother": "María Petra Rubio",
-        "spouse": " "
+        "spouse": " ",
+        "age": 16
     },
     {
         "name": "María Concepción Quintero",
@@ -317,7 +356,8 @@
         "gender": "F",
         "father": "Luís Quintero",
         "mother": "María Petra Rubio",
-        "spouse": " "
+        "spouse": " ",
+        "age": 9
     },
     {
         "name": "Tomasa Quintero",
@@ -325,7 +365,8 @@
         "gender": "F",
         "father": "Luís Quintero",
         "mother": "María Petra Rubio",
-        "spouse": " "
+        "spouse": " ",
+        "age": 7
     },
     {
         "name": "Rafaela Quintero",
@@ -333,7 +374,8 @@
         "gender": "F",
         "father": "Luís Quintero",
         "mother": "María Petra Rubio",
-        "spouse": " "
+        "spouse": " ",
+        "age": 6
     },
     {
         "name": "José Moreno",
@@ -341,7 +383,8 @@
         "gender": "M",
         "father": " ",
         "mother": " ",
-        "spouse": " "
+        "spouse": " ",
+        "age": 22
     },
     {
         "name": "María Guadalupe Gertrudis",
@@ -349,7 +392,8 @@
         "gender": "F",
         "father": " ",
         "mother": " ",
-        "spouse": "José Moreno"
+        "spouse": "José Moreno",
+        "age": 19
     },
     {
         "name": "Antonio Miranda",
@@ -357,7 +401,8 @@
         "gender": "M",
         "father": " ",
         "mother": " ",
-        "spouse": " "
+        "spouse": " ",
+        "age": 50
     },
     {
         "name": "Juana María Miranda",
@@ -365,6 +410,7 @@
         "gender": "F",
         "father": "Antonio Miranda",
         "mother": " ",
-        "spouse": " "
+        "spouse": " ",
+        "age": 11
     }
 ]
