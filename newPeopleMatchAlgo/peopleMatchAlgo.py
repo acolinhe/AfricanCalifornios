@@ -1,11 +1,16 @@
-import pandas as pd
 import pickle
+import logging
+from concurrent.futures import ProcessPoolExecutor
 from personReader import get_transformed_data
 from matchingFunctions import modified_levenshtein_distance, normalize_spanish_names
+
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 class Node:
     def __init__(self, record: dict):
         self.name = normalize_spanish_names(record.get("name"))
+        if not self.name:
+            raise ValueError("Node must have a valid name")  # Prevent invalid nodes
         self.father = self.sanitize_reference(record.get("father"))
         self.mother = self.sanitize_reference(record.get("mother"))
         self.spouse = self.sanitize_reference(record.get("spouse"))
@@ -14,6 +19,7 @@ class Node:
         self.info["gender"] = self.normalize_field(record.get("gender"))
         self.info["race"] = self.normalize_field(record.get("race"))
         self.info["age"] = self.sanitize_age(record.get("age"))
+        logging.info(f"Created node: {self.name}")
 
     def __hash__(self):
         return hash(self.name)
@@ -58,61 +64,93 @@ class Tree:
                 break
         if not matched:
             self.nodes.add(new_node)
+        logging.info(f"Added node to tree: {new_node.name}")
 
     def link_relationships(self):
-        for node in self.nodes:
+        pending_relationships = list(self.nodes)
+        processed_nodes = set()
+
+        for _ in range(1):  # Limit to one generation
+            if not pending_relationships:
+                break
+            
+            node = pending_relationships.pop()
+            processed_nodes.add(node)
+            logging.info(f"Processing relationships for: {node.name}")
+
             if node.father:
                 father_node = self.find_or_create_node(node.father)
+                if father_node and father_node not in self.nodes:
+                    pending_relationships.append(father_node)
+                    self.nodes.add(father_node)
                 father_node.children.add(node)
                 node.father = father_node
+                logging.info(f"  - Linked father: {father_node.name}")
+
             if node.mother:
                 mother_node = self.find_or_create_node(node.mother)
+                if mother_node and mother_node not in self.nodes:
+                    pending_relationships.append(mother_node)
+                    self.nodes.add(mother_node)
                 mother_node.children.add(node)
                 node.mother = mother_node
+                logging.info(f"  - Linked mother: {mother_node.name}")
+
             if node.spouse:
                 spouse_node = self.find_or_create_node(node.spouse)
+                if spouse_node and spouse_node not in self.nodes:
+                    pending_relationships.append(spouse_node)
+                    self.nodes.add(spouse_node)
                 node.info["spouse"] = spouse_node
+                logging.info(f"  - Linked spouse: {spouse_node.name}")
 
     def find_or_create_node(self, name: str):
         normalized_name = normalize_spanish_names(name)
+        if not normalized_name:
+            logging.warning("Skipping creation of node with empty name")
+            return None  # Skip empty names
         for node in self.nodes:
             if node.name == normalized_name:
                 return node
-        new_node = Node({"name": name})
-        self.nodes.add(new_node)
-        return new_node
+        try:
+            new_node = Node({"name": name})
+            self.nodes.add(new_node)
+            return new_node
+        except ValueError:
+            return None  # Skip invalid nodes
 
 def match_names(node1: Node, node2: Node, threshold: int = 1):
     return modified_levenshtein_distance(node1.name, node2.name) <= threshold
 
 def build_family_trees():
     data = get_transformed_data()
-    
     trees = []
-
-    for _, records in data.items():
-        tree = Tree()
-        for record in records:
-            tree.add_node(Node(record))
-            print(tree)
-        tree.link_relationships()
-        trees.append(tree)
-
+    
+    with ProcessPoolExecutor() as executor:
+        results = executor.map(process_records, [list(records[1]) for records in data.items()])
+        for result in results:
+            tree = Tree()
+            for record in result:
+                tree.add_node(Node(record))
+            tree.link_relationships()
+            trees.append(tree)
+    
     return trees
+
+def process_records(records):
+    logging.info("Processing dataset in worker process")
+    return records
 
 def save_family_trees(trees, filename="family_trees.pkl"):
     with open(filename, "wb") as file:
         pickle.dump(trees, file)
+    logging.info(f"Family trees saved to {filename}")
 
 def main():
+    logging.info("Starting family tree construction.")
     family_trees = build_family_trees()
     save_family_trees(family_trees)
-    print(f"Family trees saved to 'family_trees.pkl'.")
-
-    for tree in family_trees:
-        print("Tree:")
-        for node in tree.nodes:
-            print(f"Name: {node.name}, Father: {node.father and node.father.name}, Mother: {node.mother and node.mother.name}, Spouse: {node.info.get('spouse')}, Children: {[child.name for child in node.children]}")
+    logging.info("Family tree construction complete.")
 
 if __name__ == "__main__":
     main()
