@@ -1,5 +1,5 @@
-import pickle
 import logging
+import json
 from concurrent.futures import ProcessPoolExecutor
 from personReader import get_transformed_data
 from matchingFunctions import modified_levenshtein_distance, normalize_spanish_names
@@ -19,13 +19,13 @@ class Node:
         self.info["gender"] = self.normalize_field(record.get("gender"))
         self.info["race"] = self.normalize_field(record.get("race"))
         self.info["age"] = self.sanitize_age(record.get("age"))
-        logging.info(f"Created node: {self.name}")
+        logging.debug(f"Created node: {self.name}")
 
     def __hash__(self):
         return hash(self.name)
 
     def __eq__(self, other):
-        return self.name == other.name
+        return isinstance(other, Node) and self.name == other.name
 
     def merge(self, record: dict):
         for key, value in record.items():
@@ -64,104 +64,156 @@ class Tree:
                 break
         if not matched:
             self.nodes.add(new_node)
-        logging.info(f"Added node to tree: {new_node.name}")
+        logging.debug(f"Added node to tree: {new_node.name}")
 
     def link_relationships(self):
         pending_relationships = list(self.nodes)
-        processed_nodes = set()
 
         while pending_relationships:
             node = pending_relationships.pop()
-            processed_nodes.add(node)
-            logging.info(f"Processing relationships for: {node.name}")
+            logging.debug(f"Processing relationships for: {node.name}")
 
             if node.father:
                 father_node = self.find_or_create_node(node.father)
                 if father_node:
-                    if father_node not in self.nodes:
-                        pending_relationships.append(father_node)
-                        self.nodes.add(father_node)
                     father_node.children.add(node)
                     node.father = father_node
-                    logging.info(f"  - Linked father: {father_node.name}")
 
             if node.mother:
                 mother_node = self.find_or_create_node(node.mother)
                 if mother_node:
-                    if mother_node not in self.nodes:
-                        pending_relationships.append(mother_node)
-                        self.nodes.add(mother_node)
                     mother_node.children.add(node)
                     node.mother = mother_node
-                    logging.info(f"  - Linked mother: {mother_node.name}")
 
             if node.spouse:
                 spouse_node = self.find_or_create_node(node.spouse)
                 if spouse_node:
-                    if spouse_node not in self.nodes:
-                        pending_relationships.append(spouse_node)
-                        self.nodes.add(spouse_node)
-                    node.info["spouse"] = spouse_node
-                    logging.info(f"  - Linked spouse: {spouse_node.name}")
-
-            for child in node.children.copy():
-                child_node = self.find_or_create_node(child)
-                if child_node:
-                    if child_node not in self.nodes:
-                        pending_relationships.append(child_node)
-                        self.nodes.add(child_node)
-                    child_node.father = node if node.info.get("gender") == "male" else child_node.father
-                    child_node.mother = node if node.info.get("gender") == "female" else child_node.mother
-                    node.children.add(child_node)
-                    logging.info(f"  - Linked child: {child_node.name}")
+                    node.spouse = spouse_node
 
     def find_or_create_node(self, name: str):
-        normalized_name = normalize_spanish_names(name)
-        if not normalized_name:
-            logging.warning("Skipping creation of node with empty name")
+        if not name:
             return None
+        normalized_name = normalize_spanish_names(name)
         for node in self.nodes:
             if node.name == normalized_name:
                 return node
-        try:
-            new_node = Node({"name": name})
-            self.nodes.add(new_node)
-            return new_node
-        except ValueError:
-            return None
+        new_node = Node({"name": name})
+        self.nodes.add(new_node)
+        return new_node
 
 def match_names(node1: Node, node2: Node, threshold: int = 1):
     return modified_levenshtein_distance(node1.name, node2.name) <= threshold
 
 def build_family_trees():
+    """Builds family trees while ensuring proper parent-child linking using 1790_census ChildX fields."""
     data = get_transformed_data()
     trees = []
-    
+
     with ProcessPoolExecutor() as executor:
-        results = executor.map(process_records, [list(records[1]) for records in data.items()])
-        for result in results:
+        results = executor.map(process_records, data.values())
+        for dataset_name, result in zip(data.keys(), results):
             tree = Tree()
+
             for record in result:
-                tree.add_node(Node(record))
+                new_node = Node(record)
+                tree.add_node(new_node)
+
+                if dataset_name == "1790_census":
+                    for i in range(1, 15):
+                        child_name = record.get(f"Child{i}")
+                        if child_name:
+                            child_node = tree.find_or_create_node(child_name)
+
+                            if child_node not in tree.nodes:  # Ensure child is added to the tree
+                                tree.nodes.add(child_node)
+
+                            if new_node.info.get("gender") == "male":
+                                child_node.father = new_node
+                            else:
+                                child_node.mother = new_node
+
+                            new_node.children.add(child_node)
+
             tree.link_relationships()
             trees.append(tree)
-    
+
     return trees
 
 def process_records(records):
-    logging.info("Processing dataset in worker process")
+    logging.info(f"Processing {len(records)} records in worker process")
     return records
 
-def save_family_trees(trees, filename="family_trees.pkl"):
-    with open(filename, "wb") as file:
-        pickle.dump(trees, file)
+def save_family_trees(trees, filename="family_trees.json"):
+    """Saves family trees in a nested JSON structure with proper ID references."""
+
+    people_lookup = {}
+    name_to_id = {}
+    id_counter = 1
+
+    for tree in trees:
+        for node in tree.nodes:
+            if node.name not in name_to_id:
+                name_to_id[node.name] = id_counter
+                id_counter += 1
+
+    for tree in trees:
+        for node in tree.nodes:
+            person = {
+                "id": name_to_id[node.name],
+                "name": node.name,
+                "race": node.info.get("race", ""),
+                "gender": node.info.get("gender", ""),
+                "age": node.info.get("age", ""),
+                "spouse": name_to_id.get(node.spouse.name) if isinstance(node.spouse, Node) else None,
+                "children": [name_to_id.get(child.name, None) for child in node.children if isinstance(child, Node)],
+                "father": name_to_id.get(node.father.name, None) if isinstance(node.father, Node) else None,
+                "mother": name_to_id.get(node.mother.name, None) if isinstance(node.mother, Node) else None
+            }
+            people_lookup[person["id"]] = person
+
+    root_people = [p for p in people_lookup.values() if not p["father"] and not p["mother"]]
+
+    family_trees = [build_family_tree_structure(person, people_lookup) for person in root_people]
+
+    with open(filename, "w", encoding="utf-8") as file:
+        json.dump(family_trees, file, indent=4, ensure_ascii=False)
+
     logging.info(f"Family trees saved to {filename}")
 
+def build_family_tree_structure(person, people_lookup, visited=None):
+    """Recursively build a nested family tree structure using IDs, preventing infinite recursion."""
+    if visited is None:
+        visited = set()
+
+    if person["id"] in visited:
+        logging.warning(f"Circular reference detected for {person['name']} (ID: {person['id']})")
+        return {"id": person["id"], "name": person["name"], "circular_reference": True}
+
+    visited.add(person["id"])
+
+    return {
+        "id": person["id"],
+        "name": person["name"],
+        "race": person.get("race", ""),
+        "gender": person.get("gender", ""),
+        "age": person.get("age", ""),
+        "spouse": people_lookup.get(person["spouse"], {}).get("id") if person["spouse"] else None,
+        "children": [
+            build_family_tree_structure(people_lookup[child_id], people_lookup, visited)
+            for child_id in person["children"]
+            if child_id in people_lookup
+        ]
+    }
+
 def main():
-    logging.info("Starting family tree construction.")
-    family_trees = build_family_trees()
-    save_family_trees(family_trees)
-    logging.info("Family tree construction complete.")
+    try:
+        logging.info("Starting family tree construction.")
+        family_trees = build_family_trees()
+        save_family_trees(family_trees)
+        logging.info("Family tree construction complete.")
+    except Exception as e:
+        logging.error(f"ERROR: {e}", exc_info=True)
 
 if __name__ == "__main__":
-    main()
+   main()
+
