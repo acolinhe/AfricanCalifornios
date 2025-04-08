@@ -1,6 +1,5 @@
 import logging
 import json
-import datetime
 from concurrent.futures import ProcessPoolExecutor
 from personReader import get_transformed_data
 from matchingFunctions import modified_levenshtein_distance, normalize_spanish_names
@@ -15,6 +14,12 @@ CENSUS_YEARS = {
     "padron_1821": 1821,
     "1790_census": 1790
 }
+
+# Define threshold constants
+NAME_MATCH_THRESHOLD = 2       # For general name matching
+SURNAME_MATCH_THRESHOLD = 2    # For surname matching
+SPOUSE_MATCH_THRESHOLD = 2     # For spouse name matching
+CENSUS_NAME_THRESHOLD = 3      # For cross-census matching with family/age support
 
 class Node:
     def __init__(self, record: dict, dataset_name=None):
@@ -155,6 +160,20 @@ class Tree:
 
         while pending_relationships:
             node = pending_relationships.pop()
+            
+            # Check for and fix self-references
+            if isinstance(node.father, str) and normalize_spanish_names(node.father) == node.name:
+                logging.warning(f"Fixing self-reference for father: {node.name}")
+                node.father = None
+                
+            if isinstance(node.mother, str) and normalize_spanish_names(node.mother) == node.name:
+                logging.warning(f"Fixing self-reference for mother: {node.name}")
+                node.mother = None
+                
+            if isinstance(node.spouse, str) and normalize_spanish_names(node.spouse) == node.name:
+                logging.warning(f"Fixing self-reference for spouse: {node.name}")
+                node.spouse = None
+            
             logging.debug(f"Processing relationships for: {node.name}")
 
             if node.father:
@@ -192,9 +211,9 @@ class Tree:
             if node.name == normalized_name:
                 return node
 
-        # Then try fuzzy matching with a threshold of 1
+        # Then try fuzzy matching with a threshold
         for node in self.nodes:
-            if modified_levenshtein_distance(node.name, normalized_name) <= 1:
+            if modified_levenshtein_distance(node.name, normalized_name) <= NAME_MATCH_THRESHOLD:
                 return node
 
         # Create new node if no match
@@ -216,7 +235,7 @@ class Tree:
         return sorted(matches, key=lambda x: x[1])
 
 
-def match_nodes(node1: Node, node2: Node, threshold: int = 1):
+def match_nodes(node1: Node, node2: Node, threshold: int = NAME_MATCH_THRESHOLD):
     """
     Determines if two nodes represent the same person based on name and other attributes.
     """
@@ -253,7 +272,7 @@ def match_nodes(node1: Node, node2: Node, threshold: int = 1):
 
     if spouse1 and spouse2:
         spouse_distance = modified_levenshtein_distance(spouse1, spouse2)
-        if spouse_distance > threshold:
+        if spouse_distance > CENSUS_NAME_THRESHOLD:
             # Spouses don't match - strong evidence these are different people
             return False
 
@@ -273,6 +292,10 @@ def validate_parent_child_relationship(parent_node, child_node, census_year=None
     Returns:
         bool: Whether the relationship is valid
     """
+    if parent_node.name == child_node.name:
+        logging.warning(f"Prevented self-referential relationship for: {parent_node.name}")
+        return False
+
     # Minimum age difference for parenthood
     MIN_PARENT_AGE = 13
 
@@ -332,6 +355,39 @@ def validate_spouse_relationship(node1, node2):
             return False
 
     return True
+
+
+def validate_child_surname(parent_name, child_name):
+    """Validate that the child likely has the correct surname inheritance"""
+    if not parent_name or not child_name:
+        return True
+        
+    parent_parts = parent_name.split()
+    child_parts = child_name.split()
+    
+    # Simple case - not enough parts to check
+    if len(parent_parts) < 2 or len(child_parts) < 2:
+        return True
+        
+    # Get the surname (typically last part)
+    parent_surname = parent_parts[-1]
+    
+    # Check if parent's surname appears anywhere in child's name
+    for part in child_parts:
+        if modified_levenshtein_distance(part, parent_surname) <= SURNAME_MATCH_THRESHOLD:
+            return True
+            
+    # For Spanish naming conventions, check paternal surname inheritance
+    if len(parent_parts) >= 2 and len(child_parts) >= 3:
+        # In "FirstName PaternalSurname MaternalSurname" format
+        parent_paternal = parent_parts[-2] if len(parent_parts) >= 3 else parent_parts[-1]
+        child_paternal = child_parts[-2] if len(child_parts) >= 3 else child_parts[-1]
+        
+        if modified_levenshtein_distance(parent_paternal, child_paternal) <= SURNAME_MATCH_THRESHOLD:
+            return True
+    
+    logging.warning(f"Suspicious surname pattern: parent={parent_name}, child={child_name}")
+    return False
 
 
 def group_by_household(records):
@@ -418,7 +474,7 @@ def match_person_across_census(person, other_census_data, years_between):
             match_score += 3
 
         # Threshold for considering a match
-        if name_score <= 2 or (name_score <= 3 and (age_matches or family_matches)):
+        if name_score <= NAME_MATCH_THRESHOLD or (name_score <= CENSUS_NAME_THRESHOLD and (age_matches or family_matches)):
             matches.append((candidate, match_score))
 
     return sorted(matches, key=lambda x: x[1])
