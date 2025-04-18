@@ -177,7 +177,11 @@ class Tree:
             logging.debug(f"Processing relationships for: {node.name}")
 
             if node.father:
-                father_node = self.find_or_create_node(node.father)
+                if isinstance(node.father, Node):
+                    father_node = node.father
+                else:
+                    father_node = self.find_or_create_node(node.father)
+                    
                 if father_node and validate_parent_child_relationship(father_node, node, census_year):
                     father_node.children.add(node)
                     node.father = father_node
@@ -185,7 +189,11 @@ class Tree:
                     logging.warning(f"Invalid father-child relationship: {father_node.name if father_node else 'Unknown'} -> {node.name}")
 
             if node.mother:
-                mother_node = self.find_or_create_node(node.mother)
+                if isinstance(node.mother, Node):
+                    mother_node = node.mother
+                else:
+                    mother_node = self.find_or_create_node(node.mother)
+                    
                 if mother_node and validate_parent_child_relationship(mother_node, node, census_year):
                     mother_node.children.add(node)
                     node.mother = mother_node
@@ -193,7 +201,11 @@ class Tree:
                     logging.warning(f"Invalid mother-child relationship: {mother_node.name if mother_node else 'Unknown'} -> {node.name}")
 
             if node.spouse:
-                spouse_node = self.find_or_create_node(node.spouse)
+                if isinstance(node.spouse, Node):
+                    spouse_node = node.spouse
+                else:
+                    spouse_node = self.find_or_create_node(node.spouse)
+                    
                 if spouse_node and validate_spouse_relationship(node, spouse_node):
                     # Make spouse relationship bidirectional
                     node.spouse = spouse_node
@@ -481,19 +493,19 @@ def match_person_across_census(person, other_census_data, years_between):
 
 
 def build_family_trees_by_census():
-    """
-    Builds separate family trees for each census year.
-    """
     data = get_transformed_data()
     trees_by_census = {}
 
     with ProcessPoolExecutor() as executor:
-        # Process each dataset separately
         futures = {dataset_name: executor.submit(process_records, records)
                   for dataset_name, records in data.items()}
 
         for dataset_name, future in futures.items():
             result = future.result()
+            
+            # Filter out records with no name before processing
+            result = [record for record in result if record.get("name") and record.get("name").strip()]
+            
             tree = Tree()
 
             if dataset_name == "padron_1821":

@@ -11,7 +11,6 @@ custom_costs = {
     ('u', 'v'): 0, ('v', 'u'): 0,
     # addded extra colonial Spanish cost variations
     ('j', 'ph'): 0, ('ph', 'j'): 0,  # Joseph/Jose
-    ('y', 'i'): 0, ('i', 'y'): 0,    # Maria/Marya
     ('ll', 'y'): 0, ('y', 'll'): 0,  # Llanos/Yanos
     ('h', ''): 0, ('', 'h'): 0 
 }
