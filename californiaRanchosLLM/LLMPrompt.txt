@@ -1,0 +1,64 @@
+Here is an example of a land grant entry from the open text file, californiaRanchos.txt. I have a list of other grant names I want you to find in the same file and extract similarly, leaving an empty string if nothing exists.
+
+Each grant should be returned as a JSON object with these fields:
+
+Grant Name
+Grant Number
+County
+Persons (entities) in an array with a Gov prefix for Governors
+Year
+Land Size (Acres)
+Land Size (Sq. Leagues)
+Coordinates
+Notes
+Do not write code. Only return a JSON array.
+
+Here is one sample:
+NIGUEL. #442, Orange Co. Grant of 8 sq. leagues made in 1842 by Gov. Alvarado to Juan Avila. Patent for 13,316.25 acres issued in 1879 to Juan Avila. In T 7-8S, R 6-7W, SBM.
+
+Now find and extract the following additional grant entries from the file:
+
+NIGUEL
+SAN DIEGITO
+LOMPOC
+LOS GUILLICOS
+LOMAS DE LA PURIFICACION
+ISLAND OF SANTA ROSA
+BOLSA DE SAN CAYETANO
+PUNTA DE LA CONCEPCION
+CAPAY
+CANADA DE SAN MIGUELITO (CANADA DE SAN MIGUEL Y CANADA DEL DIABLO)
+SAN LUISITO
+PIEDRA BLANCA (Rancho de San Simeon de San Luis Potosi, Hearst Rancho)
+PINOLE
+LA NACION
+LAS SALINAS
+PUNTA DE LA LAGUNA
+SAN MATEO (Santa Rosa de Chualar)
+SAN JOSE Y SER CHIQUITO
+ESTERO AMERICANO
+LOS CERRITOS (Los Nietos Rancho)
+LOS MEDANOS
+EL CONEJO (Altagracia, Nuestra Senora de Altagracia)
+LA GOLETA
+ROBLAR DE LA MISERIA
+CANADA DE LOS NOGALES
+CANADA DE SALISPUEDES
+PANOCHE DE SAN JUAN Y LOS CARRISALITOS (Fatjo Rancho)
+NICASIO
+LOS MEGANOS (Pulpunes, Umpines, Brentwood Rancho, New York Rancho)
+RINCON DE LA PUENTE DEL MONTE
+SAUCITO
+BOLSA DE CHAMISAL
+HUERTA DE CUATI
+NEW HELVETIA
+LA HABRA
+EL SUR
+SANTA ANA DEL CHINO
+NIPOMO
+CANADA DE HERRERA
+TRABUCO
+ARROYO DE LA ALAMEDA
+SAN JUAN
+BOCA DE SANTA MONICA (Valle de Santa Monica)
+POSOLMI (Posolomi, and Pozito de las Animas)
