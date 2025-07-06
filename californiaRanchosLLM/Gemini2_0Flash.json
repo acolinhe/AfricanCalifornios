@@ -1,0 +1,526 @@
+[
+  {
+    "Grant Name": "NIGUEL",
+    "Grant Number": "#501",
+    "County": "Orange Co.",
+    "Persons": [
+      "Gov. Alvarado",
+      "Juan Avila",
+      "Concepcion Avila"
+    ],
+    "Year": "1842",
+    "Land Size (Acres)": "13,316.01",
+    "Land Size (Sq. Leagues)": "3",
+    "Coordinates": "T 7S, R 8W, SBM",
+    "Notes": "Also known as Miguel, and as Los Alisos."
+  },
+  {
+    "Grant Name": "SAN DIEGITO",
+    "Grant Number": null,
+    "County": null,
+    "Persons": [],
+    "Year": null,
+    "Land Size (Acres)": null,
+    "Land Size (Sq. Leagues)": null,
+    "Coordinates": null,
+    "Notes": null
+  },
+  {
+    "Grant Name": "LOMPOC",
+    "Grant Number": null,
+    "County": null,
+    "Persons": [],
+    "Year": null,
+    "Land Size (Acres)": null,
+    "Land Size (Sq. Leagues)": null,
+    "Coordinates": null,
+    "Notes": null
+  },
+  {
+    "Grant Name": "LOS GUILLICOS",
+    "Grant Number": null,
+    "County": null,
+    "Persons": [],
+    "Year": null,
+    "Land Size (Acres)": null,
+    "Land Size (Sq. Leagues)": null,
+    "Coordinates": null,
+    "Notes": null
+  },
+  {
+    "Grant Name": "LOMAS DE LA PURIFICACION",
+    "Grant Number": null,
+    "County": null,
+    "Persons": [],
+    "Year": null,
+    "Land Size (Acres)": null,
+    "Land Size (Sq. Leagues)": null,
+    "Coordinates": null,
+    "Notes": null
+  },
+  {
+    "Grant Name": "ISLAND OF SANTA ROSA",
+    "Grant Number": null,
+    "County": null,
+    "Persons": [],
+    "Year": null,
+    "Land Size (Acres)": null,
+    "Land Size (Sq. Leagues)": null,
+    "Coordinates": null,
+    "Notes": null
+  },
+  {
+    "Grant Name": "BOLSA DE SAN CAYETANO",
+    "Grant Number": "#221",
+    "County": "Monterey Co.",
+    "Persons": [
+      "Gov. Alvarado"
+    ],
+    "Year": "1836",
+    "Land Size (Acres)": null,
+    "Land Size (Sq. Leagues)": null,
+    "Coordinates": "T 12S, R2E, MDM",
+    "Notes": null
+  },
+  {
+    "Grant Name": "PUNTA DE LA CONCEPCION",
+    "Grant Number": null,
+    "County": null,
+    "Persons": [],
+    "Year": null,
+    "Land Size (Acres)": null,
+    "Land Size (Sq. Leagues)": null,
+    "Coordinates": null,
+    "Notes": null
+  },
+  {
+    "Grant Name": "CAPAY",
+    "Grant Number": null,
+    "County": null,
+    "Persons": [],
+    "Year": null,
+    "Land Size (Acres)": null,
+    "Land Size (Sq. Leagues)": null,
+    "Coordinates": null,
+    "Notes": null
+  },
+  {
+    "Grant Name": "CANADA DE SAN MIGUELITO (CANADA DE SAN MIGUEL Y CANADA DEL DIABLO)",
+    "Grant Number": null,
+    "County": null,
+    "Persons": [],
+    "Year": null,
+    "Land Size (Acres)": null,
+    "Land Size (Sq. Leagues)": null,
+    "Coordinates": null,
+    "Notes": null
+  },
+  {
+    "Grant Name": "SAN LUISITO",
+    "Grant Number": null,
+    "County": null,
+    "Persons": [],
+    "Year": null,
+    "Land Size (Acres)": null,
+    "Land Size (Sq. Leagues)": null,
+    "Coordinates": null,
+    "Notes": null
+  },
+  {
+    "Grant Name": "PIEDRA BLANCA (Rancho de San Simeon de San Luis Potosi, Hearst Rancho)",
+    "Grant Number": null,
+    "County": null,
+    "Persons": [],
+    "Year": null,
+    "Land Size (Acres)": null,
+    "Land Size (Sq. Leagues)": null,
+    "Coordinates": null,
+    "Notes": null
+  },
+  {
+    "Grant Name": "PINOLE",
+    "Grant Number": null,
+    "County": null,
+    "Persons": [],
+    "Year": null,
+    "Land Size (Acres)": null,
+    "Land Size (Sq. Leagues)": null,
+    "Coordinates": null,
+    "Notes": null
+  },
+  {
+    "Grant Name": "LA NACION",
+    "Grant Number": null,
+    "County": "Monterey Co.",
+    "Persons": [],
+    "Year": null,
+    "Land Size (Acres)": null,
+    "Land Size (Sq. Leagues)": "1",
+    "Coordinates": null,
+    "Notes": null
+  },
+  {
+    "Grant Name": "LAS SALINAS",
+    "Grant Number": "#257",
+    "County": "Monterey Co.",
+    "Persons": [
+      "Gov. Figueroa",
+      "G. Espinosa"
+    ],
+    "Year": "1835",
+    "Land Size (Acres)": null,
+    "Land Size (Sq. Leagues)": "4",
+    "Coordinates": "T 14S, R 2E, MDM",
+    "Notes": "of G. Espinosa."
+  },
+  {
+    "Grant Name": "PUNTA DE LA LAGUNA",
+    "Grant Number": null,
+    "County": null,
+    "Persons": [],
+    "Year": null,
+    "Land Size (Acres)": null,
+    "Land Size (Sq. Leagues)": null,
+    "Coordinates": null,
+    "Notes": null
+  },
+  {
+    "Grant Name": "SAN MATEO (Santa Rosa de Chualar)",
+    "Grant Number": null,
+    "County": null,
+    "Persons": [],
+    "Year": null,
+    "Land Size (Acres)": null,
+    "Land Size (Sq. Leagues)": null,
+    "Coordinates": null,
+    "Notes": null
+  },
+  {
+    "Grant Name": "SAN JOSE Y SER CHIQUITO",
+    "Grant Number": "#552",
+    "County": "Monterey Co.",
+    "Persons": [
+      "Gov. Alvarado",
+      "Marcelino Escobar",
+      "Joseph S. Emory",
+      "Nathan W. Spaulding",
+      "Abner Bassett",
+      "Mary Ann Bassett"
+    ],
+    "Year": "1839",
+    "Land Size (Acres)": "8.818.56",
+    "Land Size (Sq. Leagues)": "2",
+    "Coordinates": "T 17S, R IE-1 W, MDM",
+    "Notes": null
+  },
+  {
+    "Grant Name": "ESTERO AMERICANO",
+    "Grant Number": null,
+    "County": null,
+    "Persons": [],
+    "Year": null,
+    "Land Size (Acres)": null,
+    "Land Size (Sq. Leagues)": null,
+    "Coordinates": null,
+    "Notes": null
+  },
+  {
+    "Grant Name": "LOS CERRITOS (Los Nietos Rancho)",
+    "Grant Number": null,
+    "County": null,
+    "Persons": [],
+    "Year": null,
+    "Land Size (Acres)": null,
+    "Land Size (Sq. Leagues)": null,
+    "Coordinates": null,
+    "Notes": null
+  },
+  {
+    "Grant Name": "LOS MEDANOS",
+    "Grant Number": null,
+    "County": null,
+    "Persons": [],
+    "Year": null,
+    "Land Size (Acres)": null,
+    "Land Size (Sq. Leagues)": null,
+    "Coordinates": null,
+    "Notes": null
+  },
+  {
+    "Grant Name": "EL CONEJO (Altagracia, Nuestra Senora de Altagracia)",
+    "Grant Number": null,
+    "County": null,
+    "Persons": [],
+    "Year": null,
+    "Land Size (Acres)": null,
+    "Land Size (Sq. Leagues)": null,
+    "Coordinates": null,
+    "Notes": null
+  },
+  {
+    "Grant Name": "LA GOLETA",
+    "Grant Number": null,
+    "County": null,
+    "Persons": [],
+    "Year": null,
+    "Land Size (Acres)": null,
+    "Land Size (Sq. Leagues)": null,
+    "Coordinates": null,
+    "Notes": null
+  },
+  {
+    "Grant Name": "ROBLAR DE LA MISERIA",
+    "Grant Number": null,
+    "County": null,
+    "Persons": [],
+    "Year": null,
+    "Land Size (Acres)": null,
+    "Land Size (Sq. Leagues)": null,
+    "Coordinates": null,
+    "Notes": null
+  },
+  {
+    "Grant Name": "CANADA DE LOS NOGALES",
+    "Grant Number": null,
+    "County": null,
+    "Persons": [],
+    "Year": null,
+    "Land Size (Acres)": null,
+    "Land Size (Sq. Leagues)": null,
+    "Coordinates": null,
+    "Notes": null
+  },
+   {
+    "Grant Name": "CANADA DE SALISPUEDES",
+    "Grant Number": null,
+    "County": null,
+    "Persons": [],
+    "Year": null,
+    "Land Size (Acres)": null,
+    "Land Size (Sq. Leagues)": null,
+    "Coordinates": null,
+    "Notes": null
+  },
+  {
+    "Grant Name": "PANOCHE DE SAN JUAN Y LOS CARRISALITOS (Fatjo Rancho)",
+    "Grant Number": null,
+    "County": "San Benito, Fresno, Merced Cos.",
+    "Persons": [],
+    "Year": null,
+    "Land Size (Acres)": null,
+    "Land Size (Sq. Leagues)": null,
+    "Coordinates": "T 11-13S, R 9-10E, MDM",
+    "Notes": "Also known as Fatjo Rancho."
+  },
+  {
+    "Grant Name": "NICASIO",
+    "Grant Number": "#32",
+    "County": "Marin Co.",
+    "Persons": [
+      "Gov. Alvarado"
+    ],
+    "Year": null,
+    "Land Size (Acres)": null,
+    "Land Size (Sq. Leagues)": "16",
+    "Coordinates": "T 2-5N, R6-10W. MDM",
+    "Notes": null
+  },
+  {
+    "Grant Name": "LOS MEGANOS (Pulpunes, Umpines, Brentwood Rancho, New York Rancho)",
+    "Grant Number": null,
+    "County": null,
+    "Persons": [],
+    "Year": null,
+    "Land Size (Acres)": null,
+    "Land Size (Sq. Leagues)": null,
+    "Coordinates": null,
+    "Notes": null
+  },
+  {
+    "Grant Name": "RINCON DE LA PUENTE DEL MONTE",
+    "Grant Number": "#272",
+    "County": "Monterey Co.",
+    "Persons": [
+      "Teodoro Gonzales"
+    ],
+    "Year": "1866",
+    "Land Size (Acres)": null,
+    "Land Size (Sq. Leagues)": null,
+    "Coordinates": "T 16S, R 5E. MDM",
+    "Notes": null
+  },
+  {
+    "Grant Name": "SAUCITO",
+    "Grant Number": "#277",
+    "County": "Monterey Co.",
+    "Persons": [
+      "Gov. Figueroa",
+      "Graciano Manjares",
+      "John Wilson",
+      "Josiah Swain",
+      "George C. Harris"
+    ],
+    "Year": "1833",
+    "Land Size (Acres)": "2,211.65",
+    "Land Size (Sq. Leagues)": "1 x 'A",
+    "Coordinates": "T 15-16S. R IE. MDM.",
+    "Notes": null
+  },
+  {
+    "Grant Name": "BOLSA DE CHAMISAL",
+    "Grant Number": null,
+    "County": null,
+    "Persons": [],
+    "Year": null,
+    "Land Size (Acres)": null,
+    "Land Size (Sq. Leagues)": null,
+    "Coordinates": null,
+    "Notes": null
+  },
+  {
+    "Grant Name": "HUERTA DE CUATI",
+    "Grant Number": null,
+    "County": null,
+    "Persons": [],
+    "Year": null,
+    "Land Size (Acres)": null,
+    "Land Size (Sq. Leagues)": null,
+    "Coordinates": null,
+    "Notes": null
+  },
+  {
+    "Grant Name": "NEW HELVETIA",
+    "Grant Number": "#20",
+    "County": "Yuba, Sutter, Sacramento Cos.",
+    "Persons": [],
+    "Year": null,
+    "Land Size (Acres)": null,
+    "Land Size (Sq. Leagues)": null,
+    "Coordinates": "MDM",
+    "Notes": "Also known as Sutters Grant."
+  },
+  {
+    "Grant Name": "LA HABRA",
+    "Grant Number": "#462",
+    "County": "Los Angeles, Orange Cos.",
+    "Persons": [
+      "Gov. Pro Tem. Manuel Jimeno [Casarin]",
+      "Don Mariano Rolden"
+    ],
+    "Year": "1839",
+    "Land Size (Acres)": null,
+    "Land Size (Sq. Leagues)": "1 A",
+    "Coordinates": "2-3 S. R 10-11W. SBM.",
+    "Notes": null
+  },
+  {
+    "Grant Name": "EL SUR",
+    "Grant Number": "#288",
+    "County": "Monterey Co.",
+    "Persons": [
+      "Gov. Figueroa",
+      "Juan B. Alvarado",
+      "J. B. R. Cooper"
+    ],
+    "Year": "1834",
+    "Land Size (Acres)": "8,989.06",
+    "Land Size (Sq. Leagues)": "2",
+    "Coordinates": "T 18-19S, R IE, MDM.",
+    "Notes": null
+  },
+  {
+    "Grant Name": "SANTA ANA DEL CHINO",
+    "Grant Number": null,
+    "County": null,
+    "Persons": [],
+    "Year": null,
+    "Land Size (Acres)": null,
+    "Land Size (Sq. Leagues)": null,
+    "Coordinates": null,
+    "Notes": null
+  },
+  {
+    "Grant Name": "NIPOMO",
+    "Grant Number": null,
+    "County": null,
+    "Persons": [],
+    "Year": null,
+    "Land Size (Acres)": null,
+    "Land Size (Sq. Leagues)": null,
+    "Coordinates": null,
+    "Notes": null
+  },
+  {
+    "Grant Name": "CANADA DE HERRERA",
+    "Grant Number": "#40",
+    "County": "Marin Co.",
+    "Persons": [],
+    "Year": null,
+    "Land Size (Acres)": null,
+    "Land Size (Sq. Leagues)": "1 /i",
+    "Coordinates": "Also known as La Providencia.",
+    "Notes": "Also known as La Providencia."
+  },
+  {
+    "Grant Name": "TRABUCO",
+    "Grant Number": "#497",
+    "County": "Orange Co.",
+    "Persons": [
+      "Gov. Pieo",
+      "J. Forster",
+      "Santiago Arguello",
+      "Juan Forster"
+    ],
+    "Year": "1846",
+    "Land Size (Acres)": "22.184.47",
+    "Land Size (Sq. Leagues)": "5",
+    "Coordinates": "T 6-7S. R 7W.",
+    "Notes": null
+  },
+  {
+    "Grant Name": "ARROYO DE LA ALAMEDA",
+    "Grant Number": null,
+    "County": null,
+    "Persons": [],
+    "Year": null,
+    "Land Size (Acres)": null,
+    "Land Size (Sq. Leagues)": null,
+    "Coordinates": null,
+    "Notes": null
+  },
+  {
+    "Grant Name": "SAN JUAN",
+    "Grant Number": "#97",
+    "County": "Sacramento Co.",
+    "Persons": [
+      "Grimes"
+    ],
+    "Year": null,
+    "Land Size (Acres)": null,
+    "Land Size (Sq. Leagues)": "4/2",
+    "Coordinates": "T 9-ION. R 6-7E, MDM.",
+    "Notes": null
+  },
+  {
+    "Grant Name": "BOCA DE SANTA MONICA (Valle de Santa Monica)",
+    "Grant Number": null,
+    "County": null,
+    "Persons": [],
+    "Year": null,
+    "Land Size (Acres)": null,
+    "Land Size (Sq. Leagues)": null,
+    "Coordinates": null,
+    "Notes": null
+  },
+  {
+    "Grant Name": "POSOLMI (Posolomi, and Pozito de las Animas)",
+    "Grant Number": null,
+    "County": null,
+    "Persons": [],
+    "Year": null,
+    "Land Size (Acres)": null,
+    "Land Size (Sq. Leagues)": null,
+    "Coordinates": null,
+    "Notes": null
+  }
+]
