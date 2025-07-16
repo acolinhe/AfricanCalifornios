@@ -1,45 +1,45 @@
-Grant Name,Grant Number,County,Persons (entities),Year,Land Size (Acres),Land Size (Sq. Leagues),Coordinates,Notes
-NIGUEL,501,Orange,"[Gov. Alvarado, Juan Avila,  Concepcion Avila, ","[1842, 1873]","13,316.01",3,"T 7S, R 8W, SBM",
-SAN DIEGITO,523,San Diego,"[Gov. Victoria, Silva Family, Gov. Gutierrez, Gov. Alvarado, Gov. Pico, Juan Osuna, Juliana L. Osuna]","[1831, 1836, 1840, 1841, 1845, 1871]","8,824.71",2,T 13-14S. R 3W. SBM.,
-LOMPOC,374,Santa Barbara,"[Gov. Alvarado, Joaquin Carrillo, Jose Antonio Camilo, J. A. Carrillo]","[1837, 1873]","[38, 42,085.44]",,T 6-7N. R 34-35W. SBM.,
-LOS GUILLICOS,66,Sonoma,"[Gov. Alvarado, John Wilson] ","1837, 1866]",18.833,4,T 6-7N. R 6-7W. MDM.,
-LOMAS DE LA PURIFICACION,366,Santa Barbara,"[Gov. Micheltorena, Augustine Janssens]","[1844, 1871]","13,341.38",3,"T 5-6N, R 30W, SBM.",
-ISLAND OF SANTA ROSA,405,Santa Barbara,"[Gov. Micheltorena, Antonio Carrillo, Carlos Carrillo, Manuela Carrillo de Jones] ","[1843, 1871]","62,696.49",,Long 34i N. Lat. 120i  W.,
-BOLSA DE SAN CAYETANO,221,Monterey,"[Gov. de Sola, Ignacio Vallejo, Dolores Pico, Gov. Arguello, Gov. Figueroa, Jose de Jesus Vallejo]","[1819, 1830, 1834, 1865]","8,866.43",2,"T 12S, R2E, MDM.",
-PUNTA DE LA CONCEPCION,375,Santa Barbara,"[Gov. Alvarado, Anastacio Carrillo]","[1837, 1863, 1880]","24,992.04",6,"T 5-6N, R 34-35W, SBM.",
-CAPAY,8,"[Glenn, Tehema]","[Gov. Micheltorena, Josefa Soto]","[1844, 1859]","44,388.17",10,"T 21-23N, R 1-3W, MDM.",
-CANADA DE SAN MIGUELITO (CANADA DE SAN MIGUEL Y CANADA DEL DIABLO),391,Ventura,"[Gov. Pico, Ramon Rodriguez, Juana Tico de Rodriguez, ","[1846, 1871]","8,877.04",2,"T 3N, R 23-24W. SBM.",
-SAN LUISITO,327,San Luis Obispo,"[Gov. Alvarado, Guadalupe Cantua]","[1841, 1860]","4,369.56",1,"T 29-3 OS, RUE, MDM.",
-"PIEDRA BLANCA (Rancho de San Simeon de San Luis Potosi, Hearst Rancho)",321,San Luis Obispo,"[Gov. Alvarado, Jose de Jesus Pico]",,"48,805.59",,"T 25-26S, R 6-8E, MDM.",
-PINOLE,126,Contra Costa,"[Gov. Echeandia, Gov. Alvarado, Ygnacio Martinez, Maria Antonio Martinez de Richardson]","[1829, 1842, 1868]","17,760",4,"T 1-2N, R 3-4W, MDM.",
-LA NACION,528,San Diego,"[Gov. Pico, Juan Forster]",[1845],"26,631.94",6,"17-18S, R1-2W, SBM.",
-LAS SALINAS,257,Monterey,"[Antonio Aceves, Antonio Romero, Gov. Gutierrez, Gabrial Espinosa, ]Linda E. Pogue","[1795, 1836, 1867]","4,413.81",4,"T 14S, R 2E. MDM.",
-PUNTA DE LA LAGUNA,354,Santa Barbara,"[Gov. Micheltorena, Luis Arellanes, Emelio Miguel Ortega]","[1844, 1873]","26,648.42",6,T 9-1 ON. R 34-35W. SBM.,
-SAN MATEO (Santa Rosa de Chualar),149,San Mateo,"[Gov. Pro Tem. Manuel Jimeno Casarin, Juan Malarin","[1839, 1872]","8,889.68",2,"T15-16S. R 4-5E, MDM",
-SAN JOSE Y SER CHIQUITO,552,Monterey,"[Gov. Alvarado, Marcelino Escobar, Joseph S. Emory, Nathan W. Spaulding, Abner Bassett, Mary Ann Bassett]","[1839, 1888]","8,818.56",2,"T-17S, R IE-1 W, MDM.",
-ESTERO AMERICANO,28,Sonoma Co.,"[Gov. Pro Tern. Manuel Jimeno Casarin, Edward McIntosh, Jasper Farrell]","[1839, 1840]","8,829",2,"T 5-6N, R 10W. MDM.",
-LOS CERRITOS (Los Nietos Rancho),467,Los Angeles,"[Gov. Fages, Don Manuel Nieto, Gov. Figueroa, Juan Temple]","[1784, 1833]","27,054.36",,"T 3-4S, R 12-13W, SBM.",
-LOS MEDANOS,111,Contra Costa,"[Gov. Alvarado, Jose Antonio Mesa, Jose Miguel Mesa]","[1839, 1972]","6,658.83",2,"T 2N, R IE, MDM.",
-"EL CONEJO (Altagracia, Nuestra Senora de Altagracia)",408,"[Ventura, Los Angeles]","[Gov. Arrillaga, Ignacio Rodriguez, Gov. Arrillaga, Jose Polanco, Gov. de Sola to Jose de la Guerra y Noriega, Gov. Figueroa, Maria del Carmen Rodriguez]","[1802, 1803, 1822, 1835, 1873]","48,671.56",11,"T 1-2N, R 19-20W, SBM.",
-LA GOLETA,382,Santa Barbara,"[Gov. Pico, Daniel Hill]","[1846, 1865]","4,426.10",1,"T 4N, R 28W, SBM.",
-ROBLAR DE LA MISERIA,50,Sonoma,"[Gov. Pico, Juan Nepomuseno Padillo, Daniel Wright]","[1845, 1858]","1,792",4,"T 4-6N, R 7-8W, MDM.",
-CANADA DE LOS NOGALES,546,Los Angeles,"[Gov. Micheltorena, Jose M. Aguilar]","[1844, 1882]","1,199.56",1,"T IS, R 13W, SBM.",
-CANADA DE SALISPUEDES,377,Santa Barbara,"[Gov. Micheltorena, Pedro Cordero, John Keys]","[1844, 1874]","6,651.21",1,"T 6N, R 33-34W, SBM.",
-PANOCHE DE SAN JUAN Y LOS CARRISALITOS (Fatjo Rancho),235,Merced,"[Gov. Micheltorena, Julian Ursua, Romo]","[1867, 1844]","22,175.34",5,"T 11-13S, R 9-10E, MDM.",
-NICASIO,32,Marin,"[Gov. Micheltorena, Pablo de la Guerra, Juan Cooper, H. W. Halleck, Wm. Reynolds, Daniel Frink, B. R. Buckelow]\","[1844, ]1861","[30,848.85, 7,598.10, 9.478.82]",16,"T 2-5N, R6-10W. MDM.",
-"LOS MEGANOS (Pulpunes, Umpines, Brentwood Rancho, New York Rancho)",110,Contra Costa,"[Gov. Castro, Jose Noriega, John Marsh","[1837, 1835, 1835, 1867]","13,316",4,"T IN, R 2-3E, MDM.",
-RINCON DE LA PUENTE DEL MONTE,272,Monterey,"[Gov. Gutierrez, Gov. Figueroa, Teodoro Gonzales]","[1836, 1842, 1866]","15,218.62",7,"T 16S, R 5E. MDM.",
-SAUCITO,277,Monterey,"[Gov. Figueroa, Graciano Manjares, Josiah Swain, John Wilson, George C. Harris]","[1833, 1862]","2,211.65",1,T 15-16S. R 1E. MDM.,
-BOLSA DE CHAMISAL,352,San Luis Obispo,"[Gov. Alvarado, Francisco Quijada, Lewis T. Burton]","[1837, 1867]","14,335.22",3,"T 1 IN, R 35W, SBM.",
-HUERTA DE CUATI,421,Los Angeles,"[Victoria Reid, Gov. Alvarado]","[1838, 1859]",128.26,,T 18. R 12W. SBM.,
-NEW HELVETIA,20,"Yuba, Sutter, Sacramento","[Gov. Alvarado, John A. Sutter]","[1841 , 1866]","48,839.30",11,"T 8-9N and 12-15N, R 3-5E. MDM.",
-LA HABRA,462,"Los Angeles, Orange","[Gov. Pro Tem. Manuel Jimeno Casarin, Don Mariano Rolden, Andreas Pico]","[1839, 1872]","6,698.57",1,"T 2-3S,R 10-11W, SBM",
-EL SUR,288,Monterey,"[Gov. Figueroa, Juan B. Alvarado, J. B. R. Cooper]",[ 1834],"8,989.06",2,"T 18-19S, R IE, MDM.",
-SANTA ANA DEL CHINO,477,San Bernardino,"[Gov. Alvarado, Antonio M. Lugo, Maria Merced Williams, Francisca Williams]","[1841, 1869]","22,234.20",5," 2S. R 7-9W, SBM.",
-NIPOMO,351,"[San Luis Obispo, Santa Barbara]","[Gov. Alvarado, William G. Dana]","[1837, 1868]","37,887.91",11,"T 1 IN, R 33-35W, SBM.","1,000 varcis"
-CANADA DE HERRERA,40,Marin,"[Gov. Pro Tern. Manuel Jimeno Casarin, Domingo Sais]","[1839, 1840, 1878]","6,659.45",1,"T 2N. R 6-7W, MDM.",
-TRABUCO,497,Orange,"[Gov. Pico, J. Forster, Santiago Arguello]","[1846, 1866]","22,184.47",5,T 6-7S. R 7W. SBM.,
-ARROYO DE LA ALAMEDA,133,Alameda,"[Gov. Alvarado, Jose de Jesus Vallejo]","[1842, 1858]","17,705.38",4,"T 3-4S, R 1-2W, MDM.",
-SAN JUAN,97,Sacramento,"[Gov. Micheltorena, Joel P. Dedmond, Hiram Grimes]","[1844,1860] ","19,982.70",4,"In T 9-ION. R 6-7E, MDM",
-BOCA DE SANTA MONICA (Valle de Santa Monica),539,Los Angeles,"[Gov. Echeandia, Xavier Alvarado, Antonio Machado, Gov. Pro Tem. Manuel Jimeno Casarin, Francisco Marques, Ysidro Reyes]","[1827, 1839, 1881]","6,635.93",1,"T IS, R 16W, SBM.",
-"POSOLMI (Posolomi, and Pozito de las Animas)",145,Santa Clara,"[Gov. Micheltorena, Lopez Inigo, Robert Walkinshaw, Thomas Campbell]","[1844, 1881]","1,695.90",,"T 6S, R 2W, MDM.",
+Grant Name,Grant Number,County,Persons (entities),Year,Land Size (Acres),Land Size (Sq. Leagues),Coordinates,Notes,Buyer,Seller
+NIGUEL,501,Orange,"[Gov. Alvarado, Juan Avila,  Concepcion Avila, ","[1842, 1873]","13,316.01",3.0,"T 7S, R 8W, SBM",,"Juan Avila, Concepcion Avila",Gov. Alvarado
+SAN DIEGITO,523,San Diego,"[Gov. Victoria, Silva Family, Gov. Gutierrez, Gov. Alvarado, Gov. Pico, Juan Osuna, Juliana L. Osuna]","[1831, 1836, 1840, 1841, 1845, 1871]","8,824.71",2.0,T 13-14S. R 3W. SBM.,,"Silva Family, Juan Osuna, Juliana L. Osuna","Gov. Victoria, Gov. Gutierrez, Gov. Alvarado, Gov. Pico"
+LOMPOC,374,Santa Barbara,"[Gov. Alvarado, Joaquin Carrillo, Jose Antonio Camilo, J. A. Carrillo]","[1837, 1873]","[38, 42,085.44]",,T 6-7N. R 34-35W. SBM.,,"Joaquin Carrillo, Jose Antonio Camilo, J. A. Carrillo",Gov. Alvarado
+LOS GUILLICOS,66,Sonoma,"[Gov. Alvarado, John Wilson] ","1837, 1866]",18.833,4.0,T 6-7N. R 6-7W. MDM.,,John Wilson,Gov. Alvarado
+LOMAS DE LA PURIFICACION,366,Santa Barbara,"[Gov. Micheltorena, Augustine Janssens]","[1844, 1871]","13,341.38",3.0,"T 5-6N, R 30W, SBM.",,Augustine Janssens,Gov. Micheltorena
+ISLAND OF SANTA ROSA,405,Santa Barbara,"[Gov. Micheltorena, Antonio Carrillo, Carlos Carrillo, Manuela Carrillo de Jones] ","[1843, 1871]","62,696.49",,Long 34i N. Lat. 120i  W.,,"Antonio Carrillo, Carlos Carrillo, Manuela Carrillo de Jones",Gov. Micheltorena
+BOLSA DE SAN CAYETANO,221,Monterey,"[Gov. de Sola, Ignacio Vallejo, Dolores Pico, Gov. Arguello, Gov. Figueroa, Jose de Jesus Vallejo]","[1819, 1830, 1834, 1865]","8,866.43",2.0,"T 12S, R2E, MDM.",,"Gov. de Sola, Ignacio Vallejo, Jose de Jesus Vallejo","Dolores Pico, Gov. Arguello, Gov. Figueroa"
+PUNTA DE LA CONCEPCION,375,Santa Barbara,"[Gov. Alvarado, Anastacio Carrillo]","[1837, 1863, 1880]","24,992.04",6.0,"T 5-6N, R 34-35W, SBM.",,Anastacio Carrillo,Gov. Alvarado
+CAPAY,8,"[Glenn, Tehema]","[Gov. Micheltorena, Josefa Soto]","[1844, 1859]","44,388.17",10.0,"T 21-23N, R 1-3W, MDM.",,Josefa Soto,Gov. Micheltorena
+CANADA DE SAN MIGUELITO (CANADA DE SAN MIGUEL Y CANADA DEL DIABLO),391,Ventura,"[Gov. Pico, Ramon Rodriguez, Juana Tico de Rodriguez, ","[1846, 1871]","8,877.04",2.0,"T 3N, R 23-24W. SBM.",,"Ramon Rodriguez, Juana Tico de Rodriguez",Gov. Pico
+SAN LUISITO,327,San Luis Obispo,"[Gov. Alvarado, Guadalupe Cantua]","[1841, 1860]","4,369.56",1.0,"T 29-3 OS, RUE, MDM.",,Guadalupe Cantua,Gov. Alvarado
+"PIEDRA BLANCA (Rancho de San Simeon de San Luis Potosi, Hearst Rancho)",321,San Luis Obispo,"[Gov. Alvarado, Jose de Jesus Pico]",,"48,805.59",,"T 25-26S, R 6-8E, MDM.",,,"Gov. Alvarado, Jose de Jesus Pico"
+PINOLE,126,Contra Costa,"[Gov. Echeandia, Gov. Alvarado, Ygnacio Martinez, Maria Antonio Martinez de Richardson]","[1829, 1842, 1868]","17,760",4.0,"T 1-2N, R 3-4W, MDM.",,"Ygnacio Martinez, Maria Antonio Martinez de Richardson","Gov. Echeandia, Gov. Alvarado"
+LA NACION,528,San Diego,"[Gov. Pico, Juan Forster]",[1845],"26,631.94",6.0,"17-18S, R1-2W, SBM.",,Juan Forster,Gov. Pico
+LAS SALINAS,257,Monterey,"[Antonio Aceves, Antonio Romero, Gov. Gutierrez, Gabrial Espinosa, ]Linda E. Pogue","[1795, 1836, 1867]","4,413.81",4.0,"T 14S, R 2E. MDM.",,"Antonio Aceves, Antonio Romero, Gabrial Espinosa, Linda E. Pogue",Gov. Gutierrez
+PUNTA DE LA LAGUNA,354,Santa Barbara,"[Gov. Micheltorena, Luis Arellanes, Emelio Miguel Ortega]","[1844, 1873]","26,648.42",6.0,T 9-1 ON. R 34-35W. SBM.,,"Luis Arellanes, Emelio Miguel Ortega",Gov. Micheltorena
+SAN MATEO (Santa Rosa de Chualar),149,San Mateo,"[Gov. Pro Tem. Manuel Jimeno Casarin, Juan Malarin","[1839, 1872]","8,889.68",2.0,"T15-16S. R 4-5E, MDM",,Juan Malarin,Gov. Pro Tem. Manuel Jimeno Casarin
+SAN JOSE Y SER CHIQUITO,552,Monterey,"[Gov. Alvarado, Marcelino Escobar, Joseph S. Emory, Nathan W. Spaulding, Abner Bassett, Mary Ann Bassett]","[1839, 1888]","8,818.56",2.0,"T-17S, R IE-1 W, MDM.",,"Marcelino Escobar, Joseph S. Emory, Nathan W. Spaulding, Abner Bassett, Mary Ann Bassett",Gov. Alvarado
+ESTERO AMERICANO,28,Sonoma Co.,"[Gov. Pro Tern. Manuel Jimeno Casarin, Edward McIntosh, Jasper Farrell]","[1839, 1840]","8,829",2.0,"T 5-6N, R 10W. MDM.",,"Edward McIntosh, Jasper Farrell",Gov. Pro Tern. Manuel Jimeno Casarin
+LOS CERRITOS (Los Nietos Rancho),467,Los Angeles,"[Gov. Fages, Don Manuel Nieto, Gov. Figueroa, Juan Temple]","[1784, 1833]","27,054.36",,"T 3-4S, R 12-13W, SBM.",,"Don Manuel Nieto, Juan Temple","Gov. Fages, Gov. Figueroa"
+LOS MEDANOS,111,Contra Costa,"[Gov. Alvarado, Jose Antonio Mesa, Jose Miguel Mesa]","[1839, 1972]","6,658.83",2.0,"T 2N, R IE, MDM.",,"Jose Antonio Mesa, Jose Miguel Mesa",Gov. Alvarado
+"EL CONEJO (Altagracia, Nuestra Senora de Altagracia)",408,"[Ventura, Los Angeles]","[Gov. Arrillaga, Ignacio Rodriguez, Gov. Arrillaga, Jose Polanco, Gov. de Sola to Jose de la Guerra y Noriega, Gov. Figueroa, Maria del Carmen Rodriguez]","[1802, 1803, 1822, 1835, 1873]","48,671.56",11.0,"T 1-2N, R 19-20W, SBM.",,"Ignacio Rodriguez, Jose Polanco, Gov. de Sola to Jose de la Guerra y Noriega, Maria del Carmen Rodriguez","Gov. Arrillaga, Gov. Arrillaga, Gov. Figueroa"
+LA GOLETA,382,Santa Barbara,"[Gov. Pico, Daniel Hill]","[1846, 1865]","4,426.10",1.0,"T 4N, R 28W, SBM.",,Daniel Hill,Gov. Pico
+ROBLAR DE LA MISERIA,50,Sonoma,"[Gov. Pico, Juan Nepomuseno Padillo, Daniel Wright]","[1845, 1858]","1,792",4.0,"T 4-6N, R 7-8W, MDM.",,"Juan Nepomuseno Padillo, Daniel Wright",Gov. Pico
+CANADA DE LOS NOGALES,546,Los Angeles,"[Gov. Micheltorena, Jose M. Aguilar]","[1844, 1882]","1,199.56",1.0,"T IS, R 13W, SBM.",,Jose M. Aguilar,Gov. Micheltorena
+CANADA DE SALISPUEDES,377,Santa Barbara,"[Gov. Micheltorena, Pedro Cordero, John Keys]","[1844, 1874]","6,651.21",1.0,"T 6N, R 33-34W, SBM.",,"Pedro Cordero, John Keys",Gov. Micheltorena
+PANOCHE DE SAN JUAN Y LOS CARRISALITOS (Fatjo Rancho),235,Merced,"[Gov. Micheltorena, Julian Ursua, Romo]","[1867, 1844]","22,175.34",5.0,"T 11-13S, R 9-10E, MDM.",,"Julian Ursua, Romo",Gov. Micheltorena
+NICASIO,32,Marin,"[Gov. Micheltorena, Pablo de la Guerra, Juan Cooper, H. W. Halleck, Wm. Reynolds, Daniel Frink, B. R. Buckelow]\","[1844, ]1861","[30,848.85, 7,598.10, 9.478.82]",16.0,"T 2-5N, R6-10W. MDM.",,"Pablo de la Guerra, Juan Cooper, H. W. Halleck, Wm. Reynolds, Daniel Frink, B. R. Buckelow\",Gov. Micheltorena
+"LOS MEGANOS (Pulpunes, Umpines, Brentwood Rancho, New York Rancho)",110,Contra Costa,"[Gov. Castro, Jose Noriega, John Marsh","[1837, 1835, 1835, 1867]","13,316",4.0,"T IN, R 2-3E, MDM.",,"Jose Noriega, John Marsh",Gov. Castro
+RINCON DE LA PUENTE DEL MONTE,272,Monterey,"[Gov. Gutierrez, Gov. Figueroa, Teodoro Gonzales]","[1836, 1842, 1866]","15,218.62",7.0,"T 16S, R 5E. MDM.",,Teodoro Gonzales,"Gov. Gutierrez, Gov. Figueroa"
+SAUCITO,277,Monterey,"[Gov. Figueroa, Graciano Manjares, Josiah Swain, John Wilson, George C. Harris]","[1833, 1862]","2,211.65",1.0,T 15-16S. R 1E. MDM.,,"Graciano Manjares, Josiah Swain, John Wilson, George C. Harris",Gov. Figueroa
+BOLSA DE CHAMISAL,352,San Luis Obispo,"[Gov. Alvarado, Francisco Quijada, Lewis T. Burton]","[1837, 1867]","14,335.22",3.0,"T 1 IN, R 35W, SBM.",,"Francisco Quijada, Lewis T. Burton",Gov. Alvarado
+HUERTA DE CUATI,421,Los Angeles,"[Victoria Reid, Gov. Alvarado]","[1838, 1859]",128.26,,T 18. R 12W. SBM.,,,"Victoria Reid, Gov. Alvarado"
+NEW HELVETIA,20,"Yuba, Sutter, Sacramento","[Gov. Alvarado, John A. Sutter]","[1841 , 1866]","48,839.30",11.0,"T 8-9N and 12-15N, R 3-5E. MDM.",,John A. Sutter,Gov. Alvarado
+LA HABRA,462,"Los Angeles, Orange","[Gov. Pro Tem. Manuel Jimeno Casarin, Don Mariano Rolden, Andreas Pico]","[1839, 1872]","6,698.57",1.0,"T 2-3S,R 10-11W, SBM",,Don Mariano Rolden,"Gov. Pro Tem. Manuel Jimeno Casarin, Andreas Pico"
+EL SUR,288,Monterey,"[Gov. Figueroa, Juan B. Alvarado, J. B. R. Cooper]",[ 1834],"8,989.06",2.0,"T 18-19S, R IE, MDM.",,J. B. R. Cooper,"Gov. Figueroa, Juan B. Alvarado"
+SANTA ANA DEL CHINO,477,San Bernardino,"[Gov. Alvarado, Antonio M. Lugo, Maria Merced Williams, Francisca Williams]","[1841, 1869]","22,234.20",5.0," 2S. R 7-9W, SBM.",,"Antonio M. Lugo, Maria Merced Williams, Francisca Williams",Gov. Alvarado
+NIPOMO,351,"[San Luis Obispo, Santa Barbara]","[Gov. Alvarado, William G. Dana]","[1837, 1868]","37,887.91",11.0,"T 1 IN, R 33-35W, SBM.","1,000 varcis",William G. Dana,Gov. Alvarado
+CANADA DE HERRERA,40,Marin,"[Gov. Pro Tern. Manuel Jimeno Casarin, Domingo Sais]","[1839, 1840, 1878]","6,659.45",1.0,"T 2N. R 6-7W, MDM.",,Domingo Sais,Gov. Pro Tern. Manuel Jimeno Casarin
+TRABUCO,497,Orange,"[Gov. Pico, J. Forster, Santiago Arguello]","[1846, 1866]","22,184.47",5.0,T 6-7S. R 7W. SBM.,,J. Forster,"Gov. Pico, Santiago Arguello"
+ARROYO DE LA ALAMEDA,133,Alameda,"[Gov. Alvarado, Jose de Jesus Vallejo]","[1842, 1858]","17,705.38",4.0,"T 3-4S, R 1-2W, MDM.",,Jose de Jesus Vallejo,Gov. Alvarado
+SAN JUAN,97,Sacramento,"[Gov. Micheltorena, Joel P. Dedmond, Hiram Grimes]","[1844,1860] ","19,982.70",4.0,"In T 9-ION. R 6-7E, MDM",,"Joel P. Dedmond, Hiram Grimes",Gov. Micheltorena
+BOCA DE SANTA MONICA (Valle de Santa Monica),539,Los Angeles,"[Gov. Echeandia, Xavier Alvarado, Antonio Machado, Gov. Pro Tem. Manuel Jimeno Casarin, Francisco Marques, Ysidro Reyes]","[1827, 1839, 1881]","6,635.93",1.0,"T IS, R 16W, SBM.",,"Antonio Machado, Francisco Marques, Ysidro Reyes","Gov. Echeandia, Xavier Alvarado, Gov. Pro Tem. Manuel Jimeno Casarin"
+"POSOLMI (Posolomi, and Pozito de las Animas)",145,Santa Clara,"[Gov. Micheltorena, Lopez Inigo, Robert Walkinshaw, Thomas Campbell]","[1844, 1881]","1,695.90",,"T 6S, R 2W, MDM.",,"Lopez Inigo, Robert Walkinshaw, Thomas Campbell",Gov. Micheltorena
