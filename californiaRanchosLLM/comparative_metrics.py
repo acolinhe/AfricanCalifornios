@@ -157,20 +157,8 @@ def debug_mismatches(golden_df, llm_df):
         print(f"Only in LLM: {sorted(only_llm)}")
     
 
-    sample_grant = "501"  # NIGUEL
-    if sample_grant in golden_grants and sample_grant in llm_grants:
-        golden_row = golden_df[golden_df['Grant Number'] == sample_grant].iloc[0]
-        llm_row = llm_df[llm_df['Grant Number'] == sample_grant].iloc[0]
-        
-        print(f"\nSample comparison for grant {sample_grant}:")
-        print("GOLDEN PERSONS:", golden_row.get('Persons (entities)', ''))
-        print("LLM PERSONS:", llm_row.get('Persons (entities)', ''))
-        
-        golden_persons = extract_values(golden_row.get('Persons (entities)', ''))
-        llm_persons = extract_values(llm_row.get('Persons (entities)', ''))
-        print("GOLDEN PARSED:", golden_persons)
-        print("LLM PARSED:", llm_persons)
-        print("INTERSECTION:", golden_persons & llm_persons)
+    # No longer debug Persons (entities) column, as only Buyer/Seller are used
+    pass
 
 def evaluate_all_columns(golden_csv, llm_json, model_name="LLM", use_fuzzy=True, fuzzy_threshold=0.8):
     golden_df = load_golden_set(golden_csv)
@@ -186,7 +174,8 @@ def evaluate_all_columns(golden_csv, llm_json, model_name="LLM", use_fuzzy=True,
     merged = pd.merge(golden_df, llm_df, on='Grant Number', suffixes=('_golden', '_llm'), how='inner')
     print(f"Merged {len(merged)} records")
     
-    columns = [col for col in golden_df.columns if col != 'Grant Number']
+    # Only compare Buyer and Seller columns
+    columns = [col for col in golden_df.columns if col in ['Buyer', 'Seller']]
     
     summary = []
     for col in columns:
@@ -235,6 +224,92 @@ def evaluate_all_columns(golden_csv, llm_json, model_name="LLM", use_fuzzy=True,
     
     return summary
 
+def evaluate_all_columns_and_grants(golden_csv, llm_json, model_name="LLM"):
+    golden_df = load_golden_set(golden_csv)
+    llm_df = load_llm_json(llm_json)
+
+    debug_mismatches(golden_df, llm_df)
+
+    print(f"Golden columns: {list(golden_df.columns)}")
+    print(f"LLM columns: {list(llm_df.columns)}")
+
+    merged = pd.merge(golden_df, llm_df, on='Grant Number', suffixes=('_golden', '_llm'), how='inner')
+    print(f"Merged {len(merged)} records")
+
+    # Only compare Buyer and Seller columns
+    columns = [col for col in golden_df.columns if col in ['Buyer', 'Seller']]
+
+    summary = []
+    grant_level = []
+
+    for _, row in merged.iterrows():
+        grant_number = row['Grant Number']
+        grant_name = row.get('Grant Name_golden', row.get('Grant Name_llm', ''))
+        all_match = True
+        col_matches = {}
+
+        for col in columns:
+            golden_val = row.get(f"{col}_golden", "")
+            llm_val = row.get(f"{col}_llm", "")
+
+            golden_set = extract_values(golden_val)
+            predicted_set = extract_values(llm_val)
+
+            tp, fp, fn = compare_values(golden_set, predicted_set)
+            match = (fp == 0 and fn == 0 and tp == len(golden_set))
+            col_matches[col] = match
+            if not match:
+                all_match = False
+
+        grant_level.append({
+            'Model': model_name,
+            'Grant Number': grant_number,
+            'Grant Name': grant_name,
+            'Perfect Match': all_match,
+            **{f"{col} Match": col_matches[col] for col in columns}
+        })
+
+    # Column-level summary (only Buyer and Seller)
+    for col in columns:
+        total_tp = total_fp = total_fn = 0
+        for _, row in merged.iterrows():
+            golden_val = row.get(f"{col}_golden", "")
+            llm_val = row.get(f"{col}_llm", "")
+
+            golden_set = extract_values(golden_val)
+            predicted_set = extract_values(llm_val)
+
+            tp, fp, fn = compare_values(golden_set, predicted_set)
+            total_tp += tp
+            total_fp += fp
+            total_fn += fn
+
+        precision = total_tp / (total_tp + total_fp) if (total_tp + total_fp) > 0 else 0
+        recall = total_tp / (total_tp + total_fn) if (total_tp + total_fn) > 0 else 0
+        f1 = 2 * precision * recall / (precision + recall) if (precision + recall) > 0 else 0
+        accuracy = total_tp / (total_tp + total_fp + total_fn) if (total_tp + total_fp + total_fn) > 0 else 0
+
+        summary.append({
+            'Model': model_name,
+            'Column': col,
+            'Accuracy': round(accuracy, 4),
+            'Precision': round(precision, 4),
+            'Recall': round(recall, 4),
+            'F1': round(f1, 4),
+            'TP': total_tp,
+            'FP': total_fp,
+            'FN': total_fn
+        })
+
+        print(f"\nModel: {model_name} | Column: {col}")
+        print(f"  Accuracy:  {accuracy:.3f}")
+        print(f"  Precision: {precision:.3f}")
+        print(f"  Recall:    {recall:.3f}")
+        print(f"  F1 Score:  {f1:.3f}")
+        print(f"  TP: {total_tp}, FP: {total_fp}, FN: {total_fn}")
+
+    return summary, grant_level
+
 if __name__ == "__main__":
     golden_csv = "landGrantGoldenSet.csv"
     llm_dir = "."
@@ -247,38 +322,39 @@ if __name__ == "__main__":
         "Gemini2_5Pro.json", 
         "GPT4_0.json",
         "GPT4_1.json"
-    ]
-    
+    ]  # No change, just for context
+
     all_results = []
-    
+    all_grant_results = []
+
     for llm_file in llm_files:
         llm_json = os.path.join(llm_dir, llm_file)
         model_name = llm_file.replace('.json', '')
-        
+
         if os.path.exists(llm_json):
             print(f"\n{'='*50}")
             print(f"=== Evaluating {model_name} ===")
             print(f"{'='*50}")
-            
+
             try:
-                model_results = evaluate_all_columns(golden_csv, llm_json, model_name)
-                
+                model_results, grant_results = evaluate_all_columns_and_grants(golden_csv, llm_json, model_name)
 
                 if all_results:
                     blank_row = {col: "" for col in ['Model', 'Column', 'Accuracy', 'Precision', 'Recall', 'F1', 'TP', 'FP', 'FN']}
                     all_results.append(blank_row)
-                
+
                 all_results.extend(model_results)
+                all_grant_results.extend(grant_results)
                 print(f"✓ Successfully evaluated {model_name}")
-                
+
             except Exception as e:
                 print(f"✗ Error evaluating {model_name}: {str(e)}")
                 continue
-                
+
         else:
             print(f"✗ File not found: {llm_json}")
-    
 
+    # Save column-level results
     if all_results:
         combined_df = pd.DataFrame(all_results)
         combined_df.to_csv("all_models_comparison.csv", index=False)
@@ -286,7 +362,6 @@ if __name__ == "__main__":
         print(f"All results saved to all_models_comparison.csv")
         print(f"Total models evaluated: {len([r for r in all_results if r.get('Model')])}")
         print(f"{'='*50}")
-        
 
         models_with_data = [r for r in all_results if r.get('Model') and r.get('Column')]
         if models_with_data:
@@ -295,3 +370,9 @@ if __name__ == "__main__":
             print(summary_df.groupby('Model')[['Accuracy', 'Precision', 'Recall', 'F1']].mean().round(3))
     else:
         print("No results to save!")
+
+    # Save grant-level results
+    if all_grant_results:
+        grant_df = pd.DataFrame(all_grant_results)
+        grant_df.to_csv("all_models_grant_level.csv", index=False)
+        print(f"Per-grant results saved to all_models_grant_level.csv")
